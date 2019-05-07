@@ -5,6 +5,7 @@ questions.
 Table of Contents
 =================
 
+1. Two Sum - \<Easy>
 
 
 [LeetCode]: https://leetcode.com/problemset/algorithms/
