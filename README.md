@@ -5,7 +5,8 @@ questions.
 Table of Contents
 =================
 
-1. Two Sum - \<Easy>
+1. \<**Easy**>      Two Sum
+2. \<**Medium**>    Add Two Numbers
 
 
 [LeetCode]: https://leetcode.com/problemset/algorithms/
