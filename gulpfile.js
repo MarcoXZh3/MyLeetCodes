@@ -18,3 +18,6 @@ gulp.task('t0003', (callback) => {
 gulp.task('t0004', (callback) => {
   require('./task0004-sorted-array-median/sorted-array-median.js')(callback);
 });
+gulp.task('t0005', (callback) => {
+  require('./task0005-longest-palindromic/longest-palindromic.js')(callback);
+});
