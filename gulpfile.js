@@ -15,3 +15,6 @@ gulp.task('t0002', (callback) => {
 gulp.task('t0003', (callback) => {
   require('./task0003-longest-substring/longest-substring.js')(callback);
 });
+gulp.task('t0004', (callback) => {
+  require('./task0004-sorted-array-median/sorted-array-median.js')(callback);
+});

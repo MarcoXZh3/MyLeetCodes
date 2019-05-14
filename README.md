@@ -8,6 +8,7 @@ Table of Contents
 1. \<**Easy**>      Two Sum
 2. \<**Medium**>    Add Two Numbers
 3. \<**Medium**>    Longest Substring Without Repeating Characters
+4. \<**Hard**>      Median of Two Sorted Arrays
 
 
 [LeetCode]: https://leetcode.com/problemset/algorithms/

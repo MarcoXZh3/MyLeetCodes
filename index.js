@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0003-longest-substring/longest-substring.js')();
+require('./task0004-sorted-array-median/sorted-array-median.js')();
