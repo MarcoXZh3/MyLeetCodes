@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0004-sorted-array-median/sorted-array-median.js')();
+require('./task0006-zigzag-conversion/zigzag-conversion.js')();

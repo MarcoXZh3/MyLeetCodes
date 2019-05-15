@@ -21,3 +21,6 @@ gulp.task('t0004', (callback) => {
 gulp.task('t0005', (callback) => {
   require('./task0005-longest-palindromic/longest-palindromic.js')(callback);
 });
+gulp.task('t0006', (callback) => {
+  require('./task0006-zigzag-conversion/zigzag-conversion.js')(callback);
+});

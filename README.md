@@ -10,6 +10,7 @@ Table of Contents
 3. \<**Medium**>    Longest Substring Without Repeating Characters
 4. \<**Hard**>      Median of Two Sorted Arrays
 5. \<**Medium**>    Longest Palindromic Substring
+6. \<**Medium**>    ZigZag Conversion
 
 
 [LeetCode]: https://leetcode.com/problemset/algorithms/
