@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0008-str-to-int/str-to-int.js')();
+require('./task0009-palindrome-num/palindrome-num.js')();

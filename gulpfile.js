@@ -30,3 +30,6 @@ gulp.task('t0007', (callback) => {
 gulp.task('t0008', (callback) => {
   require('./task0008-str-to-int/str-to-int.js')(callback);
 });
+gulp.task('t0009', (callback) => {
+  require('./task0009-palindrome-num/palindrome-num.js')(callback);
+});
