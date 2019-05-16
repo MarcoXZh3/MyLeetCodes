@@ -27,3 +27,6 @@ gulp.task('t0006', (callback) => {
 gulp.task('t0007', (callback) => {
   require('./task0007-reverse-int/reverse-int.js')(callback);
 });
+gulp.task('t0008', (callback) => {
+  require('./task0008-str-to-int/str-to-int.js')(callback);
+});
