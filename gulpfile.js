@@ -24,3 +24,6 @@ gulp.task('t0005', (callback) => {
 gulp.task('t0006', (callback) => {
   require('./task0006-zigzag-conversion/zigzag-conversion.js')(callback);
 });
+gulp.task('t0007', (callback) => {
+  require('./task0007-reverse-int/reverse-int.js')(callback);
+});

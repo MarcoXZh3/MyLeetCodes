@@ -11,6 +11,7 @@ Table of Contents
 4. \<**Hard**>      Median of Two Sorted Arrays
 5. \<**Medium**>    Longest Palindromic Substring
 6. \<**Medium**>    ZigZag Conversion
+7. \<**Easy**>      Reverse Integer
 
 
 [LeetCode]: https://leetcode.com/problemset/algorithms/
