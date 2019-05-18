@@ -14,6 +14,7 @@ Table of Contents
 7. \<**Easy**>      Reverse Integer
 8. \<**Medium**>    String to Integer (atoi)
 9. \<**Easy**>      Palindrome Number
+10. \<**Hard**>     Regular Expression Matching
 
 
 [LeetCode]: https://leetcode.com/problemset/algorithms/

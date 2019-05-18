@@ -33,3 +33,6 @@ gulp.task('t0008', (callback) => {
 gulp.task('t0009', (callback) => {
   require('./task0009-palindrome-num/palindrome-num.js')(callback);
 });
+gulp.task('t0010', (callback) => {
+  require('./task0010-regex/regex.js')(callback);
+});
