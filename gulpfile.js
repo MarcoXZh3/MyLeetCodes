@@ -45,3 +45,6 @@ gulp.task('t0012', (callback) => {
 gulp.task('t0013', (callback) => {
   require('./task0013-roman-to-int/roman-to-int.js')(callback);
 });
+gulp.task('t0014', (callback) => {
+  require('./task0014-longest-common/longest-common.js')(callback);
+});
