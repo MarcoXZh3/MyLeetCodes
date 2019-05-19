@@ -17,6 +17,7 @@ Table of Contents
 10. \<**Hard**>     Regular Expression Matching
 11. \<**Medium**>   Container With Most Water
 12. \<**Medium**>   Integer to Roman
+13. \<**Easy**>     Roman to Integer
 
 
 [LeetCode]: https://leetcode.com/problemset/algorithms/

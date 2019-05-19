@@ -42,3 +42,6 @@ gulp.task('t0011', (callback) => {
 gulp.task('t0012', (callback) => {
   require('./task0012-int-to-roman/int-to-roman.js')(callback);
 });
+gulp.task('t0013', (callback) => {
+  require('./task0013-roman-to-int/roman-to-int.js')(callback);
+});
