@@ -39,3 +39,6 @@ gulp.task('t0010', (callback) => {
 gulp.task('t0011', (callback) => {
   require('./task0011-most-water/most-water.js')(callback);
 });
+gulp.task('t0012', (callback) => {
+  require('./task0012-int-to-roman/int-to-roman.js')(callback);
+});
