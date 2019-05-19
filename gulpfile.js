@@ -36,3 +36,6 @@ gulp.task('t0009', (callback) => {
 gulp.task('t0010', (callback) => {
   require('./task0010-regex/regex.js')(callback);
 });
+gulp.task('t0011', (callback) => {
+  require('./task0011-most-water/most-water.js')(callback);
+});
