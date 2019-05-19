@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0014-longest-common/longest-common.js')();
+require('./task0015-3sum/3sum.js')();

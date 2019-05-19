@@ -48,3 +48,6 @@ gulp.task('t0013', (callback) => {
 gulp.task('t0014', (callback) => {
   require('./task0014-longest-common/longest-common.js')(callback);
 });
+gulp.task('t0015', (callback) => {
+  require('./task0015-3sum/3sum.js')(callback);
+});
