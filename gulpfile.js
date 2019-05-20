@@ -57,3 +57,6 @@ gulp.task('t0016', (callback) => {
 gulp.task('t0017', (callback) => {
   require('./task0017-phone-words/phone-words.js')(callback);
 });
+gulp.task('t0018', (callback) => {
+  require('./task0018-4sum/4sum.js')(callback);
+});

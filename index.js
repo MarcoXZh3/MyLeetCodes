@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0017-phone-words/phone-words.js')();
+require('./task0018-4sum/4sum.js')();
