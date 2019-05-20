@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0020-valid-brackets/valid-brackets.js')();
+require('./task0021-merge-sorted-list/merge-sorted-list.js')();
