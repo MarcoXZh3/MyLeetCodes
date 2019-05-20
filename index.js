@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0019-list-rev-del/list-rev-del.js')();
+require('./task0020-valid-brackets/valid-brackets.js')();

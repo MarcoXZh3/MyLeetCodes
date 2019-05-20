@@ -63,3 +63,6 @@ gulp.task('t0018', (callback) => {
 gulp.task('t0019', (callback) => {
   require('./task0019-list-rev-del/list-rev-del.js')(callback);
 });
+gulp.task('t0020', (callback) => {
+  require('./task0020-valid-brackets/valid-brackets.js')(callback);
+});
