@@ -27,6 +27,7 @@ Table of Contents
 20. \<**Easy**>     Valid Parentheses
 21. \<**Easy**>     Merge Two Sorted Lists
 22. \<**Medium**>   Generate Parentheses
+23. \<**Hard**>     Merge k Sorted Lists
 
 
 [LeetCode]: https://leetcode.com/problemset/algorithms/
