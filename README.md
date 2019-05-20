@@ -19,6 +19,13 @@ Table of Contents
 12. \<**Medium**>   Integer to Roman
 13. \<**Easy**>     Roman to Integer
 14. \<**Easy**>     Longest Common Prefix
+15. \<**Medium**>   3 Sum
+16. \<**Medium**>   3 Sum Closest
+17. \<**Medium**>   Letter Combinations of a Phone Number
+18. \<**Medium**>   4 Sum
+19. \<**Medium**>   Remove Nth Node From End of List
+20. \<**Easy**>     Valid Parentheses
+21. \<**Easy**>     Merge Two Sorted Lists
 
 
 [LeetCode]: https://leetcode.com/problemset/algorithms/
