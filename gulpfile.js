@@ -60,3 +60,6 @@ gulp.task('t0017', (callback) => {
 gulp.task('t0018', (callback) => {
   require('./task0018-4sum/4sum.js')(callback);
 });
+gulp.task('t0019', (callback) => {
+  require('./task0019-list-rev-del/list-rev-del.js')(callback);
+});
