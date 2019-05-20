@@ -51,3 +51,6 @@ gulp.task('t0014', (callback) => {
 gulp.task('t0015', (callback) => {
   require('./task0015-3sum/3sum.js')(callback);
 });
+gulp.task('t0016', (callback) => {
+  require('./task0016-3sum-closest/3sum-closest.js')(callback);
+});
