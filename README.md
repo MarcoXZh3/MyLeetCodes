@@ -26,6 +26,7 @@ Table of Contents
 19. \<**Medium**>   Remove Nth Node From End of List
 20. \<**Easy**>     Valid Parentheses
 21. \<**Easy**>     Merge Two Sorted Lists
+22. \<**Medium**>   Generate Parentheses
 
 
 [LeetCode]: https://leetcode.com/problemset/algorithms/

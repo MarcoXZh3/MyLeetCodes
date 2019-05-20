@@ -69,3 +69,6 @@ gulp.task('t0020', (callback) => {
 gulp.task('t0021', (callback) => {
   require('./task0021-merge-sorted-list/merge-sorted-list.js')(callback);
 });
+gulp.task('t0022', (callback) => {
+  require('./task0022-gen-brackets/gen-brackets.js')(callback);
+});
