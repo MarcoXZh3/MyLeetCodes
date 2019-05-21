@@ -78,3 +78,6 @@ gulp.task('t0023', (callback) => {
 gulp.task('t0024', (callback) => {
   require('./task0024-swap-pair/swap-pair.js')(callback);
 });
+gulp.task('t0025', (callback) => {
+  require('./task0025-swap-k-nodes/swap-k-nodes.js')(callback);
+});

@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0024-swap-pair/swap-pair.js')();
+require('./task0025-swap-k-nodes/swap-k-nodes.js')();

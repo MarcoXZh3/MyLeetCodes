@@ -29,6 +29,7 @@ Table of Contents
 22. \<**Medium**>   Generate Parentheses
 23. \<**Hard**>     \<***Priority Queue***> Merge k Sorted Lists
 24. \<**Medium**>   Swap Nodes in Pairs
+25. \<**Hard**>     Reverse Nodes in k-Group
 
 
 [LeetCode]: https://leetcode.com/problemset/algorithms/
