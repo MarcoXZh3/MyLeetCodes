@@ -23,11 +23,12 @@ Table of Contents
 16. \<**Medium**>   3 Sum Closest
 17. \<**Medium**>   Letter Combinations of a Phone Number
 18. \<**Medium**>   4 Sum
-19. \<**Medium**>   Remove Nth Node From End of List
+19. \<**Medium**>   \<***Singly Linked List***> Remove Nth Node From End of List
 20. \<**Easy**>     \<***Stack***> Valid Parentheses
 21. \<**Easy**>     Merge Two Sorted Lists
 22. \<**Medium**>   Generate Parentheses
 23. \<**Hard**>     \<***Priority Queue***> Merge k Sorted Lists
+24. \<**Medium**>   Swap Nodes in Pairs
 
 
 [LeetCode]: https://leetcode.com/problemset/algorithms/

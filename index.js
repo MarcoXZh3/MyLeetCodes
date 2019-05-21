@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0023-merge-k-sorted-list/merge-sorted-list.js')();
+require('./task0024-swap-pair/swap-pair.js')();

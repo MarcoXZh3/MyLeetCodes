@@ -75,3 +75,6 @@ gulp.task('t0022', (callback) => {
 gulp.task('t0023', (callback) => {
   require('./task0023-merge-k-sorted-list/merge-sorted-list.js')(callback);
 });
+gulp.task('t0024', (callback) => {
+  require('./task0024-swap-pair/swap-pair.js')(callback);
+});
