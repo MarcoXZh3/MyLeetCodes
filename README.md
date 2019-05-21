@@ -24,10 +24,10 @@ Table of Contents
 17. \<**Medium**>   Letter Combinations of a Phone Number
 18. \<**Medium**>   4 Sum
 19. \<**Medium**>   Remove Nth Node From End of List
-20. \<**Easy**>     Valid Parentheses
+20. \<**Easy**>     \<***Stack***> Valid Parentheses
 21. \<**Easy**>     Merge Two Sorted Lists
 22. \<**Medium**>   Generate Parentheses
-23. \<**Hard**>     Merge k Sorted Lists
+23. \<**Hard**>     \<***Priority Queue***> Merge k Sorted Lists
 
 
 [LeetCode]: https://leetcode.com/problemset/algorithms/
