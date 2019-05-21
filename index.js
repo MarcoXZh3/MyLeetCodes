@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0025-swap-k-nodes/swap-k-nodes.js')();
+require('./task0026-sorted-del-dups/sorted-del-dups.js')();

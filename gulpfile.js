@@ -81,3 +81,6 @@ gulp.task('t0024', (callback) => {
 gulp.task('t0025', (callback) => {
   require('./task0025-swap-k-nodes/swap-k-nodes.js')(callback);
 });
+gulp.task('t0026', (callback) => {
+  require('./task0026-sorted-del-dups/sorted-del-dups.js')(callback);
+});

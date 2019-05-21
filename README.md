@@ -30,6 +30,7 @@ Table of Contents
 23. \<**Hard**>     \<***Priority Queue***> Merge k Sorted Lists
 24. \<**Medium**>   Swap Nodes in Pairs
 25. \<**Hard**>     Reverse Nodes in k-Group
+26. \<**Easy**>     Remove Duplicates from Sorted Array
 
 
-[LeetCode]: https://leetcode.com/problemset/algorithms/
+[LeetCode]: https://leetcode.com/problemset/all/
