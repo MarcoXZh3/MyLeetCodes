@@ -12,9 +12,30 @@ function ListNode(val) {
  * @return {ListNode}           head of the swapped list
  */
 const swapPairs = function(head) {
+  // not enough nodes
+  if (!head) {
+    return null;
+  } else if (!head.next) {
+    return head;
+  }
 
-  return head;
+  // more than two nodes
+  const head1 = head.next;    // new head
+  let prev = null;            // init 1: previous node
+  let cur = head;             // init 2: current node
+  while (cur && cur.next) {
+    let next = cur.next;      // init 3 / forward 3: next node, next to current
+    if (prev) {
+      prev.next = next;       // swap 1: if available prev links to next
+    }
+    cur.next = next.next;     // swap 2: current links to next pair
+    next.next = cur;          // swap 3: next points to current
+    prev = cur;               // forward 1: prev becomes current
+    cur = cur.next;           // forward 2: current moves next
+  }
+  return head1;
 };
+
 
 /**
  * create a list out of an array
