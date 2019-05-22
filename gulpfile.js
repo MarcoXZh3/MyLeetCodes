@@ -84,3 +84,6 @@ gulp.task('t0025', (callback) => {
 gulp.task('t0026', (callback) => {
   require('./task0026-sorted-del-dups/sorted-del-dups.js')(callback);
 });
+gulp.task('t0027', (callback) => {
+  require('./task0027-del-elm/del-elm.js')(callback);
+});
