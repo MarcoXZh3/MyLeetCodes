@@ -33,6 +33,7 @@ Table of Contents
 26. \<**Easy**>     Remove Duplicates from Sorted Array
 27. \<**Easy**>     Remove Element
 28. \<**Easy**>     Implement `strStr()`
+29. \<**Medium**>   Divide Two Integers
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

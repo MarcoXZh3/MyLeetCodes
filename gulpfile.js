@@ -90,3 +90,6 @@ gulp.task('t0027', (callback) => {
 gulp.task('t0028', (callback) => {
   require('./task0028-strstr/strstr.js')(callback);
 });
+gulp.task('t0029', (callback) => {
+  require('./tasks0029-divide-int/divide-int.js')(callback);
+});

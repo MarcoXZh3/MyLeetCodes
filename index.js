@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0028-strstr/strstr.js')();
+require('./tasks0029-divide-int/divide-int.js')();
