@@ -4,7 +4,32 @@
  * @return {number}                 index of the target or -1 if not found
  */
 const strStr = function(haystack, needle) {
+  if (needle === '') {
+    return 0;
+  }
 
+  let matches = 0;
+  const length = needle.length;
+  for (let i = 0; i <= haystack.length - length; i++) {
+    // look for the first match
+    if (haystack.charAt(i) !== needle.charAt(0)) {
+      continue ;
+    }
+    matches ++;
+    // look for all the next matches
+    while (matches < length &&
+           haystack.charAt(i + matches) === needle.charAt(matches)) {
+      matches ++;
+    }
+    // if all matched, found and stop
+    if (matches === length) {
+      return i;
+    }
+    // partially match means not match at all
+    matches = 0;
+  }
+  // all checked without any match
+  return -1;
 };
 
 
