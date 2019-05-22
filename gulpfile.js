@@ -87,3 +87,6 @@ gulp.task('t0026', (callback) => {
 gulp.task('t0027', (callback) => {
   require('./task0027-del-elm/del-elm.js')(callback);
 });
+gulp.task('t0028', (callback) => {
+  require('./task0028-strstr/strstr.js')(callback);
+});

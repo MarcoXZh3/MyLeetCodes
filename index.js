@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0027-del-elm/del-elm.js')();
+require('./task0028-strstr/strstr.js')();

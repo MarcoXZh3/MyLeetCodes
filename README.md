@@ -31,6 +31,8 @@ Table of Contents
 24. \<**Medium**>   Swap Nodes in Pairs
 25. \<**Hard**>     Reverse Nodes in k-Group
 26. \<**Easy**>     Remove Duplicates from Sorted Array
+27. \<**Easy**>     Remove Element
+28. \<**Easy**>     Implement `strStr()`
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
