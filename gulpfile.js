@@ -93,3 +93,6 @@ gulp.task('t0028', (callback) => {
 gulp.task('t0029', (callback) => {
   require('./tasks0029-divide-int/divide-int.js')(callback);
 });
+gulp.task('t0030', (callback) => {
+  require('./task0030-all-word-substr/all-word-substr.js')(callback);
+});
