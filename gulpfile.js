@@ -96,3 +96,6 @@ gulp.task('t0029', (callback) => {
 gulp.task('t0030', (callback) => {
   require('./task0030-all-word-substr/all-word-substr.js')(callback);
 });
+gulp.task('t0031', (callback) => {
+  require('./task0031-next-perm/next-perm.js')(callback);
+});

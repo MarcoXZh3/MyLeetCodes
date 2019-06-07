@@ -35,6 +35,7 @@ Table of Contents
 28. \<**Easy**>     Implement `strStr()`
 29. \<**Medium**>   Divide Two Integers
 30. \<**Hard**>     Substring with Concatenation of All Words
+31. \<**Medium**>   Next Permutation
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
