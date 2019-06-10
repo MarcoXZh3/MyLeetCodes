@@ -99,3 +99,6 @@ gulp.task('t0030', (callback) => {
 gulp.task('t0031', (callback) => {
   require('./task0031-next-perm/next-perm.js')(callback);
 });
+gulp.task('t0032', (callback) => {
+  require('./task0032-max-val-brackets/max-val-brackets.js')(callback);
+});

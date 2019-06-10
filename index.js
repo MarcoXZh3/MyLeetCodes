@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0031-next-perm/next-perm.js')();
+require('./task0032-max-val-brackets/max-val-brackets.js')();
