@@ -102,3 +102,6 @@ gulp.task('t0031', (callback) => {
 gulp.task('t0032', (callback) => {
   require('./task0032-max-val-brackets/max-val-brackets.js')(callback);
 });
+gulp.task('t0033', (callback) => {
+  require('./task0033-rotate-sorted-list/rotate-sorted-list.js')(callback);
+});

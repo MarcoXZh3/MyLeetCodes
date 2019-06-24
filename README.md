@@ -12,7 +12,7 @@ Table of Contents
 5. \<**Medium**>    Longest Palindromic Substring
 6. \<**Medium**>    ZigZag Conversion
 7. \<**Easy**>      Reverse Integer
-8. \<**Medium**>    String to Integer (atoi)
+8. \<**Medium**>    String to Integer (`atoi`)
 9. \<**Easy**>      Palindrome Number
 10. \<**Hard**>     Regular Expression Matching
 11. \<**Medium**>   Container With Most Water
@@ -37,6 +37,7 @@ Table of Contents
 30. \<**Hard**>     Substring with Concatenation of All Words
 31. \<**Medium**>   Next Permutation
 32. \<**Hard**>     Longest Valid Parentheses
+33. \<**Medium**>   Search in Rotated Sorted Array
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

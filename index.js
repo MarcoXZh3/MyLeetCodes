@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0032-max-val-brackets/max-val-brackets.js')();
+require('./task0033-rotate-sorted-list/rotate-sorted-list.js')();
