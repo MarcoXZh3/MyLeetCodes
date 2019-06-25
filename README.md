@@ -38,6 +38,7 @@ Table of Contents
 31. \<**Medium**>   Next Permutation
 32. \<**Hard**>     Longest Valid Parentheses
 33. \<**Medium**>   \<***Binary Search***> Search in Rotated Sorted Array
+33. \<**Medium**>   \<***Binary Search***> First & Last Element in Sorted Array
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

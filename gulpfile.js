@@ -105,3 +105,6 @@ gulp.task('t0032', (callback) => {
 gulp.task('t0033', (callback) => {
   require('./task0033-rotate-sorted-list/rotate-sorted-list.js')(callback);
 });
+gulp.task('t0034', (callback) => {
+  require('./task0034-sort-array-bounds/sort-array-bounds.js')(callback);
+});

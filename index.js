@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0033-rotate-sorted-list/rotate-sorted-list.js')();
+require('./task0034-sort-array-bounds/sort-array-bounds.js')();
