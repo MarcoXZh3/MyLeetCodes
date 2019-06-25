@@ -37,7 +37,7 @@ Table of Contents
 30. \<**Hard**>     Substring with Concatenation of All Words
 31. \<**Medium**>   Next Permutation
 32. \<**Hard**>     Longest Valid Parentheses
-33. \<**Medium**>   Search in Rotated Sorted Array
+33. \<**Medium**>   \<***Binary Search***> Search in Rotated Sorted Array
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
