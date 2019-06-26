@@ -3,7 +3,45 @@
  * @return {boolean}
  */
 const isValidSudoku = function(board) {
+  for (let i = 0; i < 9; i++) {
+    // check this row
+    let re = {};
+    for (let j = 0; j < 9; j++) {
+      const k = board[i][j];
+      if (re[k]) {
+        return false;
+      } else if (k !== '.') {
+        re[k] = true;
+      }
+    }
 
+    // check this column
+    re = {};
+    for (let j = 0; j < 9; j++) {
+      const k = board[j][i];
+      if (re[k]) {
+        return false;
+      } else if (k !== '.') {
+        re[k] = true;
+      }
+    }
+
+    // check this 3x3 block: left to right and top to bottom
+    re = {};
+    const iLeftTop = (i % 3) * 3;
+    const jLeftTop = Math.floor(i / 3) * 3;
+    for (let j = 0; j < 9; j++) {
+      const offsetX = j % 3;
+      const offsetY = Math.floor(j / 3);
+      const k = board[iLeftTop + offsetY][jLeftTop + offsetX];
+      if (re[k]) {
+        return false;
+      } else if (k !== '.') {
+        re[k] = true;
+      }
+    }
+  }
+  return true;
 };
 
 
