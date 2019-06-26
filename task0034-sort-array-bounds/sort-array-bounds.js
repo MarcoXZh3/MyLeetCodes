@@ -22,12 +22,26 @@ const binarySearch = function(objs, target, start, end) {
 
 
 /**
+ * search the target and expand neighbor elements
  * @param {number[]}    nums    the number array
  * @param {number}      target  the value to be searched
  * @return {number[]}           the boundary indexes
  */
 const searchRange = function(nums, target) {
-
+  const idx = binarySearch(nums, target, 0, nums.length - 1);
+  if (idx === -1) {
+    return [-1, -1];
+  }
+  const res = [idx, idx];
+  let i = idx;
+  while (i >= 0 && nums[i] === target) {
+    res[0] = i--;
+  };
+  i = idx;
+  while (i < nums.length && nums[i] === target) {
+    res[1] = i++;
+  };
+  return res;
 };
 
 
@@ -40,6 +54,8 @@ const main = (callback) => {
   [
     [[5, 7, 7, 8, 8, 10], 8],
     [[5, 7, 7, 8, 8, 10], 6],
+    [[1], 1],
+    [[2, 2], 2],
   ].forEach( vs => {
     console.log(`  idx=[${searchRange(vs[0], vs[1])}], target=${vs[1]} nums=[${vs[0]}]`);
   });
