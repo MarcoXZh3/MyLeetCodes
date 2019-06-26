@@ -40,6 +40,7 @@ Table of Contents
 33. \<**Medium**>   \<***Binary Search***> Search in Rotated Sorted Array
 34. \<**Medium**>   \<***Binary Search***> First & Last Element in Sorted Array
 35. \<**Easy**>     Search Insert Position
+36. \<**Medium**>   Valid Sudoku
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

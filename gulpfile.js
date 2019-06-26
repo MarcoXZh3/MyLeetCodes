@@ -111,3 +111,6 @@ gulp.task('t0034', (callback) => {
 gulp.task('t0035', (callback) => {
   require('./task0035-isrt-pos/insert-pos.js')(callback);
 });
+gulp.task('t0036', (callback) => {
+  require('./task0036-valid-sudoku/valid-sudoku.js')(callback);
+});
