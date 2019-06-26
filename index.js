@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0036-valid-sudoku/valid-sudoku.js')();
+require('./task0037-sudoku-solver/sudoku-solver.js')();

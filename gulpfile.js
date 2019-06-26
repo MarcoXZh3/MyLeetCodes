@@ -114,3 +114,6 @@ gulp.task('t0035', (callback) => {
 gulp.task('t0036', (callback) => {
   require('./task0036-valid-sudoku/valid-sudoku.js')(callback);
 });
+gulp.task('t0037', (callback) => {
+  require('./task0037-sudoku-solver/sudoku-solver.js')(callback);
+});
