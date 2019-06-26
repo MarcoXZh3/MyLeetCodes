@@ -1,12 +1,19 @@
 /**
+ * there will be DxD blocks and each block is DxD;
+ * the available values will be [1, 2, 3, ... DxD]
+ */
+const DIMENSION = 3;
+
+
+/**
  * @param {character[][]}   board   the 9x9 sudoku board
- * @return {boolean}
+ * @return {boolean}                wether the board is valid or not
  */
 const isValidSudoku = function(board) {
-  for (let i = 0; i < 9; i++) {
+  for (let i = 0; i < DIMENSION * DIMENSION; i++) {
     // check this row
     let re = {};
-    for (let j = 0; j < 9; j++) {
+    for (let j = 0; j < DIMENSION * DIMENSION; j++) {
       const k = board[i][j];
       if (re[k]) {
         return false;
@@ -17,7 +24,7 @@ const isValidSudoku = function(board) {
 
     // check this column
     re = {};
-    for (let j = 0; j < 9; j++) {
+    for (let j = 0; j < DIMENSION * DIMENSION; j++) {
       const k = board[j][i];
       if (re[k]) {
         return false;
@@ -26,13 +33,13 @@ const isValidSudoku = function(board) {
       }
     }
 
-    // check this 3x3 block: left to right and top to bottom
+    // check this DxD block: left to right and top to bottom
     re = {};
-    const iLeftTop = (i % 3) * 3;
-    const jLeftTop = Math.floor(i / 3) * 3;
-    for (let j = 0; j < 9; j++) {
-      const offsetX = j % 3;
-      const offsetY = Math.floor(j / 3);
+    const iLeftTop = Math.floor(i / DIMENSION) * DIMENSION;
+    const jLeftTop = (i % DIMENSION) * DIMENSION;
+    for (let j = 0; j < DIMENSION * DIMENSION; j++) {
+      const offsetX = Math.floor(j / DIMENSION);
+      const offsetY = j % DIMENSION;
       const k = board[iLeftTop + offsetY][jLeftTop + offsetX];
       if (re[k]) {
         return false;
@@ -51,18 +58,29 @@ const isValidSudoku = function(board) {
  * @returns {string}                the printable sudoku board string
  */
 const print = function(board) {
-  const line = '+---------+---------+---------+';
+  const cellWidth = `${DIMENSION * DIMENSION}`.length + 2;
+  let line = '';
+  for (let i = 0; i < DIMENSION; i++) {
+    line += '+' + [...Array(DIMENSION * cellWidth)].map(_=>'-').join('');
+  }
+  line += '+';
   const lines = [];
   board.forEach( (r, i) => {
-    if (i % 3 === 0) {
+    if (i % DIMENSION === 0) {
       lines.push(line);
     }
     let str = '';
     r.forEach( (c, j) => {
-      if (j % 3 === 0) {
+      if (j % DIMENSION === 0) {
         str += '|';
       }
-      str += ` ${c==='.'?' ':c} `;
+      let cell = `${c}`;
+      let prepend = true;
+      while (cell.length < cellWidth) {
+        cell = prepend ? ' ' + cell : cell + ' ';
+        prepend = !prepend;
+      }
+      str += cell;
     });
     lines.push(str + '|');
   });
