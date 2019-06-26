@@ -108,3 +108,6 @@ gulp.task('t0033', (callback) => {
 gulp.task('t0034', (callback) => {
   require('./task0034-sort-array-bounds/sort-array-bounds.js')(callback);
 });
+gulp.task('t0035', (callback) => {
+  require('./task0035-isrt-pos/insert-pos.js')(callback);
+});

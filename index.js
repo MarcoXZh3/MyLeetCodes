@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0034-sort-array-bounds/sort-array-bounds.js')();
+require('./task0035-isrt-pos/insert-pos.js')();
