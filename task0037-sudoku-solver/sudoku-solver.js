@@ -6,45 +6,6 @@ const DIMENSION = 3;
 
 
 /**
- * The stack definition
- */
-const Stack = function() {
-  /**
-   * the stack data
-   */
-  this.vals = [];
-  /**
-   * push a value to the stack
-   * @param {object}    x     the object to push
-   */
-  this.push = (x) => {
-    this.vals.unshift(x);
-  }
-  /**
-   * pop a value from the stack
-   * @returns {object}        the popped object - undefined if not available
-   */
-  this.pop = () => {
-    return this.vals.shift();
-  }
-  /**
-   * peek the top element
-   * @returns {object}        the top object - undefined if not available
-   */
-  this.peek = () => {
-    return this.vals[0];
-  }
-  /**
-   * check if stack is empty
-   * @returns {boolean}       whether empty or not
-   */
-  this.empty = () => {
-    return this.vals.length === 0;
-  }
-};
-
-
-/**
  * check wether the sudoku board is valid or not
  * @param {character[][]}   board   the 9x9 sudoku board
  * @return {boolean}                wether the board is valid or not
@@ -93,49 +54,46 @@ const isValidSudoku = function(board) {
 
 
 /**
- * recursive DFS: fill the cell by given answer
+ * recursive DFS: fill the cell
  * @param {character[][]}   board   the 9x9 sudoku board
- * @param {Stack}           answer  the answers with (i, j) and value
  * @returns {boolean}               true if solved; false if not solvable
  */
-const fillCell = function(board, answer) {
-  const cur = answer.peek();
-  const next = { i:null, j:null, val:null };
+const fillCell = function(board) {
+  let i0 = -1;
+  let j0 = -1;
+  let found = false;
   // step 1: get indexes of the next cell
-  for (next.i = cur.i; next.i < DIMENSION * DIMENSION; next.i++) {
-    for (next.j = (next.i === cur.i ? cur.j + 1 : 0);
-         next.j < DIMENSION * DIMENSION; next.j++) {
-      if (board[next.i][next.j] === '.') {
-        next.val = -1;
+  for (i0 = 0; i0 < DIMENSION * DIMENSION; i0++) {
+    for (j0 = 0; j0 < DIMENSION * DIMENSION; j0++) {
+      if (board[i0][j0] === '.') {
+        found = true;
         break ;
       }
     }
-    if (next.val) {
+    if (found) {
       break ;
     }
   }
+
   // step 2: try all possible values for the cell
   for (let i = 1; i <= DIMENSION * DIMENSION; i++) {
-    next.val = `${i}`;
-    board[next.i][next.j] = `${i}`;
+    board[i0][j0] = `${i}`;
     if (!isValidSudoku(board)) {
-      board[next.i][next.j] = `.`;
+      board[i0][j0] = `.`;
       continue ;
     }
     // found a value for the cell -- is the sudoku solved?
-    answer.push(next);
-    board[next.i][next.j] = `${next.val}`;
+    board[i0][j0] = `${i}`;
     if (board.every( r=>r.every( c=>c!=='.' ) )) {
       return true;      // solved
     }
 
     // not yet -- try fill next cell
-    const re = fillCell(board, answer);
+    const re = fillCell(board);
     if (re) {           // solvable -- take the answer
       return re;
     } else {            // not solvable -- revert the current cell and try again
-      answer.pop();
-      board[next.i][next.j] = '.';
+      board[i0][j0] = '.';
     }
   }
   // having tried all possible value for the current cell without solution
@@ -149,9 +107,7 @@ const fillCell = function(board, answer) {
  * @return {void} Do not return anything, modify board in-place instead.
  */
 const solveSudoku = function(board) {
-  const answer = new Stack();
-  answer.push({ i:0, j:-1, val:-1 });
-  fillCell(board, answer);
+  fillCell(board);
 };
 
 
