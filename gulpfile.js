@@ -120,3 +120,6 @@ gulp.task('t0037', (callback) => {
 gulp.task('t0038', (callback) => {
   require('./task0038-count-say/count-say.js')(callback);
 });
+gulp.task('t0039', (callback) => {
+  require('./task0039-comb-sum/comb-sum.js')(callback);
+});

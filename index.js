@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0038-count-say/count-say.js')();
+require('./task0039-comb-sum/comb-sum.js')();

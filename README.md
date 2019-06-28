@@ -43,6 +43,7 @@ Table of Contents
 36. \<**Medium**>   Valid Sudoku
 37. \<**Hard**>     \<***Recursion***> Sudoku Solver
 38. \<**Easy**>     Count and Say
+39. \<**Medium**>   Combination Sum
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
