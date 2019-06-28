@@ -41,7 +41,8 @@ Table of Contents
 34. \<**Medium**>   \<***Binary Search***> First & Last Element in Sorted Array
 35. \<**Easy**>     Search Insert Position
 36. \<**Medium**>   Valid Sudoku
-37. \<**Hard**>     Sudoku Solver
+37. \<**Hard**>     \<***Recursion***> Sudoku Solver
+38. \<**Easy**>     Count and Say
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

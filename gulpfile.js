@@ -117,3 +117,6 @@ gulp.task('t0036', (callback) => {
 gulp.task('t0037', (callback) => {
   require('./task0037-sudoku-solver/sudoku-solver.js')(callback);
 });
+gulp.task('t0038', (callback) => {
+  require('./task0038-count-say/count-say.js')(callback);
+});
