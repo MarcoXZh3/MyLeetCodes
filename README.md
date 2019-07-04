@@ -44,6 +44,7 @@ Table of Contents
 37. \<**Hard**>     \<***Recursion***> Sudoku Solver
 38. \<**Easy**>     Count and Say
 39. \<**Medium**>   Combination Sum
+40. \<**Medium**>   Combination Sum II
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
