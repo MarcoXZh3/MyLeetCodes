@@ -126,3 +126,6 @@ gulp.task('t0039', (callback) => {
 gulp.task('t0040', (callback) => {
   require('./task0040-comb-sum-2/comb-sum-2.js')(callback);
 });
+gulp.task('t0041', (callback) => {
+  require('./task0041-1st-miss-pos/1st-miss-pos.js')(callback);
+});

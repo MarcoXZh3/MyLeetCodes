@@ -45,6 +45,7 @@ Table of Contents
 38. \<**Easy**>     Count and Say
 39. \<**Medium**>   Combination Sum
 40. \<**Medium**>   Combination Sum II
+41. \<**Hard**>     First Missing Positive
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
