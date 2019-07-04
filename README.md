@@ -46,6 +46,7 @@ Table of Contents
 39. \<**Medium**>   Combination Sum
 40. \<**Medium**>   Combination Sum II
 41. \<**Hard**>     \<***Heap Sort (Modified)***> First Missing Positive
+42. \<**Hard**>     Trapping Rain Water (Advanced of Task 11)
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

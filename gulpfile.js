@@ -129,3 +129,6 @@ gulp.task('t0040', (callback) => {
 gulp.task('t0041', (callback) => {
   require('./task0041-1st-miss-pos/1st-miss-pos.js')(callback);
 });
+gulp.task('t0042', (callback) => {
+  require('./task0042-trap-rain/trap-rain.js')(callback);
+});
