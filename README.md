@@ -48,7 +48,7 @@ Table of Contents
 41. \<**Hard**>     \<***Heap Sort (Modified)***> First Missing Positive
 42. \<**Hard**>     Trapping Rain Water (Advanced of Task 11)
 43. \<**Medium**>   Multiply Strings
-44. \<**Hard**>     Wildcard Matching
+44. \<**Hard**>     Wildcard Matching (Similar to Task 10 but different)
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
