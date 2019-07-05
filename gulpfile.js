@@ -135,3 +135,6 @@ gulp.task('t0042', (callback) => {
 gulp.task('t0043', (callback) => {
   require('./task0043-str-multiply/str-multiply.js')(callback);
 });
+gulp.task('t0044', (callback) => {
+  require('./task0044-wildcard-match/wildcard-match.js')(callback);
+});
