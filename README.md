@@ -50,5 +50,7 @@ Table of Contents
 43. \<**Medium**>   Multiply Strings
 44. \<**Hard**>     Wildcard Matching (Similar to Task 10 but different)
 
+55. \<**Medium**>   Jump Game
+
 
 [LeetCode]: https://leetcode.com/problemset/all/

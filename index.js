@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0044-wildcard-match/wildcard-match.js')();
+require('./task0055-jump-game/jump-game.js')();
