@@ -132,3 +132,6 @@ gulp.task('t0041', (callback) => {
 gulp.task('t0042', (callback) => {
   require('./task0042-trap-rain/trap-rain.js')(callback);
 });
+gulp.task('t0043', (callback) => {
+  require('./task0043-str-multiply/str-multiply.js')(callback);
+});
