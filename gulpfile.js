@@ -138,6 +138,9 @@ gulp.task('t0043', (callback) => {
 gulp.task('t0044', (callback) => {
   require('./task0044-wildcard-match/wildcard-match.js')(callback);
 });
+gulp.task('t0045', (callback) => {
+  require('./task0045-jump-game-2/jump-game-2.js')(callback);
+});
 
 gulp.task('t0055', (callback) => {
   require('./task0055-jump-game/jump-game.js')(callback);
