@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0045-jump-game-2/jump-game-2.js')();
+require('./task0046-perms/perms.js')();
