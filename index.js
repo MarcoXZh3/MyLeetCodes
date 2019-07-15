@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0046-perms/perms.js')();
+require('./task0047-perms-2/perms-2.js')();

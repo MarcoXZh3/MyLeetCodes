@@ -144,6 +144,9 @@ gulp.task('t0045', (callback) => {
 gulp.task('t0046', (callback) => {
   require('./task0046-perms/perms.js')(callback);
 });
+gulp.task('t0047', (callback) => {
+  require('./task0047-perms-2/perms-2.js')(callback);
+});
 
 gulp.task('t0055', (callback) => {
   require('./task0055-jump-game/jump-game.js')(callback);
