@@ -52,6 +52,7 @@ Table of Contents
 45. \<**Hard**>     Jump Game II (Enhanced of Task 55)
 46. \<**Medium**>   Permutations (Similar to Task 31)
 47. \<**Medium**>   Permutations II (Similar to Task 31, 46)
+48. \<**Medium**>   Rotate Image
 
 55. \<**Medium**>   Jump Game
 
