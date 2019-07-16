@@ -1,9 +1,29 @@
 /**
- * @param {number[][]}  matrix   the matrix of the image
+ * @param {number[][]}  matrix    the matrix of the image
+ * @param {boolean}     ccw       true to counter-clockwise; false to clockwise
  * @return {void} Do not return anything, modify matrix in-place instead.
  */
-const rotate = function(matrix) {
-
+const rotate = function(matrix, ccw) {
+  let length = matrix.length;
+  for (let i = 0; i < Math.floor(length / 2); i++) {
+    for (let j = i; j < length - i - 1; j++) {
+      const n0 = matrix[i][j];
+      let cnt = 0;
+      while (cnt ++ < 4) {
+        if (ccw) {      // counter-clockwise
+          matrix[i][j] = cnt === 4 ? n0 : matrix[j][length - 1 - i];
+          const tmp = i;
+          i = j;
+          j = length - 1 - tmp;
+        } else {        // clockwise
+          matrix[i][j] = cnt === 4 ? n0 : matrix[length - 1 - j][i];
+          const tmp = j;
+          j = i;
+          i = length - 1 - tmp;
+        }
+      }
+    }
+  }
 };
 
 
