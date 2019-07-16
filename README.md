@@ -53,6 +53,7 @@ Table of Contents
 46. \<**Medium**>   Permutations (Similar to Task 31)
 47. \<**Medium**>   Permutations II (Similar to Task 31, 46)
 48. \<**Medium**>   Rotate Image
+49. \<**Medium**>   Group Anagrams
 
 55. \<**Medium**>   Jump Game
 

@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0048-rotate-img/rotate-img.js')();
+require('./task0049-anagrams/anagrams.js')();

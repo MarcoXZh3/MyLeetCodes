@@ -150,6 +150,9 @@ gulp.task('t0047', (callback) => {
 gulp.task('t0048', (callback) => {
   require('./task0048-rotate-img/rotate-img.js')(callback);
 });
+gulp.task('t0049', (callback) => {
+  require('./task0049-anagrams/anagrams.js')(callback);
+});
 
 gulp.task('t0055', (callback) => {
   require('./task0055-jump-game/jump-game.js')(callback);
