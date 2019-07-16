@@ -54,6 +54,7 @@ Table of Contents
 47. \<**Medium**>   Permutations II (Similar to Task 31, 46)
 48. \<**Medium**>   Rotate Image
 49. \<**Medium**>   Group Anagrams
+50. \<**Medium**>   Implement `pow(x, n)` (Similar to Task 29)
 
 55. \<**Medium**>   Jump Game
 

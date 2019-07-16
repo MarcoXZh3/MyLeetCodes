@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0049-anagrams/anagrams.js')();
+require('./task0050-pow/pow.js')();
