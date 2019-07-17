@@ -55,6 +55,7 @@ Table of Contents
 48. \<**Medium**>   Rotate Image
 49. \<**Medium**>   Group Anagrams
 50. \<**Medium**>   Implement `pow(x, n)` (Similar to Task 29)
+51. \<**Hard**>     N-Queens
 
 55. \<**Medium**>   Jump Game
 
