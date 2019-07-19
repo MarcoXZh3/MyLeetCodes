@@ -57,6 +57,7 @@ Table of Contents
 50. \<**Medium**>   Implement `pow(x, n)` (Similar to Task 29)
 51. \<**Hard**>     N-Queens
 52. \<**Hard**>     N-Queens II (Simplified of Task 51)
+53. \<**Easy**>     Maximum Subarray
 
 55. \<**Medium**>   Jump Game
 

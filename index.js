@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0052-n-queens-2/n-queens-2.js')();
+require('./task0053-max-subarray/max-subarray.js')();

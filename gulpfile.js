@@ -162,6 +162,9 @@ gulp.task('t0051', (callback) => {
 gulp.task('t0052', (callback) => {
   require('./task0052-n-queens-2/n-queens-2.js')(callback);
 });
+gulp.task('t0053', (callback) => {
+  require('./task0053-max-subarray/max-subarray.js')(callback);
+});
 
 gulp.task('t0055', (callback) => {
   require('./task0055-jump-game/jump-game.js')(callback);
