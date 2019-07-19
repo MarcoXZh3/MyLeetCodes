@@ -159,6 +159,9 @@ gulp.task('t0050', (callback) => {
 gulp.task('t0051', (callback) => {
   require('./task0051-n-queens/n-queens.js')(callback);
 });
+gulp.task('t0052', (callback) => {
+  require('./task0052-n-queens-2/n-queens-2.js')(callback);
+});
 
 gulp.task('t0055', (callback) => {
   require('./task0055-jump-game/jump-game.js')(callback);

@@ -56,6 +56,7 @@ Table of Contents
 49. \<**Medium**>   Group Anagrams
 50. \<**Medium**>   Implement `pow(x, n)` (Similar to Task 29)
 51. \<**Hard**>     N-Queens
+52. \<**Hard**>     N-Queens II (Simplified of Task 51)
 
 55. \<**Medium**>   Jump Game
 

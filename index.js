@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0051-n-queens/n-queens.js')();
+require('./task0052-n-queens-2/n-queens-2.js')();
