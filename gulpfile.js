@@ -165,7 +165,9 @@ gulp.task('t0052', (callback) => {
 gulp.task('t0053', (callback) => {
   require('./task0053-max-subarray/max-subarray.js')(callback);
 });
-
+gulp.task('t0054', (callback) => {
+  require('./task0054-spiral-matrix/spiral-mat.js')(callback);
+});
 gulp.task('t0055', (callback) => {
   require('./task0055-jump-game/jump-game.js')(callback);
 });

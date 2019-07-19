@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0053-max-subarray/max-subarray.js')();
+require('./task0054-spiral-matrix/spiral-mat.js')();
