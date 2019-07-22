@@ -171,3 +171,6 @@ gulp.task('t0054', (callback) => {
 gulp.task('t0055', (callback) => {
   require('./task0055-jump-game/jump-game.js')(callback);
 });
+gulp.task('t0056', (callback) => {
+  require('./task0056-merge-itvs/merge-itvs.js')(callback);
+});

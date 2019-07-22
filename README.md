@@ -60,6 +60,7 @@ Table of Contents
 53. \<**Easy**>     Maximum Subarray
 54. \<**Medium**>   Spiral Matrix
 55. \<**Medium**>   Jump Game
+56. \<**Medium**>   Merge Intervals
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
