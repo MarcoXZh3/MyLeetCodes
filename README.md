@@ -64,6 +64,7 @@ Table of Contents
 57. \<**Hard**>     \<***Binary Search***> Insert Interval (Enhanced of Task 56)
 58. \<**Easy**>     Length of Last Word
 59. \<**Medium**>   Spiral Matrix II (Similar to Task 54)
+60. \<**Medium**>   Permutation Sequence (Similar to Task 31, 46, 47)
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

@@ -183,3 +183,6 @@ gulp.task('t0058', (callback) => {
 gulp.task('t0059', (callback) => {
   require('./task0059-spiral-matrix-2/spiral-mat-2.js')(callback);
 });
+gulp.task('t0060', (callback) => {
+  require('./task0060-permute-seq/permute-seq.js')(callback);
+});
