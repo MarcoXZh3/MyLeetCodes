@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0057-inst-itv/insert-itv.js')();
+require('./task0058-last-word-length/last-word-length.js')();

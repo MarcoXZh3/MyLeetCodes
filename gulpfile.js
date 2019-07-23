@@ -177,3 +177,6 @@ gulp.task('t0056', (callback) => {
 gulp.task('t0057', (callback) => {
   require('./task0057-inst-itv/insert-itv.js')(callback);
 });
+gulp.task('t0058', (callback) => {
+  require('./task0058-last-word-length/last-word-length.js')(callback);
+});

@@ -62,6 +62,7 @@ Table of Contents
 55. \<**Medium**>   Jump Game
 56. \<**Medium**>    \<***Heap Sort (Modified)***> Merge Intervals
 57. \<**Hard**>      \<***Binary Search***> Insert Interval (Enhanced of Task 56)
+58. \<**Easy**>      Length of Last Word
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
