@@ -3,7 +3,18 @@
  * @return {number}         length of the last word
  */
 const lengthOfLastWord = function(s) {
-
+  let length = 0;
+  for (let i = s.length - 1; i >= 0; i--) {
+    if (s.charAt(i) === ' ') {
+      if (length === 0) {
+        continue ;
+      } else {
+        break ;
+      }
+    }
+    length ++;
+  }
+  return length;
 };
 
 
@@ -15,6 +26,8 @@ const main = (callback) => {
   console.log('Task 0058 - Length of Last Word:');
   [
     'Hello World',
+    'a',
+    'a ',
   ].forEach( str => {
     console.log(` length=${lengthOfLastWord(str)}, str="${str}"`);
   });
