@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0058-last-word-length/last-word-length.js')();
+require('./task0059-spiral-matrix-2/spiral-mat-2.js')();

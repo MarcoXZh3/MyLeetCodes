@@ -180,3 +180,6 @@ gulp.task('t0057', (callback) => {
 gulp.task('t0058', (callback) => {
   require('./task0058-last-word-length/last-word-length.js')(callback);
 });
+gulp.task('t0059', (callback) => {
+  require('./task0059-spiral-matrix-2/spiral-mat-2.js')(callback);
+});

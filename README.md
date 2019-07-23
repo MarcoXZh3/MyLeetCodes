@@ -60,9 +60,10 @@ Table of Contents
 53. \<**Easy**>     Maximum Subarray
 54. \<**Medium**>   Spiral Matrix
 55. \<**Medium**>   Jump Game
-56. \<**Medium**>    \<***Heap Sort (Modified)***> Merge Intervals
-57. \<**Hard**>      \<***Binary Search***> Insert Interval (Enhanced of Task 56)
-58. \<**Easy**>      Length of Last Word
+56. \<**Medium**>   \<***Heap Sort (Modified)***> Merge Intervals
+57. \<**Hard**>     \<***Binary Search***> Insert Interval (Enhanced of Task 56)
+58. \<**Easy**>     Length of Last Word
+59. \<**Medium**>   Spiral Matrix II (Similar to Task 54)
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
