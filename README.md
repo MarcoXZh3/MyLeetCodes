@@ -60,8 +60,8 @@ Table of Contents
 53. \<**Easy**>     Maximum Subarray
 54. \<**Medium**>   Spiral Matrix
 55. \<**Medium**>   Jump Game
-56. \<**Medium**>   Merge Intervals
-57. \<**Hard**>     Insert Interval
+56. \<**Medium**>    \<***Heap Sort (Modified)***> Merge Intervals
+57. \<**Hard**>      \<***Binary Search***> Insert Interval (Enhanced of Task 56)
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
