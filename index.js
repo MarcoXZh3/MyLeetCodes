@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0060-permute-seq/permute-seq.js')();
+require('./task0062-unique-paths/unique-paths.js')();

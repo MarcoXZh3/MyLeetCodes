@@ -189,3 +189,6 @@ gulp.task('t0060', (callback) => {
 gulp.task('t0061', (callback) => {
   require('./task0061-rotate-list/rotate-list.js')(callback);
 });
+gulp.task('t0062', (callback) => {
+  require('./task0062-unique-paths/unique-paths.js')(callback);
+});

@@ -66,6 +66,7 @@ Table of Contents
 59. \<**Medium**>   Spiral Matrix II (Similar to Task 54)
 60. \<**Medium**>   Permutation Sequence (Similar to Task 31, 46, 47)
 61. \<**Medium**>   Rotate List
+62. \<**Medium**>   Unique Paths
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
