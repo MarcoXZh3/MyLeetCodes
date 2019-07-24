@@ -65,6 +65,7 @@ Table of Contents
 58. \<**Easy**>     Length of Last Word
 59. \<**Medium**>   Spiral Matrix II (Similar to Task 54)
 60. \<**Medium**>   Permutation Sequence (Similar to Task 31, 46, 47)
+61. \<**Medium**>   Rotate List
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

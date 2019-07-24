@@ -186,3 +186,6 @@ gulp.task('t0059', (callback) => {
 gulp.task('t0060', (callback) => {
   require('./task0060-permute-seq/permute-seq.js')(callback);
 });
+gulp.task('t0061', (callback) => {
+  require('./task0061-rotate-list/rotate-list.js')(callback);
+});
