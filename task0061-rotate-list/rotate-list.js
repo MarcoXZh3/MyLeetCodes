@@ -15,6 +15,29 @@ function ListNode(val, next) {
  * @return {ListNode}           head of the rotated list
  */
 const rotateRight = function(head, k) {
+  if (!head) {
+    return head;
+  }
+
+  // count length of the list
+  let n = 1;
+  let tail = head;
+  while (tail.next) {
+    n++;
+    tail = tail.next;
+  }
+
+  // locate the new tail
+  k = n - (k % n);
+  let tail2 = head;
+  while (--k > 0) {
+    tail2 = tail2.next;
+  }
+
+  // break the list after the new tail and swap the two parts
+  tail.next = head;
+  head = tail2.next;
+  tail2.next = null;
   return head;
 };
 
