@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0062-unique-paths/unique-paths.js')();
+require('./task00633-unique-paths-2/unique-paths-2.js')();
