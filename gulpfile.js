@@ -193,5 +193,5 @@ gulp.task('t0062', (callback) => {
   require('./task0062-unique-paths/unique-paths.js')(callback);
 });
 gulp.task('t0063', (callback) => {
-  require('./task00633-unique-paths-2/unique-paths-2.js')(callback);
+  require('./task0063-unique-paths-2/unique-paths-2.js')(callback);
 });
