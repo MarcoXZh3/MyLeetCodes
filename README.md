@@ -68,6 +68,7 @@ Table of Contents
 61. \<**Medium**>   Rotate List
 62. \<**Medium**>   Unique Paths
 63. \<**Medium**>   Unique Paths II
+64. \<**Medium**>   Minimum Path Sum
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
