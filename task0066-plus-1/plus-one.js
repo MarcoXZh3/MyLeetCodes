@@ -3,7 +3,23 @@
  * @return {number[]}             the digits array of the number plus 1
  */
 const plusOne = function(digits) {
-  return [];
+  // plus 1
+  digits[digits.length - 1] ++;
+  // handles the carry
+  let carry = 0;
+  let i = digits.length - 1;
+  while (i >= 0) {
+    digits[i] += carry;
+    carry = Math.floor(digits[i] / 10);
+    if (!carry) {
+      break ;
+    }
+    digits[i--] %= 10;
+  }
+  if (carry) {
+    digits.unshift(carry);
+  }
+  return digits;
 };
 
 
