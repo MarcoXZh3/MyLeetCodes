@@ -204,3 +204,6 @@ gulp.task('t0065', (callback) => {
 gulp.task('t0066', (callback) => {
   require('./task0066-plus-1/plus-one.js')(callback);
 });
+gulp.task('t0067', (callback) => {
+  require('./task0067-add-binary/add-binary.js')(callback);
+});

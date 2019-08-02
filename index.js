@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0066-plus-1/plus-one.js')();
+require('./task0067-add-binary/add-binary.js')();
