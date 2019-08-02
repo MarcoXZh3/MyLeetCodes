@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0069-sqrt/sqrt.js')();
+require('./task0070-climb-stairs/climb-stairs.js')();

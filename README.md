@@ -73,7 +73,8 @@ Table of Contents
 66. \<**Easy**>     Plus One (Easy version of Task 2)
 67. \<**Easy**>     Add Binary (Easy version of Task 2)
 68. \<**Hard**>     Text Justification
-68. \<**Easy**>     `sqrt(x)`
+69. \<**Easy**>     `sqrt(x)`
+70. \<**Easy**>     Climbing Stairs
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
