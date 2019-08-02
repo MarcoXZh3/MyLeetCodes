@@ -198,3 +198,6 @@ gulp.task('t0063', (callback) => {
 gulp.task('t0064', (callback) => {
   require('./task0064-min-paths/min-path.js')(callback);
 });
+gulp.task('t0065', (callback) => {
+  require('./task0065-valid-num/valid-num.js')(callback);
+});

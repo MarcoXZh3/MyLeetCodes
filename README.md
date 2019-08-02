@@ -69,6 +69,7 @@ Table of Contents
 62. \<**Medium**>   Unique Paths
 63. \<**Medium**>   Unique Paths II
 64. \<**Medium**>   Minimum Path Sum
+65. \<**Hard**>     Valid Number
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
