@@ -70,6 +70,7 @@ Table of Contents
 63. \<**Medium**>   Unique Paths II
 64. \<**Medium**>   Minimum Path Sum
 65. \<**Hard**>     Valid Number
+66. \<**Easy**>     Plus One (Easy verion of Task 2)
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

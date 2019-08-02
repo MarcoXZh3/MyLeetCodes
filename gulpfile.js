@@ -201,3 +201,6 @@ gulp.task('t0064', (callback) => {
 gulp.task('t0065', (callback) => {
   require('./task0065-valid-num/valid-num.js')(callback);
 });
+gulp.task('t0066', (callback) => {
+  require('./task0066-plus-1/plus-one.js')(callback);
+});
