@@ -207,3 +207,6 @@ gulp.task('t0066', (callback) => {
 gulp.task('t0067', (callback) => {
   require('./task0067-add-binary/add-binary.js')(callback);
 });
+gulp.task('t0068', (callback) => {
+  require('./task0068-txt-justify/txt-justify.js')(callback);
+});
