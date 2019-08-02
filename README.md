@@ -76,6 +76,7 @@ Table of Contents
 69. \<**Easy**>     `sqrt(x)`
 70. \<**Easy**>     Climbing Stairs
 71. \<**Medium**>   Simplify Path
+72. \<**Hard**>     Edit Distance
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

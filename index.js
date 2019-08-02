@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0071-simple-path/simple-path.js')();
+require('./task0072-edit-dist/edit-dist.js')();

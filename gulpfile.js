@@ -219,3 +219,6 @@ gulp.task('t0070', (callback) => {
 gulp.task('t0071', (callback) => {
   require('./task0071-simple-path/simple-path.js')(callback);
 });
+gulp.task('t0072', (callback) => {
+  require('./task0072-edit-dist/edit-dist.js')(callback);
+});
