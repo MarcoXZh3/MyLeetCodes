@@ -216,3 +216,6 @@ gulp.task('t0069', (callback) => {
 gulp.task('t0070', (callback) => {
   require('./task0070-climb-stairs/climb-stairs.js')(callback);
 });
+gulp.task('t0071', (callback) => {
+  require('./task0071-simple-path/simple-path.js')(callback);
+});

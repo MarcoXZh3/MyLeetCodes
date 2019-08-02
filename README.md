@@ -75,6 +75,7 @@ Table of Contents
 68. \<**Hard**>     Text Justification
 69. \<**Easy**>     `sqrt(x)`
 70. \<**Easy**>     Climbing Stairs
+71. \<**Medium**>   Simplify Path
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
