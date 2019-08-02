@@ -3,7 +3,25 @@
  * @return {number}               the minimum path
  */
 const minPathSum = function(grid) {
-
+  if (!grid || !grid[0].length === 0) {
+    return 0;
+  }
+  const m = grid.length;
+  const n = grid[0].length;
+  const dp = [...Array(m).keys()].map( _=>[...Array(n).keys()].map( _=>0 ));
+  for (let i = m - 1; i >= 0; i--) {
+    for (let j = n - 1; j >= 0; j--) {
+      let min0 = i === m - 1 && j === n - 1 ? 0 : Number.MAX_SAFE_INTEGER;
+      if (i + 1 < m) {
+        min0 = min0 < dp[i + 1][j] ? min0 : dp[i + 1][j];
+      }
+      if (j + 1 < n) {
+        min0 = min0 < dp[i][j + 1] ? min0 : dp[i][j + 1];
+      }
+      dp[i][j] += min0 + grid[i][j];
+    }
+  }
+  return dp[0][0];
 };
 
 
