@@ -72,6 +72,8 @@ Table of Contents
 65. \<**Hard**>     Valid Number
 66. \<**Easy**>     Plus One (Easy version of Task 2)
 67. \<**Easy**>     Add Binary (Easy version of Task 2)
+68. \<**Hard**>     Text Justification
+68. \<**Easy**>     `sqrt(x)`
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

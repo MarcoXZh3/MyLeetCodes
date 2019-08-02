@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0068-txt-justify/txt-justify.js')();
+require('./task0069-sqrt/sqrt.js')();
