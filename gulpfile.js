@@ -222,3 +222,6 @@ gulp.task('t0071', (callback) => {
 gulp.task('t0072', (callback) => {
   require('./task0072-edit-dist/edit-dist.js')(callback);
 });
+gulp.task('t0073', (callback) => {
+  require('./task0073-set-mat-0/set-mat-0.js')(callback);
+});

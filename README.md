@@ -77,6 +77,7 @@ Table of Contents
 70. \<**Easy**>     Climbing Stairs
 71. \<**Medium**>   Simplify Path
 72. \<**Hard**>     Edit Distance
+73. \<**Medium**>   Set Matrix Zeros
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
