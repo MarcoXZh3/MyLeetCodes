@@ -4,7 +4,20 @@
  * @return {boolean}                  weather the target value is in the matrix
  */
 const searchMatrix = function(matrix, target) {
-
+  let c = 0;
+  let r = 0;
+  while (r < matrix.length && c < matrix[0].length) {
+    if (matrix[r][c] === target) {          // found
+      return true;
+    } else if (matrix[r][c] > target) {     // only larger values left
+      return false;
+    } else if (r + 1 < matrix.length && matrix[r + 1][c] <= target) { // rows first
+      r ++;
+    } else {                                // columns next
+      c ++;
+    }
+  }
+  return false;
 };
 
 
@@ -30,6 +43,12 @@ const main = (callback) => {
         [23, 30, 34, 50]
       ],
       13,
+    ],
+    [
+      [
+        [1],
+      ],
+      1,
     ],
   ].forEach( vs => {
     for (let i = 0; i < vs[0].length; i++) {
