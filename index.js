@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0074-search-2d-mat/search-2d-mat.js')();
+require('./task0075-sort-colors/sort-colors.js')();

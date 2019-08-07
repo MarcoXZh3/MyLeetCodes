@@ -79,6 +79,7 @@ Table of Contents
 72. \<**Hard**>     Edit Distance
 73. \<**Medium**>   Set Matrix Zeros
 74. \<**Medium**>   Search a 2D Matrix
+75. \<**Medium**>   Sort Colors
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
