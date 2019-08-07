@@ -78,6 +78,7 @@ Table of Contents
 71. \<**Medium**>   Simplify Path
 72. \<**Hard**>     Edit Distance
 73. \<**Medium**>   Set Matrix Zeros
+74. \<**Medium**>   Search a 2D Matrix
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

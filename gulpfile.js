@@ -225,3 +225,6 @@ gulp.task('t0072', (callback) => {
 gulp.task('t0073', (callback) => {
   require('./task0073-set-mat-0/set-mat-0.js')(callback);
 });
+gulp.task('t0074', (callback) => {
+  require('./task0074-search-2d-mat/search-2d-mat.js')(callback);
+});
