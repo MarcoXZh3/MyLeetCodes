@@ -231,3 +231,6 @@ gulp.task('t0074', (callback) => {
 gulp.task('t0075', (callback) => {
   require('./task0075-sort-colors/sort-colors.js')(callback);
 });
+gulp.task('t0076', (callback) => {
+  require('./task0076-min-win-substr/min-win-substr.js')(callback);
+});

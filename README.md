@@ -80,6 +80,7 @@ Table of Contents
 73. \<**Medium**>   Set Matrix Zeros
 74. \<**Medium**>   Search a 2D Matrix
 75. \<**Medium**>   Sort Colors
+76. \<**Hard**>     Minimum Window Substring
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
