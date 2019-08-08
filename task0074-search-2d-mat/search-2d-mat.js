@@ -3,7 +3,10 @@
  * @param {number}          target    the target value
  * @return {boolean}                  weather the target value is in the matrix
  */
-const searchMatrix = function(matrix, target) {
+const searchMatrix0 = function(matrix, target) {
+  if (!matrix || matrix.length === 0 || matrix[0].length === 0) {
+    return false;
+  }
   let c = 0;
   let r = 0;
   while (r < matrix.length && c < matrix[0].length) {
@@ -15,6 +18,31 @@ const searchMatrix = function(matrix, target) {
       r ++;
     } else {                                // columns next
       c ++;
+    }
+  }
+  return false;
+};
+
+
+/**
+ * binary search the matrix as a list
+ * @param {number[][]}      matrix    the matrix to search
+ * @param {number}          target    the target value
+ * @return {boolean}                  weather the target value is in the matrix
+ */
+const searchMatrix = function(matrix, target) {
+  let start = 0;
+  let end = matrix.length * matrix[0].length - 1;
+  while (start <= end) {
+    let mid = Math.floor((start + end) / 2);
+    let r = Math.floor(mid / matrix[0].length);
+    let c = mid % matrix[0].length;
+    if (matrix[r][c] === target) {
+      return true;
+    } else if (matrix[r][c] > target) {
+      end = mid - 1;
+    } else {
+      start = mid + 1;
     }
   }
   return false;
