@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0077-combine/combine.js')();
+require('./task0078-subsets/subsets.js')();

@@ -81,7 +81,8 @@ Table of Contents
 74. \<**Medium**>   Search a 2D Matrix
 75. \<**Medium**>   Sort Colors
 76. \<**Hard**>     Minimum Window Substring
-76. \<**Medium**>   Combinations (Similar to Task 46)
+76. \<**Medium**>   Combinations (Similar to Task 46, 60)
+76. \<**Medium**>   Subsets (Similar to Task 46, 60)
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

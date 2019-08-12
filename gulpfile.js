@@ -237,3 +237,6 @@ gulp.task('t0076', (callback) => {
 gulp.task('t0077', (callback) => {
   require('./task0077-combine/combine.js')(callback);
 });
+gulp.task('t0078', (callback) => {
+  require('./task0078-subsets/subsets.js')(callback);
+});
