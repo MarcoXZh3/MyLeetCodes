@@ -240,3 +240,6 @@ gulp.task('t0077', (callback) => {
 gulp.task('t0078', (callback) => {
   require('./task0078-subsets/subsets.js')(callback);
 });
+gulp.task('t0079', (callback) => {
+  require('./task0079-word-search/word-search.js')(callback);
+});

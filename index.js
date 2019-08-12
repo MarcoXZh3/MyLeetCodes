@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0078-subsets/subsets.js')();
+require('./task0079-word-search/word-search.js')();
