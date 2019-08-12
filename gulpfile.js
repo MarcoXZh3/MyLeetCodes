@@ -234,3 +234,6 @@ gulp.task('t0075', (callback) => {
 gulp.task('t0076', (callback) => {
   require('./task0076-min-win-substr/min-win-substr.js')(callback);
 });
+gulp.task('t0077', (callback) => {
+  require('./task0077-combine/combine.js')(callback);
+});

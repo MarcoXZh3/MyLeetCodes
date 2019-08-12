@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0076-min-win-substr/min-win-substr.js')();
+require('./task0077-combine/combine.js')();
