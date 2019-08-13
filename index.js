@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0080-sorted-del-dups-2/sorted-del-dups-2.js')();
+require('./task0081-rotate-sorted-list-2/rotate-sorted-list-2.js')();

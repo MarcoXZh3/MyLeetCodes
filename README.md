@@ -85,6 +85,7 @@ Table of Contents
 78. \<**Medium**>   Subsets (Similar to Task 46, 60)
 79. \<**Medium**>   Word Search
 80. \<**Medium**>   Remove Duplicates from Sorted Array II (Enhanced of Task 26)
+81. \<**Medium**>   Search in Rotated Sorted Array II (Enhanced of Task 33)
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
