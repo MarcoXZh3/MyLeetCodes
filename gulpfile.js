@@ -243,3 +243,6 @@ gulp.task('t0078', (callback) => {
 gulp.task('t0079', (callback) => {
   require('./task0079-word-search/word-search.js')(callback);
 });
+gulp.task('t0080', (callback) => {
+  require('./task0080-sorted-del-dups-2/sorted-del-dups-2.js')(callback);
+});
