@@ -14,7 +14,15 @@ function ListNode(val, next) {
  * @return {ListNode}         head of the list after removing duplications
  */
 const deleteDuplicates = function(head) {
-
+  let cur = head;
+  while (cur && cur.next) {
+    if (cur.val === cur.next.val) {
+      cur.next = cur.next.next;
+    } else {
+      cur = cur.next;
+    }
+  }
+  return head;
 };
 
 
@@ -46,6 +54,7 @@ const main = (callback) => {
   [
     [1, 1, 2],
     [1, 1, 2, 3, 3],
+    [1, 1, 1],
   ].forEach( vs => {
     let head = new ListNode(vs[0]);
     const list = head;
