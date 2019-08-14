@@ -249,7 +249,9 @@ gulp.task('t0080', (callback) => {
 gulp.task('t0081', (callback) => {
   require('./task0081-rotate-sorted-list-2/rotate-sorted-list-2.js')(callback);
 });
-
+gulp.task('t0082', (callback) => {
+  require('./task0082-sorted-list-del-dups-2/sorted-list-del-dups-2.js')(callback);
+});
 gulp.task('t0083', (callback) => {
   require('./task0083-sorted-list-del-dups/sorted-list-del-dups.js')(callback);
 });
