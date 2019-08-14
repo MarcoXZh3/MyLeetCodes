@@ -87,5 +87,7 @@ Table of Contents
 80. \<**Medium**>   Remove Duplicates from Sorted Array II (Enhanced of Task 26)
 81. \<**Medium**>   Search in Rotated Sorted Array II (Enhanced of Task 33)
 
+83. \<**Easy**>     Remove Duplicates from Sorted List (Similar to Task 26)
+
 
 [LeetCode]: https://leetcode.com/problemset/all/
