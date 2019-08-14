@@ -14,7 +14,27 @@ function ListNode(val, next) {
  * @return {ListNode}         head of the list after removing duplications
  */
 const deleteDuplicates = function(head) {
+  const fake = new ListNode(null);
+  fake.next = head;
 
+  let tail = fake;     // last node in the non-duplicated list
+  let cur = tail.next;
+  let dup = false;      // flag to check whether cur is duplicated or not
+  while (cur && cur.next) {
+    if (cur.val === cur.next.val) {   // cur is duplicated: set flag
+      dup = true;
+    } else if (dup) {                 // cur is the last duplication
+      tail.next = cur.next;           // connect tail to tails next
+      dup = false;
+    } else {                          // cur is not duplicated: becomes new tail
+      tail = cur;
+    }
+    cur = cur.next;
+  }
+  if (dup) {                          // all trailing nodes are duplicated
+    tail.next = null;
+  }
+  return fake.next;
 };
 
 
