@@ -88,6 +88,7 @@ Table of Contents
 81. \<**Medium**>   Search in Rotated Sorted Array II (Enhanced of Task 33)
 82. \<**Medium**>   Remove Duplicates from Sorted List II (Enhanced of Task 83)
 83. \<**Easy**>     Remove Duplicates from Sorted List (Similar to Task 26)
+84. \<**Hard**>     Largest Rectangle in Histogram (Similar to Task 11, 42)
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

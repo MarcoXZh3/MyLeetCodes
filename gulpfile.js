@@ -255,3 +255,6 @@ gulp.task('t0082', (callback) => {
 gulp.task('t0083', (callback) => {
   require('./task0083-sorted-list-del-dups/sorted-list-del-dups.js')(callback);
 });
+gulp.task('t0084', (callback) => {
+  require('./task0084-max-rect/max-rect.js')(callback);
+});
