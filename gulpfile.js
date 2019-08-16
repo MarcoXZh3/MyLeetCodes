@@ -258,3 +258,6 @@ gulp.task('t0083', (callback) => {
 gulp.task('t0084', (callback) => {
   require('./task0084-max-rect/max-rect.js')(callback);
 });
+gulp.task('t0085', (callback) => {
+  require('./task0085-max-mat-rect/max-mat-rect.js')(callback);
+});

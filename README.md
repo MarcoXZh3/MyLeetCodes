@@ -89,6 +89,7 @@ Table of Contents
 82. \<**Medium**>   Remove Duplicates from Sorted List II (Enhanced of Task 83)
 83. \<**Easy**>     Remove Duplicates from Sorted List (Similar to Task 26)
 84. \<**Hard**>     Largest Rectangle in Histogram (Similar to Task 11, 42)
+85. \<**Hard**>     Maximal Rectangle
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
