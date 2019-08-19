@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0086-partition-list/partition-list.js')();
+require('./task0087-scramble-str/scramble-str.js')();

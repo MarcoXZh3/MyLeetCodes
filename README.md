@@ -91,6 +91,7 @@ Table of Contents
 84. \<**Hard**>     Largest Rectangle in Histogram (Similar to Task 11, 42)
 85. \<**Hard**>     Maximal Rectangle
 86. \<**Medium**>   Partition List
+87. \<**Hard**>     Scramble String
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

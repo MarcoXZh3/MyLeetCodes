@@ -264,3 +264,6 @@ gulp.task('t0085', (callback) => {
 gulp.task('t0086', (callback) => {
   require('./task0086-partition-list/partition-list.js')(callback);
 });
+gulp.task('t0087', (callback) => {
+  require('./task0087-scramble-str/scramble-str.js')(callback);
+});
