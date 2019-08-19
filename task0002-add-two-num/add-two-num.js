@@ -1,12 +1,4 @@
-/**
- * Singly-linked list
- * @param {integer}   val     val of the node in the list
- * @param {ListNode}  next    next node in the list
- */
-function ListNode(val, next) {
-  this.val = val;
-  this.next = next;
-};
+const { ListNode, array2list, printList } = require('../_utils/list');
 
 
 /**
@@ -37,43 +29,22 @@ const addTwoNumbers = (l1, l2) => {
 
 
 /**
- * Print the singly-linked list
- * @param {ListNode}  head    first node of the list
- */
-const printList = (head) => {
-  let arr = [head.val];
-  while (head.next) {
-    head = head.next;
-    arr.push(head.val);
-  }
-  return arr.join('->');
-};
-
-
-/**
  * main function
  * @param {function}  callback    the callback function
  */
 const main = (callback) => {
   console.log('Task 0002 - Add Two Numbers:');
-  const num1 = [2, 4, 3];
-  const num2 = [5, 6, 8, 2];
-  const l1 = new ListNode(num1[0]);
-  let ln1 = l1;
-  for (let i = 1; i < num1.length; i++) {
-    ln1.next = new ListNode(num1[i]);
-    ln1 = ln1.next;
-  }
-  const l2 = new ListNode(num2[0]);
-  let ln2 = l2;
-  for (let i = 1; i < num2.length; i++) {
-    ln2.next = new ListNode(num2[i]);
-    ln2 = ln2.next;
-  }
-
-  console.log(`  ${printList(l1)}`);
-  console.log(`+ ${printList(l2)}`);
-  console.log(`= ${printList(addTwoNumbers(l1, l2))}`);
+  [
+    [
+      [2, 4, 3], [5, 6, 8, 2],
+    ],
+  ].forEach( vs => {
+    const l1 = array2list(vs[0]);
+    const l2 = array2list(vs[1]);
+    console.log(`  ${printList(l1)}`);
+    console.log(`+ ${printList(l2)}`);
+    console.log(`= ${printList(addTwoNumbers(l1, l2))}`);
+  });
   if (callback) {
     callback();
   }

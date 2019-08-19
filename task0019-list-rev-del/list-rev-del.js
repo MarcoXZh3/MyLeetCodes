@@ -1,10 +1,4 @@
-/**
- * Definition for singly-linked list
- */
-function ListNode(val) {
-  this.val = val;
-  this.next = null;
-}
+const { ListNode, array2list, printList } = require('../_utils/list');
 
 
 /**
@@ -71,39 +65,6 @@ const removeNthFromEnd = function(head, n) {
 
 
 /**
- * create a list out of an array
- * @param {number[]}    vals      the number array
- * @returns {ListNode}            the head of the created list
- */
-const create = function(vals) {
-  if (!vals || vals.length === 0) {
-    return null;
-  }
-  const head = new ListNode(vals[0]);
-  let cur = head;
-  for (let i = 1; i < vals.length; i++) {
-    cur = cur.next = new ListNode(vals[i]);
-  }
-  return head;
-}
-
-
-/**
- * print the list
- * @param {ListNode}    head      head of the singly-linked list
- * @returns {string}              string representation of the list
- */
-const print = function(head) {
-  const vals = [];
-  while (head) {
-    vals.push(head.val);
-    head = head.next;
-  }
-  return vals.join('->');
-};
-
-
-/**
  * main function
  * @param {function}  callback    the callback function
  */
@@ -114,9 +75,9 @@ const main = (callback) => {
     [ [1], 1],
     [ [1, 2], 2],
   ].forEach( vs => {
-    const head = create(vs[0]);
-    console.log(`  old=[ ${print(head)} ], n=${vs[1]}`);
-    console.log(`  new=[ ${print(removeNthFromEnd(head, vs[1]))} ]`);
+    const list = array2list(vs[0]);
+    console.log(`  old=${printList(list)}, n=${vs[1]}`);
+    console.log(`  new=${printList(removeNthFromEnd(list, vs[1]))}`);
   });
   if (callback) {
     callback();
