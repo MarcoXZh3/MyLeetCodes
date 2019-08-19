@@ -90,6 +90,7 @@ Table of Contents
 83. \<**Easy**>     Remove Duplicates from Sorted List (Similar to Task 26)
 84. \<**Hard**>     Largest Rectangle in Histogram (Similar to Task 11, 42)
 85. \<**Hard**>     Maximal Rectangle
+86. \<**Medium**>   Partition List
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

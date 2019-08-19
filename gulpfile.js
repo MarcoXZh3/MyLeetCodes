@@ -261,3 +261,6 @@ gulp.task('t0084', (callback) => {
 gulp.task('t0085', (callback) => {
   require('./task0085-max-mat-rect/max-mat-rect.js')(callback);
 });
+gulp.task('t0086', (callback) => {
+  require('./task0086-partition-list/partition-list.js')(callback);
+});
