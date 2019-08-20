@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0087-scramble-str/scramble-str.js')();
+require('./task0089-gray-code/gray-code.js')();

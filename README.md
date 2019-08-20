@@ -92,6 +92,7 @@ Table of Contents
 85. \<**Hard**>     Maximal Rectangle
 86. \<**Medium**>   Partition List
 87. \<**Hard**>     Scramble String
+89. \<**Medium**>   Gray Code
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
