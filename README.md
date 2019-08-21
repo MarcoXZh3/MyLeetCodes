@@ -94,6 +94,7 @@ Table of Contents
 87. \<**Hard**>     Scramble String
 88. \<**Easy**>     Merge Sorted Array
 89. \<**Medium**>   Gray Code
+90. \<**Medium**>   Subsets (Similar to Task 78)
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

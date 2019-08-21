@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0088-merge-sort-array/merge-sort-array.js')();
+require('./task0090-subsets-2/subsets-2.js')();

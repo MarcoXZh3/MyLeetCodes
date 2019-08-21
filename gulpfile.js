@@ -273,3 +273,6 @@ gulp.task('t0088', (callback) => {
 gulp.task('t0089', (callback) => {
   require('./task0089-gray-code/gray-code.js')(callback);
 });
+gulp.task('t0090', (callback) => {
+  require('./task0090-subsets-2/subsets-2.js')(callback);
+});
