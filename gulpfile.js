@@ -279,6 +279,9 @@ gulp.task('t0090', (callback) => {
 gulp.task('t0091', (callback) => {
   require('./task0091-decode-ways/decode-ways.js')(callback);
 });
+gulp.task('t0092', (callback) => {
+  require('./task0092-rev-link-list-2/rev-link-list-2.js')(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require('./task0206-rev-link-list/rev-link-list.js')(callback);

@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0206-rev-link-list/rev-link-list.js')();
+require('./task0092-rev-link-list-2/rev-link-list-2.js')();

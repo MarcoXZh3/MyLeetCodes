@@ -96,6 +96,7 @@ Table of Contents
 89. \<**Medium**>   Gray Code
 90. \<**Medium**>   Subsets (Similar to Task 78)
 91. \<**Medium**>   Decode Ways
+92. \<**Medium**>   Reverse Linked List II (Enhanced of Task 206)
 
 206. \<**Easy**>    Reverse Linked List
 
