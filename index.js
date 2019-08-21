@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0092-rev-link-list-2/rev-link-list-2.js')();
+require('./task0093-restore-ip/restore-ip.js')();

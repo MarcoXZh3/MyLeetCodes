@@ -97,6 +97,7 @@ Table of Contents
 90. \<**Medium**>   Subsets (Similar to Task 78)
 91. \<**Medium**>   Decode Ways
 92. \<**Medium**>   Reverse Linked List II (Enhanced of Task 206)
+93. \<**Medium**>   Restore IP Addresses (Similar to Task 91)
 
 206. \<**Easy**>    Reverse Linked List
 
