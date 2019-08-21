@@ -276,3 +276,6 @@ gulp.task('t0089', (callback) => {
 gulp.task('t0090', (callback) => {
   require('./task0090-subsets-2/subsets-2.js')(callback);
 });
+gulp.task('t0091', (callback) => {
+  require('./task0091-decode-ways/decode-ways.js')(callback);
+});

@@ -95,6 +95,7 @@ Table of Contents
 88. \<**Easy**>     Merge Sorted Array
 89. \<**Medium**>   Gray Code
 90. \<**Medium**>   Subsets (Similar to Task 78)
+91. \<**Medium**>   Decode Ways
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
