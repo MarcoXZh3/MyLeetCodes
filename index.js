@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0089-gray-code/gray-code.js')();
+require('./task0088-merge-sort-array/merge-sort-array.js')();

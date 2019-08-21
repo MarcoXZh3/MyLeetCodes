@@ -267,6 +267,9 @@ gulp.task('t0086', (callback) => {
 gulp.task('t0087', (callback) => {
   require('./task0087-scramble-str/scramble-str.js')(callback);
 });
+gulp.task('t0088', (callback) => {
+  require('./task0088-merge-sort-array/merge-sort-array.js')(callback);
+});
 gulp.task('t0089', (callback) => {
   require('./task0089-gray-code/gray-code.js')(callback);
 });

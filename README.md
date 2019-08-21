@@ -92,6 +92,7 @@ Table of Contents
 85. \<**Hard**>     Maximal Rectangle
 86. \<**Medium**>   Partition List
 87. \<**Hard**>     Scramble String
+88. \<**Easy**>     Merge Sorted Array
 89. \<**Medium**>   Gray Code
 
 
