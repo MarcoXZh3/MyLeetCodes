@@ -6,7 +6,17 @@
  * @return {void} Do not return anything, modify nums1 in-place instead.
  */
 const merge = function(nums1, m, nums2, n) {
-
+  m--;
+  n--;
+  let i = m + n + 1;
+  while (i >= 0) {
+    if (n < 0 || nums1[m] > nums2[n]) {
+      nums1[i] = nums1[m--];
+    } else {
+      nums1[i] = nums2[n--];
+    }
+    i--;
+  }
 };
 
 
