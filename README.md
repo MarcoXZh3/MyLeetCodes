@@ -97,5 +97,7 @@ Table of Contents
 90. \<**Medium**>   Subsets (Similar to Task 78)
 91. \<**Medium**>   Decode Ways
 
+206. \<**Easy**>    Reverse Linked List
+
 
 [LeetCode]: https://leetcode.com/problemset/all/

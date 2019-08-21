@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0091-decode-ways/decode-ways.js')();
+require('./task0206-rev-link-list/rev-link-list.js')();
