@@ -98,6 +98,7 @@ Table of Contents
 91. \<**Medium**>   Decode Ways
 92. \<**Medium**>   Reverse Linked List II (Enhanced of Task 206)
 93. \<**Medium**>   Restore IP Addresses (Similar to Task 91)
+94. \<**Medium**>   \<***Binary Tree***> Binary Tree Inorder Traversal
 
 206. \<**Easy**>    Reverse Linked List
 

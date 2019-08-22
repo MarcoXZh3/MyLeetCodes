@@ -285,6 +285,9 @@ gulp.task('t0092', (callback) => {
 gulp.task('t0093', (callback) => {
   require('./task0093-restore-ip/restore-ip.js')(callback);
 });
+gulp.task('t0094', (callback) => {
+  require('./task0094-bin-tree-inorder/bin-tree-inorder.js')(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require('./task0206-rev-link-list/rev-link-list.js')(callback);
