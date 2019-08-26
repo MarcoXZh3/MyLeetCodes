@@ -100,6 +100,7 @@ Table of Contents
 93. \<**Medium**>   Restore IP Addresses (Similar to Task 91)
 94. \<**Medium**>   \<***Binary Tree***> Binary Tree Inorder Traversal
 
+96. \<**Medium**>   \<***Binary Search Tree***> Unique Binary Search Trees
 206. \<**Easy**>    Reverse Linked List
 
 
