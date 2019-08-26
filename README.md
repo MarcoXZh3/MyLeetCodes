@@ -99,8 +99,8 @@ Table of Contents
 92. \<**Medium**>   Reverse Linked List II (Enhanced of Task 206)
 93. \<**Medium**>   Restore IP Addresses (Similar to Task 91)
 94. \<**Medium**>   \<***Binary Tree***> Binary Tree Inorder Traversal
-
-96. \<**Medium**>   \<***Binary Search Tree***> Unique Binary Search Trees
+95. \<**Medium**>   \<***Binary Search Tree***> Unique Binary Search Trees II (Enhanced of Task 95)
+96. \<**Medium**>   Unique Binary Search Trees
 206. \<**Easy**>    Reverse Linked List
 
 

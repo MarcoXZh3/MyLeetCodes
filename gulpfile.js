@@ -288,7 +288,9 @@ gulp.task('t0093', (callback) => {
 gulp.task('t0094', (callback) => {
   require('./task0094-bin-tree-inorder/bin-tree-inorder.js')(callback);
 });
-
+gulp.task('t0095', (callback) => {
+  require('./task0095-unique-bst-2/unique-bst-2.js')(callback);
+});
 gulp.task('t0096', (callback) => {
   require('./task0096-unique-bst/unique-bst.js')(callback);
 });
