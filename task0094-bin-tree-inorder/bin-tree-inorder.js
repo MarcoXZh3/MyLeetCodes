@@ -57,7 +57,7 @@ const main = (callback) => {
   console.log('Task 0094 - Binary Tree Inorder Traversal:');
   [
     [1, null, 2, null, null, 3],
-    [ 37,   -34, -48,  null, -100, -100,   48, null, null, null, null, null,
+    [  37,  -34, -48,  null, -100, -100,   48, null, null, null, null, null,
      null,  -54, null, null, null, null, null, null, null, null, null, null,
      null, null, null,  -71,  -22, null, null, null, null, null, null, null,
      null, null, null, null, null, null, null, null, null, null, null, null,
@@ -65,9 +65,8 @@ const main = (callback) => {
     // [-34, -100, 37, -100, -48, -71, -54, -22, 8, 48]
   ].forEach( vs => {
     const root = array2bintree(vs);
-    console.log(`  tree=[${vs.map( v=>v==null?'null':v ).join(', ')}]`);
-    console.log(`  inor=[${inorderTraversal(root).join(', ')}]`);
-    console.log(`${printTree(root)}`);
+    console.log(`inor=[${inorderTraversal(root).join(', ')}]`);
+    console.log(printTree(root));
   });
   if (callback) {
     callback();
