@@ -3,6 +3,31 @@
 
 
 /**
+ * recursion: count every case
+ * @param {number}      n   number of nodes
+ * @return {number}         how many BSTs to hold these many nodes
+ */
+const numTrees0 = function(n) {
+  /**
+   * @param {number}  start   the smallest value of all the BST nodes
+   * @param {number}  end     the largest value of all the BST nodes
+   * @returns {number}        how many BSTs to hold these nodes
+   */
+  const recursion = (start, end) => {
+    if (start > end) {
+      return 1;
+    }
+    let res = 0;
+    for (let i = start; i <= end; i++) {
+      res += recursion(1, i - start) * recursion(i + 1, end);
+    }
+    return res;
+  };
+  return recursion(1, n);
+};
+
+
+/**
  * dynamic programming: F(n) = SUM(F(i - 1) * F(n - i)) where i = 1, ..., n
  * @param {number}      n   number of nodes
  * @return {number}         how many BSTs to hold these many nodes
@@ -29,6 +54,7 @@ const main = (callback) => {
   [
     3,
     4,
+    17,
   ].forEach( v => {
     console.log(`  n=${v}, BSTs=${numTrees(v)}`);
   });
