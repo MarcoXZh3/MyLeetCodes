@@ -297,6 +297,9 @@ gulp.task('t0096', (callback) => {
 gulp.task('t0097', (callback) => {
   require('./task0097-interleave-str/interleave-str.js')(callback);
 });
+gulp.task('t0098', (callback) => {
+  require('./task0098-valid-bst/valid-bst.js')(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require('./task0206-rev-link-list/rev-link-list.js')(callback);
