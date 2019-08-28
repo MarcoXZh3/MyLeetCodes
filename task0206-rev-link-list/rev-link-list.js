@@ -1,4 +1,5 @@
-const { ListNode, array2list, printList } = require('../_utils/list');
+const path = require('path');
+const { ListNode, array2list, printList } = require(path.resolve('_utils/list'));
 
 
 /**
