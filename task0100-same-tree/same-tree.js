@@ -8,7 +8,12 @@ const TreeNode = BinaryTreeNode;
  * @return {boolean}      whether they are same or not
  */
 const isSameTree = function(p, q) {
-
+  const recursion = (n1, n2) => {
+    return n1 && n2 && n1.val === n2.val &&
+           recursion(n1.left, n2.left) && recursion(n1.right, n2.right)
+           || n1 == null && n2 == null;
+  };
+  return recursion(p, q);
 };
 
 
