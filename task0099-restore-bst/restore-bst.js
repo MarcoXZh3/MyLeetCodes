@@ -7,7 +7,28 @@ const TreeNode = BinaryTreeNode;
  * @return {void} Do not return anything, modify root in-place instead.
  */
 const recoverTree = function(root) {
+  const recursion = (root) => {
+    if (root) {
+      recursion(root.left);
+      // mis-ordered node found
+      if (prev && prev.val >= root.val) {
+        first = first || prev;
+        second = root;
+      }
+      prev = root;
+      recursion(root.right);
+    }
+  };
 
+  // in-order traverse and collect the node orders
+  let prev = null;
+  let first = null;
+  let second = null;
+  recursion(root);
+  // the two nodes found - swap them
+  prev = first.val;
+  first.val = second.val;
+  second.val = prev;
 };
 
 
