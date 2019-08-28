@@ -4,11 +4,47 @@ const TreeNode = BinaryTreeNode;
 
 
 /**
+ * recursion
+ * @param {TreeNode}  root  root of the tree
+ * @return {boolean}        whether symmetric or not
+ */
+const isSymmetric0 = function(root) {
+  const recursion = (root1, root2) => {
+    return !!(!root1 && !root2 ||
+              root1 && root2 &&
+              root1.val === root2.val &&
+              recursion(root1.left, root2.right) &&
+              recursion(root1.right, root2.left)
+           );
+  };
+  return !root || recursion(root.left, root.right);
+};
+
+
+/**
+ * iteration with a queue
  * @param {TreeNode}  root  root of the tree
  * @return {boolean}        whether symmetric or not
  */
 const isSymmetric = function(root) {
-
+  const queue = [];
+  queue.push(root);
+  queue.push(root);
+  while(queue.length > 0) {
+    const node1 = queue.pop();
+    const node2 = queue.pop();
+    if (!node1 && !node2) {
+      continue ;
+    }
+    if (!node1 || !node2 || node1.val !== node2.val) {
+      return false;
+    }
+    queue.push(node1.left);
+    queue.push(node2.right);
+    queue.push(node1.right);
+    queue.push(node2.left);
+  }
+  return true;
 };
 
 
@@ -21,6 +57,8 @@ const main = (callback) => {
   [
     [1, 2, 2, 3, 4, 4, 3],
     [1, 2, 2, null, 3, null, 3],
+    [1, 2, 2, 2, null, 2],
+    [1, 0],
   ].forEach( vs => {
     const root = array2bintree(vs);
     console.log(printTree(root));
