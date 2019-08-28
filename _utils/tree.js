@@ -176,7 +176,7 @@ module.exports.printTree = function(root) {
         s2 += '-';
       }
       s2 += '+';
-      while (s2.length < rWidth) {
+      while (s2.length < rWidth + Math.floor(gap.length / 2)) {
         s2 += ' ';
       }
     } else {
