@@ -28,8 +28,8 @@ const isSymmetric0 = function(root) {
  */
 const isSymmetric = function(root) {
   const queue = [];
-  queue.push(root);
-  queue.push(root);
+  queue.unshift(root);
+  queue.unshift(root);
   while(queue.length > 0) {
     const node1 = queue.pop();
     const node2 = queue.pop();
@@ -39,10 +39,10 @@ const isSymmetric = function(root) {
     if (!node1 || !node2 || node1.val !== node2.val) {
       return false;
     }
-    queue.push(node1.left);
-    queue.push(node2.right);
-    queue.push(node1.right);
-    queue.push(node2.left);
+    queue.unshift(node1.left);
+    queue.unshift(node2.right);
+    queue.unshift(node1.right);
+    queue.unshift(node2.left);
   }
   return true;
 };
