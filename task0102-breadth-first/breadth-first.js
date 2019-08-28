@@ -4,11 +4,54 @@ const TreeNode = BinaryTreeNode;
 
 
 /**
+ * recursion with pre-order traversal
+ * @param {TreeNode}      root    root of the tree
+ * @return {number[][]}           tree node values by level
+ */
+const levelOrder0 = function(root) {
+  const recursion = (root, level, res) => {
+    if (!root) {
+      return ;
+    }
+    if (level >= res.length) {
+      res.push([]);
+    }
+    res[level].push(root.val);
+    recursion(root.left, level + 1, res);
+    recursion(root.right, level + 1, res);
+  };
+  const res = [];
+  recursion(root, 0, res);
+  return res;
+};
+
+
+/**
+ * iteration with queue
  * @param {TreeNode}      root    root of the tree
  * @return {number[][]}           tree node values by level
  */
 const levelOrder = function(root) {
-  return [];
+  const res = [];
+  if (!root) {
+    return res;
+  }
+  const queue = [root];
+  while (queue.length > 0) {
+    const level = queue.length;
+    const vals = [];
+    for (let i = 0; i < level; i++) {
+      if (queue[queue.length - 1].left) {
+        queue.unshift(queue[queue.length - 1].left);
+      }
+      if (queue[queue.length - 1].right) {
+        queue.unshift(queue[queue.length - 1].right);
+      }
+      vals.push(queue.pop().val);
+    }
+    res.push(vals);
+  }
+  return res;
 };
 
 
