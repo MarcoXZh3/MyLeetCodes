@@ -104,6 +104,7 @@ Table of Contents
 97. \<**Hard**>     Interleaving String
 98. \<**Medium**>   \<***Binary Search Tree***> Validate Binary Search Tree
 99. \<**Hard**>     \<***Binary Search Tree***> Recover Binary Search Tree
+100. \<**Easy**>    \<***Binary Tree***> Same Tree
 
 206. \<**Easy**>    Reverse Linked List
 

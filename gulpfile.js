@@ -303,6 +303,9 @@ gulp.task('t0098', (callback) => {
 gulp.task('t0099', (callback) => {
   require('./task0099-restore-bst/restore-bst.js')(callback);
 });
+gulp.task('t0100', (callback) => {
+  require('./task0100-same-tree/same-tree.js')(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require('./task0206-rev-link-list/rev-link-list.js')(callback);

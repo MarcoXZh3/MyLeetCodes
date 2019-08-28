@@ -3,4 +3,4 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require('./task0099-restore-bst/restore-bst.js')();
+require('./task0100-same-tree/same-tree.js')();
