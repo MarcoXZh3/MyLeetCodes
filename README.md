@@ -106,7 +106,8 @@ Table of Contents
 99. \<**Hard**>     \<***Binary Search Tree***> Recover Binary Search Tree
 100. \<**Easy**>    \<***Binary Tree***> Same Tree
 101. \<**Easy**>    \<***Binary Tree***> Symmetric Tree
-101. \<**Easy**>    \<***Binary Tree***> Binary Tree Level Order Traversal
+102. \<**Medium**>  \<***Binary Tree***> Binary Tree Level Order Traversal
+103. \<**Medium**>  \<***Binary Tree***> Binary Tree Zigzag Level Order Traversal
 
 206. \<**Easy**>    Reverse Linked List
 
