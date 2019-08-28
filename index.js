@@ -6,5 +6,5 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require(path.resolve('archives/task0100-same-tree/same-tree.js'))( () => {
+require(path.resolve('task0101-symmetric-tree/symmetric-tree.js'))( () => {
 });

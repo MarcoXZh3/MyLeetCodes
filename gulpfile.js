@@ -307,6 +307,9 @@ gulp.task('t0099', (callback) => {
 gulp.task('t0100', (callback) => {
   require(path.resolve('archives/task0100-same-tree/same-tree.js'))(callback);
 });
+gulp.task('t0101', (callback) => {
+  require(path.resolve('task0101-symmetric-tree/symmetric-tree.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);
