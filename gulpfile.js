@@ -316,6 +316,9 @@ gulp.task('t0102', (callback) => {
 gulp.task('t0103', (callback) => {
   require(path.resolve('task0103-breadth-first-zigzag/breadth-first-zigzag.js'))(callback);
 });
+gulp.task('t0104', (callback) => {
+  require(path.resolve('task0104-max-tree-depth/max-tree-depth.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);

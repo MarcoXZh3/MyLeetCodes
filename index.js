@@ -6,5 +6,5 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require(path.resolve('task0103-breadth-first-zigzag/breadth-first-zigzag.js'))( () => {
+require(path.resolve('task0104-max-tree-depth/max-tree-depth.js'))( () => {
 });
