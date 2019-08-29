@@ -322,6 +322,9 @@ gulp.task('t0104', (callback) => {
 gulp.task('t0105', (callback) => {
   require(path.resolve('task0105-tree-by-in-pre/tree-by-in-pre.js'))(callback);
 });
+gulp.task('t0106', (callback) => {
+  require(path.resolve('task0106-tree-by-in-post/tree-by-in-post.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);
