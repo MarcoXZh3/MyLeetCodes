@@ -6,5 +6,5 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require(path.resolve('task0104-max-tree-depth/max-tree-depth.js'))( () => {
+require(path.resolve('task0105-tree-by-in-pre/tree-by-in-pre.js'))( () => {
 });

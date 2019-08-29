@@ -319,6 +319,9 @@ gulp.task('t0103', (callback) => {
 gulp.task('t0104', (callback) => {
   require(path.resolve('task0104-max-tree-depth/max-tree-depth.js'))(callback);
 });
+gulp.task('t0105', (callback) => {
+  require(path.resolve('task0105-tree-by-in-pre/tree-by-in-pre.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);

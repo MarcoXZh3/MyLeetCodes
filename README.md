@@ -109,6 +109,7 @@ Table of Contents
 102. \<**Medium**>  \<***Binary Tree***> Binary Tree Level Order Traversal
 103. \<**Medium**>  \<***Binary Tree***> Binary Tree Zigzag Level Order Traversal
 104. \<**Easy**>    \<***Binary Tree***> Maximum Depth of Binary Tree
+105. \<**Medium**>  \<***Binary Tree***> Construct Binary Tree from Preorder and Inorder Traversal
 
 206. \<**Easy**>    Reverse Linked List
 
