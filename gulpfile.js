@@ -328,6 +328,9 @@ gulp.task('t0106', (callback) => {
 gulp.task('t0107', (callback) => {
   require(path.resolve('task0107-breadth-first-reverse/breadth-first-reverse.js'))(callback);
 });
+gulp.task('t0108', (callback) => {
+  require(path.resolve('task0108-sorted-arr-to-bst/sorted-arr-to-bst.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);
