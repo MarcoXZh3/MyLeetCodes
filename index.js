@@ -6,5 +6,5 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require(path.resolve('task0108-sorted-arr-to-bst/sorted-arr-to-bst.js'))( () => {
+require(path.resolve('task0109-sorted-list-to-bst/sorted-list-to-bst.js'))( () => {
 });
