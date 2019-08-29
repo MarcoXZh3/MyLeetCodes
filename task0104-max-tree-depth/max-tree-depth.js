@@ -8,7 +8,7 @@ const TreeNode = BinaryTreeNode;
  * @return {number}           max depth of the tree
  */
 const maxDepth = function(root) {
-
+  return root ? 1 + Math.max(maxDepth(root.left), maxDepth(root.right)) : 0;
 };
 
 
