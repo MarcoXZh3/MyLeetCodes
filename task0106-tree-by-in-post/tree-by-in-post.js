@@ -9,7 +9,25 @@ const TreeNode = BinaryTreeNode;
  * @return {TreeNode}             root of the binary tree
  */
 const buildTree = function(inorder, postorder) {
-
+  const recursion = (ins, posts, start, end) => {
+    // locate the value of last of postorder in inorder
+    let idx = end - 1;
+    while (idx >= start && ins[idx] !== posts[posts.length - 1]) {
+      idx --;
+    }
+    // not found - don't create new node
+    if (idx < start) {
+      return null;
+    }
+    // found - create new node and return it at the end
+    const root = new TreeNode(posts.pop());
+    // right child comes out from right half of inorder
+    root.right = recursion(ins, posts, idx + 1, end);
+    // left child comes out from left half of inorder
+    root.left = recursion(ins, posts, start, idx);
+    return root;
+  };
+  return recursion(inorder, postorder, 0, inorder.length);
 };
 
 
