@@ -18,6 +18,7 @@ Table of Contents
 109. \<**Medium**>  \<***Binary Tree***> Convert Sorted List to Binary Search Tree
 110. \<**Easy**>    \<***Binary Tree***> Balanced Binary Tree
 111. \<**Easy**>    \<***Binary Tree***> Minimum Depth of Binary Tree (Similar to Task 104)
+112. \<**Easy**>    \<***Binary Tree***> Path Sum
 
 206. \<**Easy**>    Reverse Linked List
 

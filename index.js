@@ -6,5 +6,5 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require(path.resolve('task0111-min-tree-depth/min-tree-depth.js'))( () => {
+require(path.resolve('task0112-path-sum/path-sum.js'))( () => {
 });
