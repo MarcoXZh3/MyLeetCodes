@@ -346,6 +346,9 @@ gulp.task('t0112', (callback) => {
 gulp.task('t0113', (callback) => {
   require(path.resolve('task0113-path-sum-2/path-sum-2.js'))(callback);
 });
+gulp.task('t0114', (callback) => {
+  require(path.resolve('task0114-flat-tree-to-list/flat-tree-to-list.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);
