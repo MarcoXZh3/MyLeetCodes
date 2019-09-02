@@ -9,7 +9,30 @@ const TreeNode = BinaryTreeNode;
  * @return {number[][]}       all the solutions
  */
 const pathSum = function(root, sum) {
-  return [];
+  const backtrack = (root, sum, res, cur) => {
+    cur.push(root.val);
+    if (!root.left && !root.right) {
+      let total = 0;
+      for (let v of cur) {
+        total += v;
+      }
+      if (total === sum) {
+        res.push(JSON.parse(JSON.stringify(cur)));
+      }
+    }
+    if (root.left) {
+      backtrack(root.left, sum, res, cur);
+    }
+    if (root.right) {
+      backtrack(root.right, sum, res, cur);
+    }
+    cur.pop();
+  };
+  const res = [];
+  if (root) {
+    backtrack(root, sum, res, []);
+  }
+  return res;
 };
 
 
@@ -20,11 +43,11 @@ const pathSum = function(root, sum) {
 const main = (callback) => {
   console.log('Task 0113 - Path Sum II:');
   [
-    [[5, 4, 8, 11, null, 13, 4, 7, 2, null, null, null, null, null, 1], 22],
+    [[5, 4, 8, 11, null, 13, 4, 7, 2, null, null, null, null, 5, 1], 22],
   ].forEach( vs => {
     const root = array2bintree(vs[0]);
     console.log(printTree(root));
-    console.log(`  paths=${`[${pathSum(root, vs[1]).map(p=>`[${p.join(',')}]`).join(', ')}]`}`);
+    console.log(`  sum=${vs[1]}, paths=${`[${pathSum(root, vs[1]).map(p=>`[${p.join(',')}]`).join(', ')}]`}`);
   });
   if (callback) {
     callback();
