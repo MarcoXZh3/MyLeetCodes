@@ -334,6 +334,9 @@ gulp.task('t0108', (callback) => {
 gulp.task('t0109', (callback) => {
   require(path.resolve('task0109-sorted-list-to-bst/sorted-list-to-bst.js'))(callback);
 });
+gulp.task('t0110', (callback) => {
+  require(path.resolve('task0110-balanced-tree/balanced-tree.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);
