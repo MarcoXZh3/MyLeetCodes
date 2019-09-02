@@ -337,6 +337,9 @@ gulp.task('t0109', (callback) => {
 gulp.task('t0110', (callback) => {
   require(path.resolve('task0110-balanced-tree/balanced-tree.js'))(callback);
 });
+gulp.task('t0111', (callback) => {
+  require(path.resolve('task0111-min-tree-depth/min-tree-depth.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);
