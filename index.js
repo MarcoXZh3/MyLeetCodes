@@ -6,5 +6,5 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require(path.resolve('task0112-path-sum/path-sum.js'))( () => {
+require(path.resolve('task0113-path-sum-2/path-sum-2.js'))( () => {
 });
