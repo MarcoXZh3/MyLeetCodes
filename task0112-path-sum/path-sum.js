@@ -9,7 +9,12 @@ const TreeNode = BinaryTreeNode;
  * @return {boolean}          whether the path exists
  */
 const hasPathSum = function(root, sum) {
-
+  const recursion = (root, cur, sum) => {
+    return !root.left && !root.right ? cur + root.val === sum :
+           (root.left ? recursion(root.left, cur + root.val, sum) : false) ||
+           (root.right ? recursion(root.right, cur + root.val, sum) : false);
+  };
+  return root ? recursion(root, 0, sum) : false;
 };
 
 
