@@ -6,5 +6,5 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require(path.resolve('task0115-distinct-sub/distinct-sub.js'))( () => {
+require(path.resolve('task0116-tree-node-next-right/tree-node-next-right.js'))( () => {
 });
