@@ -87,9 +87,13 @@ module.exports.array2bintree = function(vals) {
  * @param {TreeNode}  root    root of the tree
  * @returns {string}          the string representation of the tree
  */
-module.exports.printTree = function(root) {
+module.exports.printTree = function(root, toString) {
   if (!root) {
-    return '{NULL}';
+    try {
+      return toString ? toString(root) : '{NULL}';
+    } catch (_) {
+      return '{NULL}';
+    }
   }
 
   const gap = '   ';
@@ -100,7 +104,11 @@ module.exports.printTree = function(root) {
    * @returns {number}        the max length
    */
   const getWidth = (r) => {
-    return r ? Math.max(getWidth(r.left), getWidth(r.right), `${r.val}`.length) : 0;
+    return r ? Math.max(
+                getWidth(r.left),
+                getWidth(r.right),
+                toString ? toString(r).length : `${r.val}`.length
+               ) : 0;
   };
 
   /**
@@ -115,7 +123,7 @@ module.exports.printTree = function(root) {
     }
     max += max % 2 === 0 ? 1 : 0;     // all values will have odd string lengths
     // the root value line
-    let s = `${root.val}`;
+    let s = toString ? toString(root) : `${root.val}`;
     while (s.length < max) {
       s = ` ${s} `;
     }
