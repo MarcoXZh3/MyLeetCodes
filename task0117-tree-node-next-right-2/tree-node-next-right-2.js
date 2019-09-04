@@ -27,7 +27,26 @@ const Node = function(val, p, l, r, n) {
  * @return {Node}           root of the modified tree
  */
 const connect = function(root) {
-
+  const root0 = root;
+  let dummy = new Node(0);
+  let prev = dummy;
+  while (root) {
+    if (root.left) {
+      prev.next = root.left;
+      prev = prev.next;
+    }
+    if (root.right) {
+      prev.next = root.right;
+      prev = prev.next;
+    }
+    root = root.next;
+    if (!root) {
+      prev = dummy;
+      root = dummy.next;
+      dummy.next = null;
+    }
+  }
+  return root0;
 };
 
 
@@ -39,6 +58,7 @@ const main = (callback) => {
   console.log('Task 0117 - Populating Next Right Pointers in Each Node II:');
   [
     [1, 2, 3, 4, 5, null, 7],
+    [1, 2, 6, 3, 5, null, 7, 4, null, null, null, null, null, null, 8],
   ].forEach( vs => {
     const toString = (node) => `${node.val}(${node.next?node.next.val:'NULL'})`;
     let root = array2bintree(vs);
