@@ -3,7 +3,17 @@
  * @return {number}               max profit
  */
 const maxProfit = function(prices) {
-
+  let buy1 = Number.MIN_SAFE_INTEGER;
+  let buy2 = Number.MIN_SAFE_INTEGER;
+  let sell1 = 0;
+  let sell2 = 0;
+  for (let price of prices) {
+    sell2 = Math.max(sell2, buy2 + price);  // the max if sell 2nd
+    buy2  = Math.max(buy2, sell1 - price);  // the max if buy 2nd
+    sell1 = Math.max(sell1, buy1 + price);  // the max if sell 1st
+    buy1  = Math.max(buy1, -price);         // the max if buy 1st
+  }
+  return sell2;
 };
 
 
