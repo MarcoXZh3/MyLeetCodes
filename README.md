@@ -27,6 +27,7 @@ Table of Contents
 118. \<**Easy**>    Pascal's Triangle
 119. \<**Easy**>    Pascal's Triangle II
 120. \<**Medium**>  Minimum Sum in Triangle
+121. \<**Easy**>    Best Time to Buy and Sell Stock
 
 206. \<**Easy**>    Reverse Linked List
 

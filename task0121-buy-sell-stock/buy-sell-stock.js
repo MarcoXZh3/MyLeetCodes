@@ -1,0 +1,28 @@
+/**
+ * @param {number[]}    prices    stock prices
+ * @return {number}               max profit
+ */
+const maxProfit = function(prices) {
+
+};
+
+
+/**
+ * main function
+ * @param {function}  callback    the callback function
+ */
+const main = (callback) => {
+  console.log('Task 0121 - Best Time to Buy and Sell Stock:');
+  [
+    [7, 1, 5, 3, 6, 4],
+    [7, 6, 4, 3, 1],
+  ].forEach( vs => {
+    console.log(`  max=${maxProfit(vs)}; stocks=[${vs.join(', ')}]`);
+  });
+  if (callback) {
+    callback();
+  }
+};
+
+
+module.exports = main;
