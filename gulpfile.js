@@ -358,6 +358,9 @@ gulp.task('t0116', (callback) => {
 gulp.task('t0117', (callback) => {
   require(path.resolve('task0117-tree-node-next-right-2/tree-node-next-right-2.js'))(callback);
 });
+gulp.task('t0118', (callback) => {
+  require(path.resolve('task0118-pascal-triangle/pascal-triangle.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);

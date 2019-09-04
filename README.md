@@ -24,6 +24,7 @@ Table of Contents
 115. \<**Medium**>  Distinct Subsequences
 116. \<**Medium**>  \<***Binary Tree***> Populating Next Right Pointers in Each Node
 117. \<**Medium**>  \<***Binary Tree***> Populating Next Right Pointers in Each Node II
+118. \<**Easy**>    Pascal's Triangle
 
 206. \<**Easy**>    Reverse Linked List
 
