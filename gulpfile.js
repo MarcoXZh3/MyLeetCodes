@@ -364,6 +364,9 @@ gulp.task('t0118', (callback) => {
 gulp.task('t0119', (callback) => {
   require(path.resolve('task0119-pascal-triangle-2/pascal-triangle-2.js'))(callback);
 });
+gulp.task('t0120', (callback) => {
+  require(path.resolve('task0120-triangle-min-sum/triangle-min-sum.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);

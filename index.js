@@ -6,5 +6,5 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require(path.resolve('task0119-pascal-triangle-2/pascal-triangle-2.js'))( () => {
+require(path.resolve('task0120-triangle-min-sum/triangle-min-sum.js'))( () => {
 });
