@@ -3,14 +3,17 @@
  * @return {number[][]}             the Pascal's triangle
  */
 const generate = function(numRows) {
-  return [
-    [1],
-   [1,1],
-  [1,2,1],
- [1,3,3,1],
-[1,4,6,4,1]
-]
-;
+  const res = [];
+  while (numRows-- > 0) {
+    const prev = res[res.length - 1] || [];
+    const cur = prev.slice();
+    for (let i = 1; i < cur.length; i++) {
+      cur[i] = prev[i - 1] + prev[i];
+    }
+    cur.push(1);
+    res.push(cur);
+  }
+  return res;
 };
 
 
