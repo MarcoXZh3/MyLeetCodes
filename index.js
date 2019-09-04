@@ -6,5 +6,5 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require(path.resolve('task0121-buy-sell-stock/buy-sell-stock.js'))( () => {
+require(path.resolve('task0122-buy-sell-stock-2/buy-sell-stock-2.js'))( () => {
 });

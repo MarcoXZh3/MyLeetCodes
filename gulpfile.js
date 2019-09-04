@@ -370,6 +370,9 @@ gulp.task('t0120', (callback) => {
 gulp.task('t0121', (callback) => {
   require(path.resolve('task0121-buy-sell-stock/buy-sell-stock.js'))(callback);
 });
+gulp.task('t0122', (callback) => {
+  require(path.resolve('task0122-buy-sell-stock-2/buy-sell-stock-2.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);
