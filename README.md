@@ -33,6 +33,8 @@ Table of Contents
 124. \<**Hard**>    \<***Binary Tree***> Binary Tree Maximum Path Sum
 125. \<**Easy**>    Valid Palindrome
 
+127. \<**Medium**>  Word Ladder
+
 206. \<**Easy**>    Reverse Linked List
 
 
