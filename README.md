@@ -31,6 +31,7 @@ Table of Contents
 122. \<**Easy**>    Best Time to Buy and Sell Stock II
 123. \<**Hard**>    Best Time to Buy and Sell Stock III
 124. \<**Hard**>    \<***Binary Tree***> Binary Tree Maximum Path Sum
+125. \<**Easy**>    Valid Palindrome
 
 206. \<**Easy**>    Reverse Linked List
 

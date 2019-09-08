@@ -6,5 +6,5 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require(path.resolve('task0124-max-path-sum/max-path-sum.js'))( () => {
+require(path.resolve('task0125-valid-palindrome/valid-palindrome.js'))( () => {
 });

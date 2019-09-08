@@ -379,6 +379,9 @@ gulp.task('t0123', (callback) => {
 gulp.task('t0124', (callback) => {
   require(path.resolve('task0124-max-path-sum/max-path-sum.js'))(callback);
 });
+gulp.task('t0125', (callback) => {
+  require(path.resolve('task0125-valid-palindrome/valid-palindrome.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);
