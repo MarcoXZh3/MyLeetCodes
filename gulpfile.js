@@ -382,7 +382,9 @@ gulp.task('t0124', (callback) => {
 gulp.task('t0125', (callback) => {
   require(path.resolve('task0125-valid-palindrome/valid-palindrome.js'))(callback);
 });
-
+gulp.task('t0126', (callback) => {
+  require(path.resolve('task0126-word-ladder-2/word-ladder-2.js'))(callback);
+});
 gulp.task('t0127', (callback) => {
   require(path.resolve('task0127-word-ladder/word-ladder.js'))(callback);
 });
