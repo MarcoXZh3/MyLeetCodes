@@ -8,7 +8,14 @@ const TreeNode = BinaryTreeNode;
  * @return {number}             the sum from root to all leaves
  */
 const sumNumbers = function(root) {
-
+  const recursion = (root, sum) => {
+    return root ? (
+            !root.left && !root.right ? sum * 10 + root.val :
+                                        recursion(root.left, sum * 10 + root.val) +
+                                        recursion(root.right, sum * 10 + root.val)
+           ) : 0;
+  }
+  return recursion(root, 0);
 };
 
 
