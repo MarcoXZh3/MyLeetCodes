@@ -37,6 +37,7 @@ Table of Contents
 128. \<**Hard**>    Longest Consecutive Sequence
 129. \<**Medium**>  Sum Root to Leaf Numbers
 130. \<**Medium**>  Surrounded Regions
+131. \<**Medium**>  Palindrome Partitioning
 
 206. \<**Easy**>    Reverse Linked List
 

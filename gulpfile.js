@@ -397,6 +397,9 @@ gulp.task('t0129', (callback) => {
 gulp.task('t0130', (callback) => {
   require(path.resolve('task0130-surround-region/surround-region.js'))(callback);
 });
+gulp.task('t0131', (callback) => {
+  require(path.resolve('task0131-palindrome-partition/palindrome-partition.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);
