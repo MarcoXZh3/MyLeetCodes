@@ -35,6 +35,7 @@ Table of Contents
 126. \<**Hard**>    Word Ladder II
 127. \<**Medium**>  Word Ladder
 128. \<**Hard**>    Longest Consecutive Sequence
+129. \<**Medium**>  Sum Root to Leaf Numbers
 
 206. \<**Easy**>    Reverse Linked List
 

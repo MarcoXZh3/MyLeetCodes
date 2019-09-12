@@ -391,6 +391,9 @@ gulp.task('t0127', (callback) => {
 gulp.task('t0128', (callback) => {
   require(path.resolve('task0128-longest-consec-seq/longest-consec-seq.js'))(callback);
 });
+gulp.task('t0129', (callback) => {
+  require(path.resolve('task0129-sum-root-to-leaf/sum-root-to-leaf.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);
