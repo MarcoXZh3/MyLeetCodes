@@ -34,6 +34,7 @@ Table of Contents
 125. \<**Easy**>    Valid Palindrome
 126. \<**Hard**>    Word Ladder II
 127. \<**Medium**>  Word Ladder
+128. \<**Hard**>    Longest Consecutive Sequence
 
 206. \<**Easy**>    Reverse Linked List
 

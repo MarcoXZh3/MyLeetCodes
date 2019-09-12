@@ -388,6 +388,9 @@ gulp.task('t0126', (callback) => {
 gulp.task('t0127', (callback) => {
   require(path.resolve('task0127-word-ladder/word-ladder.js'))(callback);
 });
+gulp.task('t0128', (callback) => {
+  require(path.resolve('task0128-longest-consec-seq/longest-consec-seq.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);

@@ -6,5 +6,5 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require(path.resolve('task0126-word-ladder-2/word-ladder-2.js'))( () => {
+require(path.resolve('task0128-longest-consec-seq/longest-consec-seq.js'))( () => {
 });
