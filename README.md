@@ -38,6 +38,7 @@ Table of Contents
 129. \<**Medium**>  Sum Root to Leaf Numbers
 130. \<**Medium**>  Surrounded Regions
 131. \<**Medium**>  Palindrome Partitioning
+132. \<**Hard**>    Palindrome Partitioning II
 
 206. \<**Easy**>    Reverse Linked List
 

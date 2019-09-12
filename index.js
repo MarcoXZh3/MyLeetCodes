@@ -6,5 +6,5 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require(path.resolve('task0131-palindrome-partition/palindrome-partition.js'))( () => {
+require(path.resolve('task0132-palindrome-partition-2/palindrome-partition-2.js'))( () => {
 });

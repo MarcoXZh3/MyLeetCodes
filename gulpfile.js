@@ -400,6 +400,9 @@ gulp.task('t0130', (callback) => {
 gulp.task('t0131', (callback) => {
   require(path.resolve('task0131-palindrome-partition/palindrome-partition.js'))(callback);
 });
+gulp.task('t0132', (callback) => {
+  require(path.resolve('task0132-palindrome-partition-2/palindrome-partition-2.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);
