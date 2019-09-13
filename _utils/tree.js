@@ -84,13 +84,14 @@ module.exports.array2bintree = function(vals) {
 
 /**
  * Print the tree as string
- * @param {TreeNode}  root    root of the tree
- * @returns {string}          the string representation of the tree
+ * @param {TreeNode}  root      root of the tree
+ * @param {function}  toString  the custom function to print each node
+ * @returns {string}            the string representation of the tree
  */
 module.exports.printTree = function(root, toString) {
   if (!root) {
     try {
-      return toString ? toString(root) : '{NULL}';
+      return toString(root);
     } catch (_) {
       return '{NULL}';
     }
