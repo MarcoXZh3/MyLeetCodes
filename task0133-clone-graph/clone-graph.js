@@ -4,11 +4,28 @@ const Node = GraphNode;
 
 
 /**
+ * DFS
  * @param {Node}    node    entry node of the graph
  * @return {Node}           the cloned graph's entry node
  */
 const cloneGraph = function(node) {
+  const recursion = (node) => {
+    const key = `${node.val}`;
+    if (clones[key]) {
+      return clones[key];
+    }
+    clones[key] = new Node(node.val, []);
+    for (let n of node.neighbors) {
+      clones[key].neighbors.push(recursion(n));
+    }
+    return clones[key];
+  };
 
+  if (!node) {
+    return null;
+  }
+  const clones = {};
+  return recursion(node);
 };
 
 
