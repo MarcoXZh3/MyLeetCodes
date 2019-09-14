@@ -38,37 +38,23 @@ module.exports.idxArray2Graph = function(arr) {
   if (!arr || arr.length === 0) {
     return null;
   }
-  // const map = {};
-  // for (let i = 0; i < arr.length; i++) {
-  //   if (!map[`${i}`]) {
-  //     map[`${i}`] = new GraphNode(arr[i][0]);
-  //   }
-  //   const node = map[`${i}`];
-  //   for (let j of arr[i][1]) {
-  //     const neighbor = map[`${j}`];
-  //     if (neighbor) {
-  //       node.neighbors.push(neighbor);
-  //     } else {
-  //       map[`${j}`] = new GraphNode(arr[j][0]);
-  //     }
-  //   }
-  // }
-  // return map[`0`];
 
-
-
-  // round 1: generate the isolated nodes
-  const nodes = [];
+  // create node by DFS
+  const nodes = {};
   for (let i = 0; i < arr.length; i++) {
-    nodes.push(new GraphNode(arr[i][0]));
-  }
-  // round 2: link the nodes up to the graph
-  for (let i = 0; i < nodes.length; i++) {
-    for (let idx of arr[i][1]) {
-      nodes[i].neighbors.push(nodes[idx]);
+    const key = `${i}`;
+    if (!nodes[key]) {
+      nodes[key] = new GraphNode(arr[i][0]);
+    }
+    for (let j of arr[i][1]) {
+      const key2 = `${j}`;
+      if (!nodes[key2]) {
+        nodes[key2] = new GraphNode(arr[j][0]);
+      }
+      nodes[key].neighbors.push(nodes[key2]);
     }
   }
-  return nodes[0];
+  return nodes[`0`];
 };
 
 
