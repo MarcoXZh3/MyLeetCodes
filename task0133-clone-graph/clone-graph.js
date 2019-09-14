@@ -4,11 +4,11 @@ const Node = GraphNode;
 
 
 /**
- * DFS
+ * DFS by recursion
  * @param {Node}    node    entry node of the graph
  * @return {Node}           the cloned graph's entry node
  */
-const cloneGraph = function(node) {
+const cloneGraph0 = function(node) {
   const recursion = (node) => {
     const key = `${node.val}`;
     if (clones[key]) {
@@ -26,6 +26,38 @@ const cloneGraph = function(node) {
   }
   const clones = {};
   return recursion(node);
+};
+
+
+/**
+ * BFS by queue/stack
+ * @param {Node}    node    entry node of the graph
+ * @return {Node}           the cloned graph's entry node
+ */
+const cloneGraph = function(node) {
+  if (!node) {
+    return null;
+  }
+
+  const clones = {};
+  clones[`${node.val}`] = new Node(node.val, []);
+  const queue = [node];
+  while (queue.length > 0) {
+    const cur = queue.shift();
+    const key = `${cur.val}`;
+    if (!clones[key]) {
+      clones[key] = new Node(cur.val, []);
+    }
+    for (let n of cur.neighbors) {
+      const key2 = `${n.val}`;
+      if (!clones[key2]) {
+        queue.push(n);
+        clones[key2] = new Node(n.val, []);
+      }
+      clones[key].neighbors.push(clones[key2]);
+    }
+  }
+  return clones[`${node.val}`];
 };
 
 
