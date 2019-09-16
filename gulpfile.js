@@ -406,6 +406,9 @@ gulp.task('t0132', (callback) => {
 gulp.task('t0133', (callback) => {
   require(path.resolve('task0133-clone-graph/clone-graph.js'))(callback);
 });
+gulp.task('t0134', (callback) => {
+  require(path.resolve('task0134-gas-station/gas-station.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);
