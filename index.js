@@ -6,5 +6,5 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require(path.resolve('task0134-gas-station/gas-station.js'))( () => {
+require(path.resolve('task0135-candy/candy.js'))( () => {
 });

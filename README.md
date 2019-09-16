@@ -41,6 +41,7 @@ Table of Contents
 132. \<**Hard**>    Palindrome Partitioning II
 133. \<**Medium**>  \<***Graph***> Clone Graph
 134. \<**Medium**>  Gas Station
+135. \<**Hard**>    Candy
 
 206. \<**Easy**>    Reverse Linked List
 
