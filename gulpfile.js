@@ -412,6 +412,9 @@ gulp.task('t0134', (callback) => {
 gulp.task('t0135', (callback) => {
   require(path.resolve('task0135-candy/candy.js'))(callback);
 });
+gulp.task('t0136', (callback) => {
+  require(path.resolve('task0136-single-number/single-number.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);

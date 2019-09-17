@@ -6,5 +6,5 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require(path.resolve('task0135-candy/candy.js'))( () => {
+require(path.resolve('task0136-single-number/single-number.js'))( () => {
 });

@@ -42,6 +42,7 @@ Table of Contents
 133. \<**Medium**>  \<***Graph***> Clone Graph
 134. \<**Medium**>  Gas Station
 135. \<**Hard**>    Candy
+136. \<**Easy**>    Single Number
 
 206. \<**Easy**>    Reverse Linked List
 
