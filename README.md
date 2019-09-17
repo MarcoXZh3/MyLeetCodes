@@ -45,6 +45,7 @@ Table of Contents
 136. \<**Easy**>    Single Number
 137. \<**Medium**>  Single Number II
 138. \<**Medium**>  Copy List with Random Pointer
+139. \<**Medium**>  Word Break
 
 206. \<**Easy**>    Reverse Linked List
 

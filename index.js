@@ -6,5 +6,5 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require(path.resolve('task0138-copy-list-with-rnd-ptr/copy-list with-rnd-ptr.js'))( () => {
+require(path.resolve('task0139-word-break/word-break.js'))( () => {
 });
