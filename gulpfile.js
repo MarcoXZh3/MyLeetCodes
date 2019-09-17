@@ -418,6 +418,9 @@ gulp.task('t0136', (callback) => {
 gulp.task('t0137', (callback) => {
   require(path.resolve('task0137-single-number-2/single-number-2.js'))(callback);
 });
+gulp.task('t0138', (callback) => {
+  require(path.resolve('task0138-copy-list-with-rnd-ptr/copy-list with-rnd-ptr.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);

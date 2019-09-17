@@ -44,6 +44,7 @@ Table of Contents
 135. \<**Hard**>    Candy
 136. \<**Easy**>    Single Number
 137. \<**Medium**>  Single Number II
+138. \<**Medium**>  Copy List with Random Pointer
 
 206. \<**Easy**>    Reverse Linked List
 
