@@ -415,6 +415,9 @@ gulp.task('t0135', (callback) => {
 gulp.task('t0136', (callback) => {
   require(path.resolve('task0136-single-number/single-number.js'))(callback);
 });
+gulp.task('t0137', (callback) => {
+  require(path.resolve('task0137-single-number-2/single-number-2.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);
