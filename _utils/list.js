@@ -36,18 +36,23 @@ module.exports.array2list = function(vals) {
 
 /**
  * Print the singly-linked list
- * @param {ListNode}  head    first node of the list
- * @returns {string}          the string representation of the list
+ * @param {ListNode}  head      first node of the list
+ * @param {function}  toString  the custom function to print each node
+ * @returns {string}            the string representation of the list
  */
-module.exports.printList = function(head) {
+module.exports.printList = function(head, toString) {
   if (!head) {
-    return '{NULL}';
+    try {
+      return toString(head);
+    } catch (_) {
+      return '{NULL}';
+    }
   }
 
-  let arr = [head.val];
+  let arr = [head];
   while (head.next) {
     head = head.next;
-    arr.push(head.val);
+    arr.push(head);
   }
-  return arr.join('->');
+  return arr.map( n=>toString?toString(n):`${n.val}`).join('->');
 };
