@@ -45,7 +45,22 @@ const array2RandomList = function(vals) {
  * @return {Node}           head of the the deep-copied list
  */
 const copyRandomList = function(head) {
-
+  const map = {};
+  let cur = head;
+  while (cur) {
+    const copy = map[`${cur.val}`] || new Node(cur.val);
+    map[`${cur.val}`] = copy;
+    if (cur.next) {
+      copy.next = map[`${cur.next.val}`] || new Node(cur.next.val);
+      map[`${cur.next.val}`] = copy.next;
+    }
+    if (cur.random) {
+      copy.random = map[`${cur.random.val}`] || new Node(cur.random.val);
+      map[`${cur.random.val}`] = copy.random;
+    }
+    cur = cur.next;
+  }
+  return head ? map[`${head.val}`] : null;
 };
 
 
