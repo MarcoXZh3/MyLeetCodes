@@ -6,5 +6,5 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require(path.resolve('task0142-link-list-cycle-2/link-list-cycle-2.js'))( () => {
+require(path.resolve('task0143-reorder-list/reorder-list.js'))( () => {
 });
