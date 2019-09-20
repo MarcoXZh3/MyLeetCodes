@@ -6,5 +6,5 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require(path.resolve('task0140-word-break-2/word-break-2.js'))( () => {
+require(path.resolve('task0141-link-list-cycle/link-list-cycle.js'))( () => {
 });
