@@ -23,11 +23,51 @@ const applyCycle = function (head, pos) {
 
 
 /**
+ * Hash map: O(n) on space
+ * @param {ListNode}    head    head of the linked list
+ * @return {ListNode}           the node where circle begins
+ */
+const detectCycle0 = function(head) {
+  const nodes = new Set();
+  let target = null;
+  let cur = head;
+  while (cur) {
+    if (nodes.has(cur)) {
+      target = cur;
+      break ;
+    }
+    nodes.add(cur);
+    cur = cur.next;
+  }
+  return target;
+};
+
+
+/**
+ * Two pointers: O(1) on space
  * @param {ListNode}    head    head of the linked list
  * @return {ListNode}           the node where circle begins
  */
 const detectCycle = function(head) {
+  if (!head || !head.next) {
+    return null;
+  }
 
+  let node1 = head;
+  let node2 = head;
+  while (node2.next && node2.next.next) {
+    node1 = node1.next;
+    node2 = node2.next.next;
+    if (node1 === node2) {
+      node2 = head;
+      while (node1 !== node2) {
+        node1 = node1.next;
+        node2 = node2.next;
+      }
+      return node1;
+    }
+  }
+  return null;
 };
 
 
