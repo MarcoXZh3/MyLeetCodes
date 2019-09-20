@@ -424,6 +424,9 @@ gulp.task('t0138', (callback) => {
 gulp.task('t0139', (callback) => {
   require(path.resolve('task0139-word-break/word-break.js'))(callback);
 });
+gulp.task('t0140', (callback) => {
+  require(path.resolve('task0140-word-break-2/word-break-2.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);
