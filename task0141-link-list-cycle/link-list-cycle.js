@@ -23,11 +23,46 @@ const applyCycle = function (head, pos) {
 
 
 /**
+ * Hash set: O(n) on space
+ * @param {ListNode}    head    head of the linked list
+ * @return {boolean}            whether the list has circle or not
+ */
+const hasCycle0 = function(head) {
+  if (!head) {
+    return false;
+  }
+  const nodes = new Set();
+  let cur = head.next;
+  while (cur) {
+    if (nodes.has(cur)) {
+      return true;
+    }
+    nodes.add(cur);
+    cur = cur.next;
+  }
+  return false;
+};
+
+
+/**
+ * Hash set: O(1) on space
  * @param {ListNode}    head    head of the linked list
  * @return {boolean}            whether the list has circle or not
  */
 const hasCycle = function(head) {
-
+  if (!head || !head.next) {
+    return false;
+  }
+  let slow = head;
+  let fast = head.next;
+  while (slow !== fast) {
+    if (!fast || !fast.next) {
+      return false;
+    }
+    slow = slow.next;
+    fast = fast.next.next;
+  }
+  return true;
 };
 
 
