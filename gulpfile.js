@@ -430,6 +430,9 @@ gulp.task('t0140', (callback) => {
 gulp.task('t0141', (callback) => {
   require(path.resolve('task0141-link-list-cycle/link-list-cycle.js'))(callback);
 });
+gulp.task('t0142', (callback) => {
+  require(path.resolve('task0142-link-list-cycle-2/link-list-cycle-2.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);

@@ -48,6 +48,7 @@ Table of Contents
 139. \<**Medium**>  Word Break
 140. \<**Hard**>    Word Break II
 141. \<**Easy**>    Linked List Cycle
+142. \<**Medium**>  Linked List Cycle II
 
 206. \<**Easy**>    Reverse Linked List
 
