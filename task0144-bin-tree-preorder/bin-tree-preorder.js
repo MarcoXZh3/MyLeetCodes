@@ -4,11 +4,49 @@ const TreeNode = BinaryTreeNode;
 
 
 /**
+ * recursion
+ * @param {TreeNode}    root    root node of the binary tree
+ * @return {number[]}           the traversal results
+ */
+const preorderTraversal0 = function(root) {
+  const recursion = (root, res) => {
+    if (!root) {
+      return ;
+    }
+    res.push(root.val);
+    recursion(root.left, res);
+    recursion(root.right, res);
+  };
+  const res = [];
+  recursion(root, res);
+  return res;
+};
+
+
+/**
+ * iteration by stack
  * @param {TreeNode}    root    root node of the binary tree
  * @return {number[]}           the traversal results
  */
 const preorderTraversal = function(root) {
-  return [];
+  const stack = [];
+  if (!root) {
+    return stack;
+  }
+
+  const res = [];
+  stack.push(root);
+  while (stack.length > 0) {
+    const cur = stack.pop();
+    res.push(cur.val);
+    if (cur.right) {
+      stack.push(cur.right);
+    }
+    if (cur.left) {
+      stack.push(cur.left);
+    }
+  }
+  return res;
 };
 
 
