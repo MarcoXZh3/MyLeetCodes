@@ -6,5 +6,5 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require(path.resolve('task0143-reorder-list/reorder-list.js'))( () => {
+require(path.resolve('task0144-bin-tree-preorder/bin-tree-preorder.js'))( () => {
 });

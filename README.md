@@ -50,6 +50,7 @@ Table of Contents
 141. \<**Easy**>    Linked List Cycle
 142. \<**Medium**>  Linked List Cycle II
 143. \<**Medium**>  Reorder List
+144. \<**Medium**>   \<***Binary Tree***> Binary Tree Preorder Traversal
 
 206. \<**Easy**>    Reverse Linked List
 
