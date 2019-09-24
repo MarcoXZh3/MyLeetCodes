@@ -448,6 +448,9 @@ gulp.task('t0146', (callback) => {
 gulp.task('t0147', (callback) => {
   require(path.resolve('task0147-list-insertion-sort/list-insertion-sort.js'))(callback);
 });
+gulp.task('t0148', (callback) => {
+  require(path.resolve('task0148-sort-list/sort-list.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);

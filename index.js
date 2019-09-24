@@ -6,5 +6,5 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require(path.resolve('task0147-list-insertion-sort/list-insertion-sort.js'))( () => {
+require(path.resolve('task0148-sort-list/sort-list.js'))( () => {
 });
