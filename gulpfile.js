@@ -451,6 +451,9 @@ gulp.task('t0147', (callback) => {
 gulp.task('t0148', (callback) => {
   require(path.resolve('task0148-sort-list/sort-list.js'))(callback);
 });
+gulp.task('t0149', (callback) => {
+  require(path.resolve('task0149-longest-line/longest-line.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);
