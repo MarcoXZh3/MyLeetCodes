@@ -54,7 +54,7 @@ Table of Contents
 145. \<**Hard**>    \<***Binary Tree***> Binary Tree Postorder Traversal
 146. \<**Medium**>  LRU Cache
 147. \<**Medium**>  \<***Insertion Sort***> Insertion Sort List
-147. \<**Medium**>  Sort List
+147. \<**Medium**>  \<***Merge Sort***> Sort List
 
 206. \<**Easy**>    Reverse Linked List
 
