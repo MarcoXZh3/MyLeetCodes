@@ -6,5 +6,5 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-require(path.resolve('task0146-lru-cache/lru-cache.js'))( () => {
+require(path.resolve('task0147-list-insertion-sort/list-insertion-sort.js'))( () => {
 });
