@@ -57,6 +57,7 @@ Table of Contents
 148. \<**Medium**>  \<***Merge Sort***> Sort List
 149. \<**Hard**>    Max Points on a Line
 150. \<**Medium**>  Evaluate Reverse Polish Notation
+151. \<**Medium**>  Reverse Words in a String
 
 206. \<**Easy**>    Reverse Linked List
 

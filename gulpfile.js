@@ -457,6 +457,9 @@ gulp.task('t0149', (callback) => {
 gulp.task('t0150', (callback) => {
   require(path.resolve('task0150-rev-polish-note/rev-polish-note.js'))(callback);
 });
+gulp.task('t0151', (callback) => {
+  require(path.resolve('task0151-rev-word-in-str/rev-word-in-str.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);
