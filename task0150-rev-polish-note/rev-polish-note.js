@@ -3,7 +3,25 @@
  * @return {number}               the calculation result
  */
 const evalRPN = function(tokens) {
-
+  const stack = [];
+  for (let token of tokens) {
+    if (token === '+') {
+      stack.push(stack.pop() + stack.pop());
+    } else if (token === '-') {
+      const x2 = stack.pop();
+      const x1 = stack.pop();
+      stack.push(x1 - x2);
+    } else if (token === '*') {
+      stack.push(stack.pop() * stack.pop());
+    } else if (token === '/') {
+      let x = stack.pop();
+      x = stack.pop() / x;
+      stack.push((x < 0 ? -1 : 1) * Math.floor(Math.abs(x)));
+    } else {
+      stack.push(parseInt(token, 10));
+    }
+  }
+  return stack.pop();
 };
 
 
