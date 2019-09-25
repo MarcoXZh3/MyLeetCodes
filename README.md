@@ -56,6 +56,7 @@ Table of Contents
 147. \<**Medium**>  \<***Insertion Sort***> Insertion Sort List
 148. \<**Medium**>  \<***Merge Sort***> Sort List
 149. \<**Hard**>    Max Points on a Line
+150. \<**Medium**>  Evaluate Reverse Polish Notation
 
 206. \<**Easy**>    Reverse Linked List
 
