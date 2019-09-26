@@ -6,7 +6,7 @@
 const findMin0 = function(nums) {
   let re = nums[0];
   for (let i = 1; i < nums.length; i++) {
-    if (nums[i - 1] >= nums[i]) {
+    if (nums[i - 1] > nums[i]) {
       re = nums[i];
       break ;
     }
@@ -43,7 +43,7 @@ const findMin = function(nums) {
  * @param {function}  callback    the callback function
  */
 const main = (callback) => {
-  console.log('Task 0206 - Reverse Linked List:');
+  console.log('Task 0153 - Find Minimum in Rotated Sorted Array:');
   [
     [3, 4, 5, 1, 2],
     [4, 5, 6, 7, 0, 1, 2],
