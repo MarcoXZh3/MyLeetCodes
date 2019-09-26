@@ -59,6 +59,7 @@ Table of Contents
 150. \<**Medium**>  Evaluate Reverse Polish Notation
 151. \<**Medium**>  Reverse Words in a String
 152. \<**Medium**>  Maximum Product Subarray
+153. \<**Medium**>  Find Minimum in Rotated Sorted Array
 
 206. \<**Easy**>    Reverse Linked List
 

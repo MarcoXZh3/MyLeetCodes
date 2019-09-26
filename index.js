@@ -9,5 +9,5 @@ console.log();
 // require('./_utils/sorting')();
 
 
-require(path.resolve('task0152-max-prod-arr/max-prod-arr.js'))( () => {
+require(path.resolve('task0153-rotate-sort-arr-min/rotate-sort-arr-min.js'))( () => {
 });
