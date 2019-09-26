@@ -60,6 +60,7 @@ Table of Contents
 151. \<**Medium**>  Reverse Words in a String
 152. \<**Medium**>  Maximum Product Subarray
 153. \<**Medium**>  Find Minimum in Rotated Sorted Array
+154. \<**Hard**>    Find Minimum in Rotated Sorted Array II
 
 206. \<**Easy**>    Reverse Linked List
 

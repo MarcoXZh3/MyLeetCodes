@@ -9,5 +9,5 @@ console.log();
 // require('./_utils/sorting')();
 
 
-require(path.resolve('task0153-rotate-sort-arr-min/rotate-sort-arr-min.js'))( () => {
+require(path.resolve('task0154-rotate-sort-arr-min-2/rotate-sort-arr-min-2.js'))( () => {
 });
