@@ -460,6 +460,9 @@ gulp.task('t0150', (callback) => {
 gulp.task('t0151', (callback) => {
   require(path.resolve('task0151-rev-word-in-str/rev-word-in-str.js'))(callback);
 });
+gulp.task('t0152', (callback) => {
+  require(path.resolve('task0152-max-prod-arr/max-prod-arr.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);

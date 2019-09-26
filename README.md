@@ -58,6 +58,7 @@ Table of Contents
 149. \<**Hard**>    Max Points on a Line
 150. \<**Medium**>  Evaluate Reverse Polish Notation
 151. \<**Medium**>  Reverse Words in a String
+152. \<**Medium**>  Maximum Product Subarray
 
 206. \<**Easy**>    Reverse Linked List
 

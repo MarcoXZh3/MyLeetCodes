@@ -9,5 +9,5 @@ console.log();
 // require('./_utils/sorting')();
 
 
-require(path.resolve('task0151-rev-word-in-str/rev-word-in-str.js'))( () => {
+require(path.resolve('task0152-max-prod-arr/max-prod-arr.js'))( () => {
 });
