@@ -1,9 +1,40 @@
 /**
+ * linear search
+ * @param {number[]}  nums    the rotated number array
+ * @return {number}           the minimum number in array
+ */
+const findMin0 = function(nums) {
+  let re = nums[0];
+  for (let i = 1; i < nums.length; i++) {
+    if (nums[i - 1] >= nums[i]) {
+      re = nums[i];
+      break ;
+    }
+  }
+  return re;
+};
+
+
+/**
+ * binary search
  * @param {number[]}  nums    the rotated number array
  * @return {number}           the minimum number in array
  */
 const findMin = function(nums) {
-
+  let l = 0;
+  let r = nums.length - 1;
+  while (l < r) {
+    if (nums[l] < nums[r]) {
+      return nums[l];
+    }
+    const m = Math.floor((l + r) / 2);
+    if (nums[m] >= nums[l]) {
+      l = m + 1;
+    } else {
+      r = m;
+    }
+  }
+  return nums[l];
 };
 
 
