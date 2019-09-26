@@ -61,6 +61,7 @@ Table of Contents
 152. \<**Medium**>  Maximum Product Subarray
 153. \<**Medium**>  Find Minimum in Rotated Sorted Array
 154. \<**Hard**>    Find Minimum in Rotated Sorted Array II
+155. \<**Easy**>    Min Stack
 
 206. \<**Easy**>    Reverse Linked List
 

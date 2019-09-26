@@ -469,6 +469,9 @@ gulp.task('t0153', (callback) => {
 gulp.task('t0154', (callback) => {
   require(path.resolve('task0154-rotate-sort-arr-min-2/rotate-sort-arr-min-2.js'))(callback);
 });
+gulp.task('t0155', (callback) => {
+  require(path.resolve('task0155-min-stack/min-stack.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);
