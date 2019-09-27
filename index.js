@@ -9,5 +9,5 @@ console.log();
 // require('./_utils/sorting')();
 
 
-require(path.resolve('task0155-min-stack/min-stack.js'))( () => {
+require(path.resolve('task0162-peak-element/peak-element.js'))( () => {
 });
