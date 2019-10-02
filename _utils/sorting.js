@@ -159,6 +159,32 @@ const mergeSort2 = module.exports.mergeSort2 = function(arr, ascending = true) {
 
 
 /**
+ * Radix Sort (iteration) - O(n k) on time and O(n + k) on space
+ * sort by digits, lowest to highest
+ */
+const radixSort = module.exports.radixSort = function(arr, ascending = true) {
+  let max = `${Math.max(...arr)}`.length;
+  let divisor = 1;
+  let buckets = [...Array(10).keys()].map( _=>[] );
+  buckets = [];
+  while (max -- > 0) {
+    divisor *= 10;            // digits low to high
+    for (let val of arr) {    // put values to the corresponding bucket of digit
+      const remainder = val % divisor;
+      !buckets[remainder] && (buckets[remainder] = [])
+      buckets[remainder].push(val);
+    }
+    arr = [];
+    for (let i = 0; i < buckets.length; i++) {  // concat buckets with order
+      arr = arr.concat(buckets[ascending ? i : buckets.length - 1 - i] || []);
+    }
+    buckets = [];
+  }
+  return arr;
+};
+
+
+/**
  * main entry
  * @see: https://www.bigocheatsheet.com/
  */
@@ -206,5 +232,11 @@ module.exports = function() {
   const arr10 = arr.slice();
   mergeSort2(arr10, false);
   console.log(`mergeSort4=[${arr10.join(', ')}]`);
+
+  // Radix sort
+  const arr11 = radixSort(arr.slice());
+  console.log(`radixSort1=[${arr11.join(', ')}]`);
+  const arr12 = radixSort(arr.slice(), false);
+  console.log(`radixSort2=[${arr12.join(', ')}]`);
 
 };
