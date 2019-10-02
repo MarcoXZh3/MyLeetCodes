@@ -62,6 +62,7 @@ Table of Contents
 153. \<**Medium**>  Find Minimum in Rotated Sorted Array
 154. \<**Hard**>    Find Minimum in Rotated Sorted Array II
 155. \<**Easy**>    Min Stack
+160. \<**Easy**>    Intersection of Two Linked Lists
 162. \<**Medium**>  Find Peak Element
 
 206. \<**Easy**>    Reverse Linked List

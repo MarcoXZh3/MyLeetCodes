@@ -9,5 +9,5 @@ console.log();
 // require('./_utils/sorting')();
 
 
-require(path.resolve('task0162-peak-element/peak-element.js'))( () => {
+require(path.resolve('task0160-two-list-insert/two-list-insert.js'))( () => {
 });

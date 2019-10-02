@@ -472,6 +472,9 @@ gulp.task('t0154', (callback) => {
 gulp.task('t0155', (callback) => {
   require(path.resolve('task0155-min-stack/min-stack.js'))(callback);
 });
+gulp.task('t0160', (callback) => {
+  require(path.resolve('task0160-two-list-insert/two-list-insert.js'))(callback);
+});
 gulp.task('t0162', (callback) => {
   require(path.resolve('task0162-peak-element/peak-element.js'))(callback);
 });
