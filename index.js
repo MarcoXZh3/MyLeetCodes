@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0166-frac-to-recur-dec/frac-to-rec-dec.js'))( () => {
+require(path.resolve('task0167-two-sum-2/two-sum-2.js'))( () => {
 });

@@ -487,6 +487,9 @@ gulp.task('t0165', (callback) => {
 gulp.task('t0166', (callback) => {
   require(path.resolve('task0166-frac-to-recur-dec/frac-to-rec-dec.js'))(callback);
 });
+gulp.task('t0167', (callback) => {
+  require(path.resolve('task0167-two-sum-2/two-sum-2.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);

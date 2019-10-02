@@ -67,6 +67,7 @@ Table of Contents
 164. \<**Hard**>    \<***Bucket Sort/Radix Sort***> Maximum Gap
 165. \<**Medium**>  \<***Natural Sorting***> Compare Version Numbers
 166. \<**Medium**>  Fraction to Recurring Decimal
+167. \<**Easy**>    Two Sum II - Input array is sorted
 
 206. \<**Easy**>    Reverse Linked List
 
