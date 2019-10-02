@@ -1,10 +1,23 @@
+const SEPARATOR = '.';
+
+
 /**
  * @param {string}      version1    the 1st version number as string
  * @param {string}      version2    the 2nd version number as string
  * @return {number}                 comparison results: 1, 0, or -1
  */
 const compareVersion = function(version1, version2) {
-
+  const vs1 = version1.split(SEPARATOR);
+  const vs2 = version2.split(SEPARATOR);
+  while (vs1.length > 0 || vs2.length > 0) {
+    const v1 = vs1.length > 0 ? parseInt(vs1.shift()) : 0;
+    const v2 = vs2.length > 0 ? parseInt(vs2.shift()) : 0;
+    if (v1 === v2) {
+      continue ;
+    }
+    return v1 > v2 ? 1 : -1;
+  }
+  return 0;
 };
 
 
