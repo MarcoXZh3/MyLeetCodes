@@ -478,6 +478,9 @@ gulp.task('t0160', (callback) => {
 gulp.task('t0162', (callback) => {
   require(path.resolve('task0162-peak-element/peak-element.js'))(callback);
 });
+gulp.task('t0164', (callback) => {
+  require(path.resolve('task0164-max-gap/max-gap.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);

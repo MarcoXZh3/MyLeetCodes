@@ -9,5 +9,5 @@ console.log();
 // require('./_utils/sorting')();
 
 
-require(path.resolve('task0160-two-list-insert/two-list-insert.js'))( () => {
+require(path.resolve('task0164-max-gap/max-gap.js'))( () => {
 });

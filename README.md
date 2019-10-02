@@ -64,6 +64,7 @@ Table of Contents
 155. \<**Easy**>    Min Stack
 160. \<**Easy**>    Intersection of Two Linked Lists
 162. \<**Medium**>  Find Peak Element
+164. \<**Hard**>    Maximum Gap
 
 206. \<**Easy**>    Reverse Linked List
 
