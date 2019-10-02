@@ -13,7 +13,7 @@ const TreeNode = module.exports.TreeNode = function(val, p, cs) {
   /**
    * parent of the node
    */
-  this.parent = p;
+  this.parent = p || null;
 
   /**
    * children of the node
@@ -38,17 +38,17 @@ const BinaryTreeNode = module.exports.BinaryTreeNode = function(val, p, l, r) {
   /**
    * parent of the node
    */
-  this.parent = p;
+  this.parent = p || null;
 
   /**
    * left child
    */
-  this.left = l;
+  this.left = l || null;
 
   /**
    * right child
    */
-  this.right = r;
+  this.right = r || null;
 };
 
 

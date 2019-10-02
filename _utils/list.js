@@ -12,7 +12,7 @@ const ListNode = module.exports.ListNode = function(val, next) {
   /**
    * link to the next node
    */
-  this.next = next;
+  this.next = next || null;
 };
 
 
