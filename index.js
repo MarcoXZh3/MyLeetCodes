@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0164-max-gap/max-gap.js'))( () => {
+require(path.resolve('task0165-version-compare/version-compare.js'))( () => {
 });
