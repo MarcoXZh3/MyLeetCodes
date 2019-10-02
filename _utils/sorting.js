@@ -159,8 +159,38 @@ const mergeSort2 = module.exports.mergeSort2 = function(arr, ascending = true) {
 
 
 /**
- * Radix Sort (iteration) - O(n k) on time and O(n + k) on space
- * sort by digits, lowest to highest
+ * Bucket Sort - O(n + k) on time and O(n) on space
+ * split values to buckets, sort within buckets, and then collect buckets
+ */
+const bucketSort = module.exports.bucketSort = function(arr, ascending = true) {
+  const factor = ascending ? 1 : -1;
+  const bucks = Math.floor((Math.max(...arr) - Math.min(...arr)) / arr.length) + 1;
+  const buckets = [];
+  for (let val of arr) {
+    const remainder = ~~ (val / bucks);   // round towards 0
+    const bucket = buckets[remainder] = buckets[remainder] || [];
+    bucket.push(val);
+    let i = bucket.length - 1;            // sort the bucket after value added
+    while (i > 0) {
+      if (bucket[i] * factor < bucket[i - 1] * factor) {
+        const tmp = bucket[i];
+        bucket[i] = bucket[i - 1];
+        bucket[i - 1] = tmp;
+      }
+      i --;
+    }
+  }
+  arr = [];
+  for (let i = 0; i < buckets.length; i++) {  // concat buckets with order
+    arr = arr.concat(buckets[ascending ? i : buckets.length - 1 - i] || []);
+  }
+  return arr;
+};
+
+
+/**
+ * Radix Sort - O(n k) on time and O(n + k) on space
+ * sort by digits (as buckets), lowest to highest
  */
 const radixSort = module.exports.radixSort = function(arr, ascending = true) {
   let max = `${Math.max(...arr)}`.length;
@@ -188,7 +218,7 @@ const radixSort = module.exports.radixSort = function(arr, ascending = true) {
  * main entry
  * @see: https://www.bigocheatsheet.com/
  */
-module.exports = function() {
+module.exports.main = function() {
   const arr = [];
   while (arr.length < 10) {
     arr.push(Math.round(Math.random() * 90) + 10);
@@ -233,10 +263,16 @@ module.exports = function() {
   mergeSort2(arr10, false);
   console.log(`mergeSort4=[${arr10.join(', ')}]`);
 
+  // Bucket sort
+  const arr11 = bucketSort(arr.slice());
+  console.log(`bucketSort1=[${arr11.join(', ')}]`);
+  const arr12 = bucketSort(arr.slice(), false);
+  console.log(`bucketSort2=[${arr12.join(', ')}]`);
+
   // Radix sort
-  const arr11 = radixSort(arr.slice());
-  console.log(`radixSort1=[${arr11.join(', ')}]`);
-  const arr12 = radixSort(arr.slice(), false);
-  console.log(`radixSort2=[${arr12.join(', ')}]`);
+  const arr13 = radixSort(arr.slice());
+  console.log(`radixSort1=[${arr13.join(', ')}]`);
+  const arr14 = radixSort(arr.slice(), false);
+  console.log(`radixSort2=[${arr14.join(', ')}]`);
 
 };

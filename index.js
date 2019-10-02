@@ -6,7 +6,7 @@ console.log('https://leetcode.com/problemset/algorithms/');
 console.log();
 
 
-// require('./_utils/sorting')();
+// require(path.resolve('_utils/sorting')).main();
 
 
 require(path.resolve('task0164-max-gap/max-gap.js'))( () => {
