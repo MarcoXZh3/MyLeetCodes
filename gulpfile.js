@@ -484,6 +484,9 @@ gulp.task('t0164', (callback) => {
 gulp.task('t0165', (callback) => {
   require(path.resolve('task0165-version-compare/version-compare.js'))(callback);
 });
+gulp.task('t0166', (callback) => {
+  require(path.resolve('task0166-frac-to-recur-dec/frac-to-rec-dec.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);
