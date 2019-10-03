@@ -502,6 +502,9 @@ gulp.task('t0171', (callback) => {
 gulp.task('t0172', (callback) => {
   require(path.resolve('task0172-factorial-trailing-zeros/factorial-trailing-zeros.js'))(callback);
 });
+gulp.task('t0173', (callback) => {
+  require(path.resolve('task0173-bst-iterator/bst-iterator.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);
