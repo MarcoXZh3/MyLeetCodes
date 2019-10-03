@@ -71,6 +71,7 @@ Table of Contents
 168. \<**Easy**>    Excel Sheet Column Title
 169. \<**Easy**>    Majority Element
 171. \<**Easy**>    Excel Sheet Column Number (reverse of Task 168)
+172. \<**Easy**>    Factorial Trailing Zeroes
 
 206. \<**Easy**>    Reverse Linked List
 
