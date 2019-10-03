@@ -1,9 +1,17 @@
+const VOCABULARY = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+
 /**
  * @param {string}    s   Excel column title 
  * @return {number}       number of the title
  */
 const titleToNumber = function(s) {
-
+  let re = 0;
+  while (s.length > 0) {
+    re = re * VOCABULARY.length + s.charCodeAt(0) - VOCABULARY.charCodeAt(0) + 1;
+    s = s.substring(1);
+  }
+  return re;
 };
 
 
