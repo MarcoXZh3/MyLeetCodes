@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0169-major-element/major-element.js'))( () => {
+require(path.resolve('task0171-excel-col-number/excel-col-title.js'))( () => {
 });

@@ -70,6 +70,7 @@ Table of Contents
 167. \<**Easy**>    Two Sum II - Input array is sorted
 168. \<**Easy**>    Excel Sheet Column Title
 169. \<**Easy**>    Majority Element
+171. \<**Easy**>    Excel Sheet Column Number (reverse of Task 168)
 
 206. \<**Easy**>    Reverse Linked List
 
