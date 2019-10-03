@@ -73,6 +73,7 @@ Table of Contents
 171. \<**Easy**>    Excel Sheet Column Number (reverse of Task 168)
 172. \<**Easy**>    Factorial Trailing Zeroes
 173. \<**Medium**>  Binary Search Tree Iterator
+174. \<**Hard**>    Dungeon Game
 
 206. \<**Easy**>    Reverse Linked List
 

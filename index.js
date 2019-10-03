@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0173-bst-iterator/bst-iterator.js'))( () => {
+require(path.resolve('task0174-dungeon-game/dungeon-game.js'))( () => {
 });
