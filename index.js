@@ -10,5 +10,5 @@ console.log();
 
 
 console.log(
-  require('fs').readFileSync(path.resolve('task0176-2nd-high-salary/2nd-high-salary.sql')).toString()
+  require('fs').readFileSync(path.resolve('task0177-nth-high-salary/nth-high-salary.sql')).toString()
 );

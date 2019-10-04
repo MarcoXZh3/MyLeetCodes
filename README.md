@@ -76,6 +76,7 @@ Table of Contents
 174. \<**Hard**>    Dungeon Game
 175. \<**Easy**>    <*SQL*> Combine Two Tables
 176. \<**Easy**>    <*SQL*> Second Highest Salary
+177. \<**Medium**>  <*SQL*> Nth Highest Salary
 
 206. \<**Easy**>    Reverse Linked List
 

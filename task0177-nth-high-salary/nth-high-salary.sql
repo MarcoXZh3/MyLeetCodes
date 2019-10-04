@@ -1,0 +1,5 @@
+-- Task 0177 - <SQL> Nth Highest Salary
+CREATE FUNCTION getNthHighestSalary(@N INT) RETURNS INT AS
+BEGIN
+  RETURN NULL
+END
