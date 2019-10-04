@@ -77,6 +77,7 @@ Table of Contents
 175. \<**Easy**>    <*SQL*> Combine Two Tables
 176. \<**Easy**>    <*SQL*> Second Highest Salary
 177. \<**Medium**>  <*SQL*> Nth Highest Salary
+178. \<**Medium**>  <*SQL*> Rank Scores
 
 206. \<**Easy**>    Reverse Linked List
 
