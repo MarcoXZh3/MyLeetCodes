@@ -10,5 +10,5 @@ console.log();
 
 
 console.log(
-  require('fs').readFileSync(path.resolve('task0196-del-dup-emails/del-dup-emails.sql')).toString()
+  require('fs').readFileSync(path.resolve('task0197-raise-temp/raise-temp.sql')).toString()
 );
