@@ -79,6 +79,8 @@ Table of Contents
 177. \<**Medium**>  <*SQL*> Nth Highest Salary
 178. \<**Medium**>  <*SQL*> Rank Scores
 
+180. \<**Medium**>  <*SQL*> Consecutive Numbers
+
 206. \<**Easy**>    Reverse Linked List
 
 

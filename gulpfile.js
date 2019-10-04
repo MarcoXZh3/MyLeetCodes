@@ -522,6 +522,10 @@ gulp.task('t0178', (callback) => {
   console.log(fs.readFileSync(path.resolve('task0178-rank-score/rank-score.sql')).toString());callback();
 });
 
+gulp.task('t0180', (callback) => {
+  console.log(fs.readFileSync(path.resolve('task0180-consec-nums/consec-nums.sql')).toString());callback();
+});
+
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);
 });
