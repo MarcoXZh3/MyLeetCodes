@@ -1,3 +1,4 @@
+const fs = require('fs');
 const gulp = require('gulp');
 const path = require('path');
 
@@ -507,6 +508,9 @@ gulp.task('t0173', (callback) => {
 });
 gulp.task('t0174', (callback) => {
   require(path.resolve('task0174-dungeon-game/dungeon-game.js'))(callback);
+});
+gulp.task('t0175', (callback) => {
+  console.log(fs.readFileSync(path.resolve('task0175-combine-tables/combine-tables.sql')).toString());callback();
 });
 
 gulp.task('t0206', (callback) => {

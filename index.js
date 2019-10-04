@@ -9,5 +9,6 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0174-dungeon-game/dungeon-game.js'))( () => {
-});
+console.log(
+  require('fs').readFileSync(path.resolve('task0175-combine-tables/combine-tables.sql')).toString()
+);
