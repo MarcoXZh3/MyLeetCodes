@@ -81,6 +81,7 @@ Table of Contents
 
 180. \<**Medium**>  <*SQL*> Consecutive Numbers
 181. \<**Easy**>    <*SQL*> Employees Earning More Than Their Managers
+182. \<**Easy**>    <*SQL*> Duplicate Emails
 
 206. \<**Easy**>    Reverse Linked List
 
