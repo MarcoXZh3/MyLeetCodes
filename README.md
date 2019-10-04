@@ -83,6 +83,7 @@ Table of Contents
 181. \<**Easy**>    <*SQL*> Employees Earning More Than Their Managers
 182. \<**Easy**>    <*SQL*> Duplicate Emails
 183. \<**Easy**>    <*SQL*> Customers Who Never Order
+184. \<**Medium**>  <*SQL*> Department Highest Salary
 
 206. \<**Easy**>    Reverse Linked List
 
