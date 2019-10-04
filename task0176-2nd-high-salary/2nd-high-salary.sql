@@ -1,0 +1,1 @@
+-- Task 0176 - <SQL> Second Highest Salary

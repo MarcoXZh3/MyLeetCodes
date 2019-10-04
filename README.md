@@ -75,6 +75,7 @@ Table of Contents
 173. \<**Medium**>  Binary Search Tree Iterator
 174. \<**Hard**>    Dungeon Game
 175. \<**Easy**>    <*SQL*> Combine Two Tables
+176. \<**Easy**>    <*SQL*> Second Highest Salary
 
 206. \<**Easy**>    Reverse Linked List
 

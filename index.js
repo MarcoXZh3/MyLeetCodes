@@ -10,5 +10,5 @@ console.log();
 
 
 console.log(
-  require('fs').readFileSync(path.resolve('task0175-combine-tables/combine-tables.sql')).toString()
+  require('fs').readFileSync(path.resolve('task0176-2nd-high-salary/2nd-high-salary.sql')).toString()
 );
