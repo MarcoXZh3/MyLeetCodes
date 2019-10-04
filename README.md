@@ -84,6 +84,7 @@ Table of Contents
 182. \<**Easy**>    <*SQL*> Duplicate Emails
 183. \<**Easy**>    <*SQL*> Customers Who Never Order
 184. \<**Medium**>  <*SQL*> Department Highest Salary
+185. \<**Hard**>    <*SQL*> Department Top Three Salaries
 
 206. \<**Easy**>    Reverse Linked List
 

@@ -537,6 +537,9 @@ gulp.task('t0183', (callback) => {
 gulp.task('t0184', (callback) => {
   console.log(fs.readFileSync(path.resolve('task0184-dept-high-salary/dept-high-salary.sql')).toString());callback();
 });
+gulp.task('t0185', (callback) => {
+  console.log(fs.readFileSync(path.resolve('task0185-dept-top-salaries/dept-top-salaries.sql')).toString());callback();
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);
