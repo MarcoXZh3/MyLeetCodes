@@ -9,7 +9,7 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require('child_process').exec(`sh ${path.resolve('task0194-transpose-file/transpose-file.sh')}`,
+require('child_process').exec(`sh ${path.resolve('task0195-10th-line/10th-line.sh')}`,
                               (err, stdout, stderr) => {
   if (err) {
     return console.error(err.message);

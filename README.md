@@ -88,6 +88,7 @@ Table of Contents
 192. \<**Medium**>  <*BASH*> Word Frequency
 193. \<**Easy**>    <*BASH*> Valid Phone Numbers
 194. \<**Medium**>  <*BASH*> Transpose File
+195. \<**Easy**>    <*BASH*> Tenth Line
 196. \<**Easy**>    <*SQL*> Delete Duplicate Emails
 197. \<**Easy**>    <*SQL*> Rising Temperature
 

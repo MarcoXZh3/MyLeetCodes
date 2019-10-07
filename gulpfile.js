@@ -551,7 +551,9 @@ gulp.task('t0193', (callback) => {
 gulp.task('t0194', (callback) => {
   chp.exec(`sh ${path.resolve('task0194-transpose-file/transpose-file.sh')}`, (e,o)=>{ console.log(e||o); callback(e) });
 });
-
+gulp.task('t0195', (callback) => {
+  chp.exec(`sh ${path.resolve('task0195-10th-line/10th-line.sh')}`, (e,o)=>{ console.log(e||o); callback(e) });
+});
 gulp.task('t0196', (callback) => {
   console.log(fs.readFileSync(path.resolve('task0196-del-dup-emails/del-dup-emails.sql')).toString());callback();
 });
