@@ -546,6 +546,9 @@ gulp.task('t0185', (callback) => {
 gulp.task('t0187', (callback) => {
   require(path.resolve('task0187-dna-seq/dna-seq.js'))(callback);
 });
+gulp.task('t0188', (callback) => {
+  require(path.resolve('task0188-buy-sell-stock-4/buy-sell-stock-4.js'))(callback);
+});
 
 gulp.task('t0192', (callback) => {
   chp.exec(`sh ${path.resolve('task0192-word-freq/word-freq.sh')}`, (e,o)=>{ console.log(e||o); callback(e); });

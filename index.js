@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0187-dna-seq/dna-seq.js'))( () => {
+require(path.resolve('task0188-buy-sell-stock-4/buy-sell-stock-4.js'))( () => {
 });
