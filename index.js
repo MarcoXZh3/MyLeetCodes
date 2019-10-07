@@ -9,6 +9,15 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-console.log(
-  require('fs').readFileSync(path.resolve('task0197-raise-temp/raise-temp.sql')).toString()
-);
+require('child_process').exec(`sh ${path.resolve('task0192-word-freq/word-freq.sh')}`,
+                              (err, stdout, stderr) => {
+  if (err) {
+    return console.error(err.message);
+  }
+  if (stdout) {
+    console.log(stdout);
+  }
+  if (stderr) {
+    console.error(stderr);
+  }
+});

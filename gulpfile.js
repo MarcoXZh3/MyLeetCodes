@@ -1,3 +1,4 @@
+const chp = require('child_process');
 const fs = require('fs');
 const gulp = require('gulp');
 const path = require('path');
@@ -539,6 +540,10 @@ gulp.task('t0184', (callback) => {
 });
 gulp.task('t0185', (callback) => {
   console.log(fs.readFileSync(path.resolve('task0185-dept-top-salaries/dept-top-salaries.sql')).toString());callback();
+});
+
+gulp.task('t0192', (callback) => {
+  chp.exec(`sh ${path.resolve('task0192-word-freq/word-freq.sh')}`, (e,o)=>{ console.log(o); callback() });
 });
 
 gulp.task('t0196', (callback) => {

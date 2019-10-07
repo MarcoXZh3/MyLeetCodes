@@ -85,6 +85,7 @@ Table of Contents
 183. \<**Easy**>    <*SQL*> Customers Who Never Order
 184. \<**Medium**>  <*SQL*> Department Highest Salary
 185. \<**Hard**>    <*SQL*> Department Top Three Salaries
+192. \<**Medium**>  <*BASH*> Word Frequency
 196. \<**Easy**>    <*SQL*> Delete Duplicate Emails
 197. \<**Easy**>    <*SQL*> Rising Temperature
 
