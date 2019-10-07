@@ -9,7 +9,7 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require('child_process').exec(`sh ${path.resolve('task0192-word-freq/word-freq.sh')}`,
+require('child_process').exec(`sh ${path.resolve('task0193-valid-num/valid-num.sh')}`,
                               (err, stdout, stderr) => {
   if (err) {
     return console.error(err.message);

@@ -543,7 +543,10 @@ gulp.task('t0185', (callback) => {
 });
 
 gulp.task('t0192', (callback) => {
-  chp.exec(`sh ${path.resolve('task0192-word-freq/word-freq.sh')}`, (e,o)=>{ console.log(o); callback() });
+  chp.exec(`sh ${path.resolve('task0192-word-freq/word-freq.sh')}`, (e,o)=>{ console.log(e||o); callback(e); });
+});
+gulp.task('t0193', (callback) => {
+  chp.exec(`sh ${path.resolve('task0193-valid-num/valid-num.sh')}`, (e,o)=>{ console.log(e||o); callback(e) });
 });
 
 gulp.task('t0196', (callback) => {
