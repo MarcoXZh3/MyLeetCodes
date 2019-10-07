@@ -522,7 +522,9 @@ gulp.task('t0177', (callback) => {
 gulp.task('t0178', (callback) => {
   console.log(fs.readFileSync(path.resolve('task0178-rank-score/rank-score.sql')).toString());callback();
 });
-
+gulp.task('t0179', (callback) => {
+  require(path.resolve('task0179-max-num/max-num.js'))(callback);
+});
 gulp.task('t0180', (callback) => {
   console.log(fs.readFileSync(path.resolve('task0180-consec-nums/consec-nums.sql')).toString());callback();
 });

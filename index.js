@@ -9,15 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require('child_process').exec(`sh ${path.resolve('task0195-10th-line/10th-line.sh')}`,
-                              (err, stdout, stderr) => {
-  if (err) {
-    return console.error(err.message);
-  }
-  if (stdout) {
-    console.log(stdout);
-  }
-  if (stderr) {
-    console.error(stderr);
-  }
+require(path.resolve('task0179-max-num/max-num.js'))( () => {
 });
