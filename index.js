@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0179-max-num/max-num.js'))( () => {
+require(path.resolve('task0187-dna-seq/dna-seq.js'))( () => {
 });
