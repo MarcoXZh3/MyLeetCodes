@@ -2,11 +2,31 @@ const BIT_LENGTH = 32;
 
 
 /**
+ * convert to binary string and reverse
+ * @param {number}      n     a positive integer as the unsigned
+ * @return {number}           a positive integer as the bit-reversed unsigned
+ */
+const reverseBits0 = function(n) {
+  let rev = n.toString(2).split('').reverse().join('');
+  while (rev.length < BIT_LENGTH) {
+    rev += '0';
+  }
+  return parseInt(rev, 2);
+};
+
+
+/**
+ * convert through calculation
  * @param {number}      n     a positive integer as the unsigned
  * @return {number}           a positive integer as the bit-reversed unsigned
  */
 const reverseBits = function(n) {
-
+  let re = 0;
+  for (let i = 0; i < BIT_LENGTH; i++) {
+    re = re * 2 + n % 2;
+    n = Math.floor(n / 2);
+  }
+  return re;
 };
 
 
