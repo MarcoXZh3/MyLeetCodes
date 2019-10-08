@@ -579,6 +579,9 @@ gulp.task('t0197', (callback) => {
 gulp.task('t0198', (callback) => {
   require(path.resolve('task0198-house-robber/house-robber.js'))(callback);
 });
+gulp.task('t0199', (callback) => {
+  require(path.resolve('task0199-bin-tree-right-view/bin-tree-right-view.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);
