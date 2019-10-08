@@ -474,6 +474,9 @@ gulp.task('t0154', (callback) => {
 gulp.task('t0155', (callback) => {
   require(path.resolve('task0155-min-stack/min-stack.js'))(callback);
 });
+gulp.task('t0156', (callback) => {
+  require(path.resolve('task0156-bin-tree-upside-down/bin-tree-upside-down.js'))(callback);
+});
 gulp.task('t0160', (callback) => {
   require(path.resolve('task0160-two-list-insert/two-list-insert.js'))(callback);
 });
