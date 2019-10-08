@@ -480,6 +480,9 @@ gulp.task('t0156', (callback) => {
 gulp.task('t0157', (callback) => {
   require(path.resolve('task0157-read-n-chars/read-n-chars.js'))(callback);
 });
+gulp.task('t0158', (callback) => {
+  require(path.resolve('task0158-read-n-chars-2/read-n-chars-2.js'))(callback);
+});
 
 gulp.task('t0160', (callback) => {
   require(path.resolve('task0160-two-list-insert/two-list-insert.js'))(callback);
