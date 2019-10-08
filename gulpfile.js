@@ -516,6 +516,9 @@ gulp.task('t0168', (callback) => {
 gulp.task('t0169', (callback) => {
   require(path.resolve('task0169-major-element/major-element.js'))(callback);
 });
+gulp.task('t0170', (callback) => {
+  require(path.resolve('task0170-two-sum-3/two-sum-3.js'))(callback);
+});
 gulp.task('t0171', (callback) => {
   require(path.resolve('task0171-excel-col-number/excel-col-title.js'))(callback);
 });
