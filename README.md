@@ -98,6 +98,7 @@ Table of Contents
 197. \<**Easy**>    <*SQL*> Rising Temperature
 198. \<**Easy**>    House Robber
 199. \<**Medium**>  \<***Binary Tree***> Binary Tree Right Side View
+200. \<**Medium**>  Number of Islands
 
 206. \<**Easy**>    Reverse Linked List
 

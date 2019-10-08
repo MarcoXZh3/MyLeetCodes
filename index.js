@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0199-bin-tree-right-view/bin-tree-right-view.js'))( () => {
+require(path.resolve('task0200-island-numbers/island-numbers.js'))( () => {
 });

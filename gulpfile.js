@@ -582,6 +582,9 @@ gulp.task('t0198', (callback) => {
 gulp.task('t0199', (callback) => {
   require(path.resolve('task0199-bin-tree-right-view/bin-tree-right-view.js'))(callback);
 });
+gulp.task('t0200', (callback) => {
+  require(path.resolve('task0200-island-numbers/island-numbers.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);
