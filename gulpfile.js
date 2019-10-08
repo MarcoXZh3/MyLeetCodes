@@ -489,6 +489,9 @@ gulp.task('t0159', (callback) => {
 gulp.task('t0160', (callback) => {
   require(path.resolve('task0160-two-list-insert/two-list-insert.js'))(callback);
 });
+gulp.task('t0161', (callback) => {
+  require(path.resolve('task0161-1-edit-dist/1-edit-dist.js'))(callback);
+});
 gulp.task('t0162', (callback) => {
   require(path.resolve('task0162-peak-element/peak-element.js'))(callback);
 });
