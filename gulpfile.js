@@ -555,7 +555,9 @@ gulp.task('t0189', (callback) => {
 gulp.task('t0190', (callback) => {
   require(path.resolve('task0190-rev-bits/rev-bits.js'))(callback);
 });
-
+gulp.task('t0191', (callback) => {
+  require(path.resolve('task0191-bit-1-count/bit-1-count.js'))(callback);
+});
 gulp.task('t0192', (callback) => {
   chp.exec(`sh ${path.resolve('task0192-word-freq/word-freq.sh')}`, (e,o)=>{ console.log(e||o); callback(e); });
 });

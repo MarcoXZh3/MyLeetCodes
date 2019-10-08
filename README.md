@@ -89,7 +89,7 @@ Table of Contents
 188. \<**Hard**>    Best Time to Buy and Sell Stock IV
 189. \<**Easy**>    Rotate Array
 190. \<**Easy**>    Reverse Bits
-
+191. \<**Easy**>    Number of 1 Bits
 192. \<**Medium**>  <*BASH*> Word Frequency
 193. \<**Easy**>    <*BASH*> Valid Phone Numbers
 194. \<**Medium**>  <*BASH*> Transpose File
