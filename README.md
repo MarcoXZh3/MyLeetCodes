@@ -63,6 +63,7 @@ Table of Contents
 154. \<**Hard**>    Find Minimum in Rotated Sorted Array II
 155. \<**Easy**>    Min Stack
 156. \<**Medium**>  TODO: Binary Tree Upside Down
+157. \<**Easy**>    TODO: Read N Characters Given Read4
 160. \<**Easy**>    Intersection of Two Linked Lists
 162. \<**Medium**>  Find Peak Element
 164. \<**Hard**>    \<***Bucket Sort/Radix Sort***> Maximum Gap
