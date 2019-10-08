@@ -576,6 +576,9 @@ gulp.task('t0196', (callback) => {
 gulp.task('t0197', (callback) => {
   console.log(fs.readFileSync(path.resolve('task0197-raise-temp/raise-temp.sql')).toString());callback();
 });
+gulp.task('t0198', (callback) => {
+  require(path.resolve('task0198-house-robber/house-robber.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);

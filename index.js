@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0191-bit-1-count/bit-1-count.js'))( () => {
+require(path.resolve('task0198-house-robber/house-robber.js'))( () => {
 });

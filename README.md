@@ -96,6 +96,7 @@ Table of Contents
 195. \<**Easy**>    <*BASH*> Tenth Line
 196. \<**Easy**>    <*SQL*> Delete Duplicate Emails
 197. \<**Easy**>    <*SQL*> Rising Temperature
+198. \<**Easy**>    House Robber
 
 206. \<**Easy**>    Reverse Linked List
 
