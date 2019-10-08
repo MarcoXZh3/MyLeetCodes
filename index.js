@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0189-rotate-array/rotate-array.js'))( () => {
+require(path.resolve('task0190-rev-bits/rev-bits.js'))( () => {
 });

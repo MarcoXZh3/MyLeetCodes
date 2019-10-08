@@ -87,7 +87,8 @@ Table of Contents
 185. \<**Hard**>    <*SQL*> Department Top Three Salaries
 187. \<**Medium**>  Repeated DNA Sequences
 188. \<**Hard**>    Best Time to Buy and Sell Stock IV
-188. \<**Easy**>    Rotate Array
+189. \<**Easy**>    Rotate Array
+190. \<**Easy**>    Reverse Bits
 
 192. \<**Medium**>  <*BASH*> Word Frequency
 193. \<**Easy**>    <*BASH*> Valid Phone Numbers
