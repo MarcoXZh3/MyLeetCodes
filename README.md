@@ -13,7 +13,7 @@ Table of Contents
 202. \<**Easy**>    Happy Number
 203. \<**Easy**>    Remove Linked List Elements
 204. \<**Easy**>    Count Primes
-
+205. \<**Easy**>    Isomorphic Strings
 206. \<**Easy**>    Reverse Linked List
 
 

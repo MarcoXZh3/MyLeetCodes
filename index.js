@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0204-count-primes/count-primes.js'))( () => {
+require(path.resolve('task0205-isomorphic-str/isomorphic-str.js'))( () => {
 });
