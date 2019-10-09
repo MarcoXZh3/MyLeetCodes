@@ -8,7 +8,18 @@ const { ListNode, array2list, printList } = require(path.resolve('_utils/list'))
  * @return {ListNode}           the updated linked list
  */
 const removeElements = function(head, val) {
-
+  const dummy = new ListNode(null);
+  dummy.next = head;
+  let prev = dummy;
+  while (head) {
+    if (head.val === val) {
+      prev.next = head.next;
+      head = prev;
+    }
+    prev = head;
+    head = head.next;
+  }
+  return dummy.next;
 };
 
 
