@@ -618,6 +618,9 @@ gulp.task('t0202', (callback) => {
 gulp.task('t0203', (callback) => {
   require(path.resolve('task0203-del-list-node/del-list-node.js'))(callback);
 });
+gulp.task('t0204', (callback) => {
+  require(path.resolve('task0204-count-primes/count-primes.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);

@@ -12,6 +12,7 @@ Table of Contents
 201. \<**Medium**>  Bitwise AND of Numbers Range
 202. \<**Easy**>    Happy Number
 203. \<**Easy**>    Remove Linked List Elements
+204. \<**Easy**>    Count Primes
 
 206. \<**Easy**>    Reverse Linked List
 

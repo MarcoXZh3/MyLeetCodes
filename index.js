@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0203-del-list-node/del-list-node.js'))( () => {
+require(path.resolve('task0204-count-primes/count-primes.js'))( () => {
 });
