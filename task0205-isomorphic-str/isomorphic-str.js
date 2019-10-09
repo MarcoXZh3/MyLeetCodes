@@ -4,7 +4,19 @@
  * @return {boolean}          whether isomorphic or not
  */
 const isIsomorphic = function(s, t) {
-
+  const isomorphic = (s, t) => {
+    const offsets = {};
+    for (let i = 0; i < s.length; i++) {
+      const k = s.charAt(i);
+      const v = t.charAt(i);
+      if (offsets[k] && offsets[k] !== v) {
+        return false;
+      }
+      offsets[k] = v;
+    }
+    return true;
+  };
+  return isomorphic(s, t) && isomorphic(t, s);
 };
 
 
@@ -18,6 +30,8 @@ const main = (callback) => {
     ['egg', 'add'],
     ['foo', 'bar'],
     ['paper', 'title'],
+    ['aa', 'ab'],
+    ['ab', 'aa'],
   ].forEach( vs => {
     console.log(`  isomorphic=${isIsomorphic(vs[0], vs[1])}, s="${vs[0]}", t="${vs[1]}"`);
   });
