@@ -5,10 +5,11 @@ questions.
 Table of Contents
 =================
 
-1 - 100: see [Archives 001][archive001]
-101 - 200: see [Archives 002][archive002]
+- 1 - 100: see [Archives 001][archive001]
+- 101 - 200: see [Archives 002][archive002]
 
 
+201. \<**Medium**>  Bitwise AND of Numbers Range
 
 206. \<**Easy**>    Reverse Linked List
 

@@ -609,6 +609,9 @@ gulp.task('t0199', (callback) => {
 gulp.task('t0200', (callback) => {
   require(path.resolve('archives002/task0200-island-numbers/island-numbers.js'))(callback);
 });
+gulp.task('t0201', (callback) => {
+  require(path.resolve('task0201-bitwise-and-nums/bitwise-and-nums.js'))(callback);
+});
 
 gulp.task('t0206', (callback) => {
   require(path.resolve('task0206-rev-link-list/rev-link-list.js'))(callback);
