@@ -10,6 +10,7 @@ Table of Contents
 
 
 201. \<**Medium**>  Bitwise AND of Numbers Range
+202. \<**Easy**>    Happy Number
 
 206. \<**Easy**>    Reverse Linked List
 

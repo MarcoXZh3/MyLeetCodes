@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0201-bitwise-and-nums/bitwise-and-nums.js'))( () => {
+require(path.resolve('task0202-happy-num/happy-num.js'))( () => {
 });
