@@ -15,6 +15,7 @@ Table of Contents
 204. \<**Easy**>    Count Primes
 205. \<**Easy**>    Isomorphic Strings
 206. \<**Easy**>    Reverse Linked List
+207. \<**Medium**>  Course Schedule
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
