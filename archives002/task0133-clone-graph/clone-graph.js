@@ -1,5 +1,5 @@
 const path = require('path');
-const { GraphNode, idxArray2Graph, printGraph } = require(path.resolve('_utils/graph'));
+const { GraphNode, edges2Graph, printConnectivity } = require(path.resolve('_utils/graph'));
 const Node = GraphNode;
 
 
@@ -68,12 +68,12 @@ const cloneGraph = function(node) {
 const main = (callback) => {
   console.log('Task 0133 - Clone Graph:');
   [
-    [ [1, [1,3]], [2, [0,2]], [3, [1,3]], [4, [0,2]] ],
+    [ [1, 2], [1, 4], [2, 3], [3, 4] ],
   ].forEach( vs => {
-    const entry = idxArray2Graph(vs);
-    const lines0 = printGraph(entry).split('\n');
-    const cp = cloneGraph(entry);
-    const lines1 = printGraph(cp).split('\n');
+    const graph0 = edges2Graph(vs);
+    const lines0 = printConnectivity(graph0.nodes[0]).split('\n');
+    const entry1 = cloneGraph(graph0.nodes[0]);
+    const lines1 = printConnectivity(entry1).toString().split('\n');
     for (let i = 0; i < lines0.length; i++) {
       console.log(`  ${lines0[i]}     ${lines1[i] || ''}`);
     }
