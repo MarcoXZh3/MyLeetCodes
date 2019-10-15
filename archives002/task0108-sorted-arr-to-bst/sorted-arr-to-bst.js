@@ -1,5 +1,5 @@
 const path = require('path');
-const { BinaryTreeNode, printTree } = require(path.resolve('_utils/tree'));
+const { BinaryTreeNode, BinaryTree } = require(path.resolve('_utils/binary-tree'));
 const TreeNode = BinaryTreeNode;
 
 
@@ -38,7 +38,7 @@ const main = (callback) => {
   ].forEach( vs => {
     console.log(`[${vs.join(', ')}]`);
     const root = sortedArrayToBST(vs);
-    console.log(printTree(root));
+    console.log(new BinaryTree(root).toString());
   });
   if (callback) {
     callback();

@@ -1,5 +1,5 @@
 const path = require('path');
-const { BinaryTreeNode, array2bintree, printTree } = require(path.resolve('_utils/tree'));
+const { BinaryTreeNode, arrToBinTree } = require(path.resolve('_utils/binary-tree'));
 const TreeNode = BinaryTreeNode;
 
 
@@ -65,9 +65,9 @@ const main = (callback) => {
      null, null, null, null, null, null, null, null, null, null, 8],
     // [-34, -100, 37, -100, -48, -71, -54, -22, 8, 48]
   ].forEach( vs => {
-    const root = array2bintree(vs);
-    console.log(`inor=[${inorderTraversal(root).join(', ')}]`);
-    console.log(printTree(root));
+    const tree = arrToBinTree(vs);
+    console.log(`inor=[${inorderTraversal(tree.root).join(', ')}]`);
+    console.log(tree.toString());
   });
   if (callback) {
     callback();

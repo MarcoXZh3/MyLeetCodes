@@ -1,20 +1,19 @@
 const path = require('path');
-const { BinaryTreeNode, array2bintree, printTree } = require(path.resolve('_utils/tree'));
+const { BinaryTreeNode, arrToBinTree } = require(path.resolve('_utils/binary-tree'));
 
 
 /**
  * the modified binary tree node
  * @param {object}  val   value of the node
- * @param {Node}    p     (optional) parent of the node
  * @param {Node}    l     (optional) left child of the node
  * @param {Node}    r     (optional) right child of the node
  * @param {Node}    n     (optional) next node on the right
  */
-const Node = function(val, p, l, r, n) {
+const Node = function(val, l, r, n) {
   /**
    * inherits basic binary tree node
    */
-  BinaryTreeNode.call(this, val, p, l, r);
+  BinaryTreeNode.call(this, val, l, r);
   /**
    * the next node on the right
    */
@@ -60,11 +59,11 @@ const main = (callback) => {
     [1, 2, 3, 4, 5, null, 7],
     [1, 2, 6, 3, 5, null, 7, 4, null, null, null, null, null, null, 8],
   ].forEach( vs => {
-    const toString = (node) => `${node.val}(${node.next?node.next.val:'NULL'})`;
-    let root = array2bintree(vs);
-    const lines0 = printTree(root).split('\n');
-    root = connect(root);
-    const lines1 = printTree(root, toString).split('\n');
+    const printf = (node) => `${node.val}(${node.next?node.next.val:'NULL'})`;
+    const tree = arrToBinTree(vs);
+    const lines0 = tree.toString(printf).split('\n');
+    tree.root = connect(tree.root);
+    const lines1 = tree.toString(printf).split('\n');
     for (let i = 0; i < lines0.length; i++) {
       console.log(`  ${lines0[i]}     ${lines1[i] || ''}`);
     }

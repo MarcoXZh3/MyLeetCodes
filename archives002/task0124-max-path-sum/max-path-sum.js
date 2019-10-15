@@ -1,5 +1,5 @@
 const path = require('path');
-const { BinaryTreeNode, array2bintree, printTree } = require(path.resolve('_utils/tree'));
+const { BinaryTreeNode, arrToBinTree } = require(path.resolve('_utils/binary-tree'));
 const TreeNode = BinaryTreeNode;
 
 
@@ -36,9 +36,9 @@ const main = (callback) => {
     [1, 2, null, null, 3, null, null, null, null, null, 4, null,
      null, null, null, null, null, null, null, null, null, null, 5],
   ].forEach( vs => {
-    const root = array2bintree(vs);
-    console.log(printTree(root));
-    console.log(`  max=${maxPathSum(root)}`);
+    const tree = arrToBinTree(vs);
+    console.log(tree.toString());
+    console.log(`  max=${maxPathSum(tree.root)}`);
   });
   if (callback) {
     callback();

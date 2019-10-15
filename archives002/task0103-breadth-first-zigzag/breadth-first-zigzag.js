@@ -1,5 +1,5 @@
 const path = require('path');
-const { BinaryTreeNode, array2bintree, printTree } = require(path.resolve('_utils/tree'));
+const { BinaryTreeNode, arrToBinTree } = require(path.resolve('_utils/binary-tree'));
 const TreeNode = BinaryTreeNode;
 
 
@@ -75,9 +75,9 @@ const main = (callback) => {
     [3, 9, 20, null, null, 15, 7],
     [1, 2, 3, 4, null, null, 5],
   ].forEach( vs => {
-    const root = array2bintree(vs);
-    console.log(printTree(root));
-    console.log(`  breadth-first=[${zigzagLevelOrder(root).map( xs=>`[${xs.join(',')}]`).join(', ')}]`);
+    const tree = arrToBinTree(vs);
+    console.log(tree.toString());
+    console.log(`  breadth-first=[${zigzagLevelOrder(tree.root).map( xs=>`[${xs.join(',')}]`).join(', ')}]`);
   });
   if (callback) {
     callback();

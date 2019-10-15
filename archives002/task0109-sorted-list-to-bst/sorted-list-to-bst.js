@@ -1,6 +1,6 @@
 const path = require('path');
 const { ListNode, array2list, printList } = require(path.resolve('_utils/list'));
-const { BinaryTreeNode, printTree } = require(path.resolve('_utils/tree'));
+const { BinaryTreeNode, BinaryTree } = require(path.resolve('_utils/binary-tree'));
 const TreeNode = BinaryTreeNode;
 
 
@@ -47,7 +47,7 @@ const main = (callback) => {
     const head = array2list(vs);
     console.log(printList(head));
     const root = sortedListToBST(head);
-    console.log(printTree(root));
+    console.log(new BinaryTree(root).toString());
   });
   if (callback) {
     callback();
