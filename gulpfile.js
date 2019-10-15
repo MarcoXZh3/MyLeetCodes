@@ -630,3 +630,6 @@ gulp.task('t0206', (callback) => {
 gulp.task('t0207', (callback) => {
   require(path.resolve('task0207-course-schedule/course-schedule.js'))(callback);
 });
+gulp.task('t0208', (callback) => {
+  require(path.resolve('task0208-trie/trie.js'))(callback);
+});

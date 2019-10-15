@@ -16,6 +16,7 @@ Table of Contents
 205. \<**Easy**>    Isomorphic Strings
 206. \<**Easy**>    Reverse Linked List
 207. \<**Medium**>  Course Schedule
+208. \<**Medium**>  <***Trie***> Implementation (Prefix Tree)
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

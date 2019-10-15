@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0207-course-schedule/course-schedule.js'))( () => {
+require(path.resolve('task0208-trie/trie.js'))( () => {
 });
