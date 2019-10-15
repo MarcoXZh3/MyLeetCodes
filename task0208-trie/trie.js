@@ -1,3 +1,7 @@
+// const path = require('path');
+// const { Trie } = require(path.resolve('_utils/trie'));
+
+
 /**
  * The Trie
  * @see: https://en.wikipedia.org/wiki/Trie
@@ -7,6 +11,7 @@ const Trie = function() {
    * attributes: the child nodes identified by each of the chars
    */
   const root = {};
+  const EOF = '{EOF}';    // line ending of each word
 
 
   /**
@@ -15,16 +20,15 @@ const Trie = function() {
    * @return {void}
    */
   this.insert = (word) => {
-    const recursion = (i, root) => {
-      const c = word.charAt(i);
-      root[c] = root[c] || {};
-      if (i + 1 === word.length) {
-        root[c]['{EOF}'] = true;    // this indicates the end of a word
-      } else {
-        recursion(i + 1, root[c]);
-      }
-    };
-    recursion(0, root);
+    word = `${word}`;
+    let cur = root;
+    while (word.length > 0) {
+      const char = word.charAt(0);
+      cur[char] = cur[char] || {};
+      cur = cur[char];
+      word = word.substring(1);
+    }
+    cur[EOF] = true;      // put a line ending for the word
   };
 
 
@@ -44,7 +48,7 @@ const Trie = function() {
       cur = cur[char];
       word = word.substring(1);
     }
-    return !!cur['{EOF}'];
+    return !!cur[EOF];    // true only if reaches the line ending
   };
 
   /**
@@ -69,8 +73,7 @@ const Trie = function() {
 
   /**
    * converts the trie to a string
-   * @param {string}    prefix    the prefix to search
-   * @return {boolean}            whether starts with the prefix or not
+   * @return {string}             the string of the trie
    */
   this.toString = () => {
     return JSON.stringify(root, null, 2);
