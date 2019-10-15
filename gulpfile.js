@@ -633,3 +633,6 @@ gulp.task('t0207', (callback) => {
 gulp.task('t0208', (callback) => {
   require(path.resolve('task0208-trie/trie.js'))(callback);
 });
+gulp.task('t0209', (callback) => {
+  require(path.resolve('task0209-min-sub-by-sum/min-sub-by-sum.js'))(callback);
+});

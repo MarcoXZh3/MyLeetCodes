@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0208-trie/trie.js'))( () => {
+require(path.resolve('task0209-min-sub-by-sum/min-sub-by-sum.js'))( () => {
 });
