@@ -636,3 +636,6 @@ gulp.task('t0208', (callback) => {
 gulp.task('t0209', (callback) => {
   require(path.resolve('task0209-min-sub-by-sum/min-sub-by-sum.js'))(callback);
 });
+gulp.task('t0210', (callback) => {
+  require(path.resolve('task0210-course-schedule-2/course-schedule-2.js'))(callback);
+});
