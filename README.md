@@ -20,6 +20,7 @@ Table of Contents
 209. \<**Medium**>  Minimum Size Subarray Sum
 210. \<**Medium**>  Course Schedule II
 211. \<**Medium**>  Add and Search Word - Data structure design
+212. \<**Hard**>    Word Search II (enhanced of Task 79)
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

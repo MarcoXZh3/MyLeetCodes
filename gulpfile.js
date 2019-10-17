@@ -642,3 +642,6 @@ gulp.task('t0210', (callback) => {
 gulp.task('t0211', (callback) => {
   require(path.resolve('task0211-word-dict/word-dict.js'))(callback);
 });
+gulp.task('t0212', (callback) => {
+  require(path.resolve('task0212-word-search-2/word-search-2.js'))(callback);
+});
