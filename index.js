@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0210-course-schedule-2/course-schedule-2.js'))( () => {
+require(path.resolve('task0211-word-dict/word-dict.js'))( () => {
 });

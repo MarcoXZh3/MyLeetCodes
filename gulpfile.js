@@ -639,3 +639,6 @@ gulp.task('t0209', (callback) => {
 gulp.task('t0210', (callback) => {
   require(path.resolve('task0210-course-schedule-2/course-schedule-2.js'))(callback);
 });
+gulp.task('t0211', (callback) => {
+  require(path.resolve('task0211-word-dict/word-dict.js'))(callback);
+});

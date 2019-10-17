@@ -19,6 +19,7 @@ Table of Contents
 208. \<**Medium**>  <***Trie***> Implementation (Prefix Tree)
 209. \<**Medium**>  Minimum Size Subarray Sum
 210. \<**Medium**>  Course Schedule II
+211. \<**Medium**>  Add and Search Word - Data structure design
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
