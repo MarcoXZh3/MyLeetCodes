@@ -5,7 +5,37 @@
  * @return {number[]}                       the order of taking courses
  */
 const findOrder = function(numCourses, prerequisites) {
-  return [];
+  if (numCourses === 0) {
+    return [];
+  }
+  const inDegree = Array(numCourses).fill(0);
+  const res = Array(numCourses).fill(0);
+  let idx = 0;
+  for (let pre of prerequisites) {
+    inDegree[pre[0]] ++;
+  }
+  const queue = [];
+  for (let i = 0; i < numCourses; i++) {
+    if (inDegree[i] === 0) {
+      res[idx ++] = i;
+      queue.push(i);
+    }
+  }
+
+  while (queue.length > 0) {
+    const course = queue.shift();
+    for (let pre of prerequisites) {
+      if (course !== pre[1]) {
+        continue ;
+      }
+      inDegree[pre[0]] --;
+      if (inDegree[pre[0]] === 0) {
+        res[idx ++] = pre[0];
+        queue.push(pre[0]);
+      }
+    }
+  }
+  return idx === numCourses ? res : [];
 };
 
 
