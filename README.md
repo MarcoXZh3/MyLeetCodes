@@ -22,6 +22,7 @@ Table of Contents
 211. \<**Medium**>  Add and Search Word - Data structure design
 212. \<**Hard**>    Word Search II (enhanced of Task 79)
 213. \<**Medium**>  House Robber II (enhanced of Task 198)
+214. \<**Hard**>    Shortest Palindrome
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0213-house-robber-2/house-robber-2.js'))( () => {
+require(path.resolve('task0214-shortest-palindrome/shortest-palindrome.js'))( () => {
 });

@@ -648,3 +648,6 @@ gulp.task('t0212', (callback) => {
 gulp.task('t0213', (callback) => {
   require(path.resolve('task0213-house-robber-2/house-robber-2.js'))(callback);
 });
+gulp.task('t0214', (callback) => {
+  require(path.resolve('task0214-shortest-palindrome/shortest-palindrome.js'))(callback);
+});
