@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0214-shortest-palindrome/shortest-palindrome.js'))( () => {
+require(path.resolve('task0215-arr-kth-max/arr-kth-max.js'))( () => {
 });

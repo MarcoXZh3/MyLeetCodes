@@ -651,3 +651,6 @@ gulp.task('t0213', (callback) => {
 gulp.task('t0214', (callback) => {
   require(path.resolve('task0214-shortest-palindrome/shortest-palindrome.js'))(callback);
 });
+gulp.task('t0215', (callback) => {
+  require(path.resolve('task0215-arr-kth-max/arr-kth-max.js'))(callback);
+});
