@@ -654,3 +654,6 @@ gulp.task('t0214', (callback) => {
 gulp.task('t0215', (callback) => {
   require(path.resolve('task0215-arr-kth-max/arr-kth-max.js'))(callback);
 });
+gulp.task('t0216', (callback) => {
+  require(path.resolve('task0216-comb-sum-3/comb-sum-3.js'))(callback);
+});
