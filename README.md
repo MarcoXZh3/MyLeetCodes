@@ -26,6 +26,7 @@ Table of Contents
 215. \<**Medium**>  Kth Largest Element in an Array
 216. \<**Medium**>  Combination Sum III (enhanced of Task 39, 40)
 217. \<**Easy**>    Contains Duplicate
+218. \<**Hard**>    The Skyline Problem
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

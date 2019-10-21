@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0217-has-dups/has-dups.js'))( () => {
+require(path.resolve('task0218-skyline/skyline.js'))( () => {
 });

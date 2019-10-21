@@ -660,3 +660,6 @@ gulp.task('t0216', (callback) => {
 gulp.task('t0217', (callback) => {
   require(path.resolve('task0217-has-dups/has-dups.js'))(callback);
 });
+gulp.task('t0218', (callback) => {
+  require(path.resolve('task0218-skyline/skyline.js'))(callback);
+});
