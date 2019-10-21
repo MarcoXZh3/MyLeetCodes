@@ -41,46 +41,32 @@ const insertSort = module.exports.insertSort = function(arr, ascending = true) {
 const heapSort = module.exports.heapSort = function(arr, ascending = true) {
   const factor = ascending ? 1 : -1;
 
-  // build heap: max heap for ascending while min heap for descending
-  for (let i = 0; i < arr.length; i++) {
-    let c = i;
-    let p = Math.floor(c / 2);
-    while (p >= 0 && arr[p] * factor < arr[c] * factor) {
-      const tmp = arr[p];
-      arr[p] = arr[c];
-      arr[c] = tmp;
-      c = p;
-      p = Math.floor(c / 2);
+  const heapify = (p, boundary) => {
+    let target = p;
+    let idx = 2 * p + 1;
+    if (idx < boundary && arr[target] * factor < arr[idx] * factor) {
+      target = idx;
     }
-  }
-
-  // every time: retrieve root, put tail as new root and heapify it
-  for (let i = arr.length - 1; i > 0; i--) {
-    // swap root and tail
-    const tmp = arr[0];
-    arr[0] = arr[i];
-    arr[i] = tmp;
-
-    // heapify the rest
-    let p = 0;
-    while (true) {
-      let target = p;
-      let idx = 2 * p + 1;
-      if (idx < i && arr[target] * factor < arr[idx] * factor) {
-        target = idx;
-      }
-      idx ++;
-      if (idx < i && arr[target] * factor < arr[idx] * factor) {
-        target = idx;
-      }
-      if (target === p) {
-        break ;
-      }
+    idx ++;
+    if (idx < boundary && arr[target] * factor < arr[idx] * factor) {
+      target = idx;
+    }
+    if (target !== p) {
       const tmp = arr[target];
       arr[target] = arr[p];
       arr[p] = tmp;
-      p = target;
+      heapify(target, boundary);
     }
+  };
+
+  for (let i = Math.floor(arr.length / 2) - 1; i >= 0; i--) {
+    heapify(i, arr.length);
+  }
+  for (let i = arr.length - 1; i > 0; i--) {
+    const tmp = arr[0];
+    arr[0] = arr[i];
+    arr[i] = tmp;
+    heapify(0, i);
   }
 };
 
@@ -164,10 +150,11 @@ const mergeSort2 = module.exports.mergeSort2 = function(arr, ascending = true) {
  */
 const bucketSort = module.exports.bucketSort = function(arr, ascending = true) {
   const factor = ascending ? 1 : -1;
-  const bucks = Math.floor((Math.max(...arr) - Math.min(...arr)) / arr.length) + 1;
+  const MIN = Math.min(...arr);
+  const bucks = Math.floor((Math.max(...arr) - MIN) / arr.length) + 1;
   const buckets = [];
   for (let val of arr) {
-    const remainder = ~~ (val / bucks);   // round towards 0
+    const remainder = ~~ ((val - MIN) / bucks);   // round towards 0
     const bucket = buckets[remainder] = buckets[remainder] || [];
     bucket.push(val);
     let i = bucket.length - 1;            // sort the bucket after value added
@@ -193,14 +180,15 @@ const bucketSort = module.exports.bucketSort = function(arr, ascending = true) {
  * sort by digits (as buckets), lowest to highest
  */
 const radixSort = module.exports.radixSort = function(arr, ascending = true) {
-  let max = `${Math.max(...arr)}`.length;
+  const MIN = Math.min(...arr);
+  let max = `${Math.max(...arr) - MIN}`.length;
   let divisor = 1;
   let buckets = [...Array(10).keys()].map( _=>[] );
   buckets = [];
   while (max -- > 0) {
     divisor *= 10;            // digits low to high
     for (let val of arr) {    // put values to the corresponding bucket of digit
-      const remainder = val % divisor;
+      const remainder = (val - MIN) % divisor;
       !buckets[remainder] && (buckets[remainder] = [])
       buckets[remainder].push(val);
     }
@@ -221,7 +209,7 @@ const radixSort = module.exports.radixSort = function(arr, ascending = true) {
 module.exports.main = function() {
   const arr = [];
   while (arr.length < 10) {
-    arr.push(Math.round(Math.random() * 90) + 10);
+    arr.push(Math.round(Math.random() * 100) - 50);
   }
   console.log(`arr0=[${arr.join(', ')}]`);
 
