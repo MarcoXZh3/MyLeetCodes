@@ -27,7 +27,8 @@ Table of Contents
 216. \<**Medium**>  Combination Sum III (enhanced of Task 39, 40)
 217. \<**Easy**>    Contains Duplicate
 218. \<**Hard**>    The Skyline Problem
-218. \<**Easy**>    Contains Duplicate II
+219. \<**Easy**>    Contains Duplicate II
+220. \<**Medium**>  Contains Duplicate III
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
