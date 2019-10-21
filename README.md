@@ -25,6 +25,7 @@ Table of Contents
 214. \<**Hard**>    Shortest Palindrome
 215. \<**Medium**>  Kth Largest Element in an Array
 216. \<**Medium**>  Combination Sum III (enhanced of Task 39, 40)
+217. \<**Easy**>    Contains Duplicate
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

@@ -657,3 +657,6 @@ gulp.task('t0215', (callback) => {
 gulp.task('t0216', (callback) => {
   require(path.resolve('task0216-comb-sum-3/comb-sum-3.js'))(callback);
 });
+gulp.task('t0217', (callback) => {
+  require(path.resolve('task0217-has-dups/has-dups.js'))(callback);
+});

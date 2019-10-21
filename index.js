@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0216-comb-sum-3/comb-sum-3.js'))( () => {
+require(path.resolve('task0217-has-dups/has-dups.js'))( () => {
 });
