@@ -4,7 +4,28 @@
  * @return {number[][]}         all solutions
  */
 const combinationSum3 = function(k, n) {
-  return [];
+  const MIN = 1;
+  const MAX = 9;
+
+  const backtracking = (cur, sum, res) => {
+    if (cur.length === k) {
+      if (sum === n) {
+        res.push(cur.slice());
+      }
+    } else {
+      let num = cur.length > 0 ? cur[cur.length - 1] + 1 : MIN;
+      while (num <= MAX) {
+        cur.push(num);
+        backtracking(cur, sum + num, res);
+        cur.pop();
+        num ++;
+      }
+    }
+  };
+
+  const res = [];
+  backtracking([], 0, res);
+  return res;
 };
 
 
