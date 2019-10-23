@@ -29,6 +29,7 @@ Table of Contents
 218. \<**Hard**>    The Skyline Problem
 219. \<**Easy**>    Contains Duplicate II
 220. \<**Medium**>  Contains Duplicate III
+221. \<**Medium**>  Maximal Square (similar to Task 85)
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

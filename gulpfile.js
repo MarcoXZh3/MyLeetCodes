@@ -669,3 +669,6 @@ gulp.task('t0219', (callback) => {
 gulp.task('t0220', (callback) => {
   require(path.resolve('task0220-has-dups-3/has-dups-3.js'))(callback);
 });
+gulp.task('t0221', (callback) => {
+  require(path.resolve('task0221-max-square/max-square.js'))(callback);
+});

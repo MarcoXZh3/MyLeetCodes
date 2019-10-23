@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0220-has-dups-3/has-dups-3.js'))( () => {
+require(path.resolve('task0221-max-square/max-square.js'))( () => {
 });
