@@ -672,3 +672,6 @@ gulp.task('t0220', (callback) => {
 gulp.task('t0221', (callback) => {
   require(path.resolve('task0221-max-square/max-square.js'))(callback);
 });
+gulp.task('t0222', (callback) => {
+  require(path.resolve('task0222-cnt-comp-tree/cnt-comp-tree.js'))(callback);
+});
