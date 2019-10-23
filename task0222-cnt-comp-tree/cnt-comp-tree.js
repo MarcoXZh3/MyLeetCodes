@@ -8,7 +8,10 @@ const TreeNode = BinaryTreeNode;
  * @return {number}             number of nodes
  */
 const countNodes = function(root) {
-
+  const recursion = (node) => {
+    return node ? 1 + recursion(node.left) + recursion(node.right) : 0;
+  }
+  return recursion(root);
 };
 
 
