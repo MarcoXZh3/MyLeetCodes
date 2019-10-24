@@ -32,6 +32,7 @@ Table of Contents
 221. \<**Medium**>  Maximal Square (similar to Task 85)
 222. \<**Medium**>  \<***Binary Tree***> Count Complete Tree Nodes
 223. \<**Medium**>  Rectangle Area
+224. \<**Hard**>    Basic Calculator
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

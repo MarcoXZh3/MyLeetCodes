@@ -678,3 +678,6 @@ gulp.task('t0222', (callback) => {
 gulp.task('t0223', (callback) => {
   require(path.resolve('task0223-rect-area/ract-area.js'))(callback);
 });
+gulp.task('t0224', (callback) => {
+  require(path.resolve('task0224-calculator/calculator.js'))(callback);
+});
