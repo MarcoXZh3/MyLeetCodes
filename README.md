@@ -31,6 +31,7 @@ Table of Contents
 220. \<**Medium**>  Contains Duplicate III
 221. \<**Medium**>  Maximal Square (similar to Task 85)
 222. \<**Medium**>  \<***Binary Tree***> Count Complete Tree Nodes
+223. \<**Medium**>  Rectangle Area
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

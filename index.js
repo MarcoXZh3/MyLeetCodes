@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0222-cnt-comp-tree/cnt-comp-tree.js'))( () => {
+require(path.resolve('task0223-rect-area/ract-area.js'))( () => {
 });

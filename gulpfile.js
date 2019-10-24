@@ -675,3 +675,6 @@ gulp.task('t0221', (callback) => {
 gulp.task('t0222', (callback) => {
   require(path.resolve('task0222-cnt-comp-tree/cnt-comp-tree.js'))(callback);
 });
+gulp.task('t0223', (callback) => {
+  require(path.resolve('task0223-rect-area/ract-area.js'))(callback);
+});
