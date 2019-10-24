@@ -10,7 +10,14 @@
  * @return {number}         the total area the two rectangles covers
  */
 const computeArea = function(A, B, C, D, E, F, G, H) {
-
+  const xl = Math.max(A, E);
+  const xr = Math.min(C, G);
+  const yb = Math.max(B, F);
+  const yt = Math.min(D, H);
+  const w = Math.max(0, xr - xl);
+  const h = Math.max(0, yt - yb);
+  // areas of the two rectangle minus the area of the overlapped part
+  return (C - A) * (D - B) + (G - E) * (H - F) - w * h;
 };
 
 
