@@ -681,3 +681,6 @@ gulp.task('t0223', (callback) => {
 gulp.task('t0224', (callback) => {
   require(path.resolve('task0224-calculator/calculator.js'))(callback);
 });
+gulp.task('t0225', (callback) => {
+  require(path.resolve('task0225-stack-by-queue/stack-by-queue.js'))(callback);
+});

@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0224-calculator/calculator.js'))( () => {
+require(path.resolve('task0225-stack-by-queue/stack-by-queue.js'))( () => {
 });
