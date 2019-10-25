@@ -34,6 +34,7 @@ Table of Contents
 223. \<**Medium**>  Rectangle Area
 224. \<**Hard**>    Basic Calculator
 225. \<**Easy**>    Implement Stack using Queues
+226. \<**Easy**>    \<***Binary Tree***> Invert Binary Tree
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

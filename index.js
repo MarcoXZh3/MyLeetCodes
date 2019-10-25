@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0225-stack-by-queue/stack-by-queue.js'))( () => {
+require(path.resolve('task0226-ivt-bin-tree/ivt-bin-tree.js'))( () => {
 });

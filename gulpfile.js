@@ -684,3 +684,6 @@ gulp.task('t0224', (callback) => {
 gulp.task('t0225', (callback) => {
   require(path.resolve('task0225-stack-by-queue/stack-by-queue.js'))(callback);
 });
+gulp.task('t0226', (callback) => {
+  require(path.resolve('task0226-ivt-bin-tree/ivt-bin-tree.js'))(callback);
+});
