@@ -2,8 +2,23 @@
  * @param {number}      n     the number to check
  * @return {boolean}          whether it is a power of 2
  */
-const isPowerOfTwo = function(n) {
+const isPowerOfTwo0 = function(n) {
+  if (n <= 0) {
+    return false;
+  }
+  while (n % 2 === 0) {
+    n = n / 2;
+  }
+  return n === 1;
+};
 
+
+/**
+ * @param {number}      n     the number to check
+ * @return {boolean}          whether it is a power of 2
+ */
+const isPowerOfTwo = function(n) {
+  return n > 0 && !(n & (n - 1));
 };
 
 
@@ -14,6 +29,7 @@ const isPowerOfTwo = function(n) {
 const main = (callback) => {
   console.log('Task 0231 - Power of Two:');
   [
+    0,
     1,
     16,
     218,
