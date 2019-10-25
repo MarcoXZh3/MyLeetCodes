@@ -4,11 +4,47 @@ const TreeNode = BinaryTreeNode;
 
 
 /**
+ * recursion
+ * @param {TreeNode}    root    the original binary tree
+ * @return {TreeNode}
+ */
+const invertTree0 = function(root) {
+  const recursion = (root) => {
+    if (root) {
+      const tmp = root.left;
+      root.left = root.right;
+      root.right = tmp;
+      recursion(root.left);
+      recursion(root.right);
+    }
+  };
+  recursion(root);
+  return root;
+};
+
+
+/**
+ * iteration by queue
  * @param {TreeNode}    root    the original binary tree
  * @return {TreeNode}
  */
 const invertTree = function(root) {
-
+  if (root) {
+    const queue = [root];
+    while (queue.length > 0) {
+      const cur = queue.shift();
+      const tmp = cur.left;
+      cur.left = cur.right;
+      cur.right = tmp;
+      if (cur.left) {
+        queue.push(cur.left);
+      }
+      if (cur.right) {
+        queue.push(cur.right);
+      }
+    }
+  }
+  return root;
 };
 
 
