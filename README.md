@@ -38,6 +38,7 @@ Table of Contents
 227. \<**Medium**>  Basic Calculator II
 228. \<**Medium**>  Summary Ranges
 229. \<**Medium**>  Majority Element II (enhanced of Task 169)
+230. \<**Medium**>  \<***Binary Tree***> Kth Smallest Element in a BST
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
