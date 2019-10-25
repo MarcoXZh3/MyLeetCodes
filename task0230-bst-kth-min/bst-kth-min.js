@@ -1,5 +1,5 @@
 const path = require('path');
-const { BinaryTreeNode, BinaryTree, arrToBinTree } = require(path.resolve('_utils/binary-tree'));
+const { BinaryTreeNode, arrToBinTree } = require(path.resolve('_utils/binary-tree'));
 const TreeNode = BinaryTreeNode;
 
 
@@ -9,6 +9,24 @@ const TreeNode = BinaryTreeNode;
  * @return {number}             the value of the target node
  */
 const kthSmallest = function(root, k) {
+  const recursion = (root) => {
+    if (!root) {
+      return null;
+    }
+    let target = recursion(root.left);
+    if (target !== null) {
+      return target;
+    }
+    if (--k === 0) {
+      return root.val;
+    }
+    target = recursion(root.right);
+    if (target !== null) {
+      return target;
+    }
+    return null;
+  };
+  return recursion(root);
 };
 
 
@@ -24,7 +42,7 @@ const main = (callback) => {
   ].forEach( vs => {
     const tree = arrToBinTree(vs[1]);
     console.log(`${tree.toString()}`);
-    console.log(`  target=${kthSmallest(tree.root, vs[0])}`);
+    console.log(`  k=${vs[0]}, target=${kthSmallest(tree.root, vs[0])}`);
   });
   if (callback) {
     callback();
