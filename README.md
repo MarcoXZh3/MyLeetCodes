@@ -35,6 +35,7 @@ Table of Contents
 224. \<**Hard**>    Basic Calculator
 225. \<**Easy**>    Implement Stack using Queues
 226. \<**Easy**>    \<***Binary Tree***> Invert Binary Tree
+227. \<**Medium**>  Basic Calculator II
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

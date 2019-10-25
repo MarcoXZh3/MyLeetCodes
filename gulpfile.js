@@ -687,3 +687,6 @@ gulp.task('t0225', (callback) => {
 gulp.task('t0226', (callback) => {
   require(path.resolve('task0226-ivt-bin-tree/ivt-bin-tree.js'))(callback);
 });
+gulp.task('t0227', (callback) => {
+  require(path.resolve('task0227-calculator-2/calculator-2.js'))(callback);
+});
