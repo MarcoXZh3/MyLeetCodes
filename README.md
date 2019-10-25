@@ -39,6 +39,7 @@ Table of Contents
 228. \<**Medium**>  Summary Ranges
 229. \<**Medium**>  Majority Element II (enhanced of Task 169)
 230. \<**Medium**>  \<***Binary Tree***> Kth Smallest Element in a BST
+231. \<**Easy**>    Power of Two
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

@@ -699,3 +699,6 @@ gulp.task('t0229', (callback) => {
 gulp.task('t0230', (callback) => {
   require(path.resolve('task0230-bst-kth-min/bst-kth-min.js'))(callback);
 });
+gulp.task('t0231', (callback) => {
+  require(path.resolve('task0231-powOf2/powOf2.js'))(callback);
+});
