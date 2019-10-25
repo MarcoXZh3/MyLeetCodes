@@ -3,7 +3,25 @@
  * @return {string[]}             summary descriptions of the array
  */
 const summaryRanges = function(nums) {
-  return [];
+  if (nums.length === 0) {
+    return [];
+  }
+  const res = [];
+  let start = 0;
+  let i = 1;
+  while (true) {
+    while (i < nums.length && nums[i] - nums[i - 1] === 1) {
+      i ++;
+    }
+    res.push(i - 1 === start ? `${nums[start]}` : `${nums[start]}->${nums[i - 1]}`);
+    if (i === nums.length) {
+      break ;
+    } else {
+      start = i;
+      i ++;
+    }
+  }
+  return res;
 };
 
 
