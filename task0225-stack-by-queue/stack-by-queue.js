@@ -2,6 +2,7 @@
  * The stack by queue
  */
 const MyStack = function() {
+  const queue = [];
 
   /**
    * Push element x onto stack
@@ -9,6 +10,10 @@ const MyStack = function() {
    * @return {void}
    */
   this.push = (x) => {
+    queue.push(x);
+    for (let i = 0; i < queue.length - 1; i++) {
+      queue.push(queue.shift());
+    }
   };
 
 
@@ -17,6 +22,7 @@ const MyStack = function() {
    * @return {number}         the element just removed from the stack
    */
   this.pop = () => {
+    return queue.shift();
   };
 
 
@@ -25,6 +31,7 @@ const MyStack = function() {
    * @return {number}         the top element in the stack
    */
   this.top = () => {
+    return queue.length === 0 ? null : queue[0];
   };
 
 
@@ -33,6 +40,7 @@ const MyStack = function() {
    * @return {boolean}        whether the stack is empty or not
    */
   this.empty = () => {
+    return queue.length === 0;
   };
 
 
@@ -41,6 +49,7 @@ const MyStack = function() {
    * @return {string}         string format of the stack
    */
   this.toString = () => {
+    return '=>' + queue.join('~');
   };
 
 };
@@ -60,9 +69,8 @@ const main = (callback) => {
   console.log(`  stack.push(2);   // ${stack.toString()}`);
   stack.top();
   console.log(`  stack.top();     // ${stack.top()}`);
-  stack.pop();   // returns 2
   console.log(`  stack.pop();     // ${stack.pop()} ~ ${stack.toString()}`);
-  console.log(`  stack.empty();   // ${stack.empty()}`);
+  console.log(`  stack.empty();   // ${stack.empty()} ~ ${stack.toString()}`);
   if (callback) {
     callback();
   }
