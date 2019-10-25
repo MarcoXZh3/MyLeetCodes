@@ -40,6 +40,7 @@ Table of Contents
 229. \<**Medium**>  Majority Element II (enhanced of Task 169)
 230. \<**Medium**>  \<***Binary Tree***> Kth Smallest Element in a BST
 231. \<**Easy**>    Power of Two
+232. \<**Easy**>    Implement Queue using Stacks (opposite of Task 225)
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

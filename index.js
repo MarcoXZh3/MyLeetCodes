@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0231-powOf2/powOf2.js'))( () => {
+require(path.resolve('task0232-queue-by-stack/queue-by-stack.js'))( () => {
 });

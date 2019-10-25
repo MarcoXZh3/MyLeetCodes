@@ -702,3 +702,6 @@ gulp.task('t0230', (callback) => {
 gulp.task('t0231', (callback) => {
   require(path.resolve('task0231-powOf2/powOf2.js'))(callback);
 });
+gulp.task('t0232', (callback) => {
+  require(path.resolve('task0232-queue-by-stack/queue-by-stack.js'))(callback);
+});
