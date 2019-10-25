@@ -36,6 +36,7 @@ Table of Contents
 225. \<**Easy**>    Implement Stack using Queues
 226. \<**Easy**>    \<***Binary Tree***> Invert Binary Tree
 227. \<**Medium**>  Basic Calculator II
+228. \<**Medium**>  Summary Ranges
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

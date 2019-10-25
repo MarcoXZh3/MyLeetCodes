@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0227-calculator-2/calculator-2.js'))( () => {
+require(path.resolve('task0228-sum-range/sum-range.js'))( () => {
 });
