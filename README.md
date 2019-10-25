@@ -37,6 +37,7 @@ Table of Contents
 226. \<**Easy**>    \<***Binary Tree***> Invert Binary Tree
 227. \<**Medium**>  Basic Calculator II
 228. \<**Medium**>  Summary Ranges
+229. \<**Medium**>  Majority Element II (enhanced of Task 169)
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

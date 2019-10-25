@@ -693,3 +693,6 @@ gulp.task('t0227', (callback) => {
 gulp.task('t0228', (callback) => {
   require(path.resolve('task0228-sum-range/sum-range.js'))(callback);
 });
+gulp.task('t0229', (callback) => {
+  require(path.resolve('task0229-major-element-2/major-element-2.js'))(callback);
+});
