@@ -2,12 +2,24 @@
  * The queue by stack
  */
 const MyQueue = function() {
+  const stack = [];
+
   /**
    * Push element x to the back of queue. 
    * @param {number}    x     the element to be put to the queue
    * @return {void}
    */
   this.push = function(x) {
+    const recursion = () => {
+      if (stack.length === 0) {
+        stack.push(x);
+      } else {
+        const tmp = stack.pop();
+        recursion();
+        stack.push(tmp);
+      }
+    };
+    recursion();
   };
 
   /**
@@ -15,6 +27,7 @@ const MyQueue = function() {
    * @return {number}         the removed element
    */
   this.pop = function() {
+    return stack.pop();
   };
 
   /**
@@ -22,6 +35,7 @@ const MyQueue = function() {
    * @return {number}         the front element
    */
   this.peek = function() {
+    return stack[stack.length - 1];
   };
 
   /**
@@ -29,6 +43,7 @@ const MyQueue = function() {
    * @return {boolean}        whether empty or not
    */
   this.empty = function() {
+    return stack.length === 0;
   };
 
   /**
@@ -36,6 +51,12 @@ const MyQueue = function() {
    * @return {string}         string format of the stack
    */
   this.toString = () => {
+    let str = '';
+    const cp = stack.slice();
+    while (cp.length > 0) {
+      str += '->' + cp.pop();
+    }
+    return str;
   };
 
 };
