@@ -3,64 +3,67 @@
  * @return {number[][]}                   the skyline coordinates
  */
 const getSkyline = function(buildings) {
-  const enqueue = (pq, val) => {
-    pq.push(val);
-    let c = pq.length - 1;
+  const compare = (a, b) => a[2]===b[2]?b[1]-a[1]:b[2]-a[2];
+  const heapPush = (heap, el) => {
+    heap.push(el);
+    let c = heap.length - 1;
     let p = Math.floor((c - 1) / 2);
-    while (p >= 0 && pq[p] < pq[c]) {
-      const tmp = pq[p];
-      pq[p] = pq[c];
-      pq[c] = tmp;
+    while (p >= 0 && compare(heap[c], heap[p]) < 0) {
+      const tmp = heap[c];
+      heap[c] = heap[p];
+      heap[p] = tmp;
       c = p;
       p = Math.floor((c - 1) / 2);
     }
   };
-
-  const dequeue = (pq, val) => {
-    let p = pq.indexOf(val);
-    if (p < 0) {
-      return ;
+  const heapPop = (heap) => {
+    if (heap.length === 1) {
+      return heap.pop();
     }
-    pq[p] = pq.pop();
+    const head = heap[0];
+    heap[0] = heap.pop();
+    let cur = 0;
     while (true) {
-      let max = p;
-      let c = max * 2 + 1;
-      if (c < pq.length && pq[max] < pq[c]) {
+      let c = 2 * cur + 1;
+      let max = cur;
+      if (c < heap.length && compare(heap[c], heap[max]) < 0) {
         max = c;
       }
       c ++;
-      if (c < pq.length && pq[max] < pq[c]) {
+      if (c < heap.length && compare(heap[c], heap[max]) < 0) {
         max = c;
       }
-      if (max === p) {
+      if (max === cur) {
         break ;
       }
-      const tmp = pq[max];
-      pq[max] = pq[p];
-      pq[p] = tmp;
-      p = max;
+      let tmp = heap[cur];
+      heap[cur] = heap[max];
+      heap[max] = tmp;
+      cur = max;
     }
+    return head;
   };
 
   const res = [];
-  let heights = [];
-  for (let b of buildings) {
-    heights.push([b[0], -b[2]]);
-    heights.push([b[1], b[2]]);
-  }
-  heights = heights.sort( (a,b)=>a[0]===b[0]?a[1]-b[1]:a[0]-b[0] );
-  const pq = [0];   // max priority queue
-  let prev = 0;
-  for (let h of heights) {
-    if (h[1] < 0) {
-      enqueue(pq, -h[1]);
+  let i = 0;
+  let pos = 0;
+  let height = 0;
+  let heap = [];
+  while (i < buildings.length || heap.length > 0) {
+    pos = heap.length === 0 ? buildings[i][0] : heap[0][1];
+    if (i >= buildings.length || buildings[i][0] > pos) {
+      while (heap.length > 0 && heap[0][1] <= pos) {
+        heapPop(heap);
+      }
     } else {
-      dequeue(pq, h[1]);
+      pos = buildings[i][0];
+      while (i < buildings.length && buildings[i][0] === pos) {
+        heapPush(heap, buildings[i ++]);
+      }
     }
-    let cur = pq[0];
-    if (prev != cur) {
-      res.push([h[0], cur]);
-      prev = cur;
+    height = heap.length === 0 ? 0 : heap[0][2];
+    if (res.length === 0 || res[res.length - 1][1] !== height) {
+      res.push([pos, height]);
     }
   }
   return res;
