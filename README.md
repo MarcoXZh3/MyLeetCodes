@@ -42,6 +42,7 @@ Table of Contents
 231. \<**Easy**>    Power of Two
 232. \<**Easy**>    Implement Queue using Stacks (opposite of Task 225)
 233. \<**Hard**>    Number of Digit One (Similar to Task 172)
+234. \<**Easy**>    Palindrome Linked List
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

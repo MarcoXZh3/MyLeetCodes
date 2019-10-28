@@ -708,3 +708,6 @@ gulp.task('t0232', (callback) => {
 gulp.task('t0233', (callback) => {
   require(path.resolve('task0233-cnt-ones/cnt-ones.js'))(callback);
 });
+gulp.task('t0234', (callback) => {
+  require(path.resolve('task0234-palindrome-list/palindrome-list.js'))(callback);
+});

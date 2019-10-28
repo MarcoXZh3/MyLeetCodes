@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0233-cnt-ones/cnt-ones.js'))( () => {
+require(path.resolve('task0234-palindrome-list/palindrome-list.js'))( () => {
 });
