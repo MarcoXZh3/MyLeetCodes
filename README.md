@@ -44,6 +44,7 @@ Table of Contents
 233. \<**Hard**>    Number of Digit One (Similar to Task 172)
 234. \<**Easy**>    Palindrome Linked List
 235. \<**Easy**>    \<***Binary Tree***> Lowest Common Ancestor of a Binary Search Tree
+236. \<**Medium**>  \<***Binary Tree***> Lowest Common Ancestor of a Binary Tree
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

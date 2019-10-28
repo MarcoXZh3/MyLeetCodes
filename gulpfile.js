@@ -714,3 +714,6 @@ gulp.task('t0234', (callback) => {
 gulp.task('t0235', (callback) => {
   require(path.resolve('task0235-bst-1st-common-p/bst-1st-common-p.js'))(callback);
 });
+gulp.task('t0236', (callback) => {
+  require(path.resolve('task0236-tree-1st-common-p/tree-1st-common-p.js'))(callback);
+});

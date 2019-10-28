@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0235-bst-1st-common-p/bst-1st-common-p.js'))( () => {
+require(path.resolve('task0236-tree-1st-common-p/tree-1st-common-p.js'))( () => {
 });
