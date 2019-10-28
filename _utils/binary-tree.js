@@ -40,6 +40,18 @@ const BinTree = module.exports.BinaryTree = function(root) {
 
 
   /**
+   * find the depth of the tree
+   * @returns {number}              depth of the tree
+   */
+  this.depth = () => {
+    const recursion = (node) => {
+      return node ? 1 + Math.max(recursion(node.left), recursion(node.right)) : 0;
+    };
+    return recursion(this.root);
+  };
+
+
+  /**
    * find the node in the tree matching the given target
    * @param {object}      target    the target to look for
    * @param {function}    equal     the function to define equality
@@ -198,8 +210,7 @@ const BinTree = module.exports.BinaryTree = function(root) {
       }
       return lines;
     };
-  
-  
+
     // find the max width then immediately print the tree recursively
     return print(root, Math.max(getWidth(root), gap.length)).join('\n');
   };

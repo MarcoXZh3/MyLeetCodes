@@ -33,6 +33,26 @@ const TreeNode = module.exports.TreeNode = function(val, children) {
 const Tree = module.exports.Tree = function(root) {
   this.root = root;
 
+
+  /**
+   * find the depth of the tree
+   * @returns {number}              depth of the tree
+   */
+  this.depth = () => {
+    const recursion = (node) => {
+      if (!node) {
+        return 0;
+      }
+      let max = 0;
+      for (let child of node.children) {
+        max = Math.max(max, recursion(child));
+      }
+      return 1 + max;
+    };
+    return recursion(this.root);
+  };
+
+
   /**
    * find the node in the tree matching the given target
    * @param {object}      target    the target to look for
