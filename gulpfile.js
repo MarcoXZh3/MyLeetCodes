@@ -717,3 +717,6 @@ gulp.task('t0235', (callback) => {
 gulp.task('t0236', (callback) => {
   require(path.resolve('task0236-tree-1st-common-p/tree-1st-common-p.js'))(callback);
 });
+gulp.task('t0237', (callback) => {
+  require(path.resolve('task0237-del-list-node-2/del-list-node-2.js'))(callback);
+});
