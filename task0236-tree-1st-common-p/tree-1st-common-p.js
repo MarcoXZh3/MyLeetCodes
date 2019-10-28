@@ -10,7 +10,21 @@ const TreeNode = BinaryTreeNode;
  * @return {TreeNode}           the lowest common ancestor
  */
 const lowestCommonAncestor = function(root, p, q) {
-
+  const recursion = (root) => {
+    if (!root) {
+      return false;
+    }
+    let left = recursion(root.left, p, q) ? 1 : 0;
+    let right = recursion(root.right, p, q) ? 1 : 0;
+    let mid = root === p || root === q ? 1 : 0;
+    if (mid + left + right >= 2) {
+      re = root;
+    }
+    return mid + left + right > 0;
+  };
+  let re = null;
+  recursion(root);
+  return re;
 };
 
 
