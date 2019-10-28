@@ -34,6 +34,32 @@ const Tree = module.exports.Tree = function(root) {
   this.root = root;
 
   /**
+   * find the node in the tree matching the given target
+   * @param {object}      target    the target to look for
+   * @param {function}    equal     the function to define equality
+   * @returns {TreeNode}            the matching tree node
+   */
+  this.search = (target, equal) => {
+    const recursion = (root) => {
+      if (!root) {
+        return null;
+      } else if (equal && equal(root, target) || root.val === target.val) {
+        return root;
+      }
+      for (let child of root.children) {
+        const re = recursion(child);
+        if (re) {
+          return re;
+        }
+      }
+      return null;
+    };
+    target = target instanceof TreeNode ? target : new TreeNode(target);
+    return recursion(root);
+  };
+
+
+  /**
    * Print the tree as string
    * @param {function}    printf  the custom function to print each node
    * @returns {string}            the string representation of the graph

@@ -38,6 +38,26 @@ const BinTreeNode = module.exports.BinaryTreeNode = function(val, l, r) {
 const BinTree = module.exports.BinaryTree = function(root) {
   this.root = root;
 
+
+  /**
+   * find the node in the tree matching the given target
+   * @param {object}      target    the target to look for
+   * @param {function}    equal     the function to define equality
+   * @returns {BinTreeNode}         the matching tree node
+   */
+  this.search = (target, equal) => {
+    const recursion = (root) => {
+      return root ? (
+                equal && equal(root, target) || root.val === target.val ?
+                  root :
+                  recursion(root.left) || recursion(root.right)
+             ) : null;
+    };
+    target = target instanceof BinTreeNode ? target : new BinTreeNode(target);
+    return recursion(root);
+  };
+
+
   /**
    * Print the binary tree as string
    * @param {function}    printf  the custom function to print each node
