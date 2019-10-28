@@ -711,3 +711,6 @@ gulp.task('t0233', (callback) => {
 gulp.task('t0234', (callback) => {
   require(path.resolve('task0234-palindrome-list/palindrome-list.js'))(callback);
 });
+gulp.task('t0235', (callback) => {
+  require(path.resolve('task0235-bst-1st-common-p/bst-1st-common-p.js'))(callback);
+});

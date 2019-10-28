@@ -43,6 +43,7 @@ Table of Contents
 232. \<**Easy**>    Implement Queue using Stacks (opposite of Task 225)
 233. \<**Hard**>    Number of Digit One (Similar to Task 172)
 234. \<**Easy**>    Palindrome Linked List
+235. \<**Easy**>    \<***Binary Tree***> Lowest Common Ancestor of a Binary Search Tree
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
