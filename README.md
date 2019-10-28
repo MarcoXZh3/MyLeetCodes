@@ -41,6 +41,7 @@ Table of Contents
 230. \<**Medium**>  \<***Binary Tree***> Kth Smallest Element in a BST
 231. \<**Easy**>    Power of Two
 232. \<**Easy**>    Implement Queue using Stacks (opposite of Task 225)
+233. \<**Hard**>    Number of Digit One (Similar to Task 172)
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
