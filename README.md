@@ -47,6 +47,7 @@ Table of Contents
 236. \<**Medium**>  \<***Binary Tree***> Lowest Common Ancestor of a Binary Tree
 237. \<**Easy**>    Delete Node in a Linked List (similar to Task 203)
 238. \<**Medium**>  Product of Array Except Self
+239. \<**Hard**>    Sliding Window Maximum
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

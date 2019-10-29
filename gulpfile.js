@@ -723,3 +723,6 @@ gulp.task('t0237', (callback) => {
 gulp.task('t0238', (callback) => {
   require(path.resolve('task0238-arr-prods/arr-prods.js'))(callback);
 });
+gulp.task('t0239', (callback) => {
+  require(path.resolve('task0239-slide-win-max/slide-win-max.js'))(callback);
+});
