@@ -50,6 +50,7 @@ Table of Contents
 239. \<**Hard**>    Sliding Window Maximum
 240. \<**Medium**>  Search a 2D Matrix II (enhanced of Task 74)
 241. \<**Medium**>  Different Ways to Add Parentheses
+242. \<**Easy**>    Valid Anagram
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

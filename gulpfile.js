@@ -732,3 +732,6 @@ gulp.task('t0240', (callback) => {
 gulp.task('t0241', (callback) => {
   require(path.resolve('task0241-add-brackets/add-brackets.js'))(callback);
 });
+gulp.task('t0242', (callback) => {
+  require(path.resolve('task0242-valid-anagram/valid-anagram.js'))(callback);
+});

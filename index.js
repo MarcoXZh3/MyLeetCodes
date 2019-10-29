@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0241-add-brackets/add-brackets.js'))( () => {
+require(path.resolve('task0242-valid-anagram/valid-anagram.js'))( () => {
 });
