@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0240-search-2d-mat-2/search-2d-mat-2.js'))( () => {
+require(path.resolve('task0241-add-brackets/add-brackets.js'))( () => {
 });

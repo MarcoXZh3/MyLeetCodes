@@ -49,6 +49,7 @@ Table of Contents
 238. \<**Medium**>  Product of Array Except Self
 239. \<**Hard**>    Sliding Window Maximum
 240. \<**Medium**>  Search a 2D Matrix II (enhanced of Task 74)
+241. \<**Medium**>  Different Ways to Add Parentheses
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

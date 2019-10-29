@@ -729,3 +729,6 @@ gulp.task('t0239', (callback) => {
 gulp.task('t0240', (callback) => {
   require(path.resolve('task0240-search-2d-mat-2/search-2d-mat-2.js'))(callback);
 });
+gulp.task('t0241', (callback) => {
+  require(path.resolve('task0241-add-brackets/add-brackets.js'))(callback);
+});
