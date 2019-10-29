@@ -720,3 +720,6 @@ gulp.task('t0236', (callback) => {
 gulp.task('t0237', (callback) => {
   require(path.resolve('task0237-del-list-node-2/del-list-node-2.js'))(callback);
 });
+gulp.task('t0238', (callback) => {
+  require(path.resolve('task0238-arr-prods/arr-prods.js'))(callback);
+});
