@@ -48,6 +48,7 @@ Table of Contents
 237. \<**Easy**>    Delete Node in a Linked List (similar to Task 203)
 238. \<**Medium**>  Product of Array Except Self
 239. \<**Hard**>    Sliding Window Maximum
+240. \<**Medium**>  Search a 2D Matrix II (enhanced of Task 74)
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
