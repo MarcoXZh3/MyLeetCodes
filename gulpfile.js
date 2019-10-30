@@ -756,3 +756,6 @@ gulp.task('t0248', (callback) => {
 gulp.task('t0249', (callback) => {
   require(path.resolve('task0249-group-shift-str/group-shift-str.js'))(callback);
 });
+gulp.task('t0250', (callback) => {
+  require(path.resolve('task0250-uni-val-sub-tree/uni-val-sub-tree.js'))(callback);
+});

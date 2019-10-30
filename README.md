@@ -58,6 +58,7 @@ Table of Contents
 247. \<**Medium**>  TODO: Strobogrammatic Number II
 248. \<**Hard**>    TODO: Strobogrammatic Number III
 249. \<**Medium**>  TODO: Group Shifted Strings
+250. \<**Medium**>  TODO: Count Univalue Subtrees
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
