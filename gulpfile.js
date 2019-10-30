@@ -750,3 +750,6 @@ gulp.task('t0246', (callback) => {
 gulp.task('t0247', (callback) => {
   require(path.resolve('task0247-strobogrammatic-2/strobogrammatic-2.js'))(callback);
 });
+gulp.task('t0248', (callback) => {
+  require(path.resolve('task0248-strobogrammatic-3/strobogrammatic-3.js'))(callback);
+});
