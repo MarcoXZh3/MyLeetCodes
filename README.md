@@ -55,6 +55,7 @@ Table of Contents
 244. \<**Medium**>  TODO: Shortest Word Distance II
 245. \<**Medium**>  TODO: Shortest Word Distance III
 246. \<**Easy**>    TODO: Strobogrammatic Number
+247. \<**Medium**>  TODO: Strobogrammatic Number II
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
