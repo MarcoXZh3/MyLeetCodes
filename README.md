@@ -53,6 +53,7 @@ Table of Contents
 242. \<**Easy**>    Valid Anagram
 243. \<**Easy**>    TODO: Shortest Word Distance
 244. \<**Medium**>  TODO: Shortest Word Distance II
+245. \<**Medium**>  TODO: Shortest Word Distance III
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

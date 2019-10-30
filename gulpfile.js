@@ -741,3 +741,6 @@ gulp.task('t0243', (callback) => {
 gulp.task('t0244', (callback) => {
   require(path.resolve('task0244-min-word-dist-2/min-word-dist-2.js'))(callback);
 });
+gulp.task('t0245', (callback) => {
+  require(path.resolve('task0245-min-word-dist-3/min-word-dist-3.js'))(callback);
+});
