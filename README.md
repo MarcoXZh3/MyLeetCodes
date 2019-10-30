@@ -57,6 +57,7 @@ Table of Contents
 246. \<**Easy**>    TODO: Strobogrammatic Number
 247. \<**Medium**>  TODO: Strobogrammatic Number II
 248. \<**Hard**>    TODO: Strobogrammatic Number III
+249. \<**Medium**>  TODO: Group Shifted Strings
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

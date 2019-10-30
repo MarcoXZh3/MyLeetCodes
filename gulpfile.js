@@ -753,3 +753,6 @@ gulp.task('t0247', (callback) => {
 gulp.task('t0248', (callback) => {
   require(path.resolve('task0248-strobogrammatic-3/strobogrammatic-3.js'))(callback);
 });
+gulp.task('t0249', (callback) => {
+  require(path.resolve('task0249-group-shift-str/group-shift-str.js'))(callback);
+});
