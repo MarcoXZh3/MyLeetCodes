@@ -759,3 +759,6 @@ gulp.task('t0249', (callback) => {
 gulp.task('t0250', (callback) => {
   require(path.resolve('task0250-uni-val-sub-tree/uni-val-sub-tree.js'))(callback);
 });
+gulp.task('t0251', (callback) => {
+  require(path.resolve('task0251-flat-2d-vect/flat-2d-vect.js'))(callback);
+});
