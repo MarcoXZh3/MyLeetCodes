@@ -735,3 +735,6 @@ gulp.task('t0241', (callback) => {
 gulp.task('t0242', (callback) => {
   require(path.resolve('task0242-valid-anagram/valid-anagram.js'))(callback);
 });
+gulp.task('t0243', (callback) => {
+  require(path.resolve('task0243-min-word-dist/min-word-dist.js'))(callback);
+});

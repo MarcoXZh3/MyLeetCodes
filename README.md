@@ -51,6 +51,7 @@ Table of Contents
 240. \<**Medium**>  Search a 2D Matrix II (enhanced of Task 74)
 241. \<**Medium**>  Different Ways to Add Parentheses
 242. \<**Easy**>    Valid Anagram
+243. \<**Easy**>    TODO: Shortest Word Distance
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
