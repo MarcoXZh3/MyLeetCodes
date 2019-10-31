@@ -8,7 +8,21 @@ const TreeNode = BinaryTreeNode;
  * @return {string[]}           all the paths
  */
 const binaryTreePaths = function(root) {
-  return [];
+  const recursion = (root, cur) => {
+    if (root) {
+      cur.push(root.val);
+      if (!root.left && !root.right) {
+        res.push(`${cur.join('->')}`);
+      } else {
+        recursion(root.left, cur);
+        recursion(root.right, cur);
+      }
+      cur.pop();
+    }
+  };
+  const res = [];
+  recursion(root, []);
+  return res;
 };
 
 
