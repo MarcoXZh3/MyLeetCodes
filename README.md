@@ -72,6 +72,7 @@ Table of Contents
 261. \<**Medium**>  TODO: \<***Graph***> Graph Valid Tree
 262. \<**Hard**>    <*SQL*> Trips and Users
 263. \<**Easy**>    Ugly Number
+264. \<**Medium**>  Ugly Number II
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
