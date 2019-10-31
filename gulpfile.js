@@ -774,3 +774,6 @@ gulp.task('t0254', (callback) => {
 gulp.task('t0255', (callback) => {
   require(path.resolve('task0255-verify-bst-preorder/verify-bst-preorder.js'))(callback);
 });
+gulp.task('t0256', (callback) => {
+  require(path.resolve('task0256-paint-house/paint-house.js'))(callback);
+});
