@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0260-single-num-3/single-num-3.js'))( () => {
+require(path.resolve('task0263-ugly-num/ugly-num.js'))( () => {
 });

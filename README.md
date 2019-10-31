@@ -71,6 +71,7 @@ Table of Contents
 260. \<**Medium**>  Single Number III (Similar to Task 136, 137)
 261. \<**Medium**>  TODO: \<***Graph***> Graph Valid Tree
 262. \<**Hard**>    <*SQL*> Trips and Users
+263. \<**Easy**>    Ugly Number
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

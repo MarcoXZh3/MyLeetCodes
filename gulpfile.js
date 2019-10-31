@@ -795,3 +795,6 @@ gulp.task('t0261', (callback) => {
 gulp.task('t0262', (callback) => {
   console.log(fs.readFileSync(path.resolve('task0262-trips-users/trips-users.sql')).toString());callback();
 });
+gulp.task('t0263', (callback) => {
+  require(path.resolve('task0263-ugly-num/ugly-num.js'))(callback);
+});
