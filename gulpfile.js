@@ -786,3 +786,6 @@ gulp.task('t0258', (callback) => {
 gulp.task('t0259', (callback) => {
   require(path.resolve('task0259-3sum-smaller/3sum-smaller.js'))(callback);
 });
+gulp.task('t0260', (callback) => {
+  require(path.resolve('task0260-single-num-3/single-num-3.js'))(callback);
+});

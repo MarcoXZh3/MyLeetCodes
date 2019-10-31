@@ -68,6 +68,7 @@ Table of Contents
 257. \<**Easy**>    \<***Binary Tree***> Binary Tree Paths
 258. \<**Easy**>    Add Digits
 259. \<**Medium**>  TODO: 3Sum Smaller (Similar to Task 15, 16)
+260. \<**Medium**>  Single Number III (Similar to Task 136, 137)
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
