@@ -771,3 +771,6 @@ gulp.task('t0253', (callback) => {
 gulp.task('t0254', (callback) => {
   require(path.resolve('task0254-factor-comb/factor-comb.js'))(callback);
 });
+gulp.task('t0255', (callback) => {
+  require(path.resolve('task0255-verify-bst-preorder/verify-bst-preorder.js'))(callback);
+});
