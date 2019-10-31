@@ -70,6 +70,7 @@ Table of Contents
 259. \<**Medium**>  TODO: 3Sum Smaller (Similar to Task 15, 16)
 260. \<**Medium**>  Single Number III (Similar to Task 136, 137)
 261. \<**Medium**>  TODO: \<***Graph***> Graph Valid Tree
+262. \<**Hard**>    <*SQL*> Trips and Users
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

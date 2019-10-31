@@ -792,3 +792,6 @@ gulp.task('t0260', (callback) => {
 gulp.task('t0261', (callback) => {
   require(path.resolve('task0261-graph-valid-tree/graph-valid-tree.js'))(callback);
 });
+gulp.task('t0262', (callback) => {
+  console.log(fs.readFileSync(path.resolve('task0262-trips-users/trips-users.sql')).toString());callback();
+});
