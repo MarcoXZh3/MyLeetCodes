@@ -765,3 +765,6 @@ gulp.task('t0251', (callback) => {
 gulp.task('t0252', (callback) => {
   require(path.resolve('task0252-meeting-rooms/meeting-rooms.js'))(callback);
 });
+gulp.task('t0253', (callback) => {
+  require(path.resolve('task0253-meeting-rooms-2/meeting-rooms-2.js'))(callback);
+});
