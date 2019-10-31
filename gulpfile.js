@@ -777,3 +777,6 @@ gulp.task('t0255', (callback) => {
 gulp.task('t0256', (callback) => {
   require(path.resolve('task0256-paint-house/paint-house.js'))(callback);
 });
+gulp.task('t0257', (callback) => {
+  require(path.resolve('task0257-bin-tree-paths/bin-tree-paths.js'))(callback);
+});

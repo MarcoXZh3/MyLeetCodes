@@ -65,6 +65,7 @@ Table of Contents
 254. \<**Medium**>  TODO: Factor Combinations
 255. \<**Medium**>  TODO: \<***Binary Tree***> Verify Preorder Sequence in Binary Search Tree
 256. \<**Easy**>    TODO: Paint House
+257. \<**Easy**>    \<***Binary Tree***> Binary Tree Paths
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
