@@ -67,6 +67,7 @@ Table of Contents
 256. \<**Easy**>    TODO: Paint House
 257. \<**Easy**>    \<***Binary Tree***> Binary Tree Paths
 258. \<**Easy**>    Add Digits
+259. \<**Medium**>  TODO: 3Sum Smaller (Similar to Task 15, 16)
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

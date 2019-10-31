@@ -783,3 +783,6 @@ gulp.task('t0257', (callback) => {
 gulp.task('t0258', (callback) => {
   require(path.resolve('task0258-add-digit/add-digit.js'))(callback);
 });
+gulp.task('t0259', (callback) => {
+  require(path.resolve('task0259-3sum-smaller/3sum-smaller.js'))(callback);
+});
