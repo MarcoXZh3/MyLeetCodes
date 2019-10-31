@@ -2,8 +2,36 @@
  * @param {number[]}    nums    the number array
  * @return {number[]}           the numbers only show once
  */
+const singleNumber0 = function(nums) {
+  const cnts = {};
+  for (let n of nums) {
+    cnts[`${n}`] = (cnts[`${n}`] || 0) + 1;
+  }
+  const res = [];
+  for (let k in cnts) {
+    if (cnts[k] === 1) {
+      res.push(parseInt(k, 10));
+    }
+  }
+  return res;
+};
+
+
+/**
+ * @param {number[]}    nums    the number array
+ * @return {number[]}           the numbers only show once
+ */
 const singleNumber = function(nums) {
-  return [];
+  let diff = 0;
+  for (let num of nums) {
+    diff ^= num;
+  }
+  diff &= -diff;
+  const res = [];
+  for (let num of nums) {
+    res[num & diff ? 0 : 1] ^= num;
+  }
+  return res;
 };
 
 
