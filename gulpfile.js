@@ -762,3 +762,6 @@ gulp.task('t0250', (callback) => {
 gulp.task('t0251', (callback) => {
   require(path.resolve('task0251-flat-2d-vect/flat-2d-vect.js'))(callback);
 });
+gulp.task('t0252', (callback) => {
+  require(path.resolve('task0252-meeting-rooms/meeting-rooms.js'))(callback);
+});
