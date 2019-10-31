@@ -62,6 +62,7 @@ Table of Contents
 251. \<**Medium**>  TODO: Flatten 2D Vector
 252. \<**Easy**>    TODO: Meeting Rooms
 253. \<**Medium**>  TODO: Meeting Rooms II
+254. \<**Medium**>  TODO: Factor Combinations
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

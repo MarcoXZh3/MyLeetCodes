@@ -768,3 +768,6 @@ gulp.task('t0252', (callback) => {
 gulp.task('t0253', (callback) => {
   require(path.resolve('task0253-meeting-rooms-2/meeting-rooms-2.js'))(callback);
 });
+gulp.task('t0254', (callback) => {
+  require(path.resolve('task0254-factor-comb/factor-comb.js'))(callback);
+});
