@@ -66,6 +66,7 @@ Table of Contents
 255. \<**Medium**>  TODO: \<***Binary Tree***> Verify Preorder Sequence in Binary Search Tree
 256. \<**Easy**>    TODO: Paint House
 257. \<**Easy**>    \<***Binary Tree***> Binary Tree Paths
+258. \<**Easy**>    Add Digits
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

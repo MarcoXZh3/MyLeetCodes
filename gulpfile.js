@@ -780,3 +780,6 @@ gulp.task('t0256', (callback) => {
 gulp.task('t0257', (callback) => {
   require(path.resolve('task0257-bin-tree-paths/bin-tree-paths.js'))(callback);
 });
+gulp.task('t0258', (callback) => {
+  require(path.resolve('task0258-add-digit/add-digit.js'))(callback);
+});

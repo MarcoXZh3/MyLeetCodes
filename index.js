@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0257-bin-tree-paths/bin-tree-paths.js'))( () => {
+require(path.resolve('task0258-add-digit/add-digit.js'))( () => {
 });
