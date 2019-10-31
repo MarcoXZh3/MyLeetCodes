@@ -789,3 +789,6 @@ gulp.task('t0259', (callback) => {
 gulp.task('t0260', (callback) => {
   require(path.resolve('task0260-single-num-3/single-num-3.js'))(callback);
 });
+gulp.task('t0261', (callback) => {
+  require(path.resolve('task0261-graph-valid-tree/graph-valid-tree.js'))(callback);
+});
