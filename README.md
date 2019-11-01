@@ -73,6 +73,7 @@ Table of Contents
 262. \<**Hard**>    <*SQL*> Trips and Users
 263. \<**Easy**>    Ugly Number
 264. \<**Medium**>  Ugly Number II
+265. \<**Hard**>    TODO: Paint House II
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
