@@ -74,6 +74,7 @@ Table of Contents
 263. \<**Easy**>    Ugly Number
 264. \<**Medium**>  Ugly Number II
 265. \<**Hard**>    TODO: Paint House II
+266. \<**Easy**>    TODO: Palindrome Permutation
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

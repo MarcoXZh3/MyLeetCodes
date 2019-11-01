@@ -804,3 +804,6 @@ gulp.task('t0264', (callback) => {
 gulp.task('t0265', (callback) => {
   require(path.resolve('task0265-paint-house-2/paint-house-2.js'))(callback);
 });
+gulp.task('t0266', (callback) => {
+  require(path.resolve('task0266-padlind-perm/palind-perm.js'))(callback);
+});
