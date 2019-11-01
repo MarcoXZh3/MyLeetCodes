@@ -810,3 +810,6 @@ gulp.task('t0266', (callback) => {
 gulp.task('t0267', (callback) => {
   require(path.resolve('task0267-padlind-perm-2/palind-perm-2.js'))(callback);
 });
+gulp.task('t0268', (callback) => {
+  require(path.resolve('task0268-missing-num/missing-num.js'))(callback);
+});

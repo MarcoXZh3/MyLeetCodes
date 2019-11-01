@@ -76,6 +76,7 @@ Table of Contents
 265. \<**Hard**>    TODO: Paint House II
 266. \<**Easy**>    TODO: Palindrome Permutation
 267. \<**Medium**>  TODO: Palindrome Permutation II
+268. \<**Easy**>    Missing Number
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
