@@ -816,3 +816,6 @@ gulp.task('t0268', (callback) => {
 gulp.task('t0269', (callback) => {
   require(path.resolve('task0269-alien-dict/alien-dict.js'))(callback);
 });
+gulp.task('t0270', (callback) => {
+  require(path.resolve('task0270-closest-bst/closet-bst.js'))(callback);
+});
