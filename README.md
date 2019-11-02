@@ -79,6 +79,7 @@ Table of Contents
 268. \<**Easy**>    Missing Number
 269. \<**Hard**>    TODO: Alien Dictionary
 270. \<**Easy**>    TODO: Closest Binary Search Tree Value
+271. \<**Medium**>  TODO: Encode and Decode Strings
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
