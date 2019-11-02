@@ -822,3 +822,6 @@ gulp.task('t0270', (callback) => {
 gulp.task('t0271', (callback) => {
   require(path.resolve('task0271-enc-dec-str/enc-dec-str.js'))(callback);
 });
+gulp.task('t0272', (callback) => {
+  require(path.resolve('task0272-closest-bst-2/closet-bst-2.js'))(callback);
+});
