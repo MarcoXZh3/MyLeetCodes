@@ -77,6 +77,7 @@ Table of Contents
 266. \<**Easy**>    TODO: Palindrome Permutation
 267. \<**Medium**>  TODO: Palindrome Permutation II
 268. \<**Easy**>    Missing Number
+269. \<**Hard**>    TODO: Alien Dictionary
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

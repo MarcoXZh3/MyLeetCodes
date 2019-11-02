@@ -813,3 +813,6 @@ gulp.task('t0267', (callback) => {
 gulp.task('t0268', (callback) => {
   require(path.resolve('task0268-missing-num/missing-num.js'))(callback);
 });
+gulp.task('t0269', (callback) => {
+  require(path.resolve('task0269-alien-dict/alien-dict.js'))(callback);
+});
