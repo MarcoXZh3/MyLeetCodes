@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0268-missing-num/missing-num.js'))( () => {
+require(path.resolve('task0273-int-to-words/int-to-words.js'))( () => {
 });

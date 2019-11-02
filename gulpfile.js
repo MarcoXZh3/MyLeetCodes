@@ -825,3 +825,6 @@ gulp.task('t0271', (callback) => {
 gulp.task('t0272', (callback) => {
   require(path.resolve('task0272-closest-bst-2/closet-bst-2.js'))(callback);
 });
+gulp.task('t0273', (callback) => {
+  require(path.resolve('task0273-int-to-words/int-to-words.js'))(callback);
+});
