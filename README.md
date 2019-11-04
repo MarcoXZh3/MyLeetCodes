@@ -83,6 +83,7 @@ Table of Contents
 272. \<**Hard**>    TODO: Closest Binary Search Tree Value II
 273. \<**Hard**>    Integer to English Words
 274. \<**Medium**>  H-Index
+275. \<**Medium**>  H-Index II
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0274-h-index/h-index.js'))( () => {
+require(path.resolve('task0275-h-index-2/h-index-2.js'))( () => {
 });
