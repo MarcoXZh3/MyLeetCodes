@@ -82,6 +82,7 @@ Table of Contents
 271. \<**Medium**>  TODO: Encode and Decode Strings
 272. \<**Hard**>    TODO: Closest Binary Search Tree Value II
 273. \<**Hard**>    Integer to English Words
+274. \<**Medium**>  H-Index
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

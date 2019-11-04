@@ -828,3 +828,6 @@ gulp.task('t0272', (callback) => {
 gulp.task('t0273', (callback) => {
   require(path.resolve('task0273-int-to-words/int-to-words.js'))(callback);
 });
+gulp.task('t0274', (callback) => {
+  require(path.resolve('task0274-h-index/h-index.js'))(callback);
+});
