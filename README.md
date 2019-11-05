@@ -86,6 +86,7 @@ Table of Contents
 275. \<**Medium**>  H-Index II
 276. \<**Easy**>    Paint Fence
 277. \<**Medium**>  Find the Celebrity
+278. \<**Easy**>    First Bad Version
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

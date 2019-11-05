@@ -840,3 +840,6 @@ gulp.task('t0276', (callback) => {
 gulp.task('t0277', (callback) => {
   require(path.resolve('task0277-find-celebrity/find-celebrity.js'))(callback);
 });
+gulp.task('t0278', (callback) => {
+  require(path.resolve('task0278-1st-bad-ver/1st-bad-ver.js'))(callback);
+});
