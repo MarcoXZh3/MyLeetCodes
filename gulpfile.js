@@ -834,3 +834,6 @@ gulp.task('t0274', (callback) => {
 gulp.task('t0275', (callback) => {
   require(path.resolve('task0275-h-index-2/h-index-2.js'))(callback);
 });
+gulp.task('t0276', (callback) => {
+  require(path.resolve('task0276-paint-fence/paint-fence.js'))(callback);
+});

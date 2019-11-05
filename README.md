@@ -84,6 +84,7 @@ Table of Contents
 273. \<**Hard**>    Integer to English Words
 274. \<**Medium**>  H-Index
 275. \<**Medium**>  H-Index II
+276. \<**Easy**>    Paint Fence
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
