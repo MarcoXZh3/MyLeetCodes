@@ -87,6 +87,7 @@ Table of Contents
 276. \<**Easy**>    Paint Fence
 277. \<**Medium**>  Find the Celebrity
 278. \<**Easy**>    First Bad Version
+279. \<**Medium**>  Perfect Squares
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

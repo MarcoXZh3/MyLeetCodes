@@ -843,3 +843,6 @@ gulp.task('t0277', (callback) => {
 gulp.task('t0278', (callback) => {
   require(path.resolve('task0278-1st-bad-ver/1st-bad-ver.js'))(callback);
 });
+gulp.task('t0279', (callback) => {
+  require(path.resolve('task0279-perfect-square/perfect-square.js'))(callback);
+});
