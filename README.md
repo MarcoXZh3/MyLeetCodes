@@ -91,6 +91,7 @@ Table of Contents
 280. \<**Medium**>  Wiggle Sort
 281. \<**Medium**>  Zigzag Iterator
 282. \<**Hard**>    Expression Add Operators
+283. \<**Easy**>    Move Zeroes
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

@@ -855,3 +855,6 @@ gulp.task('t0281', (callback) => {
 gulp.task('t0282', (callback) => {
   require(path.resolve('task0282-exp-and-op/exp-and-op.js'))(callback);
 });
+gulp.task('t0283', (callback) => {
+  require(path.resolve('task0283-move-zeros/move-zeros.js'))(callback);
+});

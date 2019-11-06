@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0282-exp-and-op/exp-and-op.js'))( () => {
+require(path.resolve('task0283-move-zeros/move-zeros.js'))( () => {
 });
