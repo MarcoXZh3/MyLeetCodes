@@ -4,7 +4,30 @@
  * @return {string[]}           all possible calculation expressions
  */
 const addOperators = function(num, target) {
-  return [];
+  const recursion = (pos, val, prod, exp) => {
+    if (pos === num.length) {
+      if (val === target) {
+        res.push(exp);
+      }
+      return ;
+    }
+    for (let i = pos; i < num.length; i++) {
+      if (i !== pos && num.charAt(pos) === '0') {
+        break ;
+      }
+      const cur = parseInt(num.substring(pos, i + 1), 10);
+      if (pos === 0) {
+        recursion(i + 1, val + cur, cur, exp + cur);
+      } else {
+        recursion(i + 1, val + cur, cur, exp + '+' + cur);
+        recursion(i + 1, val - cur, -cur, exp + '-' + cur);
+        recursion(i + 1, val - prod + prod * cur, prod * cur, exp + '*' + cur);
+      }
+    }
+  };
+  const res = [];
+  recursion(0, 0, 0, '', num, target);
+  return res;
 };
 
 
@@ -19,11 +42,10 @@ const main = (callback) => {
     ['232', 8],
     ['105', 5],
     ['00', 0],
-    ['3456237490', 9191],
+    // ['3456237490', 9191],
   ].forEach( vs => {
-    console.log(`  str="${vs[0]}", target=${vs[1]}`);
     addOperators(vs[0], vs[1]).forEach( (e, i, a) => {
-      console.log(`  ${i+1}/${a.length}: "${e}"`);
+      console.log(`  "${vs[0]}" - ${i+1}/${a.length}: "${e}" = ${vs[1]}`);
     });
   });
   if (callback) {
