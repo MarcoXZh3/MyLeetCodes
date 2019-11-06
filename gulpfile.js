@@ -873,3 +873,6 @@ gulp.task('t0287', (callback) => {
 gulp.task('t0288', (callback) => {
   require(path.resolve('task0288-unique-abbr/unique-abbr.js'))(callback);
 });
+gulp.task('t0289', (callback) => {
+  require(path.resolve('task0289-life-game/life-game.js'))(callback);
+});

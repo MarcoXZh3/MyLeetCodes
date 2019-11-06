@@ -97,6 +97,7 @@ Table of Contents
 286. \<**Medium**>  TODO: Walls and Gates
 287. \<**Medium**>  Find the Duplicate Number
 288. \<**Medium**>  TODO: Unique Word Abbreviation
+289. \<**Medium**>  Game of Life
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
