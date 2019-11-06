@@ -2,8 +2,31 @@
  * @param {number[]}    nums      the number array
  * @return {void} Do not return anything, modify nums in-place instead.
  */
-const moveZeroes = function(nums) {
+const moveZeroes0 = function(nums) {
+  for (let i = 0, j = 0; j < nums.length; j++) {
+    if (nums[j] !== 0) {
+      const tmp = nums[j];
+      nums[j] = nums[i];
+      nums[i ++] = tmp;
+    }
+  }
+};
 
+
+/**
+ * @param {number[]}    nums      the number array
+ * @return {void} Do not return anything, modify nums in-place instead.
+ */
+const moveZeroes = function(nums) {
+  let i = 0;
+  for (let j = 0; j < nums.length; j++) {
+    if (nums[j] !== 0) {
+      nums[i ++] = nums[j];
+    }
+  }
+  for (; i < nums.length; i++) {
+    nums[i] = 0;
+  }
 };
 
 
