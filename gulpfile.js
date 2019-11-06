@@ -864,3 +864,6 @@ gulp.task('t0284', (callback) => {
 gulp.task('t0285', (callback) => {
   require(path.resolve('task0285-walls-and-gates/walls-and-gates.js'))(callback);
 });
+gulp.task('t0286', (callback) => {
+  require(path.resolve('task0286-find-arr-dup/find-arr-dup.js'))(callback);
+});
