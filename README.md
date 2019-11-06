@@ -89,6 +89,7 @@ Table of Contents
 278. \<**Easy**>    First Bad Version
 279. \<**Medium**>  Perfect Squares
 280. \<**Medium**>  Wiggle Sort
+281. \<**Medium**>  Zigzag Iterator
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

@@ -849,3 +849,6 @@ gulp.task('t0279', (callback) => {
 gulp.task('t0280', (callback) => {
   require(path.resolve('task0280-wiggle-sort/wiggle-sort.js'))(callback);
 });
+gulp.task('t0281', (callback) => {
+  require(path.resolve('task0281-zigzag-itr/zigzag-itr.js'))(callback);
+});
