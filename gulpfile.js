@@ -846,3 +846,6 @@ gulp.task('t0278', (callback) => {
 gulp.task('t0279', (callback) => {
   require(path.resolve('task0279-perfect-square/perfect-square.js'))(callback);
 });
+gulp.task('t0280', (callback) => {
+  require(path.resolve('task0280-wiggle-sort/wiggle-sort.js'))(callback);
+});

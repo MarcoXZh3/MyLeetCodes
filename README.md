@@ -88,6 +88,7 @@ Table of Contents
 277. \<**Medium**>  Find the Celebrity
 278. \<**Easy**>    First Bad Version
 279. \<**Medium**>  Perfect Squares
+280. \<**Medium**>  Wiggle Sort
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
