@@ -852,3 +852,6 @@ gulp.task('t0280', (callback) => {
 gulp.task('t0281', (callback) => {
   require(path.resolve('task0281-zigzag-itr/zigzag-itr.js'))(callback);
 });
+gulp.task('t0282', (callback) => {
+  require(path.resolve('task0282-exp-and-op/exp-and-op.js'))(callback);
+});

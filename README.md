@@ -90,6 +90,7 @@ Table of Contents
 279. \<**Medium**>  Perfect Squares
 280. \<**Medium**>  Wiggle Sort
 281. \<**Medium**>  Zigzag Iterator
+282. \<**Hard**>    Expression Add Operators
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

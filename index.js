@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0279-perfect-square/perfect-square.js'))( () => {
+require(path.resolve('task0282-exp-and-op/exp-and-op.js'))( () => {
 });
