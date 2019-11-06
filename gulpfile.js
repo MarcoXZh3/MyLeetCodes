@@ -870,3 +870,6 @@ gulp.task('t0286', (callback) => {
 gulp.task('t0287', (callback) => {
   require(path.resolve('task0287-find-arr-dup/find-arr-dup.js'))(callback);
 });
+gulp.task('t0288', (callback) => {
+  require(path.resolve('task0288-unique-abbr/unique-abbr.js'))(callback);
+});

@@ -1,0 +1,3 @@
+# Unique Word Abbreviation
+
+\<Medium>

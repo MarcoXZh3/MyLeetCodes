@@ -96,6 +96,7 @@ Table of Contents
 285. \<**Medium**>  TODO: \<***Binary Tree***> Inorder Successor in BST
 286. \<**Medium**>  TODO: Walls and Gates
 287. \<**Medium**>  Find the Duplicate Number
+288. \<**Medium**>  TODO: Unique Word Abbreviation
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
