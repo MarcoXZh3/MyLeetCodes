@@ -859,11 +859,14 @@ gulp.task('t0283', (callback) => {
   require(path.resolve('task0283-move-zeros/move-zeros.js'))(callback);
 });
 gulp.task('t0284', (callback) => {
-  require(path.resolve('task0284-bst-inorder-next/bst-inorder-next.js'))(callback);
+  require(path.resolve('task0284-itr-peek/itr-peek.js'))(callback);
 });
 gulp.task('t0285', (callback) => {
-  require(path.resolve('task0285-walls-and-gates/walls-and-gates.js'))(callback);
+  require(path.resolve('task0285-bst-inorder-next/bst-inorder-next.js'))(callback);
 });
 gulp.task('t0286', (callback) => {
-  require(path.resolve('task0286-find-arr-dup/find-arr-dup.js'))(callback);
+  require(path.resolve('task0286-walls-and-gates/walls-and-gates.js'))(callback);
+});
+gulp.task('t0287', (callback) => {
+  require(path.resolve('task0287-find-arr-dup/find-arr-dup.js'))(callback);
 });

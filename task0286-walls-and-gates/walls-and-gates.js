@@ -3,7 +3,7 @@
  * @param {function}  callback    the callback function
  */
 const main = (callback) => {
-  console.log('Task 0284 - Inorder Successor in BST:');
+  console.log('Task 0286 - Walls and Gates:');
   [
   ].forEach( vs => {
   });

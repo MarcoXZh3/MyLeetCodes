@@ -60,7 +60,7 @@ const findDuplicate = function(nums) {
  * @param {function}  callback    the callback function
  */
 const main = (callback) => {
-  console.log('Task 0286 - Find the Duplicate Number:');
+  console.log('Task 0287 - Find the Duplicate Number:');
   [
     [1, 3, 4, 2, 2],
     [3, 1, 3, 4, 2],

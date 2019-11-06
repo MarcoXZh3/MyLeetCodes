@@ -84,17 +84,18 @@ Table of Contents
 273. \<**Hard**>    Integer to English Words
 274. \<**Medium**>  H-Index
 275. \<**Medium**>  H-Index II
-276. \<**Easy**>    Paint Fence
-277. \<**Medium**>  Find the Celebrity
+276. \<**Easy**>    TODO: Paint Fence
+277. \<**Medium**>  TODO: Find the Celebrity
 278. \<**Easy**>    First Bad Version
 279. \<**Medium**>  Perfect Squares
-280. \<**Medium**>  Wiggle Sort
-281. \<**Medium**>  Zigzag Iterator
+280. \<**Medium**>  TODO: Wiggle Sort
+281. \<**Medium**>  TODO: Zigzag Iterator
 282. \<**Hard**>    Expression Add Operators
 283. \<**Easy**>    Move Zeroes
-284. \<**Medium**>  \<***Binary Tree***> Inorder Successor in BST
-285. \<**Medium**>  Walls and Gates
-286. \<**Medium**>  Find the Duplicate Number
+284. \<**Medium**>  Peeking Iterator
+285. \<**Medium**>  TODO: \<***Binary Tree***> Inorder Successor in BST
+286. \<**Medium**>  TODO: Walls and Gates
+287. \<**Medium**>  Find the Duplicate Number
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

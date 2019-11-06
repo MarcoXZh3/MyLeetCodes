@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0286-find-arr-dup/find-arr-dup.js'))( () => {
+require(path.resolve('task0284-itr-peek/itr-peek.js'))( () => {
 });
