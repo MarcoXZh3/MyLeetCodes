@@ -861,3 +861,6 @@ gulp.task('t0283', (callback) => {
 gulp.task('t0284', (callback) => {
   require(path.resolve('task0284-bst-inorder-next/bst-inorder-next.js'))(callback);
 });
+gulp.task('t0285', (callback) => {
+  require(path.resolve('task0285-walls-and-gates/walls-and-gates.js'))(callback);
+});

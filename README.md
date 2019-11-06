@@ -93,6 +93,7 @@ Table of Contents
 282. \<**Hard**>    Expression Add Operators
 283. \<**Easy**>    Move Zeroes
 284. \<**Medium**>  \<***Binary Tree***> Inorder Successor in BST
+285. \<**Medium**>  Walls and Gates
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
