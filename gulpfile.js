@@ -858,3 +858,6 @@ gulp.task('t0282', (callback) => {
 gulp.task('t0283', (callback) => {
   require(path.resolve('task0283-move-zeros/move-zeros.js'))(callback);
 });
+gulp.task('t0284', (callback) => {
+  require(path.resolve('task0284-bst-inorder-next/bst-inorder-next.js'))(callback);
+});
