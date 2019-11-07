@@ -102,7 +102,8 @@ Table of Contents
 291. \<**Hard**>    TODO: Word Pattern II
 292. \<**Easy**>    Nim Game
 293. \<**Easy**>    TODO: Flip Game
-293. \<**Medium**>  TODO: Flip Game II
+294. \<**Medium**>  TODO: Flip Game II
+295. \<**Hard**>    Find Median from Data Stream
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

@@ -891,3 +891,6 @@ gulp.task('t0293', (callback) => {
 gulp.task('t0294', (callback) => {
   require(path.resolve('task0294-flip-game-2/flip-game-2.js'))(callback);
 });
+gulp.task('t0295', (callback) => {
+  require(path.resolve('task0295-stream-median/stream-median.js'))(callback);
+});
