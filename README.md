@@ -101,6 +101,7 @@ Table of Contents
 290. \<**Easy**>    Word Pattern
 291. \<**Hard**>    TODO: Word Pattern II
 292. \<**Easy**>    Nim Game
+293. \<**Hard**>    TODO: Flip Game
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
