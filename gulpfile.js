@@ -888,3 +888,6 @@ gulp.task('t0292', (callback) => {
 gulp.task('t0293', (callback) => {
   require(path.resolve('task0293-flip-game/flip-game.js'))(callback);
 });
+gulp.task('t0294', (callback) => {
+  require(path.resolve('task0294-flip-game-2/flip-game-2.js'))(callback);
+});
