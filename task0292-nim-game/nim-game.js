@@ -1,9 +1,10 @@
 /**
+ * as long as I can avoid 4, I can when
  * @param {number}      n     total number of stones
  * @return {boolean}          whether the 1st player can grab the final stones
  */
 const canWinNim = function(n) {
-
+  return n % 4 !== 0;
 };
 
 
