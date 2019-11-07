@@ -100,6 +100,7 @@ Table of Contents
 289. \<**Medium**>  Game of Life
 290. \<**Easy**>    Word Pattern
 291. \<**Hard**>    TODO: Word Pattern II
+292. \<**Easy**>    Nim Game
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

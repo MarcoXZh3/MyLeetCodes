@@ -882,3 +882,6 @@ gulp.task('t0290', (callback) => {
 gulp.task('t0291', (callback) => {
   require(path.resolve('task0291-word-pattern-2/word-pattern-2.js'))(callback);
 });
+gulp.task('t0292', (callback) => {
+  require(path.resolve('task0292-nim-game/nim-game.js'))(callback);
+});
