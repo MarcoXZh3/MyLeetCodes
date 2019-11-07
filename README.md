@@ -98,6 +98,7 @@ Table of Contents
 287. \<**Medium**>  Find the Duplicate Number
 288. \<**Medium**>  TODO: Unique Word Abbreviation
 289. \<**Medium**>  Game of Life
+290. \<**Easy**>    Word Pattern
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

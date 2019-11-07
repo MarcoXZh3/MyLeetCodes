@@ -876,3 +876,6 @@ gulp.task('t0288', (callback) => {
 gulp.task('t0289', (callback) => {
   require(path.resolve('task0289-life-game/life-game.js'))(callback);
 });
+gulp.task('t0290', (callback) => {
+  require(path.resolve('task0290-word-pattern/word-pattern.js'))(callback);
+});

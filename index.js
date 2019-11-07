@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0289-life-game/life-game.js'))( () => {
+require(path.resolve('task0290-word-pattern/word-pattern.js'))( () => {
 });
