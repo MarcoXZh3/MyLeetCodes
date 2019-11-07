@@ -99,6 +99,7 @@ Table of Contents
 288. \<**Medium**>  TODO: Unique Word Abbreviation
 289. \<**Medium**>  Game of Life
 290. \<**Easy**>    Word Pattern
+291. \<**Hard**>    TODO: Word Pattern II
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

@@ -1,0 +1,3 @@
+# Word Pattern II
+
+\<Hard>
