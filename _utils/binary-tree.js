@@ -228,21 +228,19 @@ module.exports.arrToBinTree = function(arr) {
     return null;
   }
 
-  const root = arr[0] instanceof BinTreeNode ? arr[0] : new BinTreeNode(arr[0]);
-  const nodes = [root];   // the node array mapping to the number array
-  for (let i = 1; i < arr.length; i++) {
+  for (let i = arr.length - 1; i >= 0; i--) {
     if (arr[i] === null) {
-      nodes.push(null);
       continue ;
     }
-    const p = Math.floor((i - 1) / 2);
-    const node = new BinTreeNode(arr[i]);
-    if (p * 2 + 1 === i) {
-      nodes[p].left = node;
-    } else {
-      nodes[p].right = node;
+    arr[i] = arr[i] instanceof BinTreeNode ? arr[i] : new BinTreeNode(arr[i]);
+    let c = i * 2 + 1;
+    if (c < arr.length) {
+      arr[i].left = arr[c];
     }
-    nodes.push(node);
+    c ++;
+    if (c < arr.length) {
+      arr[i].right = arr[c];
+    }
   }
-  return new BinTree(root);
+  return new BinTree(arr[0]);
 };
