@@ -88,6 +88,15 @@ module.exports.PriorityQueue = function (
 
 
   /**
+   * get the size of the queue
+   * @returns {number}      size of the queue
+   */
+  this.size = () => {
+    return data.length;
+  }
+
+
+  /**
    * convert the priority queue to a string
    * @param {function}    printf  the custom function to print each element
    * @returns {string}            the string representation of the priority queue
