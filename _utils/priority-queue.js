@@ -1,32 +1,40 @@
 /**
- * Priority Queue: implemented by max binary heap
- * @param {object[]}    vals    list of value-priority pair
+ * Priority Queue: implemented by (min if ascending; max if descending) heap
+ * @param {boolean}   ascending   whether the 1st element is minimum or not
+ * @param {array}     vals        list of elements to be added to the queue
+ * @param {function}  compare     custom function for element comparison
+ *          @param {object}   a       the 1st element
+ *          @param {object}   b       the 2nd element
+ *          @returns {number}         1 if a > b; -1 if a < b; 0 if a === b
  */
-const PriorityQueue = module.exports.PriorityQueue = function(vals) {
+module.exports.PriorityQueue = function (
+  ascending = true,
+  vals = [],
+  compare = (a, b) => a === b ? 0 : (a > b ? 1 : -1),
+) {
   /**
-   * the values: each contains the value and priority
-   * format: { v:object, p:comparable }[]
+   * attributes
    */
-  this.vals = [];
+  const sign = ascending ? 1 : -1;
+  const data = [];
 
 
   /**
    * insert a value with priority: building the heap
    * @param {object}      v   the value
-   * @param {comparable}  p   the priority
    */
-  this.enqueue = (v, p) => {
+  this.enqueue = (v) => {
     // append to end
-    this.vals.push({ v:v, p:p });
+    data.push(v);
     // and then heapify
-    let cur = this.vals.length - 1;         // index of the current value
-    let parent = Math.floor((cur - 1) / 2); // index of the parent value
-    while (parent >= 0 && this.vals[cur].p > this.vals[parent].p) {
-      let tmp = this.vals[cur];
-      this.vals[cur] = this.vals[parent];
-      this.vals[parent] = tmp;
-      cur = parent;
-      parent = Math.floor((cur - 1) / 2);
+    let c = data.length - 1;          // index of the current value
+    let p = Math.floor((c - 1) / 2);  // index of the parent value
+    while (p >= 0 && compare(data[c], data[p]) * sign < 0) {
+      let tmp = data[c];
+      data[c] = data[p];
+      data[p] = tmp;
+      c = p;
+      p = Math.floor((c - 1) / 2);
     }
   };
 
@@ -36,35 +44,35 @@ const PriorityQueue = module.exports.PriorityQueue = function(vals) {
    * @returns {object}      the value with the highest priority
    */
   this.dequeue = () => {
-    if (this.vals.length === 0) {
+    if (data.length === 0) {
       return null;
-    } else if (this.vals.length === 1) {
-      return this.vals.pop().v;
+    } else if (data.length === 1) {
+      return data.pop();
     }
-    const v = this.vals[0].v;
+    const v = data[0];
     // overwrite first by last
-    this.vals[0] = this.vals.pop();
+    data[0] = data.pop();
     // and then heapify
-    let cur = 0;                    // index of the current node
+    let p = 0;              // index of the current node
     while (true) {
-      let child = 2 * cur + 1;      // index of the left child
-      let max = cur;
+      let c = 2 * p + 1;    // index of the left child
+      let min = p;
       // compare current with left child
-      if (child < this.vals.length && this.vals[max].p < this.vals[child].p) {
-        max = child;
+      if (c < data.length && compare(data[min], data[c]) * sign > 0) {
+        min = c;
       }
       // compare current with right child
-      child ++;
-      if (child < this.vals.length && this.vals[max].p < this.vals[child].p) {
-        max = child;
+      c ++;
+      if (c < data.length && compare(data[min], data[c]) * sign > 0) {
+        min = c;
       }
-      if (max === cur) {
+      if (min === p) {
         break ;
       }
-      let tmp = this.vals[cur];
-      this.vals[cur] = this.vals[max];
-      this.vals[max] = tmp;
-      cur = max;
+      let tmp = data[p];
+      data[p] = data[min];
+      data[min] = tmp;
+      p = min;
     }
     return v;
   };
@@ -75,15 +83,23 @@ const PriorityQueue = module.exports.PriorityQueue = function(vals) {
    * @returns {object}      the value with the highest priority
    */
   this.peek = () => {
-    return this.vals.length > 0 ? this.vals[0].v : null;
+    return data.length > 0 ? data[0] : null;
   }
 
 
-  // initial the queue if needed
-  if (vals) {
-    for (let v of vals) {
-      this.enqueue(v.v, v.p);
-    }
+  /**
+   * convert the priority queue to a string
+   * @param {function}    printf  the custom function to print each element
+   * @returns {string}            the string representation of the priority queue
+   */
+  this.toString = (printf) => {
+    return data.map( v => printf ? printf(v) : `${v}` ).join('->');
+  };
+
+
+  // initial the queue with the given list of elements
+  for (let v of vals || []) {
+    this.enqueue(v);
   }
 
 };

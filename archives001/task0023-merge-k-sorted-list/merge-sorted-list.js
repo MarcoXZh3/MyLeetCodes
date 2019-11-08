@@ -83,11 +83,11 @@ const mergeKLists2 = function(lists) {
  * @return {ListNode}           the merged list
  */
 const mergeKLists = function(lists) {
-  const q = new PriorityQueue();
+  const q = new PriorityQueue(false, null, (a,b)=>a.val-b.val);
   // loop every list
   for (let head of lists) {
     while (head) {
-      q.enqueue(head, head.val);
+      q.enqueue(head);
       head = head.next;
     }
   }
