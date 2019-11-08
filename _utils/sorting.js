@@ -1,12 +1,22 @@
 /**
  * Bubble Sort - O(n ^ 2) on time and O(1) on space
  * Move the minimum (maximum) to the first, and repeat this on the rest array
+ * @param {array}     arr         list of elements to be added to the queue
+ * @param {boolean}   ascending   whether ascending sort or descending sort
+ * @param {function}  compare     custom function for element comparison
+ *          @param {object}   a       the 1st element
+ *          @param {object}   b       the 2nd element
+ *          @returns {number}         1 if a > b; -1 if a < b; 0 if a === b
  */
-const bubbleSort = module.exports.bubbleSort = function(arr, ascending = true) {
-  const factor = ascending ? 1 : -1;
+const bubbleSort = module.exports.bubbleSort = function (
+  arr,
+  ascending = true,
+  compare = (a, b) => a === b ? 0 : (a > b ? 1 : -1),
+) {
+  const sign = ascending ? 1 : -1;
   for (let i = 0; i < arr.length; i++) {
     for (let j = i; j < arr.length; j ++) {
-      if (arr[i] * factor > arr[j] * factor) {
+      if (compare(arr[i], arr[j]) * sign > 0) {
         const tmp = arr[i];
         arr[i] = arr[j];
         arr[j] = tmp;
@@ -20,12 +30,22 @@ const bubbleSort = module.exports.bubbleSort = function(arr, ascending = true) {
  * Insertion Sort - O(n ^ 2) on time and O(1) on space
  * Grab an element, considering the sub array before it is sorted, move it to
  * the right position of the sorted sub array
+ * @param {array}     arr         list of elements to be added to the queue
+ * @param {boolean}   ascending   whether ascending sort or descending sort
+ * @param {function}  compare     custom function for element comparison
+ *          @param {object}   a       the 1st element
+ *          @param {object}   b       the 2nd element
+ *          @returns {number}         1 if a > b; -1 if a < b; 0 if a === b
  */
-const insertSort = module.exports.insertSort = function(arr, ascending = true) {
-  const factor = ascending ? 1 : -1;
+const insertSort = module.exports.insertSort = function (
+  arr,
+  ascending = true,
+  compare = (a, b) => a === b ? 0 : (a > b ? 1 : -1),
+) {
+  const sign = ascending ? 1 : -1;
   for (let i = 1; i < arr.length; i++) {
     let j = i;
-    while (j > 0 && arr[j - 1] * factor > arr[j] * factor) {
+    while (j > 0 && compare(arr[j - 1], arr[j]) * sign > 0) {
       const tmp = arr[j - 1];
       arr[j - 1] = arr[j];
       arr[j --] = tmp;
@@ -37,18 +57,28 @@ const insertSort = module.exports.insertSort = function(arr, ascending = true) {
 /**
  * Heap Sort - O(n log n) on time and O(1) on space
  * Build a heap to grab the root, use its tail as new the root then heapify
+ * @param {array}     arr         list of elements to be added to the queue
+ * @param {boolean}   ascending   whether ascending sort or descending sort
+ * @param {function}  compare     custom function for element comparison
+ *          @param {object}   a       the 1st element
+ *          @param {object}   b       the 2nd element
+ *          @returns {number}         1 if a > b; -1 if a < b; 0 if a === b
  */
-const heapSort = module.exports.heapSort = function(arr, ascending = true) {
-  const factor = ascending ? 1 : -1;
+const heapSort = module.exports.heapSort = function (
+  arr,
+  ascending = true,
+  compare = (a, b) => a === b ? 0 : (a > b ? 1 : -1),
+) {
+  const sign = ascending ? 1 : -1;
 
   const heapify = (p, boundary) => {
     let target = p;
     let idx = 2 * p + 1;
-    if (idx < boundary && arr[target] * factor < arr[idx] * factor) {
+    if (idx < boundary && compare(arr[target], arr[idx]) * sign < 0) {
       target = idx;
     }
     idx ++;
-    if (idx < boundary && arr[target] * factor < arr[idx] * factor) {
+    if (idx < boundary && compare(arr[target], arr[idx]) * sign < 0) {
       target = idx;
     }
     if (target !== p) {
@@ -75,9 +105,19 @@ const heapSort = module.exports.heapSort = function(arr, ascending = true) {
  * Merge Sort (recursion) - O(n log n) on time and O(n) on space
  * split the array in the middle, merge-sort each, and then merge the them
  * element by element
+ * @param {array}     arr         list of elements to be added to the queue
+ * @param {boolean}   ascending   whether ascending sort or descending sort
+ * @param {function}  compare     custom function for element comparison
+ *          @param {object}   a       the 1st element
+ *          @param {object}   b       the 2nd element
+ *          @returns {number}         1 if a > b; -1 if a < b; 0 if a === b
  */
-const mergeSort1 = module.exports.mergeSort1 = function(arr, ascending = true) {
-  const factor = ascending ? 1 : -1;
+const mergeSort1 = module.exports.mergeSort1 = function (
+  arr,
+  ascending = true,
+  compare = (a, b) => a === b ? 0 : (a > b ? 1 : -1),
+) {
+  const sign = ascending ? 1 : -1;
 
   const sort = (arr) => {
     if (arr.length < 2) {
@@ -92,7 +132,7 @@ const mergeSort1 = module.exports.mergeSort1 = function(arr, ascending = true) {
   const merge = (arr1, arr2) => {
     const re = [];
     while (arr1.length > 0 && arr2.length > 0) {
-      if (arr1[0] * factor < arr2[0] * factor) {
+      if (compare(arr1[0], arr2[0]) * sign < 0) {
         re.push(arr1.shift());
       } else {
         re.push(arr2.shift());
@@ -109,9 +149,19 @@ const mergeSort1 = module.exports.mergeSort1 = function(arr, ascending = true) {
  * Merge Sort (iteration) - O(n log n) on time and O(n) on space
  * split the array in the middle, merge-sort each, and then merge the them
  * element by element
+ * @param {array}     arr         list of elements to be added to the queue
+ * @param {boolean}   ascending   whether ascending sort or descending sort
+ * @param {function}  compare     custom function for element comparison
+ *          @param {object}   a       the 1st element
+ *          @param {object}   b       the 2nd element
+ *          @returns {number}         1 if a > b; -1 if a < b; 0 if a === b
  */
-const mergeSort2 = module.exports.mergeSort2 = function(arr, ascending = true) {
-  const factor = ascending ? 1 : -1;
+const mergeSort2 = module.exports.mergeSort2 = function (
+  arr,
+  ascending = true,
+  compare = (a, b) => a === b ? 0 : (a > b ? 1 : -1),
+) {
+  const sign = ascending ? 1 : -1;
 
   for (let i = 1; i <= arr.length - 1; i *= 2) {
     for (let j = 0; j < arr.length - 1; j += 2 * i) {
@@ -124,7 +174,7 @@ const mergeSort2 = module.exports.mergeSort2 = function(arr, ascending = true) {
       let l = from;
       let r = mid + 1;
       while (l <= mid && r <= to) {
-        if (arr[l] * factor < arr[r] * factor) {
+        if (compare(arr[l], arr[r]) * sign < 0) {
           tmp.push(arr[l ++]);
         } else {
           tmp.push(arr[r ++]);
@@ -147,9 +197,19 @@ const mergeSort2 = module.exports.mergeSort2 = function(arr, ascending = true) {
 /**
  * Bucket Sort - O(n + k) on time and O(n) on space
  * split values to buckets, sort within buckets, and then collect buckets
+ * @param {array}     arr         list of elements to be added to the queue
+ * @param {boolean}   ascending   whether ascending sort or descending sort
+ * @param {function}  compare     custom function for element comparison
+ *          @param {object}   a       the 1st element
+ *          @param {object}   b       the 2nd element
+ *          @returns {number}         1 if a > b; -1 if a < b; 0 if a === b
  */
-const bucketSort = module.exports.bucketSort = function(arr, ascending = true) {
-  const factor = ascending ? 1 : -1;
+const bucketSort = module.exports.bucketSort = function (
+  arr,
+  ascending = true,
+  compare = (a, b) => a === b ? 0 : (a > b ? 1 : -1),
+) {
+  const sign = ascending ? 1 : -1;
   const MIN = Math.min(...arr);
   const bucks = Math.floor((Math.max(...arr) - MIN) / arr.length) + 1;
   const buckets = [];
@@ -159,7 +219,7 @@ const bucketSort = module.exports.bucketSort = function(arr, ascending = true) {
     bucket.push(val);
     let i = bucket.length - 1;            // sort the bucket after value added
     while (i > 0) {
-      if (bucket[i] * factor < bucket[i - 1] * factor) {
+      if (compare(bucket[i], bucket[i - 1]) * sign < 0) {
         const tmp = bucket[i];
         bucket[i] = bucket[i - 1];
         bucket[i - 1] = tmp;
@@ -178,8 +238,13 @@ const bucketSort = module.exports.bucketSort = function(arr, ascending = true) {
 /**
  * Radix Sort - O(n k) on time and O(n + k) on space
  * sort by digits (as buckets), lowest to highest
+ * @param {array<integer>}  arr       list of integers to be added to the queue
+ * @param {boolean}         ascending whether ascending sort or descending sort
  */
-const radixSort = module.exports.radixSort = function(arr, ascending = true) {
+const radixSort = module.exports.radixSort = function (
+  arr,
+  ascending = true,
+) {
   const MIN = Math.min(...arr);
   let max = `${Math.max(...arr) - MIN}`.length;
   let divisor = 1;
@@ -206,7 +271,7 @@ const radixSort = module.exports.radixSort = function(arr, ascending = true) {
  * main entry
  * @see: https://www.bigocheatsheet.com/
  */
-module.exports.main = function() {
+const main = module.exports.main = function() {
   const arr = [];
   while (arr.length < 10) {
     arr.push(Math.round(Math.random() * 100) - 50);
@@ -264,3 +329,7 @@ module.exports.main = function() {
   console.log(`radixSort2=[${arr14.join(', ')}]`);
 
 };
+
+
+// run the sorting
+main();
