@@ -897,3 +897,7 @@ gulp.task('t0295', (callback) => {
 gulp.task('t0296', (callback) => {
   require(path.resolve('task0296-best-meet-point/best-meet-point.js'))(callback);
 });
+
+gulp.task('t0298', (callback) => {
+  require(path.resolve('task0298-tree-max-cons/tree-max-cons.js'))(callback);
+});

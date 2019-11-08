@@ -106,6 +106,8 @@ Table of Contents
 295. \<**Hard**>    Find Median from Data Stream
 296. \<**Hard**>    TODO: Best Meeting Point
 
+298. \<**Medium**>  TODO: \<***Binary Tree***> Binary Tree Longest Consecutive Sequence
+
 
 [LeetCode]: https://leetcode.com/problemset/all/
 [archive001]: /archives001
