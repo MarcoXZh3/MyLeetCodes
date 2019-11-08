@@ -108,6 +108,7 @@ Table of Contents
 297. \<**Hard**>    \<***Binary Tree***> Serialize and Deserialize Binary Tree
 298. \<**Medium**>  TODO: \<***Binary Tree***> Binary Tree Longest Consecutive Sequence
 299. \<**Easy**>    Bulls and Cows
+300. \<**Medium**>  Longest Increasing Subsequence
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

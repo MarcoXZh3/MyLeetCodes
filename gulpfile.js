@@ -906,3 +906,6 @@ gulp.task('t0298', (callback) => {
 gulp.task('t0299', (callback) => {
   require(path.resolve('task0299-bulls-cows/bulls-cows.js'))(callback);
 });
+gulp.task('t0300', (callback) => {
+  require(path.resolve('task0300-max-asc-seq/max-asc-seq.js'))(callback);
+});
