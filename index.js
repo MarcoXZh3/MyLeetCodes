@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0297-tree-seri-dese/tree-seri-dese.js'))( () => {
+require(path.resolve('task0299-bulls-cows/bulls-cows.js'))( () => {
 });
