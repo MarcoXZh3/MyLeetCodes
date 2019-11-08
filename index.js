@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0295-stream-median/stream-median.js'))( () => {
+require(path.resolve('task0297-tree-seri-dese/tree-seri-dese.js'))( () => {
 });
