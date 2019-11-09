@@ -1,5 +1,5 @@
 // const path = require('path');
-// const { Trie } = require(path.resolve('_utils/trie'));
+// const { Trie } = require(path.resolve('_utils/trees/trie'));
 
 
 /**

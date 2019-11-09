@@ -1,6 +1,6 @@
 const path = require('path');
 const { ListNode, array2list, printList } = require(path.resolve('_utils/list'));
-const { BinaryTreeNode, BinaryTree } = require(path.resolve('_utils/binary-tree'));
+const { BinaryTreeNode, BinaryTree } = require(path.resolve('_utils/trees/binary-tree'));
 const TreeNode = BinaryTreeNode;
 
 

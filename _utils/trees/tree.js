@@ -12,8 +12,6 @@ const TreeNode = module.exports.TreeNode = function(val, children) {
    * child nodes
    */
   this.children = children || [];
-
-
   /**
    * Print the binary tree node as string
    * @param {function}    printf  the custom function to print each node
@@ -22,7 +20,6 @@ const TreeNode = module.exports.TreeNode = function(val, children) {
   this.toString = (printf) => {
     return printf ? printf(this) : `${this.val}`;
   };
-
 };
 
 
@@ -30,7 +27,7 @@ const TreeNode = module.exports.TreeNode = function(val, children) {
  * tree
  * @param {TreeNode}      root       root of the tree
  */
-const Tree = module.exports.Tree = function(root) {
+module.exports.Tree = function(root) {
   this.root = root;
 
 
@@ -49,7 +46,26 @@ const Tree = module.exports.Tree = function(root) {
       }
       return 1 + max;
     };
-    return recursion(this.root);
+    return recursion(root);
+  };
+
+
+  /**
+   * find the size of the tree
+   * @returns {number}              size of the tree
+   */
+  this.size = () => {
+    const recursion = (node) => {
+      if (!node) {
+        return 0;
+      }
+      let total = 1;
+      for (let child of node.children) {
+        total += recursion(child);
+      }
+      return total;
+    }
+    return recursion(root);
   };
 
 
@@ -63,7 +79,7 @@ const Tree = module.exports.Tree = function(root) {
     const recursion = (root) => {
       if (!root) {
         return null;
-      } else if (equal && equal(root, target) || root.val === target.val) {
+      } else if (equal && equal(root, target) || root === target) {
         return root;
       }
       for (let child of root.children) {
@@ -76,6 +92,45 @@ const Tree = module.exports.Tree = function(root) {
     };
     target = target instanceof TreeNode ? target : new TreeNode(target);
     return recursion(root);
+  };
+
+
+  /**
+   * depth first traversal of the tree
+   * @returns {Array<BinTreeNode>}  the list of tree nodes
+   */
+  this.dfs = () => {
+    const nodes = [];
+    const stack = [root].filter( n=>n );
+    while (stack.length > 0) {
+      const node = stack.pop();
+      if (!node) {
+        continue ;
+      }
+      nodes.push(node);
+      for (let i = node.children.length - 1; i >= 0; i--) {
+        stack.push(node.children[i]);
+      }
+    }
+    return nodes;
+  };
+
+
+  /**
+   * breadth first traversal of the tree
+   * @returns {Array<BinTreeNode>}  the list of tree nodes
+   */
+  this.bfs = () => {
+    const nodes = [];
+    const queue = [root].filter( n=>n );
+    while (queue.length > 0) {
+      const node = queue.shift();
+      if (node) {
+        nodes.push(node);
+        queue.push(...node.children);
+      }
+    }
+    return nodes;
   };
 
 

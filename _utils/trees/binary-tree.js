@@ -17,8 +17,6 @@ const BinTreeNode = module.exports.BinaryTreeNode = function(val, l, r) {
    * right child
    */
   this.right = r || null;
-
-
   /**
    * Print the binary tree node as string
    * @param {function}    printf  the custom function to print each node
@@ -27,7 +25,6 @@ const BinTreeNode = module.exports.BinaryTreeNode = function(val, l, r) {
   this.toString = (printf) => {
     return printf ? printf(this) : `${this.val}`;
   };
-
 };
 
 
@@ -52,21 +49,108 @@ const BinTree = module.exports.BinaryTree = function(root) {
 
 
   /**
+   * find the size of the tree
+   * @returns {number}              size of the tree
+   */
+  this.size = () => {
+    const recursion = (node) => {
+      return node ? 1 + recursion(node.left) + recursion(node.right) : 0;
+    };
+    return recursion(this.root);
+  };
+
+
+  /**
    * find the node in the tree matching the given target
    * @param {object}      target    the target to look for
    * @param {function}    equal     the function to define equality
    * @returns {BinTreeNode}         the matching tree node
    */
   this.search = (target, equal) => {
-    const recursion = (root) => {
-      return root ? (
-                equal && equal(root, target) || root.val === target.val ?
-                  root :
-                  recursion(root.left) || recursion(root.right)
-             ) : null;
+    const recursion = (node) => {
+      if (!node) {
+        return null;
+      }
+      if (equal && equal(node, target) || node === target) {
+        return node;
+      }
+      return recursion(node.left) || recursion(node.right);
     };
     target = target instanceof BinTreeNode ? target : new BinTreeNode(target);
-    return recursion(root);
+    return recursion(this.root);
+  };
+
+
+  /**
+   * depth first traversal of the tree
+   * @returns {Array<BinTreeNode>}  the list of tree nodes
+   */
+  this.dfs = () => {
+    const nodes = [];
+    const stack = [this.root].filter( n=>n );
+    while (stack.length > 0) {
+      const node = stack.pop();
+      if (node) {
+        nodes.push(node);
+        // left before right in the next stage so first push right then left
+        stack.push(node.right, node.left);
+      }
+    }
+    return nodes;
+  };
+
+
+  /**
+   * breadth first traversal of the tree
+   * @returns {Array<BinTreeNode>}  the list of tree nodes
+   */
+  this.bfs = () => {
+    const nodes = [];
+    const queue = [this.root].filter( n=>n );
+    while (queue.length > 0) {
+      const node = queue.shift();
+      if (node) {
+        nodes.push(node);
+        queue.push(node.left, node.right);
+      }
+    }
+    return nodes;
+  };
+
+
+  /**
+   * in-order traversal of the tree
+   * @returns {Array<BinTreeNode>}  the list of tree nodes
+   */
+  this.inOrder = () => {
+    const recursion = (node) => {
+      return node ? recursion(node.left).concat([node]).concat(recursion(node.right)) : [];
+    };
+    return recursion(this.root);
+  };
+
+
+  /**
+   * pre-order traversal of the tree
+   * @returns {Array<BinTreeNode>}  the list of tree nodes
+   */
+  this.preOrder = () => {
+    const recursion = (node) => {
+      return node ? [node].concat(recursion(node.left)).concat(recursion(node.right)) : [];
+    };
+    return recursion(this.root);
+  };
+
+
+  /**
+   * post-order traversal of the tree
+   * @returns {Array<BinTreeNode>}  the list of tree nodes
+   */
+  this.postOrder = () => {
+    const recursion = (node) => {
+      return node ? recursion(node.left).concat(recursion(node.right)).concat([node]) : [];
+    };
+    return recursion(this.root);
   };
 
 
@@ -76,9 +160,9 @@ const BinTree = module.exports.BinaryTree = function(root) {
    * @returns {string}            the string representation of the graph
    */
   this.toString = (printf) => {
-    if (!root) {
+    if (!this.root) {
       try {
-        return printf(root);
+        return printf(this.root);
       } catch (_) {
         return '{NULL}';
       }
@@ -212,7 +296,7 @@ const BinTree = module.exports.BinaryTree = function(root) {
     };
 
     // find the max width then immediately print the tree recursively
-    return print(root, Math.max(getWidth(root), gap.length)).join('\n');
+    return print(this.root, Math.max(getWidth(this.root), gap.length)).join('\n');
   };
 
 };

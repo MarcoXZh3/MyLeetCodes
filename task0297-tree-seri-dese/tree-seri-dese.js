@@ -1,5 +1,5 @@
 const path = require('path');
-const { BinaryTreeNode, BinaryTree, arrToBinTree } = require(path.resolve('_utils/binary-tree'));
+const { BinaryTreeNode, BinaryTree, arrToBinTree } = require(path.resolve('_utils/trees/binary-tree'));
 const TreeNode = BinaryTreeNode;
 
 

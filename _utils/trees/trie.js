@@ -1,15 +1,14 @@
 const path = require('path');
-const { TreeNode } = require(path.resolve('_utils/tree'));
+const { TreeNode } = require(path.resolve('_utils/trees/tree'));
 
 
 /**
  * trie node
  * @param {object}        val       val of the node in the list
- * @param {TreeNode[]}    children  (optional) child nodes of the tree node
  */
-const TrieNode = module.exports.TrieNode = function(val, children) {
+const TrieNode = module.exports.TrieNode = function(val) {
   /**
-   * inherits basic binary tree node
+   * inherits basic tree node
    */
   TreeNode.call(this, val);
   /**
