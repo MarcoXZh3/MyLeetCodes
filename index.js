@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0300-max-asc-seq/max-asc-seq.js'))( () => {
+require(path.resolve('task0301-del-invalid-brackets/del-invalid-brackets.js'))( () => {
 });

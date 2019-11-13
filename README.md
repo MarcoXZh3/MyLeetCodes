@@ -5,9 +5,7 @@ questions.
 Table of Contents
 =================
 
-- 1 - 100: see [Archives 001][archive001]
-- 101 - 200: see [Archives 002][archive002]
-- 201 - 300: see [Archives 003][archive003]
+301. \<**Hard**>    Remove Invalid Parentheses
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
