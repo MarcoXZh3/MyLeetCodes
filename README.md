@@ -6,6 +6,7 @@ Table of Contents
 =================
 
 301. \<**Hard**>    Remove Invalid Parentheses
+302. \<**Hard**>    TODO: Smallest Rectangle Enclosing Black Pixels
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

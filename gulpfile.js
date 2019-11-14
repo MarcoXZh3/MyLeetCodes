@@ -912,3 +912,6 @@ gulp.task('t0300', (callback) => {
 gulp.task('t0301', (callback) => {
   require(path.resolve('task0301-del-invalid-brackets/del-invalid-brackets.js'))(callback);
 });
+gulp.task('t0302', (callback) => {
+  require(path.resolve('task0302-blk-px-min-rect/blk-px-min-rect.js'))(callback);
+});
