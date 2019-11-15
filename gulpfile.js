@@ -921,3 +921,6 @@ gulp.task('t0303', (callback) => {
 gulp.task('t0304', (callback) => {
   require(path.resolve('task0304-range-sum-2d/range-sum-2d.js'))(callback);
 });
+gulp.task('t0305', (callback) => {
+  require(path.resolve('task0305-island-numbers-2/island-numbers-2.js'))(callback);
+});

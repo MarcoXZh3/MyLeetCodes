@@ -9,6 +9,7 @@ Table of Contents
 302. \<**Hard**>    TODO: Smallest Rectangle Enclosing Black Pixels
 303. \<**Easy**>    Range Sum Query - Immutable
 304. \<**Medium**>  Range Sum Query 2D - Immutable
+305. \<**Hard**>    TODO: Number of Islands II (enhanced of Task 200)
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
