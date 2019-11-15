@@ -915,3 +915,6 @@ gulp.task('t0301', (callback) => {
 gulp.task('t0302', (callback) => {
   require(path.resolve('task0302-blk-px-min-rect/blk-px-min-rect.js'))(callback);
 });
+gulp.task('t0303', (callback) => {
+  require(path.resolve('task0303-range-sum/range-sum.js'))(callback);
+});

@@ -7,6 +7,7 @@ Table of Contents
 
 301. \<**Hard**>    Remove Invalid Parentheses
 302. \<**Hard**>    TODO: Smallest Rectangle Enclosing Black Pixels
+303. \<**Easy**>    Range Sum Query - Immutable
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0301-del-invalid-brackets/del-invalid-brackets.js'))( () => {
+require(path.resolve('task0303-range-sum/range-sum.js'))( () => {
 });
