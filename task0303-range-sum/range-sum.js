@@ -1,14 +1,40 @@
 /**
  * @param {number[]}    nums    the number array
  */
-const NumArray = function(nums) {
-  /** 
+const NumArray0 = function(nums) {
+  /**
    * @param {number}    i     the starting index for the sum, inclusive
    * @param {number}    j     the ending index for the sum, inclusive
    * @return {number}         the summation
    */
   this.sumRange = (i, j) => {
+    let sum = 0;
+    for (let x = i; x <= j; x++) {
+      sum += nums[x];
+    }
+    return sum;
+  };
+};
 
+
+/**
+ * @param {number[]}    nums    the number array
+ */
+const NumArray = function(nums) {
+  const cache = Array(nums.length).fill(0);
+  cache[0] = nums[0];
+  for (let i = 1; i < nums.length; i++) {
+    nums[i] += nums[i - 1];
+  }
+
+
+  /**
+   * @param {number}    i     the starting index for the sum, inclusive
+   * @param {number}    j     the ending index for the sum, inclusive
+   * @return {number}         the summation
+   */
+  this.sumRange = (i, j) => {
+    return i === 0 ? nums[j] : nums[j] - nums[i - 1];
   };
 };
 
