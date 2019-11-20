@@ -14,6 +14,7 @@ Table of Contents
 307. \<**Medium**>  Range Sum Query - Mutable
 308. \<**Hard**>    TODO: Range Sum Query 2D - Mutable
 309. \<**Medium**>  Best Time to Buy and Sell Stock with Cooldown (enhanced of Task 121-123, 188)
+310. \<**Medium**>  Minimum Height Trees
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

@@ -936,3 +936,6 @@ gulp.task('t0308', (callback) => {
 gulp.task('t0309', (callback) => {
   require(path.resolve('task0309-buy-sell-stock-cooldown/buy-sell-stock-cooldown.js'))(callback);
 });
+gulp.task('t0310', (callback) => {
+  require(path.resolve('task0310-min-height-trees/min-height-trees.js'))(callback);
+});
