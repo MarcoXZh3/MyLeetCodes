@@ -10,6 +10,7 @@ Table of Contents
 303. \<**Easy**>    Range Sum Query - Immutable
 304. \<**Medium**>  Range Sum Query 2D - Immutable
 305. \<**Hard**>    TODO: Number of Islands II (enhanced of Task 200)
+306. \<**Medium**>  Additive Number
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

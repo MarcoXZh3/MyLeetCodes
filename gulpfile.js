@@ -924,3 +924,6 @@ gulp.task('t0304', (callback) => {
 gulp.task('t0305', (callback) => {
   require(path.resolve('task0305-island-numbers-2/island-numbers-2.js'))(callback);
 });
+gulp.task('t0306', (callback) => {
+  require(path.resolve('task0306-additive-num/additive-num.js'))(callback);
+});
