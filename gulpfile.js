@@ -927,3 +927,6 @@ gulp.task('t0305', (callback) => {
 gulp.task('t0306', (callback) => {
   require(path.resolve('task0306-additive-num/additive-num.js'))(callback);
 });
+gulp.task('t0307', (callback) => {
+  require(path.resolve('task0307-range-sum-mutable/range-sum-mutable.js'))(callback);
+});

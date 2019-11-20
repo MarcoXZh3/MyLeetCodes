@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0306-additive-num/additive-num.js'))( () => {
+require(path.resolve('task0307-range-sum-mutable/range-sum-mutable.js'))( () => {
 });
