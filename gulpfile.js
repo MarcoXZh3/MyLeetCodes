@@ -933,3 +933,6 @@ gulp.task('t0307', (callback) => {
 gulp.task('t0308', (callback) => {
   require(path.resolve('task0308-range-sum-2d-mutable/range-sum-2d-mutable.js'))(callback);
 });
+gulp.task('t0309', (callback) => {
+  require(path.resolve('task0309-buy-sell-stock-co0ldown/buy-sell-stock-cooldown.js'))(callback);
+});

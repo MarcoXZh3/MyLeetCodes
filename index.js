@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0307-range-sum-mutable/range-sum-mutable.js'))( () => {
+require(path.resolve('task0309-buy-sell-stock-co0ldown/buy-sell-stock-cooldown.js'))( () => {
 });
