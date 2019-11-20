@@ -1,6 +1,37 @@
 /**
  * @param {number[]}    nums    the number array
  */
+const NumArray0 = function(nums) {
+  nums = nums.slice();
+
+  /**
+   * @param {number}    i     the starting index for the sum, inclusive
+   * @param {number}    val   the update to be updated to
+   * @return {void}
+   */
+  this.update = (i, val) => {
+    nums[i] = val;
+  };
+
+  /**
+   * @param {number}    i     the starting index for the sum, inclusive
+   * @param {number}    j     the ending index for the sum, inclusive
+   * @return {number}         the summation
+   */
+  this.sumRange = (i, j) => {
+    let sum = 0;
+    for (let x = i; x <= j; x++) {
+      sum += nums[x];
+    }
+    return sum;
+  };
+};
+
+
+/**
+ * segment tree
+ * @param {number[]}    nums    the number array
+ */
 const NumArray = function(nums) {
   /**
    * @param {number}    i     the starting index for the sum, inclusive
@@ -9,6 +40,7 @@ const NumArray = function(nums) {
    */
   this.update = (i, val) => {
   };
+
   /**
    * @param {number}    i     the starting index for the sum, inclusive
    * @param {number}    j     the ending index for the sum, inclusive
