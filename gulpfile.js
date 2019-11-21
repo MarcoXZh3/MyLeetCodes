@@ -939,3 +939,6 @@ gulp.task('t0309', (callback) => {
 gulp.task('t0310', (callback) => {
   require(path.resolve('task0310-min-height-trees/min-height-trees.js'))(callback);
 });
+gulp.task('t0311', (callback) => {
+  require(path.resolve('task0311-sparse-mat-multiply/sparse-mat-multiply.js'))(callback);
+});

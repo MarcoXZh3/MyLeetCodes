@@ -15,6 +15,7 @@ Table of Contents
 308. \<**Hard**>    TODO: Range Sum Query 2D - Mutable
 309. \<**Medium**>  Best Time to Buy and Sell Stock with Cooldown (enhanced of Task 121-123, 188)
 310. \<**Medium**>  Minimum Height Trees
+311. \<**Medium**>  TODO: Sparse Matrix Multiplication
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
