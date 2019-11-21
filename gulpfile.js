@@ -942,3 +942,6 @@ gulp.task('t0310', (callback) => {
 gulp.task('t0311', (callback) => {
   require(path.resolve('task0311-sparse-mat-multiply/sparse-mat-multiply.js'))(callback);
 });
+gulp.task('t0312', (callback) => {
+  require(path.resolve('task0312-burst-balloons/burst-balloons.js'))(callback);
+});

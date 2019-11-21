@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0310-min-height-trees/min-height-trees.js'))( () => {
+require(path.resolve('task0312-burst-balloons/burst-balloons.js'))( () => {
 });

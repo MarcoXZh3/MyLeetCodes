@@ -16,6 +16,7 @@ Table of Contents
 309. \<**Medium**>  Best Time to Buy and Sell Stock with Cooldown (enhanced of Task 121-123, 188)
 310. \<**Medium**>  Minimum Height Trees
 311. \<**Medium**>  TODO: Sparse Matrix Multiplication
+312. \<**Hard**>    Burst Balloons
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
