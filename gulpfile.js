@@ -948,3 +948,6 @@ gulp.task('t0312', (callback) => {
 gulp.task('t0313', (callback) => {
   require(path.resolve('task0313-super-ugly-num/super-ugly-num.js'))(callback);
 });
+gulp.task('t0314', (callback) => {
+  require(path.resolve('task0314-tree-vert-traversal/tree-vert-traversal.js'))(callback);
+});

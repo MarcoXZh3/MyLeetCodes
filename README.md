@@ -18,6 +18,7 @@ Table of Contents
 311. \<**Medium**>  TODO: Sparse Matrix Multiplication
 312. \<**Hard**>    Burst Balloons
 313. \<**Medium**>  Super Ugly Number (advanced of Task 263, 264)
+314. \<**Medium**>  TODO: \<***Binary Tree***> Binary Tree Vertical Order Traversal
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
