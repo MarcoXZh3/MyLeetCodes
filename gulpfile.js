@@ -945,3 +945,6 @@ gulp.task('t0311', (callback) => {
 gulp.task('t0312', (callback) => {
   require(path.resolve('task0312-burst-balloons/burst-balloons.js'))(callback);
 });
+gulp.task('t0313', (callback) => {
+  require(path.resolve('task0313-super-ugly-num/super-ugly-num.js'))(callback);
+});

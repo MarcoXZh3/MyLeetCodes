@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0312-burst-balloons/burst-balloons.js'))( () => {
+require(path.resolve('task0313-super-ugly-num/super-ugly-num.js'))( () => {
 });

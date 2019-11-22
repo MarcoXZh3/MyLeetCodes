@@ -17,6 +17,7 @@ Table of Contents
 310. \<**Medium**>  Minimum Height Trees
 311. \<**Medium**>  TODO: Sparse Matrix Multiplication
 312. \<**Hard**>    Burst Balloons
+313. \<**Medium**>  Super Ugly Number
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
