@@ -4,7 +4,18 @@
  * @return {number}               the target number
  */
 const nthSuperUglyNumber = function(n, primes) {
-
+  const idxs = Array(primes.length).fill(0);
+  const dp = Array(n).fill(Number.MAX_SAFE_INTEGER);
+  dp[0] = 1;
+  for (let i = 1; i < n; i++) {
+    for (let j = 0; j < primes.length; j++) {
+      dp[i] = Math.min(dp[i], dp[idxs[j]] * primes[j]);
+    }
+    for (let j = 0; j < primes.length; j++) {
+      idxs[j] += dp[i] === dp[idxs[j]] * primes[j] ? 1 : 0;
+    }
+  }
+  return dp[n - 1];
 };
 
 
