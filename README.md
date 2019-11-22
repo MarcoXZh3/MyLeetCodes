@@ -19,6 +19,7 @@ Table of Contents
 312. \<**Hard**>    Burst Balloons
 313. \<**Medium**>  Super Ugly Number (advanced of Task 263, 264)
 314. \<**Medium**>  TODO: \<***Binary Tree***> Binary Tree Vertical Order Traversal
+315. \<**Hard**>    Count of Smaller Numbers After Self
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
