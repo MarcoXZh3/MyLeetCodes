@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0315-smaller-num-cnt/smaller-num-cnt.js'))( () => {
+require(path.resolve('task0316-del-dup-letters/del-dup-letters.js'))( () => {
 });

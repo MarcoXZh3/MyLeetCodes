@@ -954,3 +954,6 @@ gulp.task('t0314', (callback) => {
 gulp.task('t0315', (callback) => {
   require(path.resolve('task0315-smaller-num-cnt/smaller-num-cnt.js'))(callback);
 });
+gulp.task('t0316', (callback) => {
+  require(path.resolve('task0316-del-dup-letters/del-dup-letters.js'))(callback);
+});

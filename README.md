@@ -20,6 +20,7 @@ Table of Contents
 313. \<**Medium**>  Super Ugly Number (advanced of Task 263, 264)
 314. \<**Medium**>  TODO: \<***Binary Tree***> Binary Tree Vertical Order Traversal
 315. \<**Hard**>    Count of Smaller Numbers After Self
+316. \<**Hard**>    Remove Duplicate Letters
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
