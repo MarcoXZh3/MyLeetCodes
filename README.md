@@ -22,6 +22,7 @@ Table of Contents
 315. \<**Hard**>    Count of Smaller Numbers After Self
 316. \<**Hard**>    Remove Duplicate Letters
 317. \<**Hard**>    TODO: Shortest Distance from All Buildings
+318. \<**Medium**>  Maximum Product of Word Lengths
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
