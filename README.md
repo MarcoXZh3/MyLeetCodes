@@ -23,6 +23,7 @@ Table of Contents
 316. \<**Hard**>    Remove Duplicate Letters
 317. \<**Hard**>    TODO: Shortest Distance from All Buildings
 318. \<**Medium**>  Maximum Product of Word Lengths
+319. \<**Medium**>  Bulb Switcher
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

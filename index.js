@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0318-word-lengths-max-prod/word-lengths-max-prod.js'))( () => {
+require(path.resolve('task0319-bulb-switcher/bulb-switcher.js'))( () => {
 });

@@ -963,3 +963,6 @@ gulp.task('t0317', (callback) => {
 gulp.task('t0318', (callback) => {
   require(path.resolve('task0318-word-lengths-max-prod/word-lengths-max-prod.js'))(callback);
 });
+gulp.task('t0319', (callback) => {
+  require(path.resolve('task0319-bulb-switcher/bulb-switcher.js'))(callback);
+});
