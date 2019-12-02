@@ -969,3 +969,6 @@ gulp.task('t0319', (callback) => {
 gulp.task('t0320', (callback) => {
   require(path.resolve('task0320-generalized-abbr/generalized-abbr.js'))(callback);
 });
+gulp.task('t0321', (callback) => {
+  require(path.resolve('task0321-gen-max-num/gen-max-num.js'))(callback);
+});

@@ -25,6 +25,7 @@ Table of Contents
 318. \<**Medium**>  Maximum Product of Word Lengths
 319. \<**Medium**>  Bulb Switcher
 320. \<**Medium**>  TODO: Generalized Abbreviation
+321. \<**Hard**>    Create Maximum Number
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

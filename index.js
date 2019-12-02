@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0319-bulb-switcher/bulb-switcher.js'))( () => {
+require(path.resolve('task0321-gen-max-num/gen-max-num.js'))( () => {
 });
