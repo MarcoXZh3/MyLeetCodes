@@ -966,3 +966,6 @@ gulp.task('t0318', (callback) => {
 gulp.task('t0319', (callback) => {
   require(path.resolve('task0319-bulb-switcher/bulb-switcher.js'))(callback);
 });
+gulp.task('t0320', (callback) => {
+  require(path.resolve('task0320-generalized-abbr/generalized-abbr.js'))(callback);
+});

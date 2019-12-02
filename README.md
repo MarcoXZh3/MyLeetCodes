@@ -24,6 +24,7 @@ Table of Contents
 317. \<**Hard**>    TODO: Shortest Distance from All Buildings
 318. \<**Medium**>  Maximum Product of Word Lengths
 319. \<**Medium**>  Bulb Switcher
+320. \<**Medium**>  TODO: Generalized Abbreviation
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

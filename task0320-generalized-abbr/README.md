@@ -1,0 +1,3 @@
+# Generalized Abbreviation
+
+\<Medium>
