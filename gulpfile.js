@@ -957,3 +957,6 @@ gulp.task('t0315', (callback) => {
 gulp.task('t0316', (callback) => {
   require(path.resolve('task0316-del-dup-letters/del-dup-letters.js'))(callback);
 });
+gulp.task('t0317', (callback) => {
+  require(path.resolve('task0317-buildings-min-dist/buildings-min-dist.js'))(callback);
+});
