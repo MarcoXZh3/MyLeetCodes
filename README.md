@@ -28,6 +28,7 @@ Table of Contents
 321. \<**Hard**>    Create Maximum Number
 322. \<**Medium**>  Coin Change
 323. \<**Medium**>  TODO: Number of Connected Components in an Undirected Graph
+324. \<**Medium**>  Wiggle Sort II (similar to Task 280)
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

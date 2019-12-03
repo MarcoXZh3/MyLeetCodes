@@ -978,3 +978,6 @@ gulp.task('t0322', (callback) => {
 gulp.task('t0323', (callback) => {
   require(path.resolve('task0323-graph-connected-nodes/graph-connected-nodes.js'))(callback);
 });
+gulp.task('t0324', (callback) => {
+  require(path.resolve('task0324-wiggle-sort-2/wiggle-sort-2.js'))(callback);
+});
