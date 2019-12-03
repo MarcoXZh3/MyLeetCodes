@@ -29,6 +29,7 @@ Table of Contents
 322. \<**Medium**>  Coin Change
 323. \<**Medium**>  TODO: Number of Connected Components in an Undirected Graph
 324. \<**Medium**>  Wiggle Sort II (similar to Task 280)
+325. \<**Medium**>  TODO: Maximum Size Subarray Sum Equals k
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
