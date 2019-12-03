@@ -972,3 +972,6 @@ gulp.task('t0320', (callback) => {
 gulp.task('t0321', (callback) => {
   require(path.resolve('task0321-gen-max-num/gen-max-num.js'))(callback);
 });
+gulp.task('t0322', (callback) => {
+  require(path.resolve('task0322-coin-change/coin-change.js'))(callback);
+});

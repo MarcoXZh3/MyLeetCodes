@@ -26,6 +26,7 @@ Table of Contents
 319. \<**Medium**>  Bulb Switcher
 320. \<**Medium**>  TODO: Generalized Abbreviation
 321. \<**Hard**>    Create Maximum Number
+322. \<**Medium**>  Coin Change
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
