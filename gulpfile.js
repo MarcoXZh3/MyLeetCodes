@@ -975,3 +975,6 @@ gulp.task('t0321', (callback) => {
 gulp.task('t0322', (callback) => {
   require(path.resolve('task0322-coin-change/coin-change.js'))(callback);
 });
+gulp.task('t0323', (callback) => {
+  require(path.resolve('task0323-graph-connected-nodes/graph-connected-nodes.js'))(callback);
+});

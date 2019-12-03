@@ -27,6 +27,7 @@ Table of Contents
 320. \<**Medium**>  TODO: Generalized Abbreviation
 321. \<**Hard**>    Create Maximum Number
 322. \<**Medium**>  Coin Change
+323. \<**Medium**>  TODO: Number of Connected Components in an Undirected Graph
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
