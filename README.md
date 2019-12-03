@@ -30,6 +30,7 @@ Table of Contents
 323. \<**Medium**>  TODO: Number of Connected Components in an Undirected Graph
 324. \<**Medium**>  Wiggle Sort II (similar to Task 280)
 325. \<**Medium**>  TODO: Maximum Size Subarray Sum Equals k
+326. \<**Easy**>    Power of Three
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

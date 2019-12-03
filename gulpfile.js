@@ -979,5 +979,11 @@ gulp.task('t0323', (callback) => {
   require(path.resolve('task0323-graph-connected-nodes/graph-connected-nodes.js'))(callback);
 });
 gulp.task('t0324', (callback) => {
+  require(path.resolve('task0324-wiggle-sort-2/wiggle-sort-2.js'))(callback);
+});
+gulp.task('t0325', (callback) => {
   require(path.resolve('task0325-max-subarray-sum/max-subarray-sum.js'))(callback);
+});
+gulp.task('t0326', (callback) => {
+  require(path.resolve('task0326-pow3/pow3.js'))(callback);
 });
