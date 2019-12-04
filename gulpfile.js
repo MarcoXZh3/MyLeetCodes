@@ -993,3 +993,6 @@ gulp.task('t0327', (callback) => {
 gulp.task('t0328', (callback) => {
   require(path.resolve('task0328-odd-even-link-list/odd-even-link-list.js'))(callback);
 });
+gulp.task('t0329', (callback) => {
+  require(path.resolve('task0329-matrix-max-increase/matrix-max-increase.js'))(callback);
+});

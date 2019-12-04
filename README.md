@@ -33,6 +33,7 @@ Table of Contents
 326. \<**Easy**>    Power of Three
 327. \<**Hard**>    Count of Range Sum (similar to Task 303, 307, 308)
 328. \<**Medium**>  \<***Singly Linked List***> Odd Even Linked List
+329. \<**Hard**>    Longest Increasing Path in a Matrix
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
