@@ -996,3 +996,6 @@ gulp.task('t0328', (callback) => {
 gulp.task('t0329', (callback) => {
   require(path.resolve('task0329-matrix-max-increase/matrix-max-increase.js'))(callback);
 });
+gulp.task('t0330', (callback) => {
+  require(path.resolve('task0330-patch-arr/patch-arr.js'))(callback);
+});

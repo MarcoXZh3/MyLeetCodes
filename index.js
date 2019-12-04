@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0329-matrix-max-increase/matrix-max-increase.js'))( () => {
+require(path.resolve('task0330-patch-arr/patch-arr.js'))( () => {
 });
