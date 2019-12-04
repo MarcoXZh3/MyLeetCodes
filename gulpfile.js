@@ -990,3 +990,6 @@ gulp.task('t0326', (callback) => {
 gulp.task('t0327', (callback) => {
   require(path.resolve('task0327-range-sum-cnt/range-sum-cnt.js'))(callback);
 });
+gulp.task('t0328', (callback) => {
+  require(path.resolve('task0328-odd-even-link-list/odd-even-link-list.js'))(callback);
+});

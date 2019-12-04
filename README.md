@@ -32,6 +32,7 @@ Table of Contents
 325. \<**Medium**>  TODO: Maximum Size Subarray Sum Equals k
 326. \<**Easy**>    Power of Three
 327. \<**Hard**>    Count of Range Sum (similar to Task 303, 307, 308)
+328. \<**Medium**>  \<***Singly Linked List***> Odd Even Linked List
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
