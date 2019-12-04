@@ -35,6 +35,7 @@ Table of Contents
 328. \<**Medium**>  \<***Singly Linked List***> Odd Even Linked List
 329. \<**Hard**>    Longest Increasing Path in a Matrix
 330. \<**Hard**>    Patching Array
+331. \<**Medium**>  Verify Preorder Serialization of a Binary Tree
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

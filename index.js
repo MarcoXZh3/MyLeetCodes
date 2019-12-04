@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0330-patch-arr/patch-arr.js'))( () => {
+require(path.resolve('task0331-bin-tree-preorder-verify/bin-tree-preorder-verify.js'))( () => {
 });

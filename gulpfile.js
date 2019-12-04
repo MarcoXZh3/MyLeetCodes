@@ -999,3 +999,6 @@ gulp.task('t0329', (callback) => {
 gulp.task('t0330', (callback) => {
   require(path.resolve('task0330-patch-arr/patch-arr.js'))(callback);
 });
+gulp.task('t0331', (callback) => {
+  require(path.resolve('task0331-bin-tree-preorder-verify/bin-tree-preorder-verify.js'))(callback);
+});
