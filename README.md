@@ -31,6 +31,7 @@ Table of Contents
 324. \<**Medium**>  Wiggle Sort II (similar to Task 280)
 325. \<**Medium**>  TODO: Maximum Size Subarray Sum Equals k
 326. \<**Easy**>    Power of Three
+327. \<**Hard**>    Count of Range Sum (similar to Task 303, 307, 308)
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
