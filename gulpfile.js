@@ -1011,3 +1011,6 @@ gulp.task('t0333', (callback) => {
 gulp.task('t0334', (callback) => {
   require(path.resolve('task0334-increase-sub-arr/increase-sub-arr.js'))(callback);
 });
+gulp.task('t0335', (callback) => {
+  require(path.resolve('task0335-self-cross/self-cross.js'))(callback);
+});

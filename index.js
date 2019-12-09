@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0334-increase-sub-arr/increase-sub-arr.js'))( () => {
+require(path.resolve('task0335-self-cross/self-cross.js'))( () => {
 });

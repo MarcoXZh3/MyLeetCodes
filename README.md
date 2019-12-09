@@ -39,6 +39,7 @@ Table of Contents
 332. \<**Medium**>  Reconstruct Itinerary
 333. \<**Medium**>  TODO: \<***Binary Tree***> Largest BST Subtree
 334. \<**Medium**>  Increasing Triplet Subsequence
+335. \<**Hard**>    Self Crossing
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
