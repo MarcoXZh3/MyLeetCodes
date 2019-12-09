@@ -36,6 +36,7 @@ Table of Contents
 329. \<**Hard**>    Longest Increasing Path in a Matrix
 330. \<**Hard**>    Patching Array
 331. \<**Medium**>  Verify Preorder Serialization of a Binary Tree
+332. \<**Medium**>  Reconstruct Itinerary
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

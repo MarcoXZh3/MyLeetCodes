@@ -1002,3 +1002,6 @@ gulp.task('t0330', (callback) => {
 gulp.task('t0331', (callback) => {
   require(path.resolve('task0331-bin-tree-preorder-verify/bin-tree-preorder-verify.js'))(callback);
 });
+gulp.task('t0332', (callback) => {
+  require(path.resolve('task0332-reconstruct-itinerary/reconstruct-itinerary.js'))(callback);
+});

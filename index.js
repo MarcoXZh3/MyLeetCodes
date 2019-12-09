@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0331-bin-tree-preorder-verify/bin-tree-preorder-verify.js'))( () => {
+require(path.resolve('task0332-reconstruct-itinerary/reconstruct-itinerary.js'))( () => {
 });
