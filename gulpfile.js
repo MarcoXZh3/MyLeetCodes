@@ -1005,3 +1005,6 @@ gulp.task('t0331', (callback) => {
 gulp.task('t0332', (callback) => {
   require(path.resolve('task0332-reconstruct-itinerary/reconstruct-itinerary.js'))(callback);
 });
+gulp.task('t0333', (callback) => {
+  require(path.resolve('task0333-max-sub-bst/max-sub-bst.js'))(callback);
+});
