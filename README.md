@@ -38,6 +38,7 @@ Table of Contents
 331. \<**Medium**>  Verify Preorder Serialization of a Binary Tree
 332. \<**Medium**>  Reconstruct Itinerary
 333. \<**Medium**>  TODO: \<***Binary Tree***> Largest BST Subtree
+334. \<**Medium**>  Increasing Triplet Subsequence
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

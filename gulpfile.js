@@ -1008,3 +1008,6 @@ gulp.task('t0332', (callback) => {
 gulp.task('t0333', (callback) => {
   require(path.resolve('task0333-max-sub-bst/max-sub-bst.js'))(callback);
 });
+gulp.task('t0334', (callback) => {
+  require(path.resolve('task0334-increase-sub-arr/increase-sub-arr.js'))(callback);
+});
