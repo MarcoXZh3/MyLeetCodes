@@ -40,6 +40,7 @@ Table of Contents
 333. \<**Medium**>  TODO: \<***Binary Tree***> Largest BST Subtree
 334. \<**Medium**>  Increasing Triplet Subsequence
 335. \<**Hard**>    Self Crossing
+336. \<**Hard**>    Palindrome Pairs
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0335-self-cross/self-cross.js'))( () => {
+require(path.resolve('task0336-palindrome-pairs/palindrome-pairs.js'))( () => {
 });

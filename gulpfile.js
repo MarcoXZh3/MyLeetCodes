@@ -1014,3 +1014,6 @@ gulp.task('t0334', (callback) => {
 gulp.task('t0335', (callback) => {
   require(path.resolve('task0335-self-cross/self-cross.js'))(callback);
 });
+gulp.task('t0336', (callback) => {
+  require(path.resolve('task0336-palindrome-pairs/palindrome-pairs.js'))(callback);
+});
