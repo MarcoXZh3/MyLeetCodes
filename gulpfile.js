@@ -1023,3 +1023,6 @@ gulp.task('t0337', (callback) => {
 gulp.task('t0338', (callback) => {
   require(path.resolve('task0338-count-bits/count-bits.js'))(callback);
 });
+gulp.task('t0339', (callback) => {
+  require(path.resolve('task0339-nested-list-weight-sum/nested-list-weight-sum.js'))(callback);
+});

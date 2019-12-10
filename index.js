@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0338-count-bits/count-bits.js'))( () => {
+require(path.resolve('task0339-nested-list-weight-sum/nested-list-weight-sum.js'))( () => {
 });
