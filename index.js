@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0336-palindrome-pairs/palindrome-pairs.js'))( () => {
+require(path.resolve('task0337-house-robber-3/house-robber-3.js'))( () => {
 });

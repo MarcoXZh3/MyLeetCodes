@@ -41,6 +41,7 @@ Table of Contents
 334. \<**Medium**>  Increasing Triplet Subsequence
 335. \<**Hard**>    Self Crossing
 336. \<**Hard**>    Palindrome Pairs
+337. \<**Medium**>  \<***Binary Tree***> House Robber III (Advanced of Task 198, 213)
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

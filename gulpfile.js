@@ -1017,3 +1017,6 @@ gulp.task('t0335', (callback) => {
 gulp.task('t0336', (callback) => {
   require(path.resolve('task0336-palindrome-pairs/palindrome-pairs.js'))(callback);
 });
+gulp.task('t0337', (callback) => {
+  require(path.resolve('task0337-house-robber-3/house-robber-3.js'))(callback);
+});
