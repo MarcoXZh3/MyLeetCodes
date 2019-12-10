@@ -1038,3 +1038,6 @@ gulp.task('t0342', (callback) => {
 gulp.task('t0343', (callback) => {
   require(path.resolve('task0343-int-break/int-break.js'))(callback);
 });
+gulp.task('t0344', (callback) => {
+  require(path.resolve('task0344-reverse-string/reverse-string.js'))(callback);
+});

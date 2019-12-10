@@ -48,6 +48,7 @@ Table of Contents
 341. \<**Medium**>  Flatten Nested List Iterator
 342. \<**Easy**>    Power of Four (similar to Task 231, 326)
 343. \<**Medium**>  Integer Break
+344. \<**Easy**>    Reverse String
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

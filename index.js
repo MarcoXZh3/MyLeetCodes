@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0343-int-break/int-break.js'))( () => {
+require(path.resolve('task0344-reverse-string/reverse-string.js'))( () => {
 });
