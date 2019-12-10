@@ -47,6 +47,7 @@ Table of Contents
 340. \<**Hard**>    TODO: Longest Substring with At Most K Distinct Characters
 341. \<**Medium**>  Flatten Nested List Iterator
 342. \<**Easy**>    Power of Four (similar to Task 231, 326)
+343. \<**Medium**>  Integer Break
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

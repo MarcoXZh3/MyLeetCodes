@@ -1035,3 +1035,6 @@ gulp.task('t0341', (callback) => {
 gulp.task('t0342', (callback) => {
   require(path.resolve('task0342-pow4/pow4.js'))(callback);
 });
+gulp.task('t0343', (callback) => {
+  require(path.resolve('task0343-int-break/int-break.js'))(callback);
+});
