@@ -1029,3 +1029,6 @@ gulp.task('t0339', (callback) => {
 gulp.task('t0340', (callback) => {
   require(path.resolve('task0340-k-distinct-max-sub/k-distinct-max-sub.js'))(callback);
 });
+gulp.task('t0341', (callback) => {
+  require(path.resolve('task0341-flat-nest-list-itr/flat-nest-list-itr.js'))(callback);
+});

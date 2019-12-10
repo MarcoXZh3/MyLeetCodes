@@ -45,6 +45,7 @@ Table of Contents
 338. \<**Medium**>  Counting Bits
 339. \<**Easy**>    TODO: Nested List Weight Sum
 340. \<**Hard**>    TODO: Longest Substring with At Most K Distinct Characters
+341. \<**Medium**>  Flatten Nested List Iterator
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
