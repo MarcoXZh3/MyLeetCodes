@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0341-flat-nest-list-itr/flat-nest-list-itr.js'))( () => {
+require(path.resolve('task0342-pow4/pow3.js'))( () => {
 });

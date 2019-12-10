@@ -30,7 +30,7 @@ Table of Contents
 323. \<**Medium**>  TODO: Number of Connected Components in an Undirected Graph
 324. \<**Medium**>  Wiggle Sort II (similar to Task 280)
 325. \<**Medium**>  TODO: Maximum Size Subarray Sum Equals k
-326. \<**Easy**>    Power of Three
+326. \<**Easy**>    Power of Three (similar to Task 231)
 327. \<**Hard**>    Count of Range Sum (similar to Task 303, 307, 308)
 328. \<**Medium**>  \<***Singly Linked List***> Odd Even Linked List
 329. \<**Hard**>    Longest Increasing Path in a Matrix
@@ -46,6 +46,7 @@ Table of Contents
 339. \<**Easy**>    TODO: Nested List Weight Sum
 340. \<**Hard**>    TODO: Longest Substring with At Most K Distinct Characters
 341. \<**Medium**>  Flatten Nested List Iterator
+342. \<**Easy**>    Power of Four (similar to Task 231, 326)
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
