@@ -1020,3 +1020,6 @@ gulp.task('t0336', (callback) => {
 gulp.task('t0337', (callback) => {
   require(path.resolve('task0337-house-robber-3/house-robber-3.js'))(callback);
 });
+gulp.task('t0338', (callback) => {
+  require(path.resolve('task0338-count-bits/count-bits.js'))(callback);
+});

@@ -42,6 +42,7 @@ Table of Contents
 335. \<**Hard**>    Self Crossing
 336. \<**Hard**>    Palindrome Pairs
 337. \<**Medium**>  \<***Binary Tree***> House Robber III (Advanced of Task 198, 213)
+338. \<**Medium**>  Counting Bits
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
