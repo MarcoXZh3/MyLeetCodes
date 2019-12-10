@@ -1026,3 +1026,6 @@ gulp.task('t0338', (callback) => {
 gulp.task('t0339', (callback) => {
   require(path.resolve('task0339-nested-list-weight-sum/nested-list-weight-sum.js'))(callback);
 });
+gulp.task('t0340', (callback) => {
+  require(path.resolve('task0340-k-distinct-max-sub/k-distinct-max-sub.js'))(callback);
+});

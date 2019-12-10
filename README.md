@@ -44,6 +44,7 @@ Table of Contents
 337. \<**Medium**>  \<***Binary Tree***> House Robber III (Advanced of Task 198, 213)
 338. \<**Medium**>  Counting Bits
 339. \<**Easy**>    TODO: Nested List Weight Sum
+340. \<**Hard**>    TODO: Longest Substring with At Most K Distinct Characters
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
