@@ -1033,5 +1033,5 @@ gulp.task('t0341', (callback) => {
   require(path.resolve('task0341-flat-nest-list-itr/flat-nest-list-itr.js'))(callback);
 });
 gulp.task('t0342', (callback) => {
-  require(path.resolve('task0342-pow4/pow3.js'))(callback);
+  require(path.resolve('task0342-pow4/pow4.js'))(callback);
 });
