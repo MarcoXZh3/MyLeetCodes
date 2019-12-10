@@ -49,22 +49,71 @@ const buildNestedList = function(obj) {
 
 
 /**
+ * recursion based solution -- flatten when constructing
  * @param {NestedInteger[]}   nestedList    the nested integer list
  */
-const NestedIterator = function(nestedList) {
+const NestedIterator0 = function(nestedList) {
+  const list = [];
+  const recursion = (arr) => {
+    arr.forEach( e => {
+      if (e.isInteger()) {
+        list.push(e.getInteger());
+      } else {
+        recursion(e.getList());
+      }
+    });
+  }
+  recursion(nestedList);
+
   /**
    * check if the nested list has a next value
    * @returns {boolean}     whether has next value
    */
   this.hasNext = () => {
-
+    return list.length > 0;
   };
   /**
    * get the next value
    * @returns {integer}     the next value
    */
   this.next = () => {
+    return list.shift();
+  };
+};
 
+
+/**
+ * stack based solution -- flatten on the fly
+ * @param {NestedInteger[]}   nestedList    the nested integer list
+ */
+const NestedIterator = function(nestedList) {
+  const stack = [];
+  for (let i = nestedList.length - 1; i >= 0; i--) {
+    stack.push(nestedList[i]);
+  }
+
+  /**
+   * check if the nested list has a next value
+   * @returns {boolean}     whether has next value
+   */
+  this.hasNext = () => {
+    while (stack.length > 0) {
+      if (stack[stack.length - 1].isInteger()) {
+        return true;
+      }
+      const cur = stack.pop().getList();
+      for (let i = cur.length - 1; i >= 0; i--) {
+        stack.push(cur[i]);
+      }
+    }
+    return false;
+  };
+  /**
+   * get the next value
+   * @returns {integer}     the next value
+   */
+  this.next = () => {
+    return stack.pop().getInteger();
   };
 };
 
