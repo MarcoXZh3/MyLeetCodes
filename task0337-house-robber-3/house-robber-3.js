@@ -4,11 +4,22 @@ const TreeNode = BinaryTreeNode;
 
 
 /**
- * @param {TreeNode} root
- * @return {number}
+ * @param {TreeNode}    root    the root node of the binary tree
+ * @return {number}             max number
  */
 const rob = function(root) {
-
+  const recursion = (root) => {
+    if (!root) {
+      return [0, 0];
+    }
+    const lefts = recursion(root.left);
+    const rights = recursion(root.right);
+    return [
+      lefts[1] + rights[1] + root.val,
+      Math.max(...lefts) + Math.max(...rights),
+    ];
+  };
+  return Math.max(...recursion(root));
 };
 
 
