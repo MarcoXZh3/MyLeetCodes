@@ -1056,3 +1056,6 @@ gulp.task('t0348', (callback) => {
 gulp.task('t0349', (callback) => {
   require(path.resolve('task0349-arr-intersection/array-intersection.js'))(callback);
 });
+gulp.task('t0350', (callback) => {
+  require(path.resolve('task0350-arr-intersection-2/array-intersection-2.js'))(callback);
+});

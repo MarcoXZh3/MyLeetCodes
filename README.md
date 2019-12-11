@@ -54,6 +54,7 @@ Table of Contents
 347. \<**Medium**>  Top K Frequent Elements
 348. \<**Medium**>  TODO: Design Tic-Tac-Toe
 349. \<**Easy**>    Intersection of Two Arrays
+350. \<**Easy**>    Intersection of Two Arrays II
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
