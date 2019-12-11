@@ -53,6 +53,7 @@ Table of Contents
 346. \<**Easy**>    TODO: Moving Average from Data Stream
 347. \<**Medium**>  Top K Frequent Elements
 348. \<**Medium**>  TODO: Design Tic-Tac-Toe
+349. \<**Easy**>    Intersection of Two Arrays
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

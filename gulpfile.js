@@ -1053,3 +1053,6 @@ gulp.task('t0347', (callback) => {
 gulp.task('t0348', (callback) => {
   require(path.resolve('task0348-tic-tac-toe/tic-tac-toe.js'))(callback);
 });
+gulp.task('t0349', (callback) => {
+  require(path.resolve('task0349-arr-intersection/array-intersection.js'))(callback);
+});

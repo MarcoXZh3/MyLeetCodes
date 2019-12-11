@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0347-k-most-freq-elem/k-most-freq-elem.js'))( () => {
+require(path.resolve('task0349-arr-intersection/array-intersection.js'))( () => {
 });
