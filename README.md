@@ -56,6 +56,7 @@ Table of Contents
 349. \<**Easy**>    Intersection of Two Arrays
 350. \<**Easy**>    Intersection of Two Arrays II
 351. \<**Medium**>  TODO: Android Unlock Patterns
+352. \<**Hard**>    Data Stream as Disjoint Intervals
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

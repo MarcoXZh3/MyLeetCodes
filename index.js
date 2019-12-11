@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0350-arr-intersection-2/array-intersection-2.js'))( () => {
+require(path.resolve('task0352-stream-disjoint-itv/stream-disjoint-itv.js'))( () => {
 });

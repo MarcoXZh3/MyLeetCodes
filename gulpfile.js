@@ -1062,3 +1062,6 @@ gulp.task('t0350', (callback) => {
 gulp.task('t0351', (callback) => {
   require(path.resolve('task0351-unlock-patterns/unlock-patterns.js'))(callback);
 });
+gulp.task('t0352', (callback) => {
+  require(path.resolve('task0352-stream-disjoint-itv/stream-disjoint-itv.js'))(callback);
+});
