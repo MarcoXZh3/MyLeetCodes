@@ -50,6 +50,7 @@ Table of Contents
 343. \<**Medium**>  Integer Break
 344. \<**Easy**>    Reverse String
 345. \<**Easy**>    Reverse Vowels of a String
+346. \<**Easy**>    TODO: Moving Average from Data Stream
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

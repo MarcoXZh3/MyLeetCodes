@@ -1044,3 +1044,6 @@ gulp.task('t0344', (callback) => {
 gulp.task('t0345', (callback) => {
   require(path.resolve('task0345-reverse-vowels/reverse-vowels.js'))(callback);
 });
+gulp.task('t0346', (callback) => {
+  require(path.resolve('task0346-stream-move-avg/stream-move-avg.js'))(callback);
+});
