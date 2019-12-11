@@ -49,6 +49,7 @@ Table of Contents
 342. \<**Easy**>    Power of Four (similar to Task 231, 326)
 343. \<**Medium**>  Integer Break
 344. \<**Easy**>    Reverse String
+345. \<**Easy**>    Reverse Vowels of a String
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
