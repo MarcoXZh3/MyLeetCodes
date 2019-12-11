@@ -1059,3 +1059,6 @@ gulp.task('t0349', (callback) => {
 gulp.task('t0350', (callback) => {
   require(path.resolve('task0350-arr-intersection-2/array-intersection-2.js'))(callback);
 });
+gulp.task('t0351', (callback) => {
+  require(path.resolve('task0351-unlock-patterns/unlock-patterns.js'))(callback);
+});

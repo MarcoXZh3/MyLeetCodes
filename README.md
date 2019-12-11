@@ -55,6 +55,7 @@ Table of Contents
 348. \<**Medium**>  TODO: Design Tic-Tac-Toe
 349. \<**Easy**>    Intersection of Two Arrays
 350. \<**Easy**>    Intersection of Two Arrays II
+351. \<**Medium**>  TODO: Android Unlock Patterns
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
