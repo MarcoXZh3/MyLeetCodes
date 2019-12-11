@@ -1047,3 +1047,6 @@ gulp.task('t0345', (callback) => {
 gulp.task('t0346', (callback) => {
   require(path.resolve('task0346-stream-move-avg/stream-move-avg.js'))(callback);
 });
+gulp.task('t0347', (callback) => {
+  require(path.resolve('task0347-k-most-freq-elem/k-most-freq-elem.js'))(callback);
+});

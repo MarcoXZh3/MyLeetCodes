@@ -51,6 +51,7 @@ Table of Contents
 344. \<**Easy**>    Reverse String
 345. \<**Easy**>    Reverse Vowels of a String
 346. \<**Easy**>    TODO: Moving Average from Data Stream
+347. \<**Medium**>  Top K Frequent Elements
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
