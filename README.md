@@ -57,6 +57,7 @@ Table of Contents
 350. \<**Easy**>    Intersection of Two Arrays II
 351. \<**Medium**>  TODO: Android Unlock Patterns
 352. \<**Hard**>    Data Stream as Disjoint Intervals
+353. \<**Medium**>  TODO: Design Snake Game
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

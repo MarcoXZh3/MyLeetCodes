@@ -1065,3 +1065,6 @@ gulp.task('t0351', (callback) => {
 gulp.task('t0352', (callback) => {
   require(path.resolve('task0352-stream-disjoint-itv/stream-disjoint-itv.js'))(callback);
 });
+gulp.task('t0353', (callback) => {
+  require(path.resolve('task0353-snake-game/snake-game.js'))(callback);
+});
