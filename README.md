@@ -52,6 +52,7 @@ Table of Contents
 345. \<**Easy**>    Reverse Vowels of a String
 346. \<**Easy**>    TODO: Moving Average from Data Stream
 347. \<**Medium**>  Top K Frequent Elements
+348. \<**Medium**>  TODO: Design Tic-Tac-Toe
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

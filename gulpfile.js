@@ -1050,3 +1050,6 @@ gulp.task('t0346', (callback) => {
 gulp.task('t0347', (callback) => {
   require(path.resolve('task0347-k-most-freq-elem/k-most-freq-elem.js'))(callback);
 });
+gulp.task('t0348', (callback) => {
+  require(path.resolve('task0348-tic-tac-toe/tic-tac-toe.js'))(callback);
+});
