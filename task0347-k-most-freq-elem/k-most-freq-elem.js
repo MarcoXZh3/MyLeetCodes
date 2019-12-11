@@ -1,10 +1,16 @@
 /**
+ * intuitive - count and sort by occurrences
  * @param {number[]}    nums      the number array
  * @param {number}      k         number of top frequent elements
  * @return {number[]}             the elements
  */
 const topKFrequent = function(nums, k) {
-
+  const map = {};
+  for (let n of nums) {
+    map[`${n}`] = 1 + (map[`${n}`] || 0);
+  }
+  return Object.keys(map).sort( (a,b)=>map[b]-map[a] )
+               .map( x=>parseInt(x, 10) ).slice(0, k);
 };
 
 
