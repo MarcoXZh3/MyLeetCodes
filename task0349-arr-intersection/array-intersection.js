@@ -4,7 +4,9 @@
  * @return {number[]}               the intersection
  */
 const intersection = function(nums1, nums2) {
-
+  nums1 = new Set(nums1);
+  nums2 = new Set(nums2);
+  return [...nums1].filter( x=>nums2.has(x) );
 };
 
 
