@@ -1080,3 +1080,6 @@ gulp.task('t0356', (callback) => {
 gulp.task('t0357', (callback) => {
   require(path.resolve('task0357-unique-digit-nums/unique-digit-nums.js'))(callback);
 });
+gulp.task('t0358', (callback) => {
+  require(path.resolve('task0358-str-k-dist-apart/str-k-dist-apart.js'))(callback);
+});

@@ -62,6 +62,7 @@ Table of Contents
 355. \<**Medium**>  Design Twitter
 356. \<**Medium**>  TODO: Design Snake Game
 357. \<**Medium**>  Count Numbers with Unique Digits
+358. \<**Hard**>    TODO: Rearrange String k Distance Apart
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
