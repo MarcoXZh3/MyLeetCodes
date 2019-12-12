@@ -1086,3 +1086,6 @@ gulp.task('t0358', (callback) => {
 gulp.task('t0359', (callback) => {
   require(path.resolve('task0359-limit-log-rate/limit-log-rate.js'))(callback);
 });
+gulp.task('t0360', (callback) => {
+  require(path.resolve('task0360-transformed-arr-sort/transformed-arr-sort.js'))(callback);
+});

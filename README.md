@@ -64,6 +64,7 @@ Table of Contents
 357. \<**Medium**>  Count Numbers with Unique Digits
 358. \<**Hard**>    TODO: Rearrange String k Distance Apart
 359. \<**Easy**>    TODO: Logger Rate Limiter
+360. \<**Medium**>  TODO: Sort Transformed Array
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
