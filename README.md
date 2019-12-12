@@ -63,6 +63,7 @@ Table of Contents
 356. \<**Medium**>  TODO: Design Snake Game
 357. \<**Medium**>  Count Numbers with Unique Digits
 358. \<**Hard**>    TODO: Rearrange String k Distance Apart
+359. \<**Easy**>    TODO: Logger Rate Limiter
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

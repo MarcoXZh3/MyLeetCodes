@@ -1083,3 +1083,6 @@ gulp.task('t0357', (callback) => {
 gulp.task('t0358', (callback) => {
   require(path.resolve('task0358-str-k-dist-apart/str-k-dist-apart.js'))(callback);
 });
+gulp.task('t0359', (callback) => {
+  require(path.resolve('task0359-limit-log-rate/limit-log-rate.js'))(callback);
+});
