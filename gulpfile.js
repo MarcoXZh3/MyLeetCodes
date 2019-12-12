@@ -1077,3 +1077,6 @@ gulp.task('t0355', (callback) => {
 gulp.task('t0356', (callback) => {
   require(path.resolve('task0356-line-reflection/line-reflection.js'))(callback);
 });
+gulp.task('t0357', (callback) => {
+  require(path.resolve('task0357-unique-digit-nums/unique-digit-nums.js'))(callback);
+});

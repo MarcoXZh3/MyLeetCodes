@@ -61,6 +61,7 @@ Table of Contents
 354. \<**Hard**>    Russian Doll Envelopes
 355. \<**Medium**>  Design Twitter
 356. \<**Medium**>  TODO: Design Snake Game
+357. \<**Medium**>  Count Numbers with Unique Digits
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

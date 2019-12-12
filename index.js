@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0355-design-twitter/design-twitter.js'))( () => {
+require(path.resolve('task0357-unique-digit-nums/unique-digit-nums.js'))( () => {
 });
