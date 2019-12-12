@@ -1107,3 +1107,6 @@ gulp.task('t0365', (callback) => {
 gulp.task('t0366', (callback) => {
   require(path.resolve('task0366-bin-tree-leaves/bin-tree-leaves.js'))(callback);
 });
+gulp.task('t0367', (callback) => {
+  require(path.resolve('task0367-perfect-square/perfect-square.js'))(callback);
+});

@@ -71,6 +71,7 @@ Table of Contents
 364. \<**Medium**>  TODO: Nested List Weight Sum II (advanced of Task 339)
 365. \<**Medium**>  Water and Jug Problem
 366. \<**Medium**>  TODO: \<***Binary Tree***> Find Leaves of Binary Tree
+367. \<**Easy**>    Valid Perfect Square
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
