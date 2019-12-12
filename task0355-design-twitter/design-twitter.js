@@ -1,10 +1,11 @@
-const SIZE = 10;
-
-
 /**
  * Initialize your data structure here.
  */
 const Twitter = function() {
+  const SIZE = 10;
+  const followees = {};
+  const tweets = [];
+  this.ts = followees;
   /**
    * Compose a new tweet
    * @param {number}    userId      id of the user
@@ -12,6 +13,8 @@ const Twitter = function() {
    * @return {void}
    */
   this.postTweet = function(userId, tweetId) {
+    followees[`${userId}`] = followees[`${userId}`] || new Set();
+    tweets.unshift([userId, tweetId]);
   };
 
   /**
@@ -22,6 +25,16 @@ const Twitter = function() {
    * @return {number[]}             ids of the most recent tweets
    */
   this.getNewsFeed = function(userId) {
+    const res = [];
+    for (let tweet of tweets) {
+      if (tweet[0] === userId || followees[`${userId}`] && followees[`${userId}`].has(tweet[0])) {
+        res.push(tweet[1]);
+        if (res.length >= SIZE) {
+          break ;
+        }
+      }
+    }
+    return res;
   };
 
   /**
@@ -31,6 +44,8 @@ const Twitter = function() {
    * @return {void}
    */
   this.follow = function(followerId, followeeId) {
+    followees[`${followerId}`] = followees[`${followerId}`] || new Set();
+    followees[`${followerId}`].add(followeeId);
   };
 
   /**
@@ -40,6 +55,10 @@ const Twitter = function() {
    * @return {void}
    */
   this.unfollow = function(followerId, followeeId) {
+    const fes = followees[`${followerId}`];
+    if (fes && fes.has(followeeId)) {
+      fes.delete(followeeId);
+    }
   };
 };
 
