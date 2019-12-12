@@ -68,6 +68,7 @@ Table of Contents
 361. \<**Medium**>  TODO: Bomb Enemy
 362. \<**Medium**>  TODO: Design Hit Counter
 363. \<**Hard**>    Max Sum of Rectangle No Larger Than K
+364. \<**Medium**>  TODO: Nested List Weight Sum II (advanced of Task 339)
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

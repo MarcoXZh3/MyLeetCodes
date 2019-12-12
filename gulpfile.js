@@ -1098,3 +1098,6 @@ gulp.task('t0362', (callback) => {
 gulp.task('t0363', (callback) => {
   require(path.resolve('task0363-rect-max-sum/rect-max-sum.js'))(callback);
 });
+gulp.task('t0364', (callback) => {
+  require(path.resolve('task0364-nested-list-weight-sum-2/nested-list-weight-sum-2.js'))(callback);
+});
