@@ -1089,3 +1089,6 @@ gulp.task('t0359', (callback) => {
 gulp.task('t0360', (callback) => {
   require(path.resolve('task0360-transformed-arr-sort/transformed-arr-sort.js'))(callback);
 });
+gulp.task('t0361', (callback) => {
+  require(path.resolve('task0361-bomb-enemy/bomb-enemy.js'))(callback);
+});

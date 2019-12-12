@@ -65,6 +65,7 @@ Table of Contents
 358. \<**Hard**>    TODO: Rearrange String k Distance Apart
 359. \<**Easy**>    TODO: Logger Rate Limiter
 360. \<**Medium**>  TODO: Sort Transformed Array
+361. \<**Medium**>  TODO: Bomb Enemy
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
