@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0354-russian-doll/russian-doll.js'))( () => {
+require(path.resolve('task0355-design-twitter/design-twitter.js'))( () => {
 });

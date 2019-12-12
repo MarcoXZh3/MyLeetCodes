@@ -1071,3 +1071,6 @@ gulp.task('t0353', (callback) => {
 gulp.task('t0354', (callback) => {
   require(path.resolve('task0354-russian-doll/russian-doll.js'))(callback);
 });
+gulp.task('t0355', (callback) => {
+  require(path.resolve('task0355-design-twitter/design-twitter.js'))(callback);
+});

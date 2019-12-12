@@ -59,6 +59,7 @@ Table of Contents
 352. \<**Hard**>    Data Stream as Disjoint Intervals
 353. \<**Medium**>  TODO: Design Snake Game
 354. \<**Hard**>    Russian Doll Envelopes
+355. \<**Medium**>  Design Twitter
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
