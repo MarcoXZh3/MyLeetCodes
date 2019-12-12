@@ -1095,3 +1095,6 @@ gulp.task('t0361', (callback) => {
 gulp.task('t0362', (callback) => {
   require(path.resolve('task0362-hit-counter/hit-counter.js'))(callback);
 });
+gulp.task('t0363', (callback) => {
+  require(path.resolve('task0363-rect-max-sum/rect-max-sum.js'))(callback);
+});

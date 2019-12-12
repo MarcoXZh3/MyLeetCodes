@@ -67,6 +67,7 @@ Table of Contents
 360. \<**Medium**>  TODO: Sort Transformed Array
 361. \<**Medium**>  TODO: Bomb Enemy
 362. \<**Medium**>  TODO: Design Hit Counter
+363. \<**Hard**>    Max Sum of Rectangle No Larger Than K
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0357-unique-digit-nums/unique-digit-nums.js'))( () => {
+require(path.resolve('task0363-rect-max-sum/rect-max-sum.js'))( () => {
 });
