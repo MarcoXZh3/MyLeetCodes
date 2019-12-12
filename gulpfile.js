@@ -1092,3 +1092,6 @@ gulp.task('t0360', (callback) => {
 gulp.task('t0361', (callback) => {
   require(path.resolve('task0361-bomb-enemy/bomb-enemy.js'))(callback);
 });
+gulp.task('t0362', (callback) => {
+  require(path.resolve('task0362-hit-counter/hit-counter.js'))(callback);
+});

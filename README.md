@@ -66,6 +66,7 @@ Table of Contents
 359. \<**Easy**>    TODO: Logger Rate Limiter
 360. \<**Medium**>  TODO: Sort Transformed Array
 361. \<**Medium**>  TODO: Bomb Enemy
+362. \<**Medium**>  TODO: Design Hit Counter
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
