@@ -1101,3 +1101,6 @@ gulp.task('t0363', (callback) => {
 gulp.task('t0364', (callback) => {
   require(path.resolve('task0364-nested-list-weight-sum-2/nested-list-weight-sum-2.js'))(callback);
 });
+gulp.task('t0365', (callback) => {
+  require(path.resolve('task0365-water-jug/water-jug.js'))(callback);
+});

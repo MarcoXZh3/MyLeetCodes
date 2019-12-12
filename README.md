@@ -69,6 +69,7 @@ Table of Contents
 362. \<**Medium**>  TODO: Design Hit Counter
 363. \<**Hard**>    Max Sum of Rectangle No Larger Than K
 364. \<**Medium**>  TODO: Nested List Weight Sum II (advanced of Task 339)
+365. \<**Medium**>  Water and Jug Problem
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
