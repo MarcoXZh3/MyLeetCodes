@@ -1104,3 +1104,6 @@ gulp.task('t0364', (callback) => {
 gulp.task('t0365', (callback) => {
   require(path.resolve('task0365-water-jug/water-jug.js'))(callback);
 });
+gulp.task('t0366', (callback) => {
+  require(path.resolve('task0366-bin-tree-leaves/bin-tree-leaves.js'))(callback);
+});
