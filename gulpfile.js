@@ -1074,3 +1074,6 @@ gulp.task('t0354', (callback) => {
 gulp.task('t0355', (callback) => {
   require(path.resolve('task0355-design-twitter/design-twitter.js'))(callback);
 });
+gulp.task('t0356', (callback) => {
+  require(path.resolve('task0356-line-reflection/line-reflection.js'))(callback);
+});

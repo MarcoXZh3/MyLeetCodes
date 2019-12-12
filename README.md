@@ -60,6 +60,7 @@ Table of Contents
 353. \<**Medium**>  TODO: Design Snake Game
 354. \<**Hard**>    Russian Doll Envelopes
 355. \<**Medium**>  Design Twitter
+356. \<**Medium**>  TODO: Design Snake Game
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
