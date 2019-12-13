@@ -1110,3 +1110,6 @@ gulp.task('t0366', (callback) => {
 gulp.task('t0367', (callback) => {
   require(path.resolve('task0367-perfect-square/perfect-square.js'))(callback);
 });
+gulp.task('t0368', (callback) => {
+  require(path.resolve('task0368-max-divisible-sub/max-divisible-sub.js'))(callback);
+});
