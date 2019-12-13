@@ -1116,3 +1116,6 @@ gulp.task('t0368', (callback) => {
 gulp.task('t0369', (callback) => {
   require(path.resolve('task0369-plus-1-list/plus-1-list.js'))(callback);
 });
+gulp.task('t0370', (callback) => {
+  require(path.resolve('task0370-range-addition/range-addition.js'))(callback);
+});
