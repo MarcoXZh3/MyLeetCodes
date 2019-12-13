@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0368-max-divisible-sub/max-divisible-sub.js'))( () => {
+require(path.resolve('task0371-sum-2-int/sum-2-int.js'))( () => {
 });
