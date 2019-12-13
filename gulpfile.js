@@ -1122,3 +1122,6 @@ gulp.task('t0370', (callback) => {
 gulp.task('t0371', (callback) => {
   require(path.resolve('task0371-sum-2-int/sum-2-int.js'))(callback);
 });
+gulp.task('t0372', (callback) => {
+  require(path.resolve('task0372-super-pow/super-pow.js'))(callback);
+});
