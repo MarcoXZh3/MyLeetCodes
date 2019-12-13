@@ -1113,3 +1113,6 @@ gulp.task('t0367', (callback) => {
 gulp.task('t0368', (callback) => {
   require(path.resolve('task0368-max-divisible-sub/max-divisible-sub.js'))(callback);
 });
+gulp.task('t0369', (callback) => {
+  require(path.resolve('task0369-plus-1-list/plus-1-list.js'))(callback);
+});

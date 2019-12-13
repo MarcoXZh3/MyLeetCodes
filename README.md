@@ -73,6 +73,7 @@ Table of Contents
 366. \<**Medium**>  TODO: \<***Binary Tree***> Find Leaves of Binary Tree
 367. \<**Easy**>    Valid Perfect Square
 368. \<**Medium**>  Largest Divisible Subset
+369. \<**Medium**>  TODO: \<***Singly Linked List***> Plus One Linked List
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
