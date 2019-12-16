@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0372-super-pow/super-pow.js'))( () => {
+require(path.resolve('task0373-k-pairs-min-sum/k-pairs-min-sum.js'))( () => {
 });

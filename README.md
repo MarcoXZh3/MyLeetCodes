@@ -77,6 +77,7 @@ Table of Contents
 370. \<**Medium**>  TODO: Range Addition
 371. \<**Easy**>    Sum of Two Integers
 372. \<**Medium**>  Super Pow
+373. \<**Medium**>  Find K Pairs with Smallest Sums
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

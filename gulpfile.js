@@ -1125,3 +1125,6 @@ gulp.task('t0371', (callback) => {
 gulp.task('t0372', (callback) => {
   require(path.resolve('task0372-super-pow/super-pow.js'))(callback);
 });
+gulp.task('t0373', (callback) => {
+  require(path.resolve('task0373-k-pairs-min-sum/k-pairs-min-sum.js'))(callback);
+});
