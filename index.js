@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0377-comb-sum-4/comb-sum-4.js'))( () => {
+require(path.resolve('task0378-sort-mat-kth-min/sort-mat-kth-min.js'))( () => {
 });

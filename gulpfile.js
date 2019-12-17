@@ -1138,3 +1138,6 @@ gulp.task('t0376', (callback) => {
 gulp.task('t0377', (callback) => {
   require(path.resolve('task0377-comb-sum-4/comb-sum-4.js'))(callback);
 });
+gulp.task('t0378', (callback) => {
+  require(path.resolve('task0378-sort-mat-kth-min/sort-mat-kth-min.js'))(callback);
+});

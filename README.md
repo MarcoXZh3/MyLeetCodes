@@ -82,6 +82,7 @@ Table of Contents
 375. \<**Medium**>  Guess Number Higher or Lower II
 376. \<**Medium**>  Wiggle Subsequence
 377. \<**Medium**>  Combination Sum IV (advanced of Task 39, 40, 216)
+378. \<**Medium**>  Kth Smallest Element in a Sorted Matrix
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
