@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0376-wiggle-seq/wiggle-seq.js'))( () => {
+require(path.resolve('task0377-comb-sum-4/comb-sum-4.js'))( () => {
 });
