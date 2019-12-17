@@ -86,6 +86,7 @@ Table of Contents
 379. \<**Medium**>  TODO: Design Phone Directory
 380. \<**Medium**>  Insert Delete GetRandom O(1)
 381. \<**Hard**>    Insert Delete GetRandom O(1) - Duplicates allowed
+382. \<**Medium**>  \<***Singly Linked List***> Linked List Random Node
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

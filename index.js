@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0381-o1-add-del-rand-2/o1-add-del-rand-2.js'))( () => {
+require(path.resolve('task0382-list-rand-node/list-rand-node.js'))( () => {
 });

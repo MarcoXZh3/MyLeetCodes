@@ -1150,3 +1150,6 @@ gulp.task('t0380', (callback) => {
 gulp.task('t0381', (callback) => {
   require(path.resolve('task0381-o1-add-del-rand-2/o1-add-del-rand-2.js'))(callback);
 });
+gulp.task('t0382', (callback) => {
+  require(path.resolve('task0382-list-rand-node/list-rand-node.js'))(callback);
+});
