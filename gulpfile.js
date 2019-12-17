@@ -1153,3 +1153,6 @@ gulp.task('t0381', (callback) => {
 gulp.task('t0382', (callback) => {
   require(path.resolve('task0382-list-rand-node/list-rand-node.js'))(callback);
 });
+gulp.task('t0383', (callback) => {
+  require(path.resolve('task0383-str-1st-unique-char/str-1st-unique-char.js'))(callback);
+});
