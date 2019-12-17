@@ -3,7 +3,19 @@
  * @return {number}           index of 1st unique char
  */
 const firstUniqChar = function(s) {
-
+  const map = {};
+  for (let i = 0; i < s.length; i++) {
+    const char = s.charAt(i);
+    map[char] = map[char] || [];
+    map[char].push(i);
+  }
+  for (let i = 0; i < s.length; i++) {
+    const char = s.charAt(i);
+    if (map[char] && map[char].length === 1) {
+      return map[char][0];
+    }
+  }
+  return -1;
 };
 
 
