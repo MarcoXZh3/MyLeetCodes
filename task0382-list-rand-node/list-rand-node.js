@@ -6,11 +6,23 @@ const { ListNode, array2list, printList } = require(path.resolve('_utils/list'))
  * @param {ListNode}  head    the head node of the list, guaranteed to be not null
  */
 const Solution = function(head) {
+  let size = 0;
+  let cur = head;
+  while (cur) {
+    size ++;
+    cur = cur.next;
+  }
   /**
    * Returns a random node's value
    * @return {number}         the value of the random node
    */
   this.getRandom = () => {
+    let pos = Math.floor(Math.random() * size);
+    let cur = head;
+    while (pos -- > 0) {
+      cur = cur.next;
+    }
+    return cur.val;
   };
 };
 
