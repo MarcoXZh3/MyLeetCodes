@@ -1132,3 +1132,6 @@ gulp.task('t0373', (callback) => {
 gulp.task('t0375', (callback) => {
   require(path.resolve('task0375-guess-number-2/guess-number-2.js'))(callback);
 });
+gulp.task('t0376', (callback) => {
+  require(path.resolve('task0376-wiggle-seq/wiggle-seq.js'))(callback);
+});

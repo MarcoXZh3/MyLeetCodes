@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0375-guess-number-2/guess-number-2.js'))( () => {
+require(path.resolve('task0376-wiggle-seq/wiggle-seq.js'))( () => {
 });

@@ -80,6 +80,7 @@ Table of Contents
 373. \<**Medium**>  Find K Pairs with Smallest Sums
 
 375. \<**Medium**>  Guess Number Higher or Lower II
+376. \<**Medium**>  Wiggle Subsequence
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
