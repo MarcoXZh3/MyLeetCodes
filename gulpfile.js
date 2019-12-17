@@ -1141,3 +1141,6 @@ gulp.task('t0377', (callback) => {
 gulp.task('t0378', (callback) => {
   require(path.resolve('task0378-sort-mat-kth-min/sort-mat-kth-min.js'))(callback);
 });
+gulp.task('t0379', (callback) => {
+  require(path.resolve('task0379-phone-dict/phone-dict.js'))(callback);
+});
