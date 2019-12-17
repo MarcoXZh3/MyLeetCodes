@@ -79,6 +79,8 @@ Table of Contents
 372. \<**Medium**>  Super Pow
 373. \<**Medium**>  Find K Pairs with Smallest Sums
 
+375. \<**Medium**>  Guess Number Higher or Lower II
+
 
 [LeetCode]: https://leetcode.com/problemset/all/
 [archive001]: /archives001
