@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0378-sort-mat-kth-min/sort-mat-kth-min.js'))( () => {
+require(path.resolve('task0380-o1-add-del-rand/o1-add-del-rand.js'))( () => {
 });

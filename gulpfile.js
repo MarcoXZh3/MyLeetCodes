@@ -1144,3 +1144,6 @@ gulp.task('t0378', (callback) => {
 gulp.task('t0379', (callback) => {
   require(path.resolve('task0379-phone-dict/phone-dict.js'))(callback);
 });
+gulp.task('t0380', (callback) => {
+  require(path.resolve('task0380-o1-add-del-rand/o1-add-del-rand.js'))(callback);
+});

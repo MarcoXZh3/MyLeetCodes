@@ -84,6 +84,7 @@ Table of Contents
 377. \<**Medium**>  Combination Sum IV (advanced of Task 39, 40, 216)
 378. \<**Medium**>  Kth Smallest Element in a Sorted Matrix
 379. \<**Medium**>  TODO: Design Phone Directory
+380. \<**Medium**>  Insert Delete GetRandom O(1)
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
