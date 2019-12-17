@@ -85,6 +85,7 @@ Table of Contents
 378. \<**Medium**>  Kth Smallest Element in a Sorted Matrix
 379. \<**Medium**>  TODO: Design Phone Directory
 380. \<**Medium**>  Insert Delete GetRandom O(1)
+381. \<**Hard**>    Insert Delete GetRandom O(1) - Duplicates allowed
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
