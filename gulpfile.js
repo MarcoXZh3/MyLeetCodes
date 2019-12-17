@@ -1156,3 +1156,6 @@ gulp.task('t0382', (callback) => {
 gulp.task('t0383', (callback) => {
   require(path.resolve('task0383-str-1st-unique-char/str-1st-unique-char.js'))(callback);
 });
+gulp.task('t0384', (callback) => {
+  require(path.resolve('task0384-shuffle-arr/shuffle-arr.js'))(callback);
+});

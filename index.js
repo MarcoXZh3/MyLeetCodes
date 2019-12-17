@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0383-str-1st-unique-char/str-1st-unique-char.js'))( () => {
+require(path.resolve('task0384-shuffle-arr/shuffle-arr.js'))( () => {
 });
