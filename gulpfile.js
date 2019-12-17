@@ -1148,5 +1148,5 @@ gulp.task('t0380', (callback) => {
   require(path.resolve('task0380-o1-add-del-rand/o1-add-del-rand.js'))(callback);
 });
 gulp.task('t0381', (callback) => {
-  require(path.resolve('task0380-o1-add-del-rand-2/o1-add-del-rand-2.js'))(callback);
+  require(path.resolve('task0381-o1-add-del-rand-2/o1-add-del-rand-2.js'))(callback);
 });
