@@ -4,7 +4,22 @@
  * @return {number}                   the target number
  */
 const kthSmallest = function(matrix, k) {
-
+  let n = matrix.length;
+  let l = matrix[0][0];
+  let r = matrix[n - 1][n - 1] + 1;
+  while (l < r) {
+    const m = Math.floor((l + r) / 2);
+    let cnt = 0;
+    let j = n - 1;
+    for (let i = 0; i < n; i ++) {
+      while (j >= 0 && matrix[i][j] > m) {
+        j --;
+      }
+      cnt += j + 1;
+    }
+    cnt < k ? l = m + 1 : r = m;
+  }
+  return l;
 };
 
 
