@@ -1159,3 +1159,6 @@ gulp.task('t0383', (callback) => {
 gulp.task('t0384', (callback) => {
   require(path.resolve('task0384-shuffle-arr/shuffle-arr.js'))(callback);
 });
+gulp.task('t0385', (callback) => {
+  require(path.resolve('task0385-mini-parser/mini-parser.js'))(callback);
+});

@@ -9,5 +9,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0384-shuffle-arr/shuffle-arr.js'))( () => {
+require(path.resolve('task0385-mini-parser/mini-parser.js'))( () => {
 });

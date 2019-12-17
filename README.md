@@ -89,6 +89,7 @@ Table of Contents
 382. \<**Medium**>  \<***Singly Linked List***> Linked List Random Node
 383. \<**Easy**>    First Unique Character in a String
 384. \<**Medium**>  Shuffle an Array
+385. \<**Medium**>  Mini Parser
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
