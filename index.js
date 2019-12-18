@@ -12,5 +12,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0390-elimination-game/elimination-game.js'))( () => {
+require(path.resolve('task0391-perfect-rect/perfect-rect.js'))( () => {
 });

@@ -1182,3 +1182,6 @@ gulp.task('t0389', (callback) => {
 gulp.task('t0390', (callback) => {
   require(path.resolve('task0390-elimination-game/elimination-game.js'))(callback);
 });
+gulp.task('t0391', (callback) => {
+  require(path.resolve('task0391-perfect-rect/perfect-rect.js'))(callback);
+});

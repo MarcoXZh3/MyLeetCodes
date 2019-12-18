@@ -95,6 +95,7 @@ Table of Contents
 388. \<**Medium**>  Longest Absolute File Path
 389. \<**Easy**>    Find the Difference
 390. \<**Medium**>  Elimination Game
+391. \<**Hard**>    Perfect Rectangle
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
