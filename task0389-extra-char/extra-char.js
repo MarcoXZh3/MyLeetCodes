@@ -3,8 +3,36 @@
  * @param {string}        t     the 2nd string
  * @return {character}          the char that is added to t
  */
-const findTheDifference = function(s, t) {
+const findTheDifference0 = function(s, t) {
+  const map = {};
+  for (let i = 0; i < s.length; i++) {
+    const char = s.charAt(i);
+    map[char] = 1 + (map[char] || 0);
+  }
+  for (let i = 0; i < t.length; i++) {
+    const char = t.charAt(i);
+    if (!map[char] || --map[char] < 0) {
+      return char;
+    }
+  }
+  return '';
+};
 
+
+/**
+ * @param {string}        s     the 1st string
+ * @param {string}        t     the 2nd string
+ * @return {character}          the char that is added to t
+ */
+const findTheDifference = function(s, t) {
+  let code = 0;
+  for (let i = 0; i < s.length; i++) {
+    code ^= s.charCodeAt(i);
+  }
+  for (let i = 0; i < t.length; i++) {
+    code ^= t.charCodeAt(i);
+  }
+  return String.fromCharCode(code);
 };
 
 
