@@ -93,6 +93,7 @@ Table of Contents
 386. \<**Medium**>  Lexicographical Numbers
 387. \<**Easy**>    First Unique Character in a String
 388. \<**Medium**>  Longest Absolute File Path
+389. \<**Easy**>    Find the Difference
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

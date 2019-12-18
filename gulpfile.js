@@ -1176,3 +1176,6 @@ gulp.task('t0387', (callback) => {
 gulp.task('t0388', (callback) => {
   require(path.resolve('task0388-max-abs-path/max-abs-path.js'))(callback);
 });
+gulp.task('t0389', (callback) => {
+  require(path.resolve('task0389-extra-char/extra-char.js'))(callback);
+});
