@@ -4,7 +4,18 @@
  * @return {boolean}                whether can construct or not
  */
 const canConstruct = function(ransomNote, magazine) {
-
+  const map = {};
+  for (let i = 0; i < magazine.length; i++) {
+    const char = magazine.charAt(i);
+    map[char] = 1 + (map[char] || 0);
+  }
+  for (let i = 0; i < ransomNote.length; i++) {
+    const char = ransomNote.charAt(i);
+    if (!(char in map) || -- map[char] < 0) {
+      return false;
+    }
+  }
+  return true;
 };
 
 
