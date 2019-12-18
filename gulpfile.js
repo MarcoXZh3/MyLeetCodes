@@ -1153,7 +1153,9 @@ gulp.task('t0381', (callback) => {
 gulp.task('t0382', (callback) => {
   require(path.resolve('task0382-list-rand-node/list-rand-node.js'))(callback);
 });
-
+gulp.task('t0383', (callback) => {
+  require(path.resolve('task0383-ransom-note/ransom-note.js'))(callback);
+});
 gulp.task('t0384', (callback) => {
   require(path.resolve('task0384-shuffle-arr/shuffle-arr.js'))(callback);
 });
