@@ -87,10 +87,11 @@ Table of Contents
 380. \<**Medium**>  Insert Delete GetRandom O(1)
 381. \<**Hard**>    Insert Delete GetRandom O(1) - Duplicates allowed
 382. \<**Medium**>  \<***Singly Linked List***> Linked List Random Node
-383. \<**Easy**>    First Unique Character in a String
+
 384. \<**Medium**>  Shuffle an Array
 385. \<**Medium**>  Mini Parser
 386. \<**Medium**>  Lexicographical Numbers
+387. \<**Easy**>    First Unique Character in a String
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

@@ -24,7 +24,7 @@ const firstUniqChar = function(s) {
  * @param {function}  callback    the callback function
  */
 const main = (callback) => {
-  console.log('Task 0383 - First Unique Character in a String:');
+  console.log('Task 0387 - First Unique Character in a String:');
   [
     'leetcode',
     'loveleetcode',

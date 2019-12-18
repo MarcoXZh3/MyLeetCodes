@@ -1153,9 +1153,7 @@ gulp.task('t0381', (callback) => {
 gulp.task('t0382', (callback) => {
   require(path.resolve('task0382-list-rand-node/list-rand-node.js'))(callback);
 });
-gulp.task('t0383', (callback) => {
-  require(path.resolve('task0383-str-1st-unique-char/str-1st-unique-char.js'))(callback);
-});
+
 gulp.task('t0384', (callback) => {
   require(path.resolve('task0384-shuffle-arr/shuffle-arr.js'))(callback);
 });
@@ -1164,4 +1162,7 @@ gulp.task('t0385', (callback) => {
 });
 gulp.task('t0386', (callback) => {
   require(path.resolve('task0386-lexico-num/lexico-num.js'))(callback);
+});
+gulp.task('t0387', (callback) => {
+  require(path.resolve('task0387-str-1st-unique-char/str-1st-unique-char.js'))(callback);
 });
