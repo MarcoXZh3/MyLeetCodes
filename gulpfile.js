@@ -1173,3 +1173,6 @@ gulp.task('t0386', (callback) => {
 gulp.task('t0387', (callback) => {
   require(path.resolve('task0387-str-1st-unique-char/str-1st-unique-char.js'))(callback);
 });
+gulp.task('t0388', (callback) => {
+  require(path.resolve('task0388-max-abs-path/max-abs-path.js'))(callback);
+});

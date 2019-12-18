@@ -12,8 +12,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-spawn(
-  python, [path.resolve('task0374-guess-number/guess-number.py')],
-).stdout.on('data', (data) => {
-  console.log(data.toString().trim());
+require(path.resolve('task0388-max-abs-path/max-abs-path.js'))( () => {
 });

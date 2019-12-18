@@ -92,6 +92,7 @@ Table of Contents
 385. \<**Medium**>  Mini Parser
 386. \<**Medium**>  Lexicographical Numbers
 387. \<**Easy**>    First Unique Character in a String
+388. \<**Medium**>  Longest Absolute File Path
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
