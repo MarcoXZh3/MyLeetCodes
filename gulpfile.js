@@ -2,7 +2,10 @@ const chp = require('child_process');
 const fs = require('fs');
 const gulp = require('gulp');
 const path = require('path');
+const spawn = require("child_process").spawn;   // for executing Python scripts
 
+
+const python = path.resolve('.venv/bin/python');
 
 gulp.task('default', (callback) => {
   console.log('https://leetcode.com/problemset/algorithms/');
@@ -1128,7 +1131,9 @@ gulp.task('t0372', (callback) => {
 gulp.task('t0373', (callback) => {
   require(path.resolve('task0373-k-pairs-min-sum/k-pairs-min-sum.js'))(callback);
 });
-
+gulp.task('t0374', (callback) => {
+  spawn(python, [path.resolve('task0374-guess-number/guess-number.py')]).stdout.on('data', (data) => { console.log(data.toString().trim());callback();});
+});
 gulp.task('t0375', (callback) => {
   require(path.resolve('task0375-guess-number-2/guess-number-2.js'))(callback);
 });

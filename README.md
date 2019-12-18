@@ -78,7 +78,7 @@ Table of Contents
 371. \<**Easy**>    Sum of Two Integers
 372. \<**Medium**>  Super Pow
 373. \<**Medium**>  Find K Pairs with Smallest Sums
-
+374. \<**Easy**>    \<***Python***> Guess Number Higher or Lower
 375. \<**Medium**>  Guess Number Higher or Lower II
 376. \<**Medium**>  Wiggle Subsequence
 377. \<**Medium**>  Combination Sum IV (advanced of Task 39, 40, 216)
