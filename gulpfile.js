@@ -1179,3 +1179,6 @@ gulp.task('t0388', (callback) => {
 gulp.task('t0389', (callback) => {
   require(path.resolve('task0389-extra-char/extra-char.js'))(callback);
 });
+gulp.task('t0390', (callback) => {
+  require(path.resolve('task0390-elimination-game/elimination-game.js'))(callback);
+});

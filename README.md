@@ -94,6 +94,7 @@ Table of Contents
 387. \<**Easy**>    First Unique Character in a String
 388. \<**Medium**>  Longest Absolute File Path
 389. \<**Easy**>    Find the Difference
+390. \<**Medium**>  Elimination Game
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
