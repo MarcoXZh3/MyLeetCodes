@@ -90,6 +90,7 @@ Table of Contents
 383. \<**Easy**>    First Unique Character in a String
 384. \<**Medium**>  Shuffle an Array
 385. \<**Medium**>  Mini Parser
+386. \<**Medium**>  Lexicographical Numbers
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

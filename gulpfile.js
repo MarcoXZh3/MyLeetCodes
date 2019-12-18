@@ -1162,3 +1162,6 @@ gulp.task('t0384', (callback) => {
 gulp.task('t0385', (callback) => {
   require(path.resolve('task0385-mini-parser/mini-parser.js'))(callback);
 });
+gulp.task('t0386', (callback) => {
+  require(path.resolve('task0386-lexico-num/lexico-num.js'))(callback);
+});
