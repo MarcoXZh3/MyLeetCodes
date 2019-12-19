@@ -102,6 +102,7 @@ Table of Contents
 395. \<**Medium**>  Longest Substring with At Least K Repeating Characters
 396. \<**Medium**>  Rotate Function
 397. \<**Medium**>  Integer Replacement
+398. \<**Medium**>  Random Pick Index
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

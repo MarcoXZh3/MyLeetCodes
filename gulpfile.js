@@ -1203,3 +1203,6 @@ gulp.task('t0396', (callback) => {
 gulp.task('t0397', (callback) => {
   require(path.resolve('task0397-replace-int/replace-int.js'))(callback);
 });
+gulp.task('t0398', (callback) => {
+  require(path.resolve('task0398-rand-idx/rand-idx.js'))(callback);
+});
