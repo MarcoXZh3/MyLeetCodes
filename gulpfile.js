@@ -1206,3 +1206,6 @@ gulp.task('t0397', (callback) => {
 gulp.task('t0398', (callback) => {
   require(path.resolve('task0398-rand-idx/rand-idx.js'))(callback);
 });
+gulp.task('t0399', (callback) => {
+  require(path.resolve('task0399-eval-division/eval-division.js'))(callback);
+});

@@ -12,5 +12,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0398-rand-idx/rand-idx.js'))( () => {
+require(path.resolve('task0399-eval-division/eval-division.js'))( () => {
 });

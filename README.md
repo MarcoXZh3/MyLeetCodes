@@ -103,6 +103,7 @@ Table of Contents
 396. \<**Medium**>  Rotate Function
 397. \<**Medium**>  Integer Replacement
 398. \<**Medium**>  Random Pick Index
+399. \<**Medium**>  Evaluate Division
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
