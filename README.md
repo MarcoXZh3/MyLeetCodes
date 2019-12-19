@@ -100,6 +100,7 @@ Table of Contents
 393. \<**Medium**>  UTF-8 Validation
 394. \<**Medium**>  Decode String
 395. \<**Medium**>  Longest Substring with At Least K Repeating Characters
+396. \<**Medium**>  Rotate Function
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

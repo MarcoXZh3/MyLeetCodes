@@ -1197,3 +1197,6 @@ gulp.task('t0394', (callback) => {
 gulp.task('t0395', (callback) => {
   require(path.resolve('task0395-max-sub-k-dups/max-sub-k-dups.js'))(callback);
 });
+gulp.task('t0396', (callback) => {
+  require(path.resolve('task0396-rotate-func/rotate-func.js'))(callback);
+});

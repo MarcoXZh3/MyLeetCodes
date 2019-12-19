@@ -12,5 +12,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0395-max-sub-k-dups/max-sub-k-dups.js'))( () => {
+require(path.resolve('task0396-rotate-func/rotate-func.js'))( () => {
 });
