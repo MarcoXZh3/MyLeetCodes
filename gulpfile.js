@@ -1188,3 +1188,6 @@ gulp.task('t0391', (callback) => {
 gulp.task('t0392', (callback) => {
   require(path.resolve('task0392-is-subseq/is-subseq.js'))(callback);
 });
+gulp.task('t0393', (callback) => {
+  require(path.resolve('task0393-valid-utf8/valid-utf8.js'))(callback);
+});
