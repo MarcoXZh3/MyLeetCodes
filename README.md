@@ -96,6 +96,7 @@ Table of Contents
 389. \<**Easy**>    Find the Difference
 390. \<**Medium**>  Elimination Game
 391. \<**Hard**>    Perfect Rectangle
+392. \<**Easy**>    Is Subsequence
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

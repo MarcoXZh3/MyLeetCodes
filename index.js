@@ -12,5 +12,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0391-perfect-rect/perfect-rect.js'))( () => {
+require(path.resolve('task0392-is-subseq/is-subseq.js'))( () => {
 });

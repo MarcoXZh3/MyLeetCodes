@@ -1185,3 +1185,6 @@ gulp.task('t0390', (callback) => {
 gulp.task('t0391', (callback) => {
   require(path.resolve('task0391-perfect-rect/perfect-rect.js'))(callback);
 });
+gulp.task('t0392', (callback) => {
+  require(path.resolve('task0392-is-subseq/is-subseq.js'))(callback);
+});
