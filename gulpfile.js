@@ -1194,3 +1194,6 @@ gulp.task('t0393', (callback) => {
 gulp.task('t0394', (callback) => {
   require(path.resolve('task0394-decode-str/decode-str.js'))(callback);
 });
+gulp.task('t0395', (callback) => {
+  require(path.resolve('task0395-max-sub-k-dups/max-sub-k-dups.js'))(callback);
+});

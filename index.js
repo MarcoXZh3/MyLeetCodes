@@ -12,5 +12,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0394-decode-str/decode-str.js'))( () => {
+require(path.resolve('task0395-max-sub-k-dups/max-sub-k-dups.js'))( () => {
 });

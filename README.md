@@ -99,6 +99,7 @@ Table of Contents
 392. \<**Easy**>    Is Subsequence
 393. \<**Medium**>  UTF-8 Validation
 394. \<**Medium**>  Decode String
+395. \<**Medium**>  Longest Substring with At Least K Repeating Characters
 
 
 [LeetCode]: https://leetcode.com/problemset/all/
