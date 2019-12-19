@@ -101,6 +101,7 @@ Table of Contents
 394. \<**Medium**>  Decode String
 395. \<**Medium**>  Longest Substring with At Least K Repeating Characters
 396. \<**Medium**>  Rotate Function
+397. \<**Medium**>  Integer Replacement
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

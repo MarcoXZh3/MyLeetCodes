@@ -12,5 +12,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0396-rotate-func/rotate-func.js'))( () => {
+require(path.resolve('task0397-replace-int/replace-int.js'))( () => {
 });

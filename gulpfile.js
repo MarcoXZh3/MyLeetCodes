@@ -1200,3 +1200,6 @@ gulp.task('t0395', (callback) => {
 gulp.task('t0396', (callback) => {
   require(path.resolve('task0396-rotate-func/rotate-func.js'))(callback);
 });
+gulp.task('t0397', (callback) => {
+  require(path.resolve('task0397-replace-int/replace-int.js'))(callback);
+});
