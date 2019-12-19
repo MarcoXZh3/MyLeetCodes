@@ -1191,3 +1191,6 @@ gulp.task('t0392', (callback) => {
 gulp.task('t0393', (callback) => {
   require(path.resolve('task0393-valid-utf8/valid-utf8.js'))(callback);
 });
+gulp.task('t0394', (callback) => {
+  require(path.resolve('task0394-decode-str/decode-str.js'))(callback);
+});

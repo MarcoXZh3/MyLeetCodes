@@ -98,6 +98,7 @@ Table of Contents
 391. \<**Hard**>    Perfect Rectangle
 392. \<**Easy**>    Is Subsequence
 393. \<**Medium**>  UTF-8 Validation
+394. \<**Medium**>  Decode String
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

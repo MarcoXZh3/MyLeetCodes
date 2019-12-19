@@ -12,5 +12,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0393-valid-utf8/valid-utf8.js'))( () => {
+require(path.resolve('task0394-decode-str/decode-str.js'))( () => {
 });
