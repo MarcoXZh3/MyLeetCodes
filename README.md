@@ -104,6 +104,7 @@ Table of Contents
 397. \<**Medium**>  Integer Replacement
 398. \<**Medium**>  Random Pick Index
 399. \<**Medium**>  Evaluate Division
+400. \<**Medium**>  Nth Digit
 
 
 [LeetCode]: https://leetcode.com/problemset/all/

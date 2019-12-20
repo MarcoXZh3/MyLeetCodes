@@ -1209,3 +1209,6 @@ gulp.task('t0398', (callback) => {
 gulp.task('t0399', (callback) => {
   require(path.resolve('task0399-eval-division/eval-division.js'))(callback);
 });
+gulp.task('t0400', (callback) => {
+  require(path.resolve('task0400-nth-digit/nth-digit.js'))(callback);
+});

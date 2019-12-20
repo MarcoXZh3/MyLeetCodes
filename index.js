@@ -12,5 +12,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0399-eval-division/eval-division.js'))( () => {
+require(path.resolve('task0400-nth-digit/nth-digit.js'))( () => {
 });
