@@ -913,302 +913,302 @@ gulp.task('t0300', (callback) => {
   require(path.resolve('archives003/task0300-max-asc-seq/max-asc-seq.js'))(callback);
 });
 gulp.task('t0301', (callback) => {
-  require(path.resolve('task0301-del-invalid-brackets/del-invalid-brackets.js'))(callback);
+  require(path.resolve('archives004/task0301-del-invalid-brackets/del-invalid-brackets.js'))(callback);
 });
 gulp.task('t0302', (callback) => {
-  require(path.resolve('task0302-blk-px-min-rect/blk-px-min-rect.js'))(callback);
+  require(path.resolve('archives004/task0302-blk-px-min-rect/blk-px-min-rect.js'))(callback);
 });
 gulp.task('t0303', (callback) => {
-  require(path.resolve('task0303-range-sum/range-sum.js'))(callback);
+  require(path.resolve('archives004/task0303-range-sum/range-sum.js'))(callback);
 });
 gulp.task('t0304', (callback) => {
-  require(path.resolve('task0304-range-sum-2d/range-sum-2d.js'))(callback);
+  require(path.resolve('archives004/task0304-range-sum-2d/range-sum-2d.js'))(callback);
 });
 gulp.task('t0305', (callback) => {
-  require(path.resolve('task0305-island-numbers-2/island-numbers-2.js'))(callback);
+  require(path.resolve('archives004/task0305-island-numbers-2/island-numbers-2.js'))(callback);
 });
 gulp.task('t0306', (callback) => {
-  require(path.resolve('task0306-additive-num/additive-num.js'))(callback);
+  require(path.resolve('archives004/task0306-additive-num/additive-num.js'))(callback);
 });
 gulp.task('t0307', (callback) => {
-  require(path.resolve('task0307-range-sum-mutable/range-sum-mutable.js'))(callback);
+  require(path.resolve('archives004/task0307-range-sum-mutable/range-sum-mutable.js'))(callback);
 });
 gulp.task('t0308', (callback) => {
-  require(path.resolve('task0308-range-sum-2d-mutable/range-sum-2d-mutable.js'))(callback);
+  require(path.resolve('archives004/task0308-range-sum-2d-mutable/range-sum-2d-mutable.js'))(callback);
 });
 gulp.task('t0309', (callback) => {
-  require(path.resolve('task0309-buy-sell-stock-cooldown/buy-sell-stock-cooldown.js'))(callback);
+  require(path.resolve('archives004/task0309-buy-sell-stock-cooldown/buy-sell-stock-cooldown.js'))(callback);
 });
 gulp.task('t0310', (callback) => {
-  require(path.resolve('task0310-min-height-trees/min-height-trees.js'))(callback);
+  require(path.resolve('archives004/task0310-min-height-trees/min-height-trees.js'))(callback);
 });
 gulp.task('t0311', (callback) => {
-  require(path.resolve('task0311-sparse-mat-multiply/sparse-mat-multiply.js'))(callback);
+  require(path.resolve('archives004/task0311-sparse-mat-multiply/sparse-mat-multiply.js'))(callback);
 });
 gulp.task('t0312', (callback) => {
-  require(path.resolve('task0312-burst-balloons/burst-balloons.js'))(callback);
+  require(path.resolve('archives004/task0312-burst-balloons/burst-balloons.js'))(callback);
 });
 gulp.task('t0313', (callback) => {
-  require(path.resolve('task0313-super-ugly-num/super-ugly-num.js'))(callback);
+  require(path.resolve('archives004/task0313-super-ugly-num/super-ugly-num.js'))(callback);
 });
 gulp.task('t0314', (callback) => {
-  require(path.resolve('task0314-tree-vert-traversal/tree-vert-traversal.js'))(callback);
+  require(path.resolve('archives004/task0314-tree-vert-traversal/tree-vert-traversal.js'))(callback);
 });
 gulp.task('t0315', (callback) => {
-  require(path.resolve('task0315-smaller-num-cnt/smaller-num-cnt.js'))(callback);
+  require(path.resolve('archives004/task0315-smaller-num-cnt/smaller-num-cnt.js'))(callback);
 });
 gulp.task('t0316', (callback) => {
-  require(path.resolve('task0316-del-dup-letters/del-dup-letters.js'))(callback);
+  require(path.resolve('archives004/task0316-del-dup-letters/del-dup-letters.js'))(callback);
 });
 gulp.task('t0317', (callback) => {
-  require(path.resolve('task0317-buildings-min-dist/buildings-min-dist.js'))(callback);
+  require(path.resolve('archives004/task0317-buildings-min-dist/buildings-min-dist.js'))(callback);
 });
 gulp.task('t0318', (callback) => {
-  require(path.resolve('task0318-word-lengths-max-prod/word-lengths-max-prod.js'))(callback);
+  require(path.resolve('archives004/task0318-word-lengths-max-prod/word-lengths-max-prod.js'))(callback);
 });
 gulp.task('t0319', (callback) => {
-  require(path.resolve('task0319-bulb-switcher/bulb-switcher.js'))(callback);
+  require(path.resolve('archives004/task0319-bulb-switcher/bulb-switcher.js'))(callback);
 });
 gulp.task('t0320', (callback) => {
-  require(path.resolve('task0320-generalized-abbr/generalized-abbr.js'))(callback);
+  require(path.resolve('archives004/task0320-generalized-abbr/generalized-abbr.js'))(callback);
 });
 gulp.task('t0321', (callback) => {
-  require(path.resolve('task0321-gen-max-num/gen-max-num.js'))(callback);
+  require(path.resolve('archives004/task0321-gen-max-num/gen-max-num.js'))(callback);
 });
 gulp.task('t0322', (callback) => {
-  require(path.resolve('task0322-coin-change/coin-change.js'))(callback);
+  require(path.resolve('archives004/task0322-coin-change/coin-change.js'))(callback);
 });
 gulp.task('t0323', (callback) => {
-  require(path.resolve('task0323-graph-connected-nodes/graph-connected-nodes.js'))(callback);
+  require(path.resolve('archives004/task0323-graph-connected-nodes/graph-connected-nodes.js'))(callback);
 });
 gulp.task('t0324', (callback) => {
-  require(path.resolve('task0324-wiggle-sort-2/wiggle-sort-2.js'))(callback);
+  require(path.resolve('archives004/task0324-wiggle-sort-2/wiggle-sort-2.js'))(callback);
 });
 gulp.task('t0325', (callback) => {
-  require(path.resolve('task0325-max-subarray-sum/max-subarray-sum.js'))(callback);
+  require(path.resolve('archives004/task0325-max-subarray-sum/max-subarray-sum.js'))(callback);
 });
 gulp.task('t0326', (callback) => {
-  require(path.resolve('task0326-pow3/pow3.js'))(callback);
+  require(path.resolve('archives004/task0326-pow3/pow3.js'))(callback);
 });
 gulp.task('t0327', (callback) => {
-  require(path.resolve('task0327-range-sum-cnt/range-sum-cnt.js'))(callback);
+  require(path.resolve('archives004/task0327-range-sum-cnt/range-sum-cnt.js'))(callback);
 });
 gulp.task('t0328', (callback) => {
-  require(path.resolve('task0328-odd-even-link-list/odd-even-link-list.js'))(callback);
+  require(path.resolve('archives004/task0328-odd-even-link-list/odd-even-link-list.js'))(callback);
 });
 gulp.task('t0329', (callback) => {
-  require(path.resolve('task0329-matrix-max-increase/matrix-max-increase.js'))(callback);
+  require(path.resolve('archives004/task0329-matrix-max-increase/matrix-max-increase.js'))(callback);
 });
 gulp.task('t0330', (callback) => {
-  require(path.resolve('task0330-patch-arr/patch-arr.js'))(callback);
+  require(path.resolve('archives004/task0330-patch-arr/patch-arr.js'))(callback);
 });
 gulp.task('t0331', (callback) => {
-  require(path.resolve('task0331-bin-tree-preorder-verify/bin-tree-preorder-verify.js'))(callback);
+  require(path.resolve('archives004/task0331-bin-tree-preorder-verify/bin-tree-preorder-verify.js'))(callback);
 });
 gulp.task('t0332', (callback) => {
-  require(path.resolve('task0332-reconstruct-itinerary/reconstruct-itinerary.js'))(callback);
+  require(path.resolve('archives004/task0332-reconstruct-itinerary/reconstruct-itinerary.js'))(callback);
 });
 gulp.task('t0333', (callback) => {
-  require(path.resolve('task0333-max-sub-bst/max-sub-bst.js'))(callback);
+  require(path.resolve('archives004/task0333-max-sub-bst/max-sub-bst.js'))(callback);
 });
 gulp.task('t0334', (callback) => {
-  require(path.resolve('task0334-increase-sub-arr/increase-sub-arr.js'))(callback);
+  require(path.resolve('archives004/task0334-increase-sub-arr/increase-sub-arr.js'))(callback);
 });
 gulp.task('t0335', (callback) => {
-  require(path.resolve('task0335-self-cross/self-cross.js'))(callback);
+  require(path.resolve('archives004/task0335-self-cross/self-cross.js'))(callback);
 });
 gulp.task('t0336', (callback) => {
-  require(path.resolve('task0336-palindrome-pairs/palindrome-pairs.js'))(callback);
+  require(path.resolve('archives004/task0336-palindrome-pairs/palindrome-pairs.js'))(callback);
 });
 gulp.task('t0337', (callback) => {
-  require(path.resolve('task0337-house-robber-3/house-robber-3.js'))(callback);
+  require(path.resolve('archives004/task0337-house-robber-3/house-robber-3.js'))(callback);
 });
 gulp.task('t0338', (callback) => {
-  require(path.resolve('task0338-count-bits/count-bits.js'))(callback);
+  require(path.resolve('archives004/task0338-count-bits/count-bits.js'))(callback);
 });
 gulp.task('t0339', (callback) => {
-  require(path.resolve('task0339-nested-list-weight-sum/nested-list-weight-sum.js'))(callback);
+  require(path.resolve('archives004/task0339-nested-list-weight-sum/nested-list-weight-sum.js'))(callback);
 });
 gulp.task('t0340', (callback) => {
-  require(path.resolve('task0340-k-distinct-max-sub/k-distinct-max-sub.js'))(callback);
+  require(path.resolve('archives004/task0340-k-distinct-max-sub/k-distinct-max-sub.js'))(callback);
 });
 gulp.task('t0341', (callback) => {
-  require(path.resolve('task0341-flat-nest-list-itr/flat-nest-list-itr.js'))(callback);
+  require(path.resolve('archives004/task0341-flat-nest-list-itr/flat-nest-list-itr.js'))(callback);
 });
 gulp.task('t0342', (callback) => {
-  require(path.resolve('task0342-pow4/pow4.js'))(callback);
+  require(path.resolve('archives004/task0342-pow4/pow4.js'))(callback);
 });
 gulp.task('t0343', (callback) => {
-  require(path.resolve('task0343-int-break/int-break.js'))(callback);
+  require(path.resolve('archives004/task0343-int-break/int-break.js'))(callback);
 });
 gulp.task('t0344', (callback) => {
-  require(path.resolve('task0344-reverse-string/reverse-string.js'))(callback);
+  require(path.resolve('archives004/task0344-reverse-string/reverse-string.js'))(callback);
 });
 gulp.task('t0345', (callback) => {
-  require(path.resolve('task0345-reverse-vowels/reverse-vowels.js'))(callback);
+  require(path.resolve('archives004/task0345-reverse-vowels/reverse-vowels.js'))(callback);
 });
 gulp.task('t0346', (callback) => {
-  require(path.resolve('task0346-stream-move-avg/stream-move-avg.js'))(callback);
+  require(path.resolve('archives004/task0346-stream-move-avg/stream-move-avg.js'))(callback);
 });
 gulp.task('t0347', (callback) => {
-  require(path.resolve('task0347-k-most-freq-elem/k-most-freq-elem.js'))(callback);
+  require(path.resolve('archives004/task0347-k-most-freq-elem/k-most-freq-elem.js'))(callback);
 });
 gulp.task('t0348', (callback) => {
-  require(path.resolve('task0348-tic-tac-toe/tic-tac-toe.js'))(callback);
+  require(path.resolve('archives004/task0348-tic-tac-toe/tic-tac-toe.js'))(callback);
 });
 gulp.task('t0349', (callback) => {
-  require(path.resolve('task0349-arr-intersection/array-intersection.js'))(callback);
+  require(path.resolve('archives004/task0349-arr-intersection/array-intersection.js'))(callback);
 });
 gulp.task('t0350', (callback) => {
-  require(path.resolve('task0350-arr-intersection-2/array-intersection-2.js'))(callback);
+  require(path.resolve('archives004/task0350-arr-intersection-2/array-intersection-2.js'))(callback);
 });
 gulp.task('t0351', (callback) => {
-  require(path.resolve('task0351-unlock-patterns/unlock-patterns.js'))(callback);
+  require(path.resolve('archives004/task0351-unlock-patterns/unlock-patterns.js'))(callback);
 });
 gulp.task('t0352', (callback) => {
-  require(path.resolve('task0352-stream-disjoint-itv/stream-disjoint-itv.js'))(callback);
+  require(path.resolve('archives004/task0352-stream-disjoint-itv/stream-disjoint-itv.js'))(callback);
 });
 gulp.task('t0353', (callback) => {
-  require(path.resolve('task0353-snake-game/snake-game.js'))(callback);
+  require(path.resolve('archives004/task0353-snake-game/snake-game.js'))(callback);
 });
 gulp.task('t0354', (callback) => {
-  require(path.resolve('task0354-russian-doll/russian-doll.js'))(callback);
+  require(path.resolve('archives004/task0354-russian-doll/russian-doll.js'))(callback);
 });
 gulp.task('t0355', (callback) => {
-  require(path.resolve('task0355-design-twitter/design-twitter.js'))(callback);
+  require(path.resolve('archives004/task0355-design-twitter/design-twitter.js'))(callback);
 });
 gulp.task('t0356', (callback) => {
-  require(path.resolve('task0356-line-reflection/line-reflection.js'))(callback);
+  require(path.resolve('archives004/task0356-line-reflection/line-reflection.js'))(callback);
 });
 gulp.task('t0357', (callback) => {
-  require(path.resolve('task0357-unique-digit-nums/unique-digit-nums.js'))(callback);
+  require(path.resolve('archives004/task0357-unique-digit-nums/unique-digit-nums.js'))(callback);
 });
 gulp.task('t0358', (callback) => {
-  require(path.resolve('task0358-str-k-dist-apart/str-k-dist-apart.js'))(callback);
+  require(path.resolve('archives004/task0358-str-k-dist-apart/str-k-dist-apart.js'))(callback);
 });
 gulp.task('t0359', (callback) => {
-  require(path.resolve('task0359-limit-log-rate/limit-log-rate.js'))(callback);
+  require(path.resolve('archives004/task0359-limit-log-rate/limit-log-rate.js'))(callback);
 });
 gulp.task('t0360', (callback) => {
-  require(path.resolve('task0360-transformed-arr-sort/transformed-arr-sort.js'))(callback);
+  require(path.resolve('archives004/task0360-transformed-arr-sort/transformed-arr-sort.js'))(callback);
 });
 gulp.task('t0361', (callback) => {
-  require(path.resolve('task0361-bomb-enemy/bomb-enemy.js'))(callback);
+  require(path.resolve('archives004/task0361-bomb-enemy/bomb-enemy.js'))(callback);
 });
 gulp.task('t0362', (callback) => {
-  require(path.resolve('task0362-hit-counter/hit-counter.js'))(callback);
+  require(path.resolve('archives004/task0362-hit-counter/hit-counter.js'))(callback);
 });
 gulp.task('t0363', (callback) => {
-  require(path.resolve('task0363-rect-max-sum/rect-max-sum.js'))(callback);
+  require(path.resolve('archives004/task0363-rect-max-sum/rect-max-sum.js'))(callback);
 });
 gulp.task('t0364', (callback) => {
-  require(path.resolve('task0364-nested-list-weight-sum-2/nested-list-weight-sum-2.js'))(callback);
+  require(path.resolve('archives004/task0364-nested-list-weight-sum-2/nested-list-weight-sum-2.js'))(callback);
 });
 gulp.task('t0365', (callback) => {
-  require(path.resolve('task0365-water-jug/water-jug.js'))(callback);
+  require(path.resolve('archives004/task0365-water-jug/water-jug.js'))(callback);
 });
 gulp.task('t0366', (callback) => {
-  require(path.resolve('task0366-bin-tree-leaves/bin-tree-leaves.js'))(callback);
+  require(path.resolve('archives004/task0366-bin-tree-leaves/bin-tree-leaves.js'))(callback);
 });
 gulp.task('t0367', (callback) => {
-  require(path.resolve('task0367-perfect-square/perfect-square.js'))(callback);
+  require(path.resolve('archives004/task0367-perfect-square/perfect-square.js'))(callback);
 });
 gulp.task('t0368', (callback) => {
-  require(path.resolve('task0368-max-divisible-sub/max-divisible-sub.js'))(callback);
+  require(path.resolve('archives004/task0368-max-divisible-sub/max-divisible-sub.js'))(callback);
 });
 gulp.task('t0369', (callback) => {
-  require(path.resolve('task0369-plus-1-list/plus-1-list.js'))(callback);
+  require(path.resolve('archives004/task0369-plus-1-list/plus-1-list.js'))(callback);
 });
 gulp.task('t0370', (callback) => {
-  require(path.resolve('task0370-range-addition/range-addition.js'))(callback);
+  require(path.resolve('archives004/task0370-range-addition/range-addition.js'))(callback);
 });
 gulp.task('t0371', (callback) => {
-  require(path.resolve('task0371-sum-2-int/sum-2-int.js'))(callback);
+  require(path.resolve('archives004/task0371-sum-2-int/sum-2-int.js'))(callback);
 });
 gulp.task('t0372', (callback) => {
-  require(path.resolve('task0372-super-pow/super-pow.js'))(callback);
+  require(path.resolve('archives004/task0372-super-pow/super-pow.js'))(callback);
 });
 gulp.task('t0373', (callback) => {
-  require(path.resolve('task0373-k-pairs-min-sum/k-pairs-min-sum.js'))(callback);
+  require(path.resolve('archives004/task0373-k-pairs-min-sum/k-pairs-min-sum.js'))(callback);
 });
 gulp.task('t0374', (callback) => {
-  spawn(python, [path.resolve('task0374-guess-number/guess-number.py')]).stdout.on('data', (data) => { console.log(data.toString().trim());callback();});
+  spawn(python, [path.resolve('archives004/task0374-guess-number/guess-number.py')]).stdout.on('data', (data) => { console.log(data.toString().trim());callback();});
 });
 gulp.task('t0375', (callback) => {
-  require(path.resolve('task0375-guess-number-2/guess-number-2.js'))(callback);
+  require(path.resolve('archives004/task0375-guess-number-2/guess-number-2.js'))(callback);
 });
 gulp.task('t0376', (callback) => {
-  require(path.resolve('task0376-wiggle-seq/wiggle-seq.js'))(callback);
+  require(path.resolve('archives004/task0376-wiggle-seq/wiggle-seq.js'))(callback);
 });
 gulp.task('t0377', (callback) => {
-  require(path.resolve('task0377-comb-sum-4/comb-sum-4.js'))(callback);
+  require(path.resolve('archives004/task0377-comb-sum-4/comb-sum-4.js'))(callback);
 });
 gulp.task('t0378', (callback) => {
-  require(path.resolve('task0378-sort-mat-kth-min/sort-mat-kth-min.js'))(callback);
+  require(path.resolve('archives004/task0378-sort-mat-kth-min/sort-mat-kth-min.js'))(callback);
 });
 gulp.task('t0379', (callback) => {
-  require(path.resolve('task0379-phone-dict/phone-dict.js'))(callback);
+  require(path.resolve('archives004/task0379-phone-dict/phone-dict.js'))(callback);
 });
 gulp.task('t0380', (callback) => {
-  require(path.resolve('task0380-o1-add-del-rand/o1-add-del-rand.js'))(callback);
+  require(path.resolve('archives004/task0380-o1-add-del-rand/o1-add-del-rand.js'))(callback);
 });
 gulp.task('t0381', (callback) => {
-  require(path.resolve('task0381-o1-add-del-rand-2/o1-add-del-rand-2.js'))(callback);
+  require(path.resolve('archives004/task0381-o1-add-del-rand-2/o1-add-del-rand-2.js'))(callback);
 });
 gulp.task('t0382', (callback) => {
-  require(path.resolve('task0382-list-rand-node/list-rand-node.js'))(callback);
+  require(path.resolve('archives004/task0382-list-rand-node/list-rand-node.js'))(callback);
 });
 gulp.task('t0383', (callback) => {
-  require(path.resolve('task0383-ransom-note/ransom-note.js'))(callback);
+  require(path.resolve('archives004/task0383-ransom-note/ransom-note.js'))(callback);
 });
 gulp.task('t0384', (callback) => {
-  require(path.resolve('task0384-shuffle-arr/shuffle-arr.js'))(callback);
+  require(path.resolve('archives004/task0384-shuffle-arr/shuffle-arr.js'))(callback);
 });
 gulp.task('t0385', (callback) => {
-  require(path.resolve('task0385-mini-parser/mini-parser.js'))(callback);
+  require(path.resolve('archives004/task0385-mini-parser/mini-parser.js'))(callback);
 });
 gulp.task('t0386', (callback) => {
-  require(path.resolve('task0386-lexico-num/lexico-num.js'))(callback);
+  require(path.resolve('archives004/task0386-lexico-num/lexico-num.js'))(callback);
 });
 gulp.task('t0387', (callback) => {
-  require(path.resolve('task0387-str-1st-unique-char/str-1st-unique-char.js'))(callback);
+  require(path.resolve('archives004/task0387-str-1st-unique-char/str-1st-unique-char.js'))(callback);
 });
 gulp.task('t0388', (callback) => {
-  require(path.resolve('task0388-max-abs-path/max-abs-path.js'))(callback);
+  require(path.resolve('archives004/task0388-max-abs-path/max-abs-path.js'))(callback);
 });
 gulp.task('t0389', (callback) => {
-  require(path.resolve('task0389-extra-char/extra-char.js'))(callback);
+  require(path.resolve('archives004/task0389-extra-char/extra-char.js'))(callback);
 });
 gulp.task('t0390', (callback) => {
-  require(path.resolve('task0390-elimination-game/elimination-game.js'))(callback);
+  require(path.resolve('archives004/task0390-elimination-game/elimination-game.js'))(callback);
 });
 gulp.task('t0391', (callback) => {
-  require(path.resolve('task0391-perfect-rect/perfect-rect.js'))(callback);
+  require(path.resolve('archives004/task0391-perfect-rect/perfect-rect.js'))(callback);
 });
 gulp.task('t0392', (callback) => {
-  require(path.resolve('task0392-is-subseq/is-subseq.js'))(callback);
+  require(path.resolve('archives004/task0392-is-subseq/is-subseq.js'))(callback);
 });
 gulp.task('t0393', (callback) => {
-  require(path.resolve('task0393-valid-utf8/valid-utf8.js'))(callback);
+  require(path.resolve('archives004/task0393-valid-utf8/valid-utf8.js'))(callback);
 });
 gulp.task('t0394', (callback) => {
-  require(path.resolve('task0394-decode-str/decode-str.js'))(callback);
+  require(path.resolve('archives004/task0394-decode-str/decode-str.js'))(callback);
 });
 gulp.task('t0395', (callback) => {
-  require(path.resolve('task0395-max-sub-k-dups/max-sub-k-dups.js'))(callback);
+  require(path.resolve('archives004/task0395-max-sub-k-dups/max-sub-k-dups.js'))(callback);
 });
 gulp.task('t0396', (callback) => {
-  require(path.resolve('task0396-rotate-func/rotate-func.js'))(callback);
+  require(path.resolve('archives004/task0396-rotate-func/rotate-func.js'))(callback);
 });
 gulp.task('t0397', (callback) => {
-  require(path.resolve('task0397-replace-int/replace-int.js'))(callback);
+  require(path.resolve('archives004/task0397-replace-int/replace-int.js'))(callback);
 });
 gulp.task('t0398', (callback) => {
-  require(path.resolve('task0398-rand-idx/rand-idx.js'))(callback);
+  require(path.resolve('archives004/task0398-rand-idx/rand-idx.js'))(callback);
 });
 gulp.task('t0399', (callback) => {
-  require(path.resolve('task0399-eval-division/eval-division.js'))(callback);
+  require(path.resolve('archives004/task0399-eval-division/eval-division.js'))(callback);
 });
 gulp.task('t0400', (callback) => {
-  require(path.resolve('task0400-nth-digit/nth-digit.js'))(callback);
+  require(path.resolve('archives004/task0400-nth-digit/nth-digit.js'))(callback);
 });
