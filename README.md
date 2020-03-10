@@ -11,6 +11,7 @@ Table of Contents
 - 301 ~ 400: see [Archives 004][archive004]
 
 401. \<**Easy**>    Binary Watch
+402. \<**Medium**>  Remove K Digits
 
 
 

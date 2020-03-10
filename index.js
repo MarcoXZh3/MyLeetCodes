@@ -12,5 +12,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0401-binary-watch/binary-watch.js'))( () => {
+require(path.resolve('task0402-del-k-digits/del-k-digits.js'))( () => {
 });

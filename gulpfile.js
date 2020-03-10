@@ -1215,3 +1215,6 @@ gulp.task('t0400', (callback) => {
 gulp.task('t0401', (callback) => {
   require(path.resolve('task0401-binary-watch/binary-watch.js'))(callback);
 });
+gulp.task('t0402', (callback) => {
+  require(path.resolve('task0402-del-k-digits/del-k-digits.js'))(callback);
+});
