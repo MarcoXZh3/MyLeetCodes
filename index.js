@@ -12,5 +12,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('archives004/task0400-nth-digit/nth-digit.js'))( () => {
+require(path.resolve('task0401-binary-watch/binary-watch.js'))( () => {
 });
