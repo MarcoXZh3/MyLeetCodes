@@ -1218,3 +1218,6 @@ gulp.task('t0401', (callback) => {
 gulp.task('t0402', (callback) => {
   require(path.resolve('task0402-del-k-digits/del-k-digits.js'))(callback);
 });
+gulp.task('t0403', (callback) => {
+  require(path.resolve('task0403-frog-jump/frog-jump.js'))(callback);
+});

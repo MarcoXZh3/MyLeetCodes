@@ -12,6 +12,7 @@ Table of Contents
 
 401. \<**Easy**>    Binary Watch
 402. \<**Medium**>  Remove K Digits
+403. \<**Hard**>    Frog Jump
 
 
 
