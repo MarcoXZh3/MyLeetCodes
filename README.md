@@ -16,6 +16,7 @@ Table of Contents
 404. \<**Easy**>    \<***Binary Tree***> Sum of Left Leaves
 405. \<**Easy**>    Convert a Number to Hexadecimal
 406. \<**Medium**>  Queue Reconstruction by Height
+407. \<**Hard**>    Trapping Rain Water II (advanced of Task 42)
 
 
 

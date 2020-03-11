@@ -1230,3 +1230,6 @@ gulp.task('t0405', (callback) => {
 gulp.task('t0406', (callback) => {
   require(path.resolve('task0406-queue-by-height/queue-by-height.js'))(callback);
 });
+gulp.task('t0407', (callback) => {
+  require(path.resolve('task0407-trap-rain-2/trap-rain-2.js'))(callback);
+});
