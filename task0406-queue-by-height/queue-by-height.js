@@ -3,7 +3,13 @@
  * @return {number[][]}             the new queue by heights
  */
 const reconstructQueue = function(people) {
-
+  // sort first by height Z to A, then by k A to Z
+  people = people.sort( (a, b) => b[0] === a[0] ? a[1] - b[1] : b[0] - a[0] );
+  const res = [];
+  for (let p of people) {
+    res.splice(p[1], 0, p);
+  }
+  return res;
 };
 
 
