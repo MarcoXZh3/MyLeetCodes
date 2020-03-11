@@ -1221,3 +1221,6 @@ gulp.task('t0402', (callback) => {
 gulp.task('t0403', (callback) => {
   require(path.resolve('task0403-frog-jump/frog-jump.js'))(callback);
 });
+gulp.task('t0404', (callback) => {
+  require(path.resolve('task0404-left-leaves-sum/left-leaves-sum.js'))(callback);
+});

@@ -12,5 +12,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0403-frog-jump/frog-jump.js'))( () => {
+require(path.resolve('task0404-left-leaves-sum/left-leaves-sum.js'))( () => {
 });

@@ -13,6 +13,7 @@ Table of Contents
 401. \<**Easy**>    Binary Watch
 402. \<**Medium**>  Remove K Digits
 403. \<**Hard**>    Frog Jump
+404. \<**Easy**>    \<***Binary Tree***> Sum of Left Leaves
 
 
 
