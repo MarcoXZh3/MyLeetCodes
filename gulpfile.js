@@ -1224,3 +1224,6 @@ gulp.task('t0403', (callback) => {
 gulp.task('t0404', (callback) => {
   require(path.resolve('task0404-left-leaves-sum/left-leaves-sum.js'))(callback);
 });
+gulp.task('t0405', (callback) => {
+  require(path.resolve('task0405-num-to-hex/num-to-hex.js'))(callback);
+});
