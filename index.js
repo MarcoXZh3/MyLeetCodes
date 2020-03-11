@@ -12,5 +12,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0405-num-to-hex/num-to-hex.js'))( () => {
+require(path.resolve('task0406-queue-by-height/queue-by-height.js'))( () => {
 });

@@ -1227,3 +1227,6 @@ gulp.task('t0404', (callback) => {
 gulp.task('t0405', (callback) => {
   require(path.resolve('task0405-num-to-hex/num-to-hex.js'))(callback);
 });
+gulp.task('t0406', (callback) => {
+  require(path.resolve('task0406-queue-by-height/queue-by-height.js'))(callback);
+});
