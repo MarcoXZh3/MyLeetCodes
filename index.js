@@ -12,5 +12,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0408-word-abbr/word-abbr.js'))( () => {
+require(path.resolve('task0409-max-palindrome/max-palindrome.js'))( () => {
 });

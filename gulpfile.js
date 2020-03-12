@@ -1236,3 +1236,6 @@ gulp.task('t0407', (callback) => {
 gulp.task('t0408', (callback) => {
   require(path.resolve('task0408-word-abbr/word-abbr.js'))(callback);
 });
+gulp.task('t0409', (callback) => {
+  require(path.resolve('task0409-max-palindrome/max-palindrome.js'))(callback);
+});
