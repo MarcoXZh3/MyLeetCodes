@@ -1233,3 +1233,6 @@ gulp.task('t0406', (callback) => {
 gulp.task('t0407', (callback) => {
   require(path.resolve('task0407-trap-rain-2/trap-rain-2.js'))(callback);
 });
+gulp.task('t0408', (callback) => {
+  require(path.resolve('task0408-word-abbr/word-abbr.js'))(callback);
+});

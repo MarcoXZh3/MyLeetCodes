@@ -12,5 +12,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0407-trap-rain-2/trap-rain-2.js'))( () => {
+require(path.resolve('task0408-word-abbr/word-abbr.js'))( () => {
 });
