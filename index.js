@@ -12,5 +12,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0410-arr-max-sum/arr-max-sum.js'))( () => {
+require(path.resolve('task0411-min-unique-word-abbr/min-unique-word-abbr.js'))( () => {
 });

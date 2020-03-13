@@ -1242,3 +1242,6 @@ gulp.task('t0409', (callback) => {
 gulp.task('t0410', (callback) => {
   require(path.resolve('task0410-arr-max-sum/arr-max-sum.js'))(callback);
 });
+gulp.task('t0411', (callback) => {
+  require(path.resolve('task0411-min-unique-word-abbr/min-unique-word-abbr.js'))(callback);
+});
