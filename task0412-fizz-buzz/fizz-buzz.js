@@ -3,7 +3,18 @@
  * @return {string[]}           the string list with fizz/buzz
  */
 const fizzBuzz = function(n) {
-  return [];
+  return [...Array(n).keys()].map( (_,i) => {
+    i ++;
+    if (i % 15 === 0) {
+      return `FizzBuzz`;
+    } else if (i % 3 === 0) {
+      return `Fizz`;
+    } else if (i % 5 === 0) {
+      return `Buzz`;
+    } else {
+      return `${i}`;
+    }
+  });
 };
 
 
