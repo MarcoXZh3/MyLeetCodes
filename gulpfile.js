@@ -1251,3 +1251,6 @@ gulp.task('t0412', (callback) => {
 gulp.task('t0413', (callback) => {
   require(path.resolve('task0413-arith-slice/arith-slice.js'))(callback);
 });
+gulp.task('t0414', (callback) => {
+  require(path.resolve('task0414-3rd-max-num/3rd-max-num.js'))(callback);
+});

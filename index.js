@@ -12,5 +12,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0413-arith-slice/arith-slice.js'))( () => {
+require(path.resolve('task0414-3rd-max-num/3rd-max-num.js'))( () => {
 });

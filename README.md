@@ -23,6 +23,7 @@ Table of Contents
 411. \<**Hard**>    TODO: Minimum Unique Word Abbreviation
 412. \<**Easy**>    Fizz Buzz
 413. \<**Medium**>  Arithmetic Slices
+414. \<**Easy**>    Third Maximum Number
 
 
 
