@@ -1257,3 +1257,6 @@ gulp.task('t0414', (callback) => {
 gulp.task('t0415', (callback) => {
   require(path.resolve('task0415-add-strings/add-strings.js'))(callback);
 });
+gulp.task('t0416', (callback) => {
+  require(path.resolve('task0416-equal-sub-set/equal-sub-set.js'))(callback);
+});

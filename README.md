@@ -25,6 +25,7 @@ Table of Contents
 413. \<**Medium**>  Arithmetic Slices
 414. \<**Easy**>    Third Maximum Number
 415. \<**Easy**>    Add Strings
+416. \<**Medium**>  Partition Equal Subset Sum
 
 
 

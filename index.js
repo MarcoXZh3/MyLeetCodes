@@ -12,5 +12,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0415-add-strings/add-strings.js'))( () => {
+require(path.resolve('task0416-equal-sub-set/equal-sub-set.js'))( () => {
 });
