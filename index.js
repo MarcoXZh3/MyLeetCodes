@@ -12,5 +12,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0409-max-palindrome/max-palindrome.js'))( () => {
+require(path.resolve('task0410-arr-max-sum/arr-max-sum.js'))( () => {
 });
