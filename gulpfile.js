@@ -1254,3 +1254,6 @@ gulp.task('t0413', (callback) => {
 gulp.task('t0414', (callback) => {
   require(path.resolve('task0414-3rd-max-num/3rd-max-num.js'))(callback);
 });
+gulp.task('t0415', (callback) => {
+  require(path.resolve('task0415-add-strings/add-strings.js'))(callback);
+});

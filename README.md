@@ -24,6 +24,7 @@ Table of Contents
 412. \<**Easy**>    Fizz Buzz
 413. \<**Medium**>  Arithmetic Slices
 414. \<**Easy**>    Third Maximum Number
+415. \<**Easy**>    Add Strings
 
 
 
