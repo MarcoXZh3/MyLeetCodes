@@ -22,6 +22,7 @@ Table of Contents
 410. \<**Hard**>    Split Array Largest Sum
 411. \<**Hard**>    TODO: Minimum Unique Word Abbreviation
 412. \<**Easy**>    Fizz Buzz
+413. \<**Medium**>  Arithmetic Slices
 
 
 

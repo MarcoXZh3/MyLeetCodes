@@ -1248,3 +1248,6 @@ gulp.task('t0411', (callback) => {
 gulp.task('t0412', (callback) => {
   require(path.resolve('task0412-fizz-buzz/fizz-buzz.js'))(callback);
 });
+gulp.task('t0413', (callback) => {
+  require(path.resolve('task0413-arith-slice/arith-slice.js'))(callback);
+});

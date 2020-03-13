@@ -12,5 +12,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0412-fizz-buzz/fizz-buzz.js'))( () => {
+require(path.resolve('task0413-arith-slice/arith-slice.js'))( () => {
 });
