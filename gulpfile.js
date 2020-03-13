@@ -1245,3 +1245,6 @@ gulp.task('t0410', (callback) => {
 gulp.task('t0411', (callback) => {
   require(path.resolve('task0411-min-unique-word-abbr/min-unique-word-abbr.js'))(callback);
 });
+gulp.task('t0412', (callback) => {
+  require(path.resolve('task0412-fizz-buzz/fizz-buzz.js'))(callback);
+});
