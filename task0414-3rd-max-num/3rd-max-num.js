@@ -3,7 +3,19 @@
  * @return {number}           the target number in the array
  */
 const thirdMax = function(nums) {
-
+  let max = Array(3).fill(Number.MIN_SAFE_INTEGER);
+  for (let num of nums) {
+    if (num === max[0] || num === max[1] || num === max[2]) {
+      continue ;
+    } else if (num > max[0]) {
+      max = [num, max[0], max[1]];
+    } else if (num > max[1]) {
+      max = [max[0], num, max[1]];
+    } else if (num > max[2]) {
+      max = [max[0], max[1], num];
+    }
+  }
+  return max[2] === Number.MIN_SAFE_INTEGER ? max[0] : max[2];
 };
 
 
