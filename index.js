@@ -12,5 +12,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0416-equal-sub-set/equal-sub-set.js'))( () => {
+require(path.resolve('task0417-water-flow/water-flow.js'))( () => {
 });

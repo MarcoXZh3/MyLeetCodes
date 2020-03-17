@@ -1260,3 +1260,6 @@ gulp.task('t0415', (callback) => {
 gulp.task('t0416', (callback) => {
   require(path.resolve('task0416-equal-sub-set/equal-sub-set.js'))(callback);
 });
+gulp.task('t0417', (callback) => {
+  require(path.resolve('task0417-water-flow/water-flow.js'))(callback);
+});
