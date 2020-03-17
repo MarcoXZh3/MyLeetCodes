@@ -12,5 +12,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0421-arr-max-xor/arr-max-xor.js'))( () => {
+require(path.resolve('task0422-valid-word-square/valid-word-square.js'))( () => {
 });

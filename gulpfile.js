@@ -1275,3 +1275,6 @@ gulp.task('t0420', (callback) => {
 gulp.task('t0421', (callback) => {
   require(path.resolve('task0421-arr-max-xor/arr-max-xor.js'))(callback);
 });
+gulp.task('t0422', (callback) => {
+  require(path.resolve('task0422-valid-word-square/valid-word-square.js'))(callback);
+});

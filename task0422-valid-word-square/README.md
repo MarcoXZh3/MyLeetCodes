@@ -1,0 +1,3 @@
+# Valid Word Square
+
+\<Easy>
