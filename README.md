@@ -30,6 +30,7 @@ Table of Contents
 418. \<**Medium**>  TODO: Sentence Screen Fitting
 419. \<**Medium**>  Battleships in a Board
 420. \<**Hard**>    Strong Password Checker
+421. \<**Medium**>  Maximum XOR of Two Numbers in an Array
 
 
 

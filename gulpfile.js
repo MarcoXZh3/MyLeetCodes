@@ -1272,3 +1272,6 @@ gulp.task('t0419', (callback) => {
 gulp.task('t0420', (callback) => {
   require(path.resolve('task0420-strong-pass-check/strong-pass-check.js'))(callback);
 });
+gulp.task('t0421', (callback) => {
+  require(path.resolve('task0421-arr-max-xor/arr-max-xor.js'))(callback);
+});
