@@ -12,5 +12,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0417-water-flow/water-flow.js'))( () => {
+require(path.resolve('task0418-sentence-fitting/sentence-fitting.js'))( () => {
 });

@@ -1263,3 +1263,6 @@ gulp.task('t0416', (callback) => {
 gulp.task('t0417', (callback) => {
   require(path.resolve('task0417-water-flow/water-flow.js'))(callback);
 });
+gulp.task('t0418', (callback) => {
+  require(path.resolve('task0418-sentence-fitting/sentence-fitting.js'))(callback);
+});

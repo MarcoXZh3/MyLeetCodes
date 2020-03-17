@@ -27,6 +27,7 @@ Table of Contents
 415. \<**Easy**>    Add Strings
 416. \<**Medium**>  Partition Equal Subset Sum
 417. \<**Medium**>  Pacific Atlantic Water Flow
+418. \<**Medium**>  TODO: Sentence Screen Fitting
 
 
 
