@@ -1266,3 +1266,6 @@ gulp.task('t0417', (callback) => {
 gulp.task('t0418', (callback) => {
   require(path.resolve('task0418-sentence-fitting/sentence-fitting.js'))(callback);
 });
+gulp.task('t0419', (callback) => {
+  require(path.resolve('task0419-ship-board/ship-board.js'))(callback);
+});

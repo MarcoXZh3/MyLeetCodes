@@ -12,5 +12,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0418-sentence-fitting/sentence-fitting.js'))( () => {
+require(path.resolve('task0419-ship-board/ship-board.js'))( () => {
 });
