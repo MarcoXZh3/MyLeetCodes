@@ -12,5 +12,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0423-words-to-nums/words-to-nums.js'))( () => {
+require(path.resolve('task0424-max-dup-chars/max-dup-chars.js'))( () => {
 });

@@ -1281,3 +1281,6 @@ gulp.task('t0422', (callback) => {
 gulp.task('t0423', (callback) => {
   require(path.resolve('task0423-words-to-nums/words-to-nums.js'))(callback);
 });
+gulp.task('t0424', (callback) => {
+  require(path.resolve('task0424-max-dup-chars/max-dup-chars.js'))(callback);
+});

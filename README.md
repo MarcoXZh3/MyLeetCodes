@@ -33,6 +33,7 @@ Table of Contents
 421. \<**Medium**>  Maximum XOR of Two Numbers in an Array
 422. \<**Easy**>    TODO: Valid Word Square
 423. \<**Medium**>  Reconstruct Original Digits from English
+424. \<**Medium**>  Longest Repeating Character Replacement
 
 
 
