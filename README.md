@@ -32,6 +32,7 @@ Table of Contents
 420. \<**Hard**>    Strong Password Checker
 421. \<**Medium**>  Maximum XOR of Two Numbers in an Array
 422. \<**Easy**>    TODO: Valid Word Square
+423. \<**Medium**>  Reconstruct Original Digits from English
 
 
 

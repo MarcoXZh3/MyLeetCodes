@@ -12,5 +12,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0422-valid-word-square/valid-word-square.js'))( () => {
+require(path.resolve('task0423-words-to-nums/words-to-nums.js'))( () => {
 });

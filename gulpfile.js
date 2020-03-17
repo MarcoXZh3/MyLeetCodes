@@ -1278,3 +1278,6 @@ gulp.task('t0421', (callback) => {
 gulp.task('t0422', (callback) => {
   require(path.resolve('task0422-valid-word-square/valid-word-square.js'))(callback);
 });
+gulp.task('t0423', (callback) => {
+  require(path.resolve('task0423-words-to-nums/words-to-nums.js'))(callback);
+});
