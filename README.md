@@ -29,6 +29,7 @@ Table of Contents
 417. \<**Medium**>  Pacific Atlantic Water Flow
 418. \<**Medium**>  TODO: Sentence Screen Fitting
 419. \<**Medium**>  Battleships in a Board
+420. \<**Hard**>    Strong Password Checker
 
 
 

@@ -12,5 +12,5 @@ console.log();
 // require(path.resolve('_utils/sorting')).main();
 
 
-require(path.resolve('task0419-ship-board/ship-board.js'))( () => {
+require(path.resolve('task0420-strong-pass-check/strong-pass-check.js'))( () => {
 });

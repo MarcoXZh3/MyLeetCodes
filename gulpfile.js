@@ -1269,3 +1269,6 @@ gulp.task('t0418', (callback) => {
 gulp.task('t0419', (callback) => {
   require(path.resolve('task0419-ship-board/ship-board.js'))(callback);
 });
+gulp.task('t0420', (callback) => {
+  require(path.resolve('task0420-strong-pass-check/strong-pass-check.js'))(callback);
+});
