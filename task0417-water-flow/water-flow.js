@@ -3,7 +3,38 @@
  * @return {number[][]}             the positions of water flow
  */
 const pacificAtlantic = function(matrix) {
+  const dfs = (x, y, pre, val) => {
+    if (x < 0 || x >= matrix.length ||
+        y < 0 || y >= matrix[0].length ||
+        matrix[x][y] < pre || (visited[x][y] & val) === val) {
+      return ;
+    }
+    visited[x][y] |= val;
+    if (visited[x][y] === 3) {
+      res.push([x, y]);
+    }
+    dfs(x + 1, y, matrix[x][y], visited[x][y]);
+    dfs(x - 1, y, matrix[x][y], visited[x][y]);
+    dfs(x, y + 1, matrix[x][y], visited[x][y]);
+    dfs(x, y - 1, matrix[x][y], visited[x][y]);
+  };
 
+  const res = [];
+  if (!matrix || matrix.length === 0 || !matrix[0] || matrix[0].length === 0) {
+    return res;
+  }
+  const m = matrix.length;
+  const n = matrix[0].length;
+  const visited = [...Array(m).keys()].map( _=>[...Array(n).keys()].map( _=>false ) );
+  for (let i = 0; i < m; i++) {
+    dfs(i, 0, Number.MIN_SAFE_INTEGER, 1);
+    dfs(i, n - 1, Number.MIN_SAFE_INTEGER, 2);
+  }
+  for (let i = 0; i < n; i++) {
+    dfs(0, i, Number.MIN_SAFE_INTEGER, 1);
+    dfs(m - 1, i, Number.MIN_SAFE_INTEGER, 2);
+  }
+  return res;
 };
 
 
